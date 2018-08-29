@@ -13,13 +13,12 @@ class Page extends React.Component {
 
   render() {
     const { children, path } = this.props
-    const items = menuItems.map(item => [...item, item[0] === path])
     return (
       <SiteData
         render={({ title: siteTitle }) => (
           <RouteData
             render={({ title }) => (
-              <AragonApp publicUrl="/aragon-ui/">
+              <AragonApp publicUrl="/aragon-ui/" className="app">
                 <Head>
                   <title>{title || siteTitle}</title>
                 </Head>
