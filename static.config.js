@@ -1,0 +1,129 @@
+import fs from 'fs-extra'
+import path from 'path'
+import chalk from 'chalk'
+import CopyWebpackPlugin from 'copy-webpack-plugin'
+import { ServerStyleSheet } from 'styled-components'
+import React from 'react'
+
+const REACT_STATIC_PATHS = {
+  src: 'src',
+  dist: 'dist',
+  devDist: 'dist',
+  public: 'public',
+}
+
+const ARAGON_UI_ASSETS = path.dirname(require.resolve('@aragon/ui'))
+
+export default {
+  siteRoot: process.env.SITE_ROOT || '',
+  getSiteData: () => ({
+    title: 'Aracon website',
+  }),
+  getRoutes: () => [
+    {
+      path: '/',
+      component: 'src/pages/Home',
+      getData: () => ({ title: 'Aracon' }),
+    },
+    {
+      path: '/speakers',
+      component: 'src/pages/Speakers',
+      getData: () => ({ title: 'Aracon - Speakers' }),
+    },
+    {
+      path: '/agenda',
+      component: 'src/pages/Agenda',
+      getData: () => ({ title: 'Aracon - Agenda' }),
+    },
+    {
+      path: '/registration',
+      component: 'src/pages/Registration',
+      getData: () => ({ title: 'Aracon - Registration' }),
+    },
+    {
+      path: '/volunteer',
+      component: 'src/pages/Volunteer',
+      getData: () => ({ title: 'Aracon - Volunteer' }),
+    },
+    {
+      path: '/travelinformation',
+      component: 'src/pages/TravelInformation',
+      getData: () => ({ title: 'Aracon - Travel Information' }),
+    },
+    {
+      path: '/faq',
+      component: 'src/pages/Faq',
+      getData: () => ({ title: 'Aracon - FAQ' }),
+    },
+    {
+      is404: true,
+      component: 'src/pages/NotFound',
+      getData: () => ({ title: 'Page Not Found' }),
+    },
+  ],
+  paths: REACT_STATIC_PATHS,
+  webpack: (conf, { defaultLoaders }) => {
+    conf.resolve = Object.assign({}, conf.resolve || {}, {
+      modules: ((conf.resolve && conf.resolve.modules) || []).concat([
+        path.join(__dirname, 'node_modules'),
+        path.join(__dirname, REACT_STATIC_PATHS.dist),
+      ]),
+    })
+
+    conf.plugins = (conf.plugins || []).concat([
+      new CopyWebpackPlugin([
+        {
+          from: ARAGON_UI_ASSETS,
+          to: path.resolve(
+            path.join(__dirname, REACT_STATIC_PATHS.dist, 'aragon-ui')
+          ),
+        },
+      ]),
+    ])
+
+    const fileLoader = defaultLoaders.fileLoader
+    fileLoader.query.name = 'static/[hash:8]-[name].[ext]'
+    conf.module.rules = [
+      {
+        oneOf: [defaultLoaders.jsLoader, defaultLoaders.cssLoader, fileLoader],
+      },
+    ]
+
+    return conf
+  },
+  renderToHtml: (render, Comp, meta) => {
+    const sheet = new ServerStyleSheet()
+    const html = render(sheet.collectStyles(<Comp />))
+    meta.styleTags = sheet.getStyleElement()
+    return html
+  },
+  Document: class CustomHtml extends React.Component {
+    render() {
+      const {
+        Html,
+        Head,
+        Body,
+        siteData: { title: siteTitle },
+        children,
+        renderMeta,
+        routeInfo: { allProps: { title } = {} } = {},
+      } = this.props
+      return (
+        <Html>
+          <Head>
+            <meta charSet="UTF-8" />
+            <title>{title || siteTitle}</title>
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1"
+            />
+            {renderMeta.styleTags}
+          </Head>
+          <Body>
+            {children}
+          </Body>
+        </Html>
+      )
+    }
+  },
+}
