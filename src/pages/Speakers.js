@@ -9,10 +9,10 @@ const Speakers = () => (
   <Page path="/speakers">
     <Background/>
     <Text size="xlarge">
-      <p>Volunteering at AraCon is a surefire way of making new connections and learning new skills, as well as experiencing the magic of Aragon’s flagship conference from an insider’s perspective.</p>
+      <p>Want to Speak at AraCon 2019?</p>
     </Text>
     <Text>
-      <p>AraCon is looking for work exchange volunteers who are interested in getting some behind the scenes experience putting on one of the most iconic blockchain events of the year. You could be assigned to do a number of various tasks that will ensure our guests and presenters have an exceptional experience.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </Text>
     <Forms type="speakers"/>
   </Page>
