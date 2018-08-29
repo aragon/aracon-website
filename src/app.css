@@ -6,4 +6,9 @@ body {
 
 .app {
 	min-height: auto !important;
+	background: transparent;
+}
+
+#root {
+	min-width: 100%;
 }
