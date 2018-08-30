@@ -2,6 +2,7 @@ body {
   display: flex!important;
   align-items: center!important;
   flex-direction: column!important;
+  z-index: 3;
 }
 
 .app {
@@ -11,4 +12,8 @@ body {
 
 #root {
 	min-width: 100%;
+}
+
+.smcx-embed {
+  z-index: 3!important;
 }

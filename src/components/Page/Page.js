@@ -3,9 +3,11 @@ import { Link, SiteData, RouteData, Head } from 'react-static'
 import Routes from 'react-static-routes'
 import styled from 'styled-components'
 import { AragonApp, AppBar } from '@aragon/ui'
+import Navbar from './Navbar'
 
 const Content = styled.div`
   min-height: 200px;
+  padding-top: 64px
 `
 
 
@@ -22,8 +24,7 @@ class Page extends React.Component {
                 <Head>
                   <title>{title || siteTitle}</title>
                 </Head>
-                <AppBar title="Aracon">
-                </AppBar>
+                <Navbar/>
                 <Content>{children}</Content>
               </AragonApp>
             )}
