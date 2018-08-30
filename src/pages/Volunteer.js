@@ -7,8 +7,8 @@ import { Text } from '@aragon/ui'
 
 const Volunteer = () => (
   <Page path="/volunteer">
-  	<Background/>
-  	<Section>
+    <Background/>
+    <Section>
       <Text><h1>Volunteers</h1></Text>
       <Text size="xlarge">
         <p className="strong">Volunteering at AraCon is a surefire way of making new connections and learning new skills, as well as experiencing the magic of Aragon’s flagship conference from an insider’s perspective.</p>
