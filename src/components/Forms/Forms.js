@@ -19,7 +19,6 @@ export default class Forms extends React.Component {
     document.getElementById(this.props.type + "Script").appendChild(Script);
   }
 
-
   render() {
     return (
       <Content id={this.props.type + "Script"}></Content>
