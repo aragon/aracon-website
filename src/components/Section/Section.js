@@ -29,8 +29,11 @@ const StyledContent = styled.div`
     line-height: 1.5;
     color: ${theme.textSecondary};
   }
-  p.strong {
+  .strong {
     font-weight: 700;
+  }
+  button a {
+    text-decoration: none;
   }
 `
 
