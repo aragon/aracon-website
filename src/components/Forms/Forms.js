@@ -1,21 +1,28 @@
 import React from 'react'
+import styled from 'styled-components'
+
+const Content = styled.div`
+  display: flex!important;
+  text-align: center;
+  justify-content: center;
+`
 
 export default class Forms extends React.Component {
-
+  
   componentDidMount() {
-    if (document.getElementById(this.props.type + 'Scripts') === null) {
-      var s = document.createElement('script');
-      s.id = this.props.type + 'Scripts'; 
-      s.type = 'text/javascript';
-      s.src = './' + this.props.type + 'Form.js'; 
-      document.getElementById(this.props.type + "Div").appendChild(s);
-    }
+    var Script;
+    window.SMCX = window.SMCX || [], 
+    Script = document.createElement("script"), 
+    Script.type = "text/javascript", Script.async = !0, 
+    Script.id = "smcx-sdk", 
+    Script.src = this.props.src, 
+    document.getElementById(this.props.type + "Script").appendChild(Script);
   }
+
 
   render() {
     return (
-      <div className="form-div" id={this.props.type + "Div"}>
-      </div>
+      <Content id={this.props.type + "Script"}></Content>
     );
   }
 }

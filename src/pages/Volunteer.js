@@ -16,7 +16,7 @@ const Volunteer = () => (
       <Text>
         <p>In exchange for your help, we’ll provide you with a free ticket to attend the event.</p>
       </Text>
-      <Forms type="volunteer"/>
+      <Forms type="speakers" src="http://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd_2Bnex51b1b2jCZWBQtfTcaMTwCxvLp_2BTsBh0bYRiVb2M.js"/>
     </Section>
   </Page>
 )

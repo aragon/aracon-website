@@ -17,3 +17,6 @@ body {
 .smcx-embed {
   z-index: 3!important;
 }
+.smcx-embed>.smcx-iframe-container {
+  margin: auto!important;
+}
