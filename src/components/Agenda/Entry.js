@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { grid, theme } from '@aragon/ui'
+import { theme } from '@aragon/ui'
 
 const EntryBox = styled.div`
   clear: both;
@@ -46,10 +46,9 @@ const EntryBox = styled.div`
   }
 `
 
-const Entry = ({ className, ...props }) => {
-  const containerProps = { className }
+const Entry = ({ ...props }) => {
   const content = (
-    <EntryBox {...containerProps}>
+    <EntryBox>
       <div className="time">
         <h3>{props.time} HS</h3>
       </div>

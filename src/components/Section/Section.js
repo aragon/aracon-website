@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { grid, theme } from '@aragon/ui'
+import { theme } from '@aragon/ui'
 
 const StyledContent = styled.div`
   width: 100%;
@@ -24,12 +24,13 @@ const StyledContent = styled.div`
   }
   p {
     margin-bottom: 1em;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     color: ${theme.textSecondary};
   }
   .strong {
+    font-size: 17px;
     font-weight: 700;
   }
   button a {
