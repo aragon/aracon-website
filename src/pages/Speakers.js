@@ -3,7 +3,6 @@ import { Page } from '../components'
 import Forms from '../components/Forms/Forms'
 import Section from '../components/Section/Section'
 import Background from '../components/Background/Background'
-
 import { Text } from '@aragon/ui'
 
 
