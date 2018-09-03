@@ -8,8 +8,7 @@ import MenuItem from './MenuItem'
 const AraconNav = styled.div`
   width: 100%;
   height: 64px;
-  background: #FFFFFF;
-  border-bottom: 1px solid #E6E6E6;
+  background: #18181A;
   display: flex;
   justify-content: space-between;
   align-items: center;

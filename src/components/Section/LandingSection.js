@@ -1,0 +1,53 @@
+import React from 'react'
+import PropTypes from 'prop-types'
+import styled from 'styled-components'
+import { theme } from '@aragon/ui'
+
+const StyledContent = styled.div`
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+
+  .h1box {
+    display: flex;
+  }
+  h1 {
+    margin-bottom: 25px;
+    font-size: 48px;
+    line-height: 1.5;
+    background: -webkit-linear-gradient(left, #7af7d0, #64b0f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    text-align: left;
+  }
+  h2 {
+    margin-bottom: 25px;
+    font-size: 38px;
+    line-height: 1.5;
+    color: black;
+    font-weight: bold;
+  }
+  p {
+    font-size: 17px;
+  }
+  button a {
+    text-decoration: none;
+  }
+`
+
+const Section = ({ className, ...props }) => {
+  const containerProps = { className }
+  const content = (
+    <StyledContent>
+      <div {...props} />
+    </StyledContent>
+  )
+  return <section {...containerProps}>{content}</section>
+}
+
+Section.propTypes = {
+  className: PropTypes.string,
+}
+
+export default Section
