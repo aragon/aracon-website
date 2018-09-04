@@ -8,12 +8,18 @@ const StyledContent = styled.div`
   margin: 0 auto;
   padding: 50px 8.5%;
   text-align: center;
+  .h1box {
+    display: flex;
+  }
   h1 {
     margin-bottom: 25px;
     font-size: 48px;
     line-height: 1.5;
-    color: ${theme.textPrimary};
-    font-weight: 600;
+    background: -webkit-linear-gradient(left, #7af7d0, #64b0f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    text-align: left;
   }
   h2 {
     font-size: 24px;

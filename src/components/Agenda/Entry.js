@@ -37,7 +37,7 @@ const EntryBox = styled.div`
   }
   .description h6 {
     color: ${theme.textTertiary};
-    line-height: 0.5;
+    line-height: 2.5;
   }
   .time h3 {
     background: -webkit-linear-gradient(left, ${theme.gradientStartActive}, ${theme.gradientEndActive});
