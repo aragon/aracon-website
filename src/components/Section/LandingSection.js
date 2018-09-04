@@ -4,8 +4,8 @@ import styled from 'styled-components'
 import { theme } from '@aragon/ui'
 
 const StyledContent = styled.div`
-  width: 100%;
-  margin: 0 auto;
+  width: 100vw;
+  margin: -1px auto -1px auto;
   text-align: left;
 
   .h1box {

@@ -1,8 +1,10 @@
 import React from 'react'
 import LandingSection from '../Section/LandingSection'
 import styled from 'styled-components'
-import { Text, Button, SafeLink } from '@aragon/ui'
+import { Text, Button, SafeLink, breakpoint } from '@aragon/ui'
 import AccomodationImg from './assets/accomodation.png'
+const medium = css => breakpoint('medium', css)
+const large = css => breakpoint('large', css)
 
 const AccomodationBox = styled.div`
   width: 100%;
@@ -11,11 +13,15 @@ const AccomodationBox = styled.div`
   background: white;
   text-align: center;
   .text {
-    width: 40%;
-    padding-left: 40px;
+    width: 100%;
+    padding-left: 0;
+    ${medium('width: 50%; padding-left: 40px;')};
+    ${large('width: 40%; padding-left: 40px;')};
   }
   .image {
-    width: 60%;
+    width: 100%;
+    ${medium('width: 50%;')};
+    ${large('width: 60%;')};
     img {
       width: 100%;
     }
@@ -25,12 +31,13 @@ const AccomodationBox = styled.div`
     text-align: left;
     margin-bottom: 30px;
   }
-  
 `
 
 const Content = styled.div`
   width: 100%;
   display: flex;
+  flex-direction: column;
+  ${medium('flex-direction: row;')};
 `
 
 const Accomodation = () => (

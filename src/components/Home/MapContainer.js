@@ -112,7 +112,7 @@ const MapStyles = [
   }
 ];
 
-const MyMapComponent = withScriptjs(withGoogleMap((props) =>
+const MapContainer = withScriptjs(withGoogleMap((props) =>
   <GoogleMap
     defaultZoom={14}
     defaultCenter={{ lat: 52.5248058, lng: 13.3459398 }}
@@ -122,4 +122,4 @@ const MyMapComponent = withScriptjs(withGoogleMap((props) =>
   </GoogleMap>
 ))
 
-export default MyMapComponent
+export default MapContainer

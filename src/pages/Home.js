@@ -13,7 +13,7 @@ const HeroTriangle = styled.div`
   border-top: 20vh solid #18181A;
   margin-top: -1px;
   background-color: white;
-  z-index: 50000;
+  z-index: 1;
 `
 
 const MapTriangle = styled.div`
@@ -21,7 +21,7 @@ const MapTriangle = styled.div`
   border-top: 15vh solid #18181A;
   margin-top: -1px;
   background-color: white;
-  z-index: 50000;
+  z-index: 1;
 `
 
 const AccomodationTriangle = styled.div`
@@ -29,7 +29,7 @@ const AccomodationTriangle = styled.div`
   border-top: 15vh solid white;
   margin-top: -1px;
   background-color: #18181A;
-  z-index: 50000;
+  z-index: 1;
 `
 
 const Home = () => (

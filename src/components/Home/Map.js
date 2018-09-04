@@ -1,7 +1,10 @@
 import React from 'react'
 import LandingSection from '../Section/LandingSection'
 import MapContainer from './MapContainer'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
+import { breakpoint } from '@aragon/ui'
+const medium = css => breakpoint('medium', css)
+const large = css => breakpoint('large', css)
 
 const MapBox = styled.div`
   width: 100%;
@@ -10,13 +13,19 @@ const MapBox = styled.div`
   background: #18181A;
   text-align: center;
   display: flex;
+  flex-direction: column;
+  ${medium('flex-direction: row;')};
   .text {
-    width: 40%;
-    padding-right: 40px;
+    width: 100%;
+    padding-right: 0;
+    ${medium('width: 50%; padding-right: 40px;')};
+    ${large('width: 40%; padding-right: 40px;')};
   }
   .map {
-    width: 60%;
-    background: white;
+    width: 100%;
+    max-width: 717px;
+    ${medium('width: 50%;')};
+    ${large('width: 60%;')};
   }
   p, h2 {
     color: white;
@@ -36,13 +45,15 @@ const Map = () => (
         <p>Berlin Central Train Station (Hauptbanhof) is only one stop away via S-Bahn (10min) or six stops with bus 245 (5min).</p>
         <p>Tegel Airport is 20min away by TXL direct bus.</p>
       </div>
-      <MapContainer
-        isMarkerShown
-        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_3Zo-VU8tXwUOgPJCQkGqgY7-eWQXzic&v=3.exp&libraries=geometry,drawing,places"
-        loadingElement={<div style={{ height: `100%` }} />}
-        containerElement={<div style={{ height: `581px`, width: `717px` }} />}
-        mapElement={<div style={{ height: `100%` }} />}
-      />
+      <div className="map">
+        <MapContainer
+          isMarkerShown
+          googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_3Zo-VU8tXwUOgPJCQkGqgY7-eWQXzic&v=3.exp&libraries=geometry,drawing,places"
+          loadingElement={<div style={{ height: `100%` }} />}
+          containerElement={<div style={{ height: `581px`, width: `100%` }} />}
+          mapElement={<div style={{ height: `100%` }} />}
+        />
+      </div>
     </MapBox>
   </LandingSection>
 )
