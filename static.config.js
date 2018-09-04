@@ -46,11 +46,6 @@ export default {
       getData: () => ({ title: 'Aracon - Volunteer' }),
     },
     {
-      path: '/travelinformation',
-      component: 'src/pages/TravelInformation',
-      getData: () => ({ title: 'Aracon - Travel Information' }),
-    },
-    {
       path: '/faq',
       component: 'src/pages/Faq',
       getData: () => ({ title: 'Aracon - FAQ' }),
