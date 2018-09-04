@@ -28,6 +28,13 @@ const StyledContent = styled.div`
     color: black;
     font-weight: bold;
   }
+  h3 {
+    margin-bottom: 25px;
+    font-size: 25px;
+    line-height: 1.5;
+    color: black;
+    font-weight: bold;
+  }
   p {
     font-size: 17px;
     font-size: 19px;
@@ -40,6 +47,10 @@ const StyledContent = styled.div`
   }
   button a {
     text-decoration: none;
+  }
+  .strong {
+    font-size: 17px;
+    font-weight: 700;
   }
 `
 
