@@ -18,11 +18,17 @@ const StyledMenuItem = styled.li`
     align-items: center;
     padding: 0 15px;
     font-size: 15px;
-    color: ${({ active }) => (active ? theme.accent : theme.textSecondary)};
+    color: ${({ active }) => (active ? theme.positiveText : theme.textSecondary)};
   }
   a {
     text-decoration: none;
-    color: ${({ active }) => (active ? theme.accent : theme.textSecondary)};
+    padding: 0 10px;
+    span {
+      color: ${({ active }) => (active ? theme.positiveText : theme.textSecondary)};
+    }
+    span:hover {
+      color: ${theme.positiveText};
+    }
   }
 `
 

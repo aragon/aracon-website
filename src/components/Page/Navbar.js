@@ -2,7 +2,7 @@ import React from 'react'
 import Routes from 'react-static-routes'
 import styled from 'styled-components'
 import { Link } from 'react-static'
-import { Button } from '@aragon/ui'
+import { Button, Text } from '@aragon/ui'
 import MenuItem from './MenuItem'
 
 const AraconNav = styled.div`
@@ -21,18 +21,17 @@ const Brand = styled.div`
   width: auto;
   height: auto;
 `
-const Middle = styled.div`
-  width: calc(100% - 500px);
+const End = styled.div`
+  width: auto;
   height: auto;
   display: flex;
   justify-content: flex-end;
   ul {
     display: flex;
   }
-`
-const End = styled.div`
-  width: auto;
-  height: auto;
+  button {
+    margin-left: 10px;
+  }
 `
 
 const menuItems = [
@@ -47,10 +46,10 @@ const menuItems = [
 
 const renderMenuItemLink = ({ url, children }) =>
   url.startsWith('/') ? (
-    <Link to={url}>{children}</Link>
+    <Link to={url}><Text size="xlarge">{children}</Text></Link>
   ) : (
     <a href={url} target="_blank" rel="noopener noreferrer">
-      {children}
+      <Text size="xlarge">{children}</Text>
     </a>
   )
 
@@ -60,7 +59,7 @@ class Navbar extends React.Component {
     return (
       <AraconNav>
         <h1>Aracon Logo</h1>
-        <Middle>
+        <End>
           <ul>
             {menuItems.map((item, i) => (
               <MenuItem
@@ -72,8 +71,6 @@ class Navbar extends React.Component {
               />
             ))}
           </ul>
-        </Middle>
-        <End>
           <Button mode="strong">LIVE</Button>
         </End>
       </AraconNav>
