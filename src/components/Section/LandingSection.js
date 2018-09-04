@@ -30,6 +30,13 @@ const StyledContent = styled.div`
   }
   p {
     font-size: 17px;
+    font-size: 19px;
+    line-height: 27px;
+    color: ${theme.textSecondary};
+    a {
+      color: #61B2F0;
+      text-decoration: none;
+    }
   }
   button a {
     text-decoration: none;
