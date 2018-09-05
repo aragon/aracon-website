@@ -38,16 +38,16 @@ const Agenda = () => (
       <Container>
         <Text><div className="h1box"><h1>Agenda</h1></div></Text>
         <Button className="first-button" mode="normal">Tuesday Jan 29</Button>
-      	<Button className="second-button" mode="secondary">Wednesday Jan 30</Button>
-      	<ScheduleBox>
-      		<p><i>*All panels and talks will be happening on the main stage (“Kapelle” hall)</i></p>
-      		<Schedule>
-      			<Entry time="XX:XX" title="Lorem ipsum dolor sit amet" subtitle="Sunt in culpa qui officia deserunt mollit anim id est laborum"/>
+        <Button className="second-button" mode="secondary">Wednesday Jan 30</Button>
+        <ScheduleBox>
+          <p><i>*All panels and talks will be happening on the main stage (“Kapelle” hall)</i></p>
+          <Schedule>
+            <Entry time="XX:XX" title="Lorem ipsum dolor sit amet" subtitle="Sunt in culpa qui officia deserunt mollit anim id est laborum"/>
             <Entry time="XX:XX" title="Lorem ipsum dolor sit amet" subtitle="Sunt in culpa qui officia deserunt mollit anim id est laborum"/>
             <Entry time="XX:XX" title="Lorem ipsum dolor sit amet" subtitle="Sunt in culpa qui officia deserunt mollit anim id est laborum"/>
             <Entry time="XX:XX" title="Lorem ipsum dolor sit amet" subtitle="Sunt in culpa qui officia deserunt mollit anim id est laborum"/>
           </Schedule>
-      	</ScheduleBox>
+        </ScheduleBox>
       </Container>
     </Section>
   </Page>

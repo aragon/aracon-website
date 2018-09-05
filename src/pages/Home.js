@@ -34,8 +34,8 @@ const AccomodationTriangle = styled.div`
 
 const Home = () => (
   <Page path="/">
-  	<Hero/>
-  	<HeroTriangle/>
+    <Hero/>
+    <HeroTriangle/>
     <Speakers />
     <Venue/>
     <Map/>
