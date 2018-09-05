@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { Button, SidePanel } from '@aragon/ui'
+import menu from './assets/menu.svg'
 
 const Container = styled.div`
   display: flex;
@@ -22,7 +23,9 @@ class Panel extends React.Component {
     const { opened } = this.state
     return (
       <div>
-        <Button onClick={() => this.setState({ opened: true })}>Menu</Button>
+        <Button mode="text" onClick={() => this.setState({ opened: true })}>
+          <img src={menu} />
+        </Button>
         <SidePanel title="" opened={opened} onClose={() => this.setState({ opened: false })}>
           <Container>
           {items.map((item, i) => (

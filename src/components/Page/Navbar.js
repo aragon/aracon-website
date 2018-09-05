@@ -60,9 +60,6 @@ class Navbar extends React.Component {
       <AraconNav>
         <h1>Aracon Logo</h1>
         <End>
-          <BreakPoint to="medium">
-            <MenuPanel items={menuItems} renderLink={renderMenuItemLink} />
-          </BreakPoint>
           <BreakPoint from="medium">
             <ul>
               {menuItems.map((item, i) => (
@@ -76,8 +73,10 @@ class Navbar extends React.Component {
               ))}
             </ul>
           </BreakPoint>
-          
           <Button mode="strong">LIVE</Button>
+          <BreakPoint to="medium">
+            <MenuPanel items={menuItems} renderLink={renderMenuItemLink} />
+          </BreakPoint>
         </End>
       </AraconNav>
     )
