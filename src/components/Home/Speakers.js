@@ -41,14 +41,14 @@ const Speakers = () => (
     <SpeakersBox>
       <div className="h1box"><h1>Speakers</h1></div>
       <Container>
-        <Speaker name="Name LastName" position="Founder" company="Company"/>
-        <Speaker name="Name LastName" position="Founder" company="Company"/>
-        <Speaker name="Name LastName" position="Founder" company="Company"/>
-        <Speaker name="Name LastName" position="Founder" company="Company"/>
-        <Speaker name="Name LastName" position="Founder" company="Company"/>
-        <Speaker name="Name LastName" position="Founder" company="Company"/>
-        <Speaker name="Name LastName" position="Founder" company="Company"/>
-        <Speaker name="Name LastName" position="Founder" company="Company"/>
+        <Speaker photo="speaker1" name="Name LastName" position="Founder" company="Company"/>
+        <Speaker photo="speaker1" name="Name LastName" position="Founder" company="Company"/>
+        <Speaker photo="speaker1" name="Name LastName" position="Founder" company="Company"/>
+        <Speaker photo="speaker1" name="Name LastName" position="Founder" company="Company"/>
+        <Speaker photo="speaker1" name="Name LastName" position="Founder" company="Company"/>
+        <Speaker photo="speaker1" name="Name LastName" position="Founder" company="Company"/>
+        <Speaker photo="speaker1" name="Name LastName" position="Founder" company="Company"/>
+        <Speaker photo="speaker1" name="Name LastName" position="Founder" company="Company"/>
       </Container>
       <Container>
           <Button><a href="./speakers">See more...</a></Button>

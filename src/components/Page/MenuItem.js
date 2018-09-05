@@ -5,7 +5,7 @@ import { theme } from '@aragon/ui'
 
 const MenuItem = ({ url, label, active, renderLink }) => (
   <StyledMenuItem>
-    <span className={active && 'active'}>{renderLink({ url, children: label})}</span>
+    <span className={active ? 'active' : undefined}>{renderLink({ url, children: label})}</span>
   </StyledMenuItem>
 )
 
