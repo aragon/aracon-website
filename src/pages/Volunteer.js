@@ -12,8 +12,8 @@ const Container = styled.ul`
 
 const Volunteer = () => (
   <Page path="/volunteer">
-    <Container>
-      <Section>
+    <Section>
+      <Container>
         <Text><div className="h1box"><h1>Volunteer</h1></div></Text>
         <Text size="xlarge">
           <h3>Volunteering at AraCon is a surefire way of making new connections and learning new skills, as well as experiencing the magic of Aragon’s flagship conference from an insider’s perspective.</h3>
@@ -23,8 +23,8 @@ const Volunteer = () => (
         </Text>
         <br/>
         <Forms type="speakers" src="http://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd_2Bnex51b1b2jCZWBQtfTcaMTwCxvLp_2BTsBh0bYRiVb2M.js"/>
-      </Section>
-    </Container>
+      </Container>
+    </Section>
   </Page>
 )
 

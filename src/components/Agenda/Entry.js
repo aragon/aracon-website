@@ -1,7 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { theme } from '@aragon/ui'
+import { theme, breakpoint } from '@aragon/ui'
+const medium = css => breakpoint('medium', css)
+const large = css => breakpoint('large', css)
 
 const EntryBox = styled.div`
   clear: both;
@@ -32,17 +34,23 @@ const EntryBox = styled.div`
     padding-left: 30px;
   }
   .description p {
-    line-height: 0.5;
+    line-height: 1;
+    font-size: 14px;
     color: ${theme.textDimmed};
+    ${medium('line-height: 0.5; font-size: 19px;')};
   }
   .description h6 {
     color: ${theme.textTertiary};
-    line-height: 2.5;
+    line-height: 1;
+    margin-top: 8px;
+    ${medium('line-height: 2.5; margin-top: 0;')};
   }
   .time h3 {
     background: -webkit-linear-gradient(left, ${theme.gradientStartActive}, ${theme.gradientEndActive});
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 15px;
+    ${medium('font-size: 25px;')};
   }
 `
 

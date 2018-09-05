@@ -3,8 +3,10 @@ import { Page } from '../components'
 import Section from '../components/Section/LandingSection'
 import Schedule from '../components/Agenda/Schedule'
 import Entry from '../components/Agenda/Entry'
-import { Text, Button, theme } from '@aragon/ui'
+import { Text, Button, theme, breakpoint } from '@aragon/ui'
 import styled from 'styled-components'
+const medium = css => breakpoint('medium', css)
+const large = css => breakpoint('large', css)
 
 
 const Container = styled.div`
@@ -13,7 +15,6 @@ const Container = styled.div`
   margin: 0;
   padding: 50px 8.5%;
   background: #18181A;
-  text-align: center;
   .first-button {
     border-radius: 3px 0 0 0;
   }
@@ -25,18 +26,17 @@ const Container = styled.div`
 const ScheduleBox = styled.div`
   width: 100%;
   margin: 0;
-  padding: 50px 8.5%;
+  padding: 50px 0;
+  ${medium('padding: 50px 8.5%;')};
   background: white;
   text-align: center;
 `
 
 const Agenda = () => (
   <Page path="/agenda">
-    <Container>
-      <Section>
+    <Section>
+      <Container>
         <Text><div className="h1box"><h1>Agenda</h1></div></Text>
-      </Section>
-      <Section>
         <Button className="first-button" mode="normal">Tuesday Jan 29</Button>
       	<Button className="second-button" mode="secondary">Wednesday Jan 30</Button>
       	<ScheduleBox>
@@ -48,8 +48,8 @@ const Agenda = () => (
             <Entry time="XX:XX" title="Lorem ipsum dolor sit amet" subtitle="Sunt in culpa qui officia deserunt mollit anim id est laborum"/>
           </Schedule>
       	</ScheduleBox>
-      </Section>
-    </Container>
+      </Container>
+    </Section>
   </Page>
 )
 

@@ -20,8 +20,8 @@ const Container = styled.ul`
 
 const Registration = () => (
   <Page path="/registration">
-    <Container>
-      <Section>
+    <Section>
+      <Container>
         <Text><div className="h1box"><h1>Registration</h1></div></Text>
         <Text size="xlarge">
           <h3>Registration for AraCon 2019 will be free of charge for Aragon community members.</h3>
@@ -40,8 +40,8 @@ const Registration = () => (
         <Text>
           <p>If you meet one of the criteria above, please email us with the proof at <SafeLink href="mailto:info@aracon.org"> info@aracon.org</SafeLink> and we will send you a registration link.<br/>If you are not a member of the Aragon community yet, we are excited to meet you soon. To get your ticket, please register below!</p>
         </Text>
-      </Section>
-    </Container>
+      </Container>
+    </Section> 
   </Page>
 )
 
