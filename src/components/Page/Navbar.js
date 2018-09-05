@@ -35,15 +35,6 @@ const End = styled.div`
   }
 `
 
-const menuItems = [
-  ['/', 'About'],
-  ['/speakers', 'Speakers'],
-  ['/agenda', 'Agenda'],
-  ['/registration', 'Register'],
-  ['/volunteer', 'Volunteer'],
-  ['/faq', 'FAQ'],
-]
-
 const renderMenuItemLink = ({ url, children }) =>
   url.startsWith('/') ? (
     <Link to={url}><Text size="xlarge">{children}</Text></Link>
@@ -56,6 +47,7 @@ const renderMenuItemLink = ({ url, children }) =>
 class Navbar extends React.Component {
 
   render() {
+    const { menuItems } = this.props
     return (
       <AraconNav>
         <h1>Aracon Logo</h1>

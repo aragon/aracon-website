@@ -4,8 +4,8 @@ import styled from 'styled-components'
 import { theme } from '@aragon/ui'
 
 const MenuItem = ({ url, label, active, renderLink }) => (
-  <StyledMenuItem active={active}>
-    <span>{renderLink({ url, children: label })}</span>
+  <StyledMenuItem>
+    <span className={active && 'active'}>{renderLink({ url, children: label})}</span>
   </StyledMenuItem>
 )
 
@@ -24,10 +24,16 @@ const StyledMenuItem = styled.li`
     text-decoration: none;
     padding: 0 10px;
     span {
-      color: ${({ active }) => (active ? theme.positiveText : theme.textSecondary)};
+      color: ${theme.textSecondary};
     }
     span:hover {
       color: ${theme.positiveText};
+    }
+  }
+  .active a {
+    span {
+      color: ${theme.positiveText};
+      border-bottom: 2px solid #63B1F1;}
     }
   }
 `

@@ -10,11 +10,20 @@ const Content = styled.div`
   padding-top: 64px
 `
 
+const menuItems = [
+  ['/', 'About'],
+  ['/speakers', 'Speakers'],
+  ['/agenda', 'Agenda'],
+  ['/registration', 'Register'],
+  ['/volunteer', 'Volunteer'],
+  ['/faq', 'FAQ'],
+]
 
 class Page extends React.Component {
 
   render() {
     const { children, path } = this.props
+    const items = menuItems.map(item => [...item, item[0] === path])
     return (
       <SiteData
         render={({ title: siteTitle }) => (
@@ -24,7 +33,7 @@ class Page extends React.Component {
                 <Head>
                   <title>{title || siteTitle}</title>
                 </Head>
-                <Navbar/>
+                <Navbar menuItems={items}/>
                 <Content>{children}</Content>
               </AragonApp>
             )}
