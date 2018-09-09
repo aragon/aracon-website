@@ -6,6 +6,7 @@ import { theme } from '@aragon/ui'
 const StyledContent = styled.div`
   width: 100vw;
   margin: -1px auto -1px auto;
+  position: relative;
   text-align: left;
 
   .h1box {

@@ -8,14 +8,6 @@ import Map from '../components/Home/Map.js'
 import Accomodation from '../components/Home/Accomodation.js'
 import GetInTouch from '../components/Home/GetInTouch.js'
 
-const HeroTriangle = styled.div`
-  border-left: solid 100vw white;
-  border-top: 20vh solid #18181A;
-  margin-top: -1px;
-  background-color: white;
-  z-index: 1;
-`
-
 const MapTriangle = styled.div`
   border-right: solid 100vw white;
   border-top: 15vh solid #18181A;
@@ -35,7 +27,6 @@ const AccomodationTriangle = styled.div`
 const Home = () => (
   <Page path="/">
     <Hero/>
-    <HeroTriangle/>
     <Speakers />
     <Venue/>
     <Map/>
