@@ -1,7 +1,8 @@
 import React from 'react'
 import { Page } from '../components'
 import Section from '../components/Section/LandingSection'
-import Schedule from '../components/Agenda/Schedule'
+import DayOne from '../components/Agenda/DayOne'
+import DayTwo from '../components/Agenda/DayTwo'
 import Entry from '../components/Agenda/Entry'
 import { Text, Button, theme, breakpoint } from '@aragon/ui'
 import styled from 'styled-components'
@@ -30,34 +31,35 @@ const Container = styled.div`
   }
 `
 
-const ScheduleBox = styled.div`
-  width: 100%;
-  margin: 0;
-  padding: 50px 0;
-  ${medium('padding: 50px 8.5%;')};
-  background: white;
-  text-align: center;
-`
-
-const Agenda = () => (
-  <Page path="/agenda">
-    <Section>
-      <Container>
-        <Text><div className="h1box"><h1>Agenda</h1></div></Text>
-        <Button className="first-button" mode="normal">Tuesday Jan 29</Button>
-        <Button className="second-button" mode="secondary">Wednesday Jan 30</Button>
-        <ScheduleBox>
-          <p><i>*All panels and talks will be happening on the main stage (“Kapelle” hall)</i></p>
-          <Schedule>
-            <Entry time="XX:XX" title="Lorem ipsum dolor sit amet" subtitle="Sunt in culpa qui officia deserunt mollit anim id est laborum"/>
-            <Entry time="XX:XX" title="Lorem ipsum dolor sit amet" subtitle="Sunt in culpa qui officia deserunt mollit anim id est laborum"/>
-            <Entry time="XX:XX" title="Lorem ipsum dolor sit amet" subtitle="Sunt in culpa qui officia deserunt mollit anim id est laborum"/>
-            <Entry time="XX:XX" title="Lorem ipsum dolor sit amet" subtitle="Sunt in culpa qui officia deserunt mollit anim id est laborum"/>
-          </Schedule>
-        </ScheduleBox>
-      </Container>
-    </Section>
-  </Page>
-)
+class Agenda extends React.Component {
+  state = {
+    active: 'dayOne',
+  }
+  render() {
+    const { active } = this.state
+    return (
+      <Page path="/agenda">
+        <Section>
+          <Container>
+            <Text><div className="h1box"><h1>Agenda</h1></div></Text>
+            <Button className="first-button" 
+                    mode={active == 'dayOne' ? 'normal' : 'secondary'}
+                    onClick={() => this.setState({ active: 'dayOne' })}
+            >
+              Tuesday Jan 29
+            </Button>
+            <Button className="second-button" 
+                    mode={active != 'dayOne' ? 'normal' : 'secondary'}
+                    onClick={() => this.setState({ active: 'dayTwo' })}
+            >
+              Wednesday Jan 30
+            </Button>
+            {active == 'dayOne' ? <DayOne/> : <DayTwo/>}
+          </Container>
+        </Section>
+      </Page>
+    )
+  }
+}
 
 export default Agenda
