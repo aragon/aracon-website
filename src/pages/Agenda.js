@@ -15,6 +15,13 @@ const Container = styled.div`
   margin: 0;
   padding: 50px 8.5%;
   background: #18181A;
+  button {
+    width: 50%;
+    height: 58px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #000000;
+  }
   .first-button {
     border-radius: 3px 0 0 0;
   }

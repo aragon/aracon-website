@@ -17,40 +17,52 @@ const EntryBox = styled.div`
     text-align: right;
     position: relative;
   }
-  .time:before {
+  .time:after {
     content: '';
     position: absolute;
     width: 12px;
     height: 12px;
-    border: 6px solid ${theme.accent};
-    border-radius: 100%;
+    border-radius: 12px;
+    top: 6px;
     right: -6px;
-    top: 4px;
+    background-image: linear-gradient(71deg,#6aacf4,#18ebd6);
+  }
+  .time:before {
+    content: '';
+    width: 26px;
+    height: 26px;
+    border-radius: 30px;
+    opacity: 0.22;
+    background-image: linear-gradient(to right,#6aacf4,#18ebd6);
+    position: absolute;
+    right: -13px;
+    top: -1px;
   }
   .description {
     margin: 0 0 3em;
     float: right;
     width: 66%;
     padding-left: 30px;
+    position: relative;
   }
   .description p {
     line-height: 1;
-    font-size: 14px;
-    color: ${theme.textDimmed};
-    ${medium('line-height: 0.5; font-size: 19px;')};
+    font-size: 18px;
+    ${medium('line-height: 1; font-size: 24px;')};
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #000000;
   }
   .description h6 {
     color: ${theme.textTertiary};
     line-height: 1;
     margin-top: 8px;
-    ${medium('line-height: 2.5; margin-top: 0;')};
+    ${medium('line-height: 1.5; margin-top: 10px;')};
   }
   .time h3 {
-    background: -webkit-linear-gradient(left, ${theme.gradientStartActive}, ${theme.gradientEndActive});
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-size: 15px;
-    ${medium('font-size: 25px;')};
+    ${medium('font-size: 17px; font-weight: 700;')};
+    color: #000000;
   }
 `
 
