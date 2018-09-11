@@ -33,7 +33,7 @@ class Page extends React.Component {
                 <Head>
                   <title>{title || siteTitle}</title>
                 </Head>
-                <Navbar menuItems={items}/>
+                <Navbar menuItems={items} path={path} />
                 <Content>{children}</Content>
               </AragonApp>
             )}
