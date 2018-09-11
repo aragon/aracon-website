@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "",
+  "homepage": "https://aragon.github.io/aracon-website",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "NODE_PRESERVE_SYMLINKS=1 react-static start",
     "build": "NODE_PRESERVE_SYMLINKS=1 react-static build",
     "serve": "serve dist -p 3000",
