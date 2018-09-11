@@ -1,5 +1,6 @@
 import React from 'react'
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
+import Locate from './assets/locate.svg'
 
 const MapStyles = [
     {
@@ -157,7 +158,7 @@ const MapContainer = withScriptjs(withGoogleMap((props) =>
     defaultCenter={{ lat: 52.5248058, lng: 13.3459398 }}
     options={{ styles: MapStyles }}
   >
-    <Marker position={{ lat: 52.5248058, lng: 13.3459398 }} />
+    <Marker position={{ lat: 52.5248058, lng: 13.3459398 }} icon={Locate}/>
   </GoogleMap>
 ))
 

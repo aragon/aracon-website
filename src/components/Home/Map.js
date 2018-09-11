@@ -3,6 +3,8 @@ import MapSection from '../Section/Section'
 import MapContainer from './MapContainer'
 import styled, { css } from 'styled-components'
 import { breakpoint } from '@aragon/ui'
+import Plane from './assets/plane.svg'
+import Bus from './assets/bus.svg'
 const medium = css => breakpoint('medium', css)
 const large = css => breakpoint('large', css)
 
@@ -30,7 +32,13 @@ const MapBox = styled.div`
   p, h2 {
     color: white;
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    &.strong {
+      font-weight: 700;
+    }
+    img {
+      padding-right: 15px;
+    }
   }
 `
 
@@ -39,10 +47,18 @@ const Map = () => (
     <MapBox>
       <div className="text">
         <h2>BOLLE Festsale</h2> 
-        <p>Alt-Moabit 98, 10559 Berlin, Germany</p> 
+        <p className="strong">Alt-Moabit 98, 10559 Berlin, Germany</p> 
         <p>It is located in the Spree-Bogen area in the heart of Berlin. It is easily accessible (by public transport or car) from central Berlin or Tegel airport.</p>
+        <p className="strong">
+          <img src={Bus}/>
+          Public transport
+        </p>
         <p>The closest metro stations are only few minutes walk away from the venue:<br/>U-Bahn (U9) - Turmstrasse (300m)<br/>S-Bahn (S3 / S7 / S9) - Bellevue (600m)</p>
         <p>Berlin Central Train Station (Hauptbanhof) is only one stop away via S-Bahn (10min) or six stops with bus 245 (5min).</p>
+        <p className="strong">
+          <img src={Plane}/>
+          From the airport
+        </p>
         <p>Tegel Airport is 20min away by TXL direct bus.</p>
       </div>
       <div className="map">
