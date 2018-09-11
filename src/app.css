@@ -8,12 +8,12 @@ body {
 }
 
 .app {
-	min-height: auto !important;
-	background: transparent;
+  min-height: auto !important;
+  background: transparent;
 }
 
 #root {
-	min-width: 100%;
+  min-width: 100%;
 }
 
 .smcx-embed {
@@ -23,5 +23,4 @@ body {
 
 .smcx-embed>.smcx-iframe-container {
   margin: auto !important;
-  
 }
