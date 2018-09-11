@@ -5,8 +5,7 @@ import Hero from '../components/Home/Hero.js'
 import Speakers from '../components/Home/Speakers.js'
 import Venue from '../components/Home/Venue.js'
 import Map from '../components/Home/Map.js'
-import Accomodation from '../components/Home/Accomodation.js'
-import GetInTouch from '../components/Home/GetInTouch.js'
+
 
 const MapTriangle = styled.div`
   border-right: solid 100vw white;
@@ -17,11 +16,12 @@ const MapTriangle = styled.div`
 `
 
 const AccomodationTriangle = styled.div`
-  border-right: solid 100vw #18181A;
-  border-top: 15vh solid white;
+  border-right: solid 100vw transparent;
+  border-top: 15vh solid #1d1d2a;
   margin-top: -1px;
-  background-color: #18181A;
-  z-index: 1;
+  background-color: transparent;
+  z-index: 5;
+  position:relative;
 `
 
 const Home = () => (
@@ -30,10 +30,7 @@ const Home = () => (
     <Speakers />
     <Venue/>
     <Map/>
-    <MapTriangle/>
-    <Accomodation/>
     <AccomodationTriangle/>
-    <GetInTouch/>
   </Page>
 )
 

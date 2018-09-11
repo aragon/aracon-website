@@ -1,5 +1,5 @@
 import React from 'react'
-import LandingSection from '../Section/LandingSection'
+import VenueSection from '../Section/Section'
 import { Text } from '@aragon/ui'
 import styled from 'styled-components'
 import VenueImg from './assets/venue.png'
@@ -19,12 +19,12 @@ const VenueBox = styled.div`
 `
 
 const Venue = () => (
-  <LandingSection>
+  <VenueSection>
     <VenueBox>
       <div className="h1box"><h1>Venue</h1></div>
       <img src={VenueImg} alt="" />
     </VenueBox>
-  </LandingSection>
+  </VenueSection>
 )
 
 export default Venue

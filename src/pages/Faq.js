@@ -1,6 +1,6 @@
 import React from 'react'
 import { Page } from '../components'
-import Section from '../components/Section/LandingSection'
+import Section from '../components/Section/Section'
 import Question from '../components/Faq/Question'
 import { Text } from '@aragon/ui'
 import styled from 'styled-components'
@@ -24,7 +24,7 @@ const FaqBox = styled.div`
 `
 const Container = styled.div`
   width: 100%;
-  height: calc(75vh - 60px);
+  height: auto;
   margin: 0;
   padding: 50px 8.5%;
   background: #18181A;

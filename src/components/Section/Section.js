@@ -4,10 +4,11 @@ import styled from 'styled-components'
 import { theme } from '@aragon/ui'
 
 const StyledContent = styled.div`
-  width: 100%;
-  margin: 0 auto;
-  padding: 50px 8.5%;
-  text-align: center;
+  width: 100vw;
+  margin: -1px auto -1px auto;
+  position: relative;
+  text-align: left;
+
   .h1box {
     display: flex;
   }
@@ -22,25 +23,35 @@ const StyledContent = styled.div`
     text-align: left;
   }
   h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    font-size: 38px;
     line-height: 1.5;
-    color: ${theme.textSecondary};
-    font-weight: 400;
+    color: black;
+    font-weight: bold;
+  }
+  h3 {
+    margin-bottom: 25px;
+    font-size: 25px;
+    line-height: 1.5;
+    color: black;
+    font-weight: bold;
   }
   p {
-    margin-bottom: 1em;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
+    font-size: 17px;
+    font-size: 19px;
+    line-height: 27px;
     color: ${theme.textSecondary};
+    a {
+      color: #61B2F0;
+      text-decoration: none;
+    }
+  }
+  button a {
+    text-decoration: none;
   }
   .strong {
     font-size: 17px;
     font-weight: 700;
-  }
-  button a {
-    text-decoration: none;
   }
 `
 

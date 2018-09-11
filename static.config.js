@@ -51,6 +51,11 @@ export default {
       getData: () => ({ title: 'Aracon - FAQ' }),
     },
     {
+      path: '/travelinformation',
+      component: 'src/pages/Travel',
+      getData: () => ({ title: 'Aracon - Travel Information' }),
+    },
+    {
       is404: true,
       component: 'src/pages/NotFound',
       getData: () => ({ title: 'Page Not Found' }),

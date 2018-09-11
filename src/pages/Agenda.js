@@ -1,6 +1,6 @@
 import React from 'react'
 import { Page } from '../components'
-import Section from '../components/Section/LandingSection'
+import Section from '../components/Section/Section'
 import DayOne from '../components/Agenda/DayOne'
 import DayTwo from '../components/Agenda/DayTwo'
 import Entry from '../components/Agenda/Entry'
@@ -12,7 +12,7 @@ const large = css => breakpoint('large', css)
 
 const Container = styled.div`
   width: 100%;
-  height: calc(75vh - 60px);
+  height: auto;
   margin: 0;
   padding: 50px 8.5%;
   background: #18181A;

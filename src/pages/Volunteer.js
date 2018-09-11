@@ -1,6 +1,6 @@
 import React from 'react'
 import { Page } from '../components'
-import Section from '../components/Section/LandingSection'
+import Section from '../components/Section/Section'
 import { Text, SafeLink, theme } from '@aragon/ui'
 import styled from 'styled-components'
 import Forms from '../components/Forms/Forms'

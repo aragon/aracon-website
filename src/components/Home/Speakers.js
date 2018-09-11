@@ -1,5 +1,5 @@
 import React from 'react'
-import LandingSection from '../Section/LandingSection'
+import SpeakersSection from '../Section/Section'
 import Speaker from '../Speakers/Speaker'
 import { Text, Button } from '@aragon/ui'
 import styled from 'styled-components'
@@ -37,7 +37,7 @@ const TextContainer = styled.div`
 `
 
 const Speakers = () => (
-  <LandingSection>
+  <SpeakersSection>
     <SpeakersBox>
       <div className="h1box"><h1>Speakers</h1></div>
       <Container>
@@ -58,7 +58,7 @@ const Speakers = () => (
           <p>If you would like to do a workshop or a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - send us an email at <a href="mailto:speakers@aragon.org">speakers@aragon.org</a></p>
       </TextContainer>
     </SpeakersBox>
-  </LandingSection>
+  </SpeakersSection>
 )
 
 export default Speakers

@@ -1,5 +1,5 @@
 import React from 'react'
-import LandingSection from '../Section/LandingSection'
+import MapSection from '../Section/Section'
 import MapContainer from './MapContainer'
 import styled, { css } from 'styled-components'
 import { breakpoint } from '@aragon/ui'
@@ -10,7 +10,7 @@ const MapBox = styled.div`
   width: 100%;
   margin: 0;
   padding: 50px 8.5%;
-  background: #18181A;
+  background: #1d1d2a;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -35,7 +35,7 @@ const MapBox = styled.div`
 `
 
 const Map = () => (
-  <LandingSection>
+  <MapSection>
     <MapBox>
       <div className="text">
         <h2>BOLLE Festsale</h2> 
@@ -55,7 +55,7 @@ const Map = () => (
         />
       </div>
     </MapBox>
-  </LandingSection>
+  </MapSection>
 )
 
 export default Map;

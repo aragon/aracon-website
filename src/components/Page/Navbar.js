@@ -17,6 +17,32 @@ const AraconNav = styled.div`
   padding: 0 20px;
   position: fixed; 
   z-index: 5;
+  &.navbar-home {
+    background-color: transparent;
+  }
+
+  &.navbar-home.navbar-animation { 
+    animation-name: navbar-animation;
+    animation-duration: 1s;
+    background-color: #18181A;
+  }
+
+  &.navbar-home.navbar-inverse-animation { 
+    animation-name: navbar-inverse-animation;
+    animation-duration: 1s;
+    background-color: transparent;
+  }
+
+
+  @keyframes navbar-animation {
+    from {background-color: transparent;}
+    to {background-color: #18181A;}
+  }
+
+  @keyframes navbar-inverse-animation {
+    from {background-color: #18181A;}
+    to {background-color: transparent;}
+  }
 `
 
 const Brand = styled.div`

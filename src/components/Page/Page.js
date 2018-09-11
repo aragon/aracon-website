@@ -4,6 +4,7 @@ import Routes from 'react-static-routes'
 import styled from 'styled-components'
 import { AragonApp, AppBar } from '@aragon/ui'
 import Navbar from './Navbar'
+import Footer from './Footer.js'
 
 const Content = styled.div`
   min-height: 200px;
@@ -16,6 +17,7 @@ const menuItems = [
   ['/agenda', 'Agenda'],
   ['/registration', 'Register'],
   ['/volunteer', 'Volunteer'],
+  ['/travelinformation', 'Travel Information'],
   ['/faq', 'FAQ'],
 ]
 
@@ -35,6 +37,7 @@ class Page extends React.Component {
                 </Head>
                 <Navbar menuItems={items} path={path} />
                 <Content>{children}</Content>
+                <Footer path={path}/>
               </AragonApp>
             )}
           />

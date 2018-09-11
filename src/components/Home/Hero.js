@@ -1,5 +1,5 @@
 import React from 'react'
-import LandingSection from '../Section/LandingSection'
+import HeroSection from '../Section/Section'
 import { Text, breakpoint } from '@aragon/ui'
 import styled from 'styled-components'
 
@@ -78,7 +78,7 @@ const Logo = styled.img`
 `
 
 const Hero = () => (
-  <LandingSection>
+  <HeroSection>
     <HeroBox>
       <Logo src={araconLogo} alt="Aracon" />
       <h2>BUILDING ORGANISATIONS & GOVERNANCE OF THE FUTURE</h2>
@@ -86,7 +86,7 @@ const Hero = () => (
       <h2 className="sides left">Jan 8-10.2019</h2>
       <HeroTriangle/>
     </HeroBox>
-  </LandingSection>
+  </HeroSection>
 )
 
 export default Hero
