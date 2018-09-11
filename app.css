@@ -1,5 +1,28 @@
-body{display:-ms-flexbox!important;display:flex!important;-ms-flex-align:center!important;align-items:center!important;-ms-flex-direction:column!important;flex-direction:column!important;z-index:3;background:#fff;-webkit-font-smoothing:antialiased}.app{min-height:auto!important;background:transparent}#root{min-width:100%}.smcx-embed{z-index:3!important;margin-bottom:50px!important}.smcx-embed>.smcx-iframe-container{margin:auto!important}
-/*# sourceMappingURL=app.css.map*/
+body {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-align: center !important;
+      align-items: center !important;
+  -ms-flex-direction: column !important;
+      flex-direction: column !important;
+  z-index: 3;
+  background: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+.app {
+  min-height: auto !important;
+  background: transparent;
+}
+
+#root {
+  min-width: 100%;
+}
+
+.smcx-embed {
+  z-index: 3 !important;
+  margin-bottom: 50px !important;
+}
 
 .smcx-embed>.smcx-iframe-container {
   margin: auto !important;
