@@ -59,7 +59,7 @@ const HeroBox = styled.div`
 `
 
 const HeroTriangle = styled.div`
-  border-left: solid 100vw transparent;
+  border-right: solid 100vw transparent;
   border-bottom: 15vh solid white;
   margin-bottom: -1px;
   background-color: transparent;

@@ -6,15 +6,6 @@ import Speakers from '../components/Home/Speakers.js'
 import Venue from '../components/Home/Venue.js'
 import Map from '../components/Home/Map.js'
 
-
-const MapTriangle = styled.div`
-  border-right: solid 100vw white;
-  border-top: 15vh solid #18181A;
-  margin-top: -1px;
-  background-color: white;
-  z-index: 1;
-`
-
 const AccomodationTriangle = styled.div`
   border-right: solid 100vw transparent;
   border-top: 15vh solid #1d1d2a;
