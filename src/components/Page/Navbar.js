@@ -5,6 +5,7 @@ import { Link } from 'react-static'
 import { Button, Text, breakpoint, BreakPoint, } from '@aragon/ui'
 import MenuItem from './MenuItem'
 import MenuPanel from './MenuPanel'
+import aragonLogo from './assets/aragon-logo.svg'
 
 const AraconNav = styled.div`
   width: 100%;
@@ -46,11 +47,23 @@ const renderMenuItemLink = ({ url, children }) =>
 
 class Navbar extends React.Component {
 
+  componentDidMount() {
+    document.onscroll = () => {
+      if (document.documentElement.scrollTop > 150) {
+        document.getElementById('navbar').classList.remove('navbar-inverse-animation');
+        document.getElementById('navbar').classList.add('navbar-animation');
+      } else {
+        document.getElementById('navbar').classList.add('navbar-inverse-animation');
+        document.getElementById('navbar').classList.remove('navbar-animation');  
+      }
+    }
+  }
+
   render() {
-    const { menuItems } = this.props
+    const { menuItems, path } = this.props
     return (
-      <AraconNav>
-        <h1>Aracon Logo</h1>
+      <AraconNav className={path == '/' ? 'navbar-home' : ''} id="navbar">
+        <img src={aragonLogo}/>
         <End>
           <BreakPoint from="medium">
             <ul>
@@ -76,3 +89,7 @@ class Navbar extends React.Component {
 }
 
 export default Navbar
+
+
+
+
