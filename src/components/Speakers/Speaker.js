@@ -1,15 +1,22 @@
 import React from 'react'
-import { Card, Text, theme } from '@aragon/ui'
+import { Card, Text, theme, breakpoint } from '@aragon/ui'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
+const medium = css => breakpoint('medium', css);
+const large = css => breakpoint('large', css);
+
 const TextBox = styled.div`
-  height: 244px;
-  width: calc(100% - 245px);
+  min-height: 244px;
+  height: auto;
+  width: 100%
   padding: 0 6%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  ${medium('text-align: left; margin-top: 0; width: calc(100% - 245px);')};
 
   p {
     font-size: 20px;
@@ -30,12 +37,17 @@ const TextBox = styled.div`
     font-size: 17px;
     font-weight: 300;
     color: #000000;
+    max-height: auto; 
+    overflow: inherit;
+    ${medium('max-height: 150px; overflow: scroll;')};
+    ${large('max-height: auto; overflow: inherit;')};
   }
 `;
 
 const PhotoBox = styled.div`
   height: 244px;
-  width: 244px;
+  width: 100%;
+  ${medium('width: 244px;')};
 `;
 
 const Photo = styled.img`
@@ -52,10 +64,15 @@ const SpeakerBox = styled.div`
   background-color: #ffffff;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
   width: 100%;
-  height: 244px;
+  min-height: 244px;
+  max-width: 350px;
+  ${medium('max-width: auto;')};
+  height: auto;
   .speaker-card {
     text-align: left;
     display: flex;
+    flex-direction: column;
+    ${medium('flex-direction: row;')};
     align-items: center;
     justify-content: space-between;
   }
