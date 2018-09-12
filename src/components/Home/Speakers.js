@@ -19,7 +19,7 @@ const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  a {
+  a, button {
     color: #63B1F1;   
     font-size: 19px;  
     line-height: 27px;
@@ -52,7 +52,11 @@ const Speakers = () => (
         <Speaker photo="speaker1" name="Name LastName" position="Founder" company="Company"/>
       </Container>
       <Container>
-          <Button><a href="./speakers">See more...</a></Button>
+          <Button>More speakers coming soon</Button>
+          {/* 
+            Removing link till we have more speakers to show
+            <Button><Link to="/speakers">See more...</Link></Button>
+           */}
       </Container>
       <TextContainer>
           <h2>Want to Speak at AraCon 2019?</h2>
