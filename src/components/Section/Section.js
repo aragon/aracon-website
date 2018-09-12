@@ -53,20 +53,22 @@ const StyledContent = styled.div`
     font-size: 17px;
     font-weight: 700;
   }
-`
+`;
 
 const Section = ({ className, ...props }) => {
-  const containerProps = { className }
-  const content = (
-    <StyledContent>
-      <div {...props} />
-    </StyledContent>
+  const containerProps = { className };
+
+  return (
+    <section {...containerProps}>
+      <StyledContent>
+        <div {...props} />
+      </StyledContent>
+    </section>
   )
-  return <section {...containerProps}>{content}</section>
-}
+};
 
 Section.propTypes = {
   className: PropTypes.string,
-}
+};
 
 export default Section

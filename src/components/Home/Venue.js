@@ -16,7 +16,7 @@ const VenueBox = styled.div`
   img {
     width: 100%;
   }
-`
+`;
 
 const Venue = () => (
   <VenueSection>
@@ -25,6 +25,6 @@ const Venue = () => (
       <img src={VenueImg} alt="" />
     </VenueBox>
   </VenueSection>
-)
+);
 
 export default Venue

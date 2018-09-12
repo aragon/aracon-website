@@ -21,14 +21,14 @@ const FaqBox = styled.div`
   p {
     margin-bottom: 27px;
   }
-`
+`;
 const Container = styled.div`
   width: 100%;
   height: auto;
   margin: 0;
   padding: 50px 8.5%;
   background: #18181A;
-`
+`;
 
 const Faq = () => (
   <Page path="/faq">
@@ -43,13 +43,13 @@ const Faq = () => (
           <Question question="How do I get to AraCon?" answer={<p>You can plan your route to AraCon by visiting the <a href="/travelinformation">Travel Information page</a></p>} />
           <Question question="Where can I stay during my visit to AraCon?" answer={<p>Our official hotel partner is Hotel Abion. If the official hotel gets booked out or you prefer to stay somewhere else, hereâ€™s the list of hotels in the area.</p>} />
           <Question question="How do I register for AraCon?" answer={<p>To learn more about registration process and fees, check out the <a href="/registration">Registration page</a></p>} />
-          <Question question="What do I need to bring with me to AraCon?" answer={<p>All you need to bring is your ticket confirmation and lots of positive vibes í ½í¸Š</p>} />
+          <Question question="What do I need to bring with me to AraCon?" answer={<p>All you need to bring is your ticket confirmation and lots of positive vibes ï¿½ï¿½</p>} />
           <Question question="Can my company exhibit or speak at AraCon?" answer={<p>There will be no exhibition areas available, except for the projects from Aragonâ€™s <a href="https://github.com/aragon/nest">Nest program</a>. If youâ€™d like to speak at AraCon, please submit your application <a href="/speakers">here</a></p>} />
           <Question question="How can my company become an official partner of AraCon?" answer={<p>If you wish your company partner with the conference, contribute in any way, or organise a satellite event, please send us your proposal at <a href="mailto:info@aracon.org">info@aracon.org</a>.</p>} />
         </FaqBox>
       </Container>
     </Section>
   </Page>
-)
+);
 
 export default Faq

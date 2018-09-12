@@ -3,8 +3,7 @@ import Schedule from './Schedule'
 import Entry from './Entry'
 import { theme, breakpoint } from '@aragon/ui'
 import styled from 'styled-components'
-const medium = css => breakpoint('medium', css)
-
+const medium = css => breakpoint('medium', css);
 
 const ScheduleBox = styled.div`
   width: 100%;
@@ -13,7 +12,7 @@ const ScheduleBox = styled.div`
   ${medium('padding: 50px 8.5%;')};
   background: white;
   text-align: center;
-`
+`;
 
 const DayOne = () => (
   <ScheduleBox>
@@ -25,6 +24,6 @@ const DayOne = () => (
       <Entry time="XX:XX" title="Lorem ipsum dolor sit amet" subtitle="Sunt in culpa qui officia deserunt mollit anim id est laborum"/>
     </Schedule>
   </ScheduleBox>
-)
+);
 
 export default DayOne

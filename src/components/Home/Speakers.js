@@ -10,7 +10,7 @@ const SpeakersBox = styled.div`
   padding: 50px 8.5%;
   background: white;
   text-align: center;
-`
+`;
 
 const Container = styled.div`
   width: 100%;
@@ -23,7 +23,7 @@ const Container = styled.div`
     font-size: 19px;  
     line-height: 27px;
   }
-`
+`;
 
 const TextContainer = styled.div`
   width: 100%;
@@ -34,7 +34,7 @@ const TextContainer = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-`
+`;
 
 const Speakers = () => (
   <SpeakersSection>
@@ -59,6 +59,6 @@ const Speakers = () => (
       </TextContainer>
     </SpeakersBox>
   </SpeakersSection>
-)
+);
 
 export default Speakers

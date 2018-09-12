@@ -8,7 +8,7 @@ import Forms from '../components/Forms/Forms'
 const Container = styled.ul`
   width: 100%;
   padding: 50px 8.5%;
-`
+`;
 
 const Volunteer = () => (
   <Page path="/volunteer">
@@ -26,6 +26,6 @@ const Volunteer = () => (
       </Container>
     </Section>
   </Page>
-)
+);
 
 export default Volunteer

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, SiteData, RouteData, Head } from 'react-static'
-import Routes from 'react-static-routes'
 import styled from 'styled-components'
 import { AragonApp, AppBar } from '@aragon/ui'
 import Navbar from './Navbar'
@@ -9,7 +8,7 @@ import Footer from './Footer.js'
 const Content = styled.div`
   min-height: 200px;
   padding-top: 64px
-`
+`;
 
 const menuItems = [
   ['/', 'About'],
@@ -19,13 +18,14 @@ const menuItems = [
   ['/volunteer', 'Volunteer'],
   ['/travelinformation', 'Travel Information'],
   ['/faq', 'FAQ'],
-]
+];
 
 class Page extends React.Component {
 
   render() {
-    const { children, path } = this.props
-    const items = menuItems.map(item => [...item, item[0] === path])
+    const { children, path } = this.props;
+    const items = menuItems.map(item => [...item, item[0] === path]);
+
     return (
       <SiteData
         render={({ title: siteTitle }) => (

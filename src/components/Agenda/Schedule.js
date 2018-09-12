@@ -2,8 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { theme, breakpoint } from '@aragon/ui'
 import styled from 'styled-components'
-const medium = css => breakpoint('medium', css)
-const large = css => breakpoint('large', css)
+
+const medium = css => breakpoint('medium', css);
+const large = css => breakpoint('large', css);
 
 const ScheduleContainer = styled.div`
   margin-top: 50px;
@@ -31,7 +32,7 @@ const ScheduleContainer = styled.div`
     display: table;
     clear: both;
   }
-`
+`;
 
 const Schedule = ({ className, ...props }) => {
   const containerProps = { className }
@@ -43,10 +44,10 @@ const Schedule = ({ className, ...props }) => {
       </div>
     </ScheduleContainer>
   );
-}
+};
 
 Schedule.propTypes = {
   className: PropTypes.string,
-}
+};
 
 export default Schedule

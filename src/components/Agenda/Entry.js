@@ -1,9 +1,9 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { theme, breakpoint } from '@aragon/ui'
-const medium = css => breakpoint('medium', css)
-const large = css => breakpoint('large', css)
+
+const medium = css => breakpoint('medium', css);
+const large = css => breakpoint('large', css);
 
 const EntryBox = styled.div`
   clear: both;
@@ -64,21 +64,18 @@ const EntryBox = styled.div`
     ${medium('font-size: 17px; font-weight: 700;')};
     color: #000000;
   }
-`
+`;
 
-const Entry = ({ ...props }) => {
-  const content = (
-    <EntryBox>
-      <div className="time">
-        <h3>{props.time} HS</h3>
-      </div>
-      <div className="description">
-        <p>{props.title}</p>
-        <h6>{props.subtitle}</h6>
-      </div>
-    </EntryBox>
-  )
-  return content
-}
+const Entry = ({ ...props }) => (
+  <EntryBox>
+    <div className="time">
+      <h3>{props.time} HS</h3>
+    </div>
+    <div className="description">
+      <p>{props.title}</p>
+      <h6>{props.subtitle}</h6>
+    </div>
+  </EntryBox>
+);
 
 export default Entry

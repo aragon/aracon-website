@@ -1,5 +1,4 @@
 import React from 'react'
-import Routes from 'react-static-routes'
 import styled from 'styled-components'
 import { Link } from 'react-static'
 import { Button, Text, breakpoint, BreakPoint, } from '@aragon/ui'
@@ -43,12 +42,8 @@ const AraconNav = styled.div`
     from {background-color: #18181A;}
     to {background-color: transparent;}
   }
-`
+`;
 
-const Brand = styled.div`
-  width: auto;
-  height: auto;
-`
 const End = styled.div`
   width: auto;
   height: auto;
@@ -60,7 +55,7 @@ const End = styled.div`
   button {
     margin-left: 10px;
   }
-`
+`;
 
 const renderMenuItemLink = ({ url, children }) =>
   url.startsWith('/') ? (
@@ -69,7 +64,7 @@ const renderMenuItemLink = ({ url, children }) =>
     <a href={url} target="_blank" rel="noopener noreferrer">
       <Text size="xlarge">{children}</Text>
     </a>
-  )
+  );
 
 class Navbar extends React.Component {
 
@@ -88,7 +83,7 @@ class Navbar extends React.Component {
   render() {
     const { menuItems, path } = this.props
     return (
-      <AraconNav className={path == '/' ? 'navbar-home' : ''} id="navbar">
+      <AraconNav className={path === '/' ? 'navbar-home' : ''} id="navbar">
         <img src={aragonLogo}/>
         <End>
           <BreakPoint from="medium">

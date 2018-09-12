@@ -6,6 +6,6 @@ const NotFound = () => (
     <h1>Not Found</h1>
     <p>The page you are trying to access could not be found.</p>
   </Page>
-)
+);
 
 export default NotFound

@@ -18,18 +18,18 @@ const Box = styled.div`
     margin-top: -15vh;
     padding-top: calc(15vh + 50px);
   }
-`
+`;
 
 const FooterImg = styled.img`
   max-width: 100%;
-`
+`;
 
 const Footer = ({ ...props }) => (
   <FooterSection>
-    <Box className={props.path == '/' ? 'landing-footer' : ''}>
+    <Box className={props.path === '/' ? 'landing-footer' : ''}>
       <FooterImg src={footer} alt="Powered by Aragon" />
     </Box>
   </FooterSection>
-)
+);
 
 export default Footer

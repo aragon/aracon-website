@@ -4,8 +4,9 @@ import Section from '../components/Section/Section'
 import styled from 'styled-components'
 import { Text, Button, SafeLink, breakpoint } from '@aragon/ui'
 import AccomodationImg from '../components/Home/assets/accomodation.png'
-const medium = css => breakpoint('medium', css)
-const large = css => breakpoint('large', css)
+
+const medium = css => breakpoint('medium', css);
+const large = css => breakpoint('large', css);
 
 const AccomodationBox = styled.div`
   width: 100%;
@@ -32,14 +33,14 @@ const AccomodationBox = styled.div`
     text-align: left;
     margin-bottom: 30px;
   }
-`
+`;
 
 const Content = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
   ${medium('flex-direction: row;')};
-`
+`;
 
 const Travel = () => (
   <Page path="/travelinformation">
@@ -69,7 +70,6 @@ const Travel = () => (
       </AccomodationBox>
     </Section>
   </Page>
-  
-)
+);
 
 export default Travel

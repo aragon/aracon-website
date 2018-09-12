@@ -2,12 +2,11 @@ import React from 'react'
 import HeroSection from '../Section/Section'
 import { Text, breakpoint } from '@aragon/ui'
 import styled from 'styled-components'
-
 import heroImage from './assets/hero-background.png'
 import araconLogo from './assets/logo.png'
 
-const medium = css => breakpoint('medium', css)
-const large = css => breakpoint('large', css)
+const medium = css => breakpoint('medium', css);
+const large = css => breakpoint('large', css);
 
 const HeroBox = styled.div`
   width: 100%;
@@ -56,7 +55,7 @@ const HeroBox = styled.div`
     ${large('transform: rotate(-90deg);')};
     transform: rotate(0deg);
   }
-`
+`;
 
 const HeroTriangle = styled.div`
   border-right: solid 100vw transparent;
@@ -68,14 +67,14 @@ const HeroTriangle = styled.div`
   width: 100vw;
   left: 0;
   bottom: 0;
-`
+`;
 
 const Logo = styled.img`
   margin-top: 92px;
   ${medium('margin-top: 254px;')};
   ${large('margin-top: 254px;')};
   max-width: 100%;
-`
+`;
 
 const Hero = () => (
   <HeroSection>
@@ -87,6 +86,6 @@ const Hero = () => (
       <HeroTriangle/>
     </HeroBox>
   </HeroSection>
-)
+);
 
 export default Hero

@@ -12,15 +12,15 @@ const Container = styled.div`
     padding: 10px 30px;
     text-decoration: none;
   }
-`
+`;
 
 class Panel extends React.Component {
   state = {
     opened: false,
-  }
+  };
   render() {
-    const { items } = this.props
-    const { opened } = this.state
+    const { items } = this.props;
+    const { opened } = this.state;
     return (
       <div>
         <Button mode="text" onClick={() => this.setState({ opened: true })}>

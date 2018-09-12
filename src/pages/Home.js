@@ -13,7 +13,7 @@ const AccomodationTriangle = styled.div`
   background-color: transparent;
   z-index: 5;
   position:relative;
-`
+`;
 
 const Home = () => (
   <Page path="/">
@@ -23,7 +23,7 @@ const Home = () => (
     <Map/>
     <AccomodationTriangle/>
   </Page>
-)
+);
 
 export default Home
 

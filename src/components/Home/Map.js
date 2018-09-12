@@ -1,12 +1,13 @@
 import React from 'react'
 import MapSection from '../Section/Section'
 import MapContainer from './MapContainer'
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 import { breakpoint } from '@aragon/ui'
 import Plane from './assets/plane.svg'
 import Bus from './assets/bus.svg'
-const medium = css => breakpoint('medium', css)
-const large = css => breakpoint('large', css)
+
+const medium = css => breakpoint('medium', css);
+const large = css => breakpoint('large', css);
 
 const MapBox = styled.div`
   width: 100%;
@@ -72,7 +73,7 @@ const Map = () => (
       </div>
     </MapBox>
   </MapSection>
-)
+);
 
 export default Map;
   

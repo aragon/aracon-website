@@ -11,12 +11,11 @@ const Criteria = styled.ul`
   font-weight: 400;
   line-height: 1.5;
   color: #707070;
-`
+`;
 const Container = styled.ul`
   width: 100%;
   padding: 50px 8.5%;
-`
-
+`;
 
 const Registration = () => (
   <Page path="/registration">
@@ -43,6 +42,6 @@ const Registration = () => (
       </Container>
     </Section> 
   </Page>
-)
+);
 
 export default Registration

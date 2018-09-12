@@ -19,28 +19,27 @@ const TextBox = styled.div`
     font-weight: 600; 
     line-height: 22px;
   }
-`
+`;
 
 const Photo = styled.img`
   width: 100%;
   overflow: hidden;
-`
+`;
 
 const SpeakerBox = styled.div`
   margin-bottom: 40px;
   border-radius: 6px; 
   background: linear-gradient(184.81deg, #F5F6FB 0%, #FFFFFF 100%); 
   box-shadow: 8px 16px 16px 0 rgba(0,0,0,0.13);
-`
-
+`;
 
 class Speaker extends React.Component {
-  state = {
-    picture: this.props.photo + '.png',
-  }
+  state = { picture: this.props.photo + '.png' };
+
   render() {
-    const { name, position, company, photo } = this.props
-    const { picture } = this.state
+    const { name, position, company, photo } = this.props;
+    const { picture } = this.state;
+
     return (
       <SpeakerBox>
       <Card onMouseEnter={() => this.setState({ picture: photo + '-hover.png' })}
@@ -56,17 +55,16 @@ class Speaker extends React.Component {
   }
 }
 
-
 Speaker.propTypes = {
   name: PropTypes.string,
   position: PropTypes.string,
   company: PropTypes.string,
-}
+};
 
 Speaker.defaultProps = {
   name: 'Name',
   position: 'Position',
   company: 'Company',
-}
+};
 
 export default Speaker

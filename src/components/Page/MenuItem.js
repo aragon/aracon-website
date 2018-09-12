@@ -36,18 +36,18 @@ const StyledMenuItem = styled.li`
       border-bottom: 2px solid #63B1F1;}
     }
   }
-`
+`;
 
 MenuItem.propTypes = {
   url: PropTypes.string,
   label: PropTypes.string,
   active: PropTypes.bool,
   renderLink: PropTypes.func,
-}
+};
 
 MenuItem.defaultProps = {
   active: false,
   renderLink: ({ url, children }) => <a href={url}>{children}</a>,
-}
+};
 
 export default MenuItem
