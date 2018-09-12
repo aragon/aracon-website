@@ -49,7 +49,7 @@ const Map = () => (
       <div className="text">
         <h2>BOLLE Festsale</h2> 
         <p className="strong">Alt-Moabit 98, 10559 Berlin, Germany</p> 
-        <p>It is located in the Spree-Bogen area in the heart of Berlin. It is easily accessible (by public transport or car) from central Berlin or Tegel airport.</p>
+        <p>The conference venue is located in the Spree-Bogen area in the heart of Berlin. It is easily accessible (by public transport or car) from central Berlin or Tegel airport.</p>
         <p className="strong">
           <img src={Bus}/>
           Public transport

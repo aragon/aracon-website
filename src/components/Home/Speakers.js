@@ -1,6 +1,7 @@
 import React from 'react'
 import SpeakersSection from '../Section/Section'
-import Speaker from '../Speakers/Speaker'
+import { Link } from 'react-static'
+import Speaker from './Speaker'
 import { Text, Button } from '@aragon/ui'
 import styled from 'styled-components'
 
@@ -55,7 +56,7 @@ const Speakers = () => (
       </Container>
       <TextContainer>
           <h2>Want to Speak at AraCon 2019?</h2>
-          <p>If you would like to do a workshop or a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - send us an email at <a href="mailto:speakers@aragon.org">speakers@aragon.org</a></p>
+          <p>If you would like to do a workshop or a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - You can just <Link to="/speakers#speakers-form">apply here</Link></p>
       </TextContainer>
     </SpeakersBox>
   </SpeakersSection>
