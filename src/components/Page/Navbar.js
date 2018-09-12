@@ -84,7 +84,7 @@ class Navbar extends React.Component {
     const { menuItems, path } = this.props
     return (
       <AraconNav className={path === '/' ? 'navbar-home' : ''} id="navbar">
-        <img src={aragonLogo}/>
+        <a href="/"><img src={aragonLogo}/></a>
         <End>
           <BreakPoint from="medium">
             <ul>
