@@ -1,6 +1,7 @@
 import React from 'react'
 import { Page } from '../components'
 import Section from '../components/Section/Section'
+import Map from '../components/Home/Map'
 import styled from 'styled-components'
 import { Text, Button, SafeLink, breakpoint } from '@aragon/ui'
 import AccomodationImg from '../components/Home/assets/accomodation.png'
@@ -42,8 +43,19 @@ const Content = styled.div`
   ${medium('flex-direction: row;')};
 `;
 
+const AccomodationTriangle = styled.div`
+  border-right: solid 100vw transparent;
+  border-top: 15vh solid #1d1d2a;
+  margin-top: -1px;
+  background-color: transparent;
+  z-index: 5;
+  position:relative;
+`;
+
 const Travel = () => (
   <Page path="/travelinformation">
+    <Map/>
+    <AccomodationTriangle/>
     <Section>
       <AccomodationBox>
         <div className="h1box"><h1>Accomodation</h1></div>
