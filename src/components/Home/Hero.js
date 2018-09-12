@@ -82,7 +82,7 @@ const Hero = () => (
       <Logo src={araconLogo} alt="Aracon" />
       <h2>BUILDING ORGANISATIONS & GOVERNANCE OF THE FUTURE</h2>
       <h2 className="sides right">Berlin, Germany</h2>
-      <h2 className="sides left">Jan 8-10.2019</h2>
+      <h2 className="sides left">Jan 29-30.2019</h2>
       <HeroTriangle/>
     </HeroBox>
   </HeroSection>
