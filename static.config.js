@@ -100,6 +100,28 @@ export default {
     return html
   },
   Document: class CustomHtml extends React.Component {
+    analyticsCode() {
+      if (process.env.NODE_ENV !== 'production') return ''
+      return `
+        var _paq = _paq || []
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView'])
+        _paq.push(['enableLinkTracking'])
+        ;(function() {
+          var u = 'https://arastats.eu/staats/'
+          _paq.push(['setTrackerUrl', u + 'piwik.php'])
+          _paq.push(['setSiteId', '8'])
+          var d = document,
+            g = d.createElement('script'),
+            s = d.getElementsByTagName('script')[0]
+          g.type = 'text/javascript'
+          g.async = true
+          g.defer = true
+          g.src = u + 'piwik.js'
+          s.parentNode.insertBefore(g, s)
+        })()
+      `
+    }
     render() {
       const {
         Html,
