@@ -1,7 +1,7 @@
 import React from 'react'
 import { Page } from '../components'
 import Section from '../components/Section/Section'
-import Map from '../components/Home/Map'
+import Map from '../components/Travel/Map'
 import styled from 'styled-components'
 import { Text, Button, SafeLink, breakpoint } from '@aragon/ui'
 import AccomodationImg from '../components/Home/assets/accomodation.png'
@@ -55,7 +55,6 @@ const AccomodationTriangle = styled.div`
 const Travel = () => (
   <Page path="/travelinformation">
     <Map/>
-    <AccomodationTriangle/>
     <Section>
       <AccomodationBox>
         <div className="h1box"><h1>Accomodation</h1></div>
@@ -73,7 +72,7 @@ const Travel = () => (
             <Text>
               <p>The official conference hotel is located just 100m away from the venue.  It has a unique, direct view of the River Spree and a superb location at the heart of the capital city between the West Centre (Ku’damm) and the East Centre (Alexanderplatz). To join our speakers and other guests, book your stay by clicking on the button below.</p>
             </Text>
-            <Button mode="strong"><SafeLink href="https://www.google.es/" target="_blank">Book your stay</SafeLink></Button>
+            <Button mode="strong"><SafeLink href="https://reservations.travelclick.com/12121?groupID=2378658" target="_blank">Book your stay</SafeLink></Button>
             <Text>
               <p><br/>Prices are ‎€109 for a single room and ‎€119 for a double room per night, breakfast included. All rooms are subject to availability. Special price is valid for all bookings between xx-xx.</p>
             </Text>

@@ -79,14 +79,14 @@ const Speakers = () => (
             facilitated the development of a widely-used TCR implementation, as well as multiple 
             graphical user interfaces for TCRs. He graduated from Columbia University with a degree 
             in computer science."/>
-          <Speaker photo="Matt-Lockyer" name="Matt Lockyer" position="Founder" company="Company"
+          <Speaker photo="Matt-Lockyer" name="Matt Lockyer" position="Founder" company="Soloblock Solutions"
             bio="Matt Lockyer wrote the Ethereum ERC-998 standard for Composable Tokens and his work 
             on Token Curated Registries (TCRs) has been published on a16z's crypto reading list. Matt 
             founded and operates the NFTy Magicians - a group of over 300 blockchain developers - as a 
             pendant to the Ethereum Foundation. He currently advises projects on their smart contract 
             architecture and token engineering processes with a background in full stack development, 
             computer science, UX research, public speaking and university lecturing."/>
-          <Speaker photo="Mario-Laul" name="Mario Laul" position="Researcher" company="Placeholder"
+          <Speaker photo="Mario-Laul" name="Mario Laul" position="Researcher" company="Placeholder Ventures"
             bio="Mario Laul works as a researcher for Placeholder, a New York venture capital firm investing 
             in decentralized information networks, and for Beyond the Technological Revolution, a four-year 
             research project led by Carlota Perez exploring the relationship between technology, finance, 
