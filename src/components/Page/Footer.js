@@ -13,21 +13,41 @@ const Box = styled.div`
   z-index: 1;
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: space-between;
   &.landing-footer {
     margin-top: -15vh;
     padding-top: calc(15vh + 50px);
   }
 `;
+const FooterLinks = styled.div`
+  display: flex;
+  a {
+    margin: 0 10px;
+    opacity: 0.38;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  a:hover {
+    opacity: 1;
+  }
+`;
 
 const FooterImg = styled.img`
   max-width: 100%;
+  width: 360px;
 `;
 
 const Footer = ({ ...props }) => (
   <FooterSection>
     <Box className={props.path === '/' ? 'landing-footer' : ''}>
       <FooterImg src={footer} alt="Powered by Aragon" />
+      <FooterLinks>
+        <a href="https://wiki.aragon.org/documentation/legal/Privacy_policy/" target="_blank">Privacy policy</a>
+        <a href="https://wiki.aragon.org/documentation/legal/Terms_of_use_websites/" target="_blank">Terms of use</a>
+        <a href=" https://wiki.aragon.org/documentation/Code_of_Conduct/" target="_blank">Code of conduct</a>
+      </FooterLinks>
     </Box>
   </FooterSection>
 );
