@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
+import { Link } from 'react-static'
 import { Button, SidePanel } from '@aragon/ui'
 import menu from './assets/menu.svg'
 
@@ -29,7 +30,13 @@ class Panel extends React.Component {
         <SidePanel title="" opened={opened} onClose={() => this.setState({ opened: false })}>
           <Container>
           {items.map((item, i) => (
-            <a key={i} href={item[0]}>{item[1]}</a>
+            item[0].startsWith('/') ? (
+              <Link to={item[0]} key={i}>{item[1]}</Link>
+            ) : (
+              <a href={item[0]} key={i} target="_blank" rel="noopener noreferrer">
+                {item[1]}
+              </a>
+            )
           ))}
           </Container>
         </SidePanel>

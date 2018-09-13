@@ -22,7 +22,7 @@ const Volunteer = () => (
           <p>In exchange for your help, we’ll provide you with a free ticket to attend the event.</p>
         </Text>
         <br/>
-        <Forms type="speakers" src="http://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd_2Bnex51b1b2jCZWBQtfTcaMTwCxvLp_2BTsBh0bYRiVb2M.js"/>
+        <Forms type="speakers" src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd_2Bnex51b1b2jCZWBQtfTcaMTwCxvLp_2BTsBh0bYRiVb2M.js"/>
       </Container>
     </Section>
   </Page>
