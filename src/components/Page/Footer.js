@@ -1,8 +1,11 @@
 import React from 'react'
 import FooterSection from '../Section/Section'
-import { Text } from '@aragon/ui'
+import { Text, breakpoint } from '@aragon/ui'
 import styled from 'styled-components'
 import footer from './assets/footer.png'
+
+const medium = css => breakpoint('medium', css);
+const large = css => breakpoint('large', css);
 
 const Box = styled.div`
   width: 100%;
@@ -14,9 +17,16 @@ const Box = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  flex-direction: column;
+  ${large('flex-direction: row;')};
 `;
 const FooterLinks = styled.div`
   display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20px;
+  ${medium('flex-direction: row;')};
+  ${large('margin-top: 0;')};
   a {
     margin: 0 10px;
     opacity: 0.38;
@@ -33,6 +43,7 @@ const FooterLinks = styled.div`
 const FooterImg = styled.img`
   max-width: 100%;
   width: 360px;
+  margin: auto;
 `;
 
 const Footer = ({ ...props }) => (
