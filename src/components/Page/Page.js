@@ -17,7 +17,6 @@ const Content = styled.div`
 `;
 
 const menuItems = [
-  ['/', 'About'],
   ['/speakers', 'Speakers'],
   ['/agenda', 'Agenda'],
   ['/registration', 'Register'],
