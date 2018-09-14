@@ -16,6 +16,7 @@ const SpeakersBox = styled.div`
 const Container = styled.div`
   width: 100%;
   max-width: 1195px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;

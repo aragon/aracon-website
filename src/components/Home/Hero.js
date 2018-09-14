@@ -12,7 +12,6 @@ const HeroBox = styled.div`
   width: 100%;
   height: 98vh;
   ${medium('min-height: 815px; height: calc(100vh + 64px + 60px);')};
-  ${large('min-height: 815px; height: calc(100vh + 64px + 60px);')};
   margin: 0;
   padding: 50px 8.5%;
   background-color: #18181A;
@@ -27,7 +26,6 @@ const HeroBox = styled.div`
   h2 {
     font-size: 18px;
     ${medium('font-size: 24px;')};
-    ${large('font-size: 24px;')};
     font-weight: 300;
     line-height: 1.63;
     letter-spacing: 5.6px;
@@ -35,7 +33,6 @@ const HeroBox = styled.div`
   }
   h2.sides {
     ${medium('position: absolute; margin: inherit;')};
-    ${large('position: absolute; margin: inherit;')};
     position: inherit;
     top: 396px;
     letter-spacing: 1.6px;
@@ -45,14 +42,12 @@ const HeroBox = styled.div`
   h2.right {
     right: -4%;
     ${medium('transform: rotate(90deg); margin-top: inherit;')};
-    ${large('transform: rotate(90deg); margin-top: inherit;')};
     transform: rotate(0deg);
     margin-top: 31%;
   }
   h2.left {
     left: -4%;
     ${medium('transform: rotate(-90deg);')};
-    ${large('transform: rotate(-90deg);')};
     transform: rotate(0deg);
   }
 `;
@@ -71,8 +66,7 @@ const HeroTriangle = styled.div`
 
 const Logo = styled.img`
   margin-top: 92px;
-  ${medium('margin-top: 254px;')};
-  ${large('margin-top: 254px;')};
+  ${medium('margin-top: 17%;')};
   max-width: 100%;
 `;
 

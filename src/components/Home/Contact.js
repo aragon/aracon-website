@@ -22,7 +22,7 @@ const Contact = () => (
         <h2>Contact us</h2>
       </Text>
       <Text>
-        <p>If you would like to do a workshop or a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - You can just apply here</p>
+        <p>If you have any questions, ideas or suggestions, please contact us through the button below. Someone from our team will be in touch with you shortly</p>
       </Text>
       <br/>
       <Button mode="strong">

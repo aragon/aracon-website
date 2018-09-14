@@ -37,7 +37,6 @@ const MapBox = styled.div`
   }
   .map {
     width: 100%;
-    max-width: 717px;
     ${medium('width: 50%;')};
     ${large('width: 60%;')};
   }

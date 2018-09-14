@@ -8,6 +8,12 @@ import Footer from './Footer.js'
 const Content = styled.div`
   padding-top: 64px
   min-height: calc(100vh - 116px);
+  .dark {
+    background: #18181A;
+  }
+  .light {
+    background: #fafdfd;
+  }
 `;
 
 const menuItems = [
