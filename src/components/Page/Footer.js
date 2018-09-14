@@ -14,10 +14,6 @@ const Box = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  &.landing-footer {
-    margin-top: -15vh;
-    padding-top: calc(15vh + 50px);
-  }
 `;
 const FooterLinks = styled.div`
   display: flex;
@@ -41,7 +37,7 @@ const FooterImg = styled.img`
 
 const Footer = ({ ...props }) => (
   <FooterSection>
-    <Box className={props.path === '/' ? 'landing-footer' : ''}>
+    <Box>
       <FooterImg src={footer} alt="Powered by Aragon" />
       <FooterLinks>
         <a href="https://wiki.aragon.org/documentation/legal/Privacy_policy/" target="_blank">Privacy policy</a>

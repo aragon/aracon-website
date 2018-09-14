@@ -2,7 +2,7 @@ import React from 'react'
 import MapSection from '../Section/Section'
 import MapContainer from './MapContainer'
 import styled from 'styled-components'
-import { Text, breakpoint } from '@aragon/ui'
+import { Text, breakpoint, SafeLink } from '@aragon/ui'
 import Plane from './assets/plane.svg'
 import Bus from './assets/bus.svg'
 import backgroundImage from './assets/travel-background.png'
@@ -75,12 +75,12 @@ const Map = () => (
       </Text>
       <Container>
         <div className="text">
-          <a href="https://www.bolle-meierei.com/en/bollefestsaele/" target="_blank">
+          <SafeLink href="https://www.bolle-meierei.com/en/bollefestsaele/" target="_blank">
             <h2>BOLLE Festsale</h2>
-          </a>
-          <a href="https://goo.gl/maps/m4ZDRLs9oDR2" target="_blank">
+          </SafeLink>
+          <SafeLink href="https://goo.gl/maps/m4ZDRLs9oDR2" target="_blank">
             <p className="strong">Alt-Moabit 98, 10559 Berlin, Germany</p>
-          </a>
+          </SafeLink>
           <p>The conference venue is located in the Spree-Bogen area in the heart of Berlin. It is easily accessible (by public transport or car) from central Berlin or Tegel airport.</p>
           <p className="strong">
             <img src={Bus}/>
