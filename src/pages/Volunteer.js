@@ -1,18 +1,24 @@
 import React from 'react'
 import { Page } from '../components'
 import Section from '../components/Section/Section'
-import { Text, SafeLink, theme } from '@aragon/ui'
+import { Text, SafeLink, theme, breakpoint } from '@aragon/ui'
 import styled from 'styled-components'
 import Forms from '../components/Forms/Forms'
 
-const Container = styled.ul`
+const large = css => breakpoint('large', css);
+
+const Container = styled.div`
   width: 100%;
-  padding: 50px 8.5%;
+  margin: auto;
+  max-width: 695px;
+  padding: 50px 0 50px 8.5%;
+  text-align: left;
+  ${large('position: absolute; width: 41%; margin: inherit')};
 `;
 
 const Volunteer = () => (
   <Page path="/volunteer">
-    <Section>
+    <Section className="light">
       <Container>
         <Text><div className="h1box"><h1>Volunteer</h1></div></Text>
         <Text size="xlarge">
@@ -22,8 +28,8 @@ const Volunteer = () => (
           <p>In exchange for your help, we’ll provide you with a free ticket to attend the event.</p>
         </Text>
         <br/>
-        <Forms type="speakers" src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd_2Bnex51b1b2jCZWBQtfTcaMTwCxvLp_2BTsBh0bYRiVb2M.js"/>
       </Container>
+      <Forms type="speakers" src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd_2Bnex51b1b2jCZWBQtfTcaMTwCxvLp_2BTsBh0bYRiVb2M.js"/>
     </Section>
   </Page>
 );

@@ -1,10 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
+import { breakpoint } from '@aragon/ui'
+
+const large = css => breakpoint('large', css);
 
 const Content = styled.div`
   display: flex!important;
   text-align: center;
   justify-content: center;
+  ${large('justify-content: flex-end;')};
 `;
 
 export default class Forms extends React.Component {

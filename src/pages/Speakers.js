@@ -3,8 +3,11 @@ import { Page } from '../components'
 import Section from '../components/Section/Section'
 import Forms from '../components/Forms/Forms'
 import Speaker from '../components/Speakers/Speaker'
-import { Text } from '@aragon/ui'
+import { Text, breakpoint } from '@aragon/ui'
 import styled from 'styled-components'
+
+const medium = css => breakpoint('medium', css);
+const large = css => breakpoint('large', css);
 
 const SpeakersBox = styled.div`
   width: 100%;
@@ -17,6 +20,7 @@ const SpeakersBox = styled.div`
 const Container = styled.div`
   width: 100%;
   max-width: 1195px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -30,13 +34,11 @@ const Container = styled.div`
 
 const TextContainer = styled.div`
   width: 100%;
+  margin: auto;
   max-width: 695px;
-  margin: 70px auto 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  padding: 50px 0 50px 8.5%;
+  text-align: left;
+  ${large('position: absolute; width: 41%; margin: inherit')};
 `;
 
 const Speakers = () => (
@@ -111,11 +113,13 @@ const Speakers = () => (
             He is the CEO and co-founder of Gnosis, the decentralized Gnosis prediction market - one of the 
             first decentralized application that went live on Ethereum in 2015 in an early verison."/>
         </Container>
-        <TextContainer id="speakers-form">
-            <h2>Want to Speak at AraCon 2019?</h2>
-            <p>If you would like to do a workshop or a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - please register below</p>
-        </TextContainer>
       </SpeakersBox>
+    </Section>
+    <Section className="dark">
+      <TextContainer id="speakers-form">
+        <div className="h1box"><h1>Speakers application</h1></div>
+        <p>If you would like to do a workshop or a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - please register here</p>
+      </TextContainer>
       <Forms type="speakers" src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd_2Bnex51b1b2jCZWBQtfTcaOhfvbt_2Fq8nWc81qWg3efVA.js"/>
       <div id="speakers"/>
     </Section>
