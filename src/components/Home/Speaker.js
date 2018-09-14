@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-static'
 import { Card, Text, theme } from '@aragon/ui'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
@@ -34,17 +35,17 @@ const SpeakerBox = styled.div`
 `;
 
 class Speaker extends React.Component {
-  state = { picture: this.props.photo + '.png' };
+  state = { picture: this.props.photo + '_.png' };
 
   render() {
-    const { name, position, company, photo } = this.props;
+    const { name, position, company, photo, linkTo } = this.props;
     const { picture } = this.state;
 
     return (
       <SpeakerBox>
-      <Card onMouseEnter={() => this.setState({ picture: photo + '-hover.png' })}
-          onMouseLeave={() => this.setState({ picture: photo + '.png' })}>
-        <Photo src={require(`../Speakers/assets/${picture}`)}/>
+      <Card onMouseEnter={() => this.setState({ picture: photo + '.png' })}
+          onMouseLeave={() => this.setState({ picture: photo + '_.png' })}>
+        <Link to={'/speakers#' + linkTo}><Photo src={require(`../Speakers/assets/${picture}`)}/></Link>
         <TextBox>
           <Text><p>{name}</p></Text>
           <Text><h6>{position}, {company}</h6></Text>

@@ -58,7 +58,6 @@ const Photo = styled.img`
 `;
 
 const SpeakerBox = styled.div`
-  margin-bottom: 40px;
   border-radius: 6px; 
   border-radius: 6.4px;
   background-color: #ffffff;
@@ -77,25 +76,32 @@ const SpeakerBox = styled.div`
     justify-content: space-between;
   }
 `;
+const Container = styled.div`
+  padding-top: 65px;
+  width: 100%;
+  height: auto;
+`;
 
 class Speaker extends React.Component {
 
   render() {
-    const { name, position, company, photo, bio } = this.props;
+    const { name, position, company, photo, bio, linkTo } = this.props;
 
     return (
-      <SpeakerBox>
-        <Card width="100%" height="100%" className="speaker-card">
-          <PhotoBox>
-            <Photo src={require(`./assets/${photo}.png`)}/>
-          </PhotoBox>
-          <TextBox>
-            <Text><p>{name}</p></Text>
-            <Text><h6>{position}, {company}</h6></Text>
-            <Text><h5>{bio}</h5></Text>
-          </TextBox>
-        </Card>
-    </SpeakerBox>
+      <Container id={linkTo ? linkTo : ''}>
+        <SpeakerBox>
+          <Card width="100%" height="100%" className="speaker-card">
+            <PhotoBox>
+              <Photo src={require(`./assets/${photo}.png`)}/>
+            </PhotoBox>
+            <TextBox>
+              <Text><p>{name}</p></Text>
+              <Text><h6>{position}, {company}</h6></Text>
+              <Text><h5>{bio}</h5></Text>
+            </TextBox>
+          </Card>
+      </SpeakerBox>
+    </Container>
     )
   }
 }

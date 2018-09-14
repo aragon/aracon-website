@@ -42,14 +42,14 @@ const Speakers = () => (
     <SpeakersBox>
       <div className="h1box"><h1>Speakers</h1></div>
       <Container>
-        <Speaker photo="speaker1" name="Name LastName" position="Founder" company="Company"/>
-        <Speaker photo="speaker1" name="Name LastName" position="Founder" company="Company"/>
-        <Speaker photo="speaker1" name="Name LastName" position="Founder" company="Company"/>
-        <Speaker photo="speaker1" name="Name LastName" position="Founder" company="Company"/>
-        <Speaker photo="speaker1" name="Name LastName" position="Founder" company="Company"/>
-        <Speaker photo="speaker1" name="Name LastName" position="Founder" company="Company"/>
-        <Speaker photo="speaker1" name="Name LastName" position="Founder" company="Company"/>
-        <Speaker photo="speaker1" name="Name LastName" position="Founder" company="Company"/>
+        <Speaker photo="Mike Goldin" name="Name LastName" position="Founder" company="Company"/>
+        <Speaker photo="Primavera De Filippi" linkTo="primavera" name="Primavera De Filippi" position="Postdoctoral researcher" company="CNRS"/>
+        <Speaker photo="Matt Lockyer" linkTo="primavera" name="Name LastName" position="Founder" company="Company"/>
+        <Speaker photo="Shira Frank" linkTo="primavera" name="Name LastName" position="Founder" company="Company"/>
+        <Speaker photo="Raine Revere" linkTo="primavera" name="Name LastName" position="Founder" company="Company"/>
+        <Speaker photo="Santiago Siri" linkTo="primavera" name="Name LastName" position="Founder" company="Company"/>
+        <Speaker photo="Raine Revere" linkTo="raine" name="Raine Revere" position="Co-founder" company="Maiden"/>
+        <Speaker photo="Mario Laul" linkTo="primavera" name="Name LastName" position="Founder" company="Company"/>
       </Container>
       <Container>
           <Button>More speakers coming soon</Button>

@@ -20,6 +20,7 @@ const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 40px;
   a {
     color: #63B1F1;   
     font-size: 19px;  
@@ -44,13 +45,13 @@ const Speakers = () => (
       <SpeakersBox>
         <div className="h1box"><h1>Speakers</h1></div>
         <Container>
-          <Speaker photo="Trent-McConaghy" name="Trent-McConaghy" position="Founder" company="Company"
+          <Speaker photo="Trent-McConaghy" name="Trent-McConaghy" position="Co-founder" company="BigchainDB"
             bio="Trent McConaghy did AI research for two decades, including machine creativity and 
             AI to help drive Moore's Law, via two startups (both acquired) and a PhD. Now he 
             focuses on AI * blockchain, via Ocean to democratize AI data, and BigchainDB 
             decentralized database. His hobbies include Token Engineering and advising governments 
             on AI * blockchain"/>
-          <Speaker photo="Shira-Frank" name="Shira-Frank" position="Founder" company="Company"
+          <Speaker photo="Shira-Frank" name="Shira-Frank" position="Co-founder" company="Maiden"
             bio="Shira brings over 15 years of work in politics, social change, women’s philanthropy, 
             and fundraising with her to the Blockchain and Fin-Tech industries. Shira spent seven years 
             as a Deputy Director for J Street working to transform the way Congress and the Executive 
@@ -65,14 +66,19 @@ const Speakers = () => (
             Published 'Hacktivismo' in 2015 with Random House. Member of the World Economic Forum 
             since 2012. Awarded by MIT Technology Review and Singularity University. Co-founded 
             Argentine Game Developers Association in 2002."/>
-          <Speaker photo="Raine-Revere" name="Raine Revere" position="Engineer and educator" company="Ethereum community"
+          <Speaker photo="Raine-Revere" linkTo="raine" name="Raine Revere" position="Co-foundeer" company="Maiden"
             bio="Raine Revere is an engineer and educator in the Ethereum community who has spoken 
             at blockchain events around the world. Raine is the Lead Architect of ShapeShift Prism 
             and is the co-founder of Maiden, a company that delivers socially-aware blockchain 
             education, cultural & leadership development, and diversity-powered blockchain 
             consulting. As a therapist, teacher, and cryptocurrency engineer, Raine has the unique 
             capacity to engage deeply with both the technical and social aspects of technology."/>
-          <Speaker photo="Mike-Goldin" name="Mike Goldin" position="Founder" company="Company"
+          <Speaker photo="Primavera De Filippi" linkTo="primavera" name="Primavera De Filippi" position="Postdoctoral researcher" company="National Center of Scientific Research (CNRS)"
+            bio="Primavera De Filippi is a permanent researcher at the National Center of Scientific 
+            Research (CNRS) in Paris, a faculty associate at the Berkman-Klein Center for Internet & 
+            Society at Harvard University, and a Visiting Fellow at the Robert Schuman Centre for 
+            Advanced Studies at the European University Institute."/>
+          <Speaker photo="Mike-Goldin" name="Mike Goldin" position="Lead Engineer" company="Cryptosystems Productization Lab, ConsenSys"
             bio="Mike is the author of “token-curated registries 1.0”, a widely-cited paper which 
             originally formalized the basic design and properties of such cryptosystems. He launched 
             adChain and implemented its token sale, which sold out in one block. He has overseen and 
@@ -94,6 +100,16 @@ const Speakers = () => (
             the Estonian Academy of Arts in Tallinn, and is looking to combine the study of technology governance 
             with a sociologically informed perspective on emerging forms of decentralized economic 
             and social coordination."/>
+          <Speaker photo="Maria-Paula-Fernandez" name="María Paula Fernández" position="Communications Lead" company="Golem Project"
+            bio="Maria leads communications in Golem Projects, helping their devs bridge the gap between 
+            users and code. She also helps the Ethereum Community Fund in their communications strategy, 
+            and some developer reachout for the grants. This year, she organized ETHBerlin, a 900-people 
+            hackathon that delivered amazing projects, and was 80% run on dApps, including using the Aragon 
+            Survey for voting on one of their Bounties."/>
+          <Speaker photo="Martin-Koppelmann" name="Martin Köppelmann" position="CEO and Co-founder" company="Gnosis"
+            bio="Martin Köppelmann has been an entrepreneur in the blockchain space for more than 5 years. 
+            He is the CEO and co-founder of Gnosis, the decentralized Gnosis prediction market - one of the 
+            first decentralized application that went live on Ethereum in 2015 in an early verison."/>
         </Container>
         <TextContainer id="speakers-form">
             <h2>Want to Speak at AraCon 2019?</h2>
