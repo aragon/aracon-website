@@ -154,7 +154,15 @@ const MapContainer = withScriptjs(withGoogleMap((props) =>
   <GoogleMap
     defaultZoom={15}
     defaultCenter={{ lat: 52.5248058, lng: 13.3459398 }}
-    options={{ styles: MapStyles }}
+    options={{ 
+      styles: MapStyles,
+      mapTypeControl: false,
+      streetViewControl: false,
+      zoomControl: true,
+      zoomControlOptions: {
+        position: google.maps.ControlPosition.LEFT_TOP
+      },
+    }}
   >
     <Marker position={{ lat: 52.5248058, lng: 13.3459398 }} icon={Locate}/>
   </GoogleMap>

@@ -128,8 +128,8 @@ const Speakers = () => (
     </Section>
     <Triangle/>
     <Section className="dark">
-      <TextContainer id="speakers-form">
-        <div className="h1box"><h1>Speakers application</h1></div>
+      <TextContainer>
+        <div className="h1box" id="speakers-form"><h1>Speakers application</h1></div>
         <p>If you would like to do a workshop or a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - please register here</p>
       </TextContainer>
       <Forms type="speakers" src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd_2Bnex51b1b2jCZWBQtfTcaOhfvbt_2Fq8nWc81qWg3efVA.js"/>
