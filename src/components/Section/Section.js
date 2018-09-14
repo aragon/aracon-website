@@ -46,7 +46,7 @@ const StyledContent = styled.div`
       text-decoration: none;
     }
   }
-  button a {
+  button a, a {
     text-decoration: none;
   }
   .strong {

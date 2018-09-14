@@ -31,10 +31,7 @@ const TextBox = styled.div`
   width: 100%;
   padding: 50px;
   ${medium('width: 50%; padding: 50px 50px 50px 8.5%;')};
-  ${large('width: 40%; padding: 50px 50px 50px 8.5%;')};
-  a {
-    text-decoration: none;
-  } 
+  ${large('width: 40%; padding: 50px 50px 50px 8.5%;')}; 
   p, h2 {
     color: white;
     text-align: left;
@@ -67,7 +64,7 @@ const Map = () => (
         Tiergarten park and other city landmarks are within walking distance.</p>
         <br/>
         <Button mode="strong">
-          <Link to="/travelinformation" target="_blank">How to get there?</Link>
+          <Link to="/travelinformation">How to get there?</Link>
         </Button>
       </TextBox>
       <MapBox>

@@ -1,6 +1,6 @@
 import React from 'react'
 import VenueSection from '../Section/Section'
-import { Text } from '@aragon/ui'
+import { Text, SafeLink } from '@aragon/ui'
 import styled from 'styled-components'
 import VenueImg from './assets/venue.jpg'
 
@@ -22,7 +22,9 @@ const Venue = () => (
   <VenueSection>
     <VenueBox>
       <div className="h1box"><h1>Venue</h1></div>
-      <img src={VenueImg} alt="" />
+      <SafeLink href="https://www.bolle-meierei.com/en/bollefestsaele/" target="_blank">
+        <img src={VenueImg} alt="" />
+      </SafeLink>
     </VenueBox>
   </VenueSection>
 );
