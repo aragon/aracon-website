@@ -15,7 +15,7 @@ const Box = styled.div`
   text-align: center;
   z-index: 1;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   flex-direction: column;
   ${large('flex-direction: row;')};
@@ -26,7 +26,7 @@ const FooterLinks = styled.div`
   margin: auto;
   margin-top: 20px;
   ${medium('flex-direction: row;')};
-  ${large('margin-top: 0;')};
+  ${large('margin: 0;')};
   a {
     margin: 0 10px;
     opacity: 0.38;
@@ -44,6 +44,8 @@ const FooterImg = styled.img`
   max-width: 100%;
   width: 360px;
   margin: auto;
+  ${large('margin-left: 0;')};
+  
 `;
 
 const Footer = ({ ...props }) => (

@@ -6,8 +6,8 @@ import Navbar from './Navbar'
 import Footer from './Footer.js'
 
 const Content = styled.div`
-  min-height: 200px;
   padding-top: 64px
+  min-height: calc(100vh - 116px);
 `;
 
 const menuItems = [
