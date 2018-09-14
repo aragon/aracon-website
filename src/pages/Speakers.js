@@ -41,6 +41,17 @@ const TextContainer = styled.div`
   ${large('position: absolute; width: 41%; margin: inherit')};
 `;
 
+const Triangle = styled.div`
+ clip-path: polygon(
+    0 6vw, /* left top */
+    100% 0, /* right top */ 
+    100% 100%, /* right bottom */
+    0 100% /* left bottom */
+  );
+  height: 6vw;
+  background: #18181A;
+`;
+
 const Speakers = () => (
   <Page path="/speakers">
     <Section>
@@ -115,6 +126,7 @@ const Speakers = () => (
         </Container>
       </SpeakersBox>
     </Section>
+    <Triangle/>
     <Section className="dark">
       <TextContainer id="speakers-form">
         <div className="h1box"><h1>Speakers application</h1></div>
