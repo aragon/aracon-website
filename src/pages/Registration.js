@@ -1,7 +1,7 @@
 import React from 'react'
 import { Page } from '../components'
 import Section from '../components/Section/Section'
-import { Text, SafeLink, theme } from '@aragon/ui'
+import { Text, SafeLink, theme, Button } from '@aragon/ui'
 import styled from 'styled-components'
 
 const Criteria = styled.ul`
@@ -12,7 +12,7 @@ const Criteria = styled.ul`
   line-height: 1.5;
   color: #707070;
 `;
-const Container = styled.ul`
+const Container = styled.div`
   width: 100%;
   padding: 50px 8.5%;
 `;
@@ -37,8 +37,10 @@ const Registration = () => (
           <li>You attended some of our previous events (hosted or supported)</li>
         </Criteria>
         <Text>
-          <p>If you meet one of the criteria above, please email us with the proof at <SafeLink href="mailto:info@aracon.org"> info@aracon.org</SafeLink> and we will send you a registration link.<br/>If you are not a member of the Aragon community yet, we are excited to meet you soon. To get your ticket, please register below!</p>
+          <p>If you meet one of the criteria above, please email us with the proof at <SafeLink href="mailto:info@aracon.org"> info@aracon.org</SafeLink> and we will send you a registration link.<br/>If you are not a member of the Aragon community yet, we are excited to meet you soon. To get your ticket, please click below!</p>
         </Text>
+        <br/>
+        <Button mode="strong"><SafeLink href="https://ti.to/aragon/aracon-2019" target="_blank">Get my ticket</SafeLink></Button>
       </Container>
     </Section> 
   </Page>
