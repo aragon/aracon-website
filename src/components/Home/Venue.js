@@ -2,7 +2,7 @@ import React from 'react'
 import VenueSection from '../Section/Section'
 import { Text } from '@aragon/ui'
 import styled from 'styled-components'
-import VenueImg from './assets/venue.png'
+import VenueImg from './assets/venue.jpg'
 
 const VenueBox = styled.div`
   width: 100%;
