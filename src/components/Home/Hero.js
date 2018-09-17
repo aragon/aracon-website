@@ -3,7 +3,7 @@ import HeroSection from '../Section/Section'
 import { Text, breakpoint } from '@aragon/ui'
 import styled from 'styled-components'
 import heroImage from './assets/hero-background.png'
-import araconLogo from './assets/logo.png'
+import araconLogo from './assets/logo.svg'
 
 const medium = css => breakpoint('medium', css);
 const large = css => breakpoint('large', css);
@@ -34,19 +34,18 @@ const HeroBox = styled.div`
   h2.sides {
     ${medium('position: absolute; margin: inherit;')};
     position: inherit;
-    top: 396px;
+    top: 64vh;
     letter-spacing: 1.6px;
     opacity: 0.4;
     margin-bottom: 0;
   }
   h2.right {
-    right: -4%;
+    right: -66px;
     ${medium('transform: rotate(90deg); margin-top: inherit;')};
     transform: rotate(0deg);
-    margin-top: 31%;
   }
   h2.left {
-    left: -4%;
+    left: -66px;
     ${medium('transform: rotate(-90deg);')};
     transform: rotate(0deg);
   }
@@ -65,8 +64,8 @@ const HeroTriangle = styled.div`
 `;
 
 const Logo = styled.img`
-  margin-top: 92px;
-  ${medium('margin-top: 17%;')};
+  margin-top: 175px;
+  ${medium('margin-top: 34vh;')};
   max-width: 100%;
 `;
 
