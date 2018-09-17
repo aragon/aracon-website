@@ -123,6 +123,39 @@ const Speakers = () => (
             bio="Martin Köppelmann has been an entrepreneur in the blockchain space for more than 5 years. 
             He is the CEO and co-founder of Gnosis, the decentralized Gnosis prediction market - one of the 
             first decentralized application that went live on Ethereum in 2015 in an early verison."/>
+          <Speaker photo="Luis Cuende" name="Luis Cuende" linkTo="luis" position="CEO" company="Aragon One"
+            bio="Luis is the CEO of Aragon One, one of the teams working on the Aragon project. Luis has been 
+            into crypto since 2011, and loves how decentralized organizations can solve the world’s worst 
+            problems. Luis has been awarded as the best underage European programmer in 2011, is a Forbes 30 
+            Under 30, a MIT TR35 and was an Advisor to the VP of the European Commission. He cofounded the 
+            blockchain startup Stampery. Prior to founding startups, he created the world's first Linux 
+            distribution with facelogin."/>
+          <Speaker photo="Lane Rettig" name="Lane Rettig" position="Independent Core Developer" company="Ewasm"
+            bio="Lane Rettig is an independent Ethereum core developer and a member of the Ewasm team, where he 
+            is helping build the execution engine for Ethereum 2.0 (the Shasper roadmap). He is also the founder 
+            of Crypto NYC, a Manhattan-based, blockchain-focused community and coworking space dedicated to making 
+            Web3 technology accessible to all humans."/>
+          <Speaker photo="Jutta Steiner" name="Jutta Steiner" linkTo="jutta" position="Co-Founder and CEO" company="Parity Technologies"
+            bio="Dr Jutta Steiner is the co-founder and CEO of Parity Technologies, a blockchain technology company best 
+            known for Parity Ethereum, the most advanced Ethereum client. Previously, Jutta served as Chief of Security 
+            for the Ethereum Foundation and pioneered blockchain use in supply chains as Project Provenance co-founder."/>
+          <Speaker photo="Joe Urgo" name="Joe Urgo" linkTo="joe" position="Co-Founder" company="District0x"
+            bio="Joe is a co-founder of district0x, a network of decentralized marketplaces and CEO at Sourcerers, 
+            a consultancy firm supporting leading Ethereum-based projects. Joe previously spent three years 
+            as an Operations Manager at Coinbase. Prior to Coinbase, he was a derivatives trader for Three 
+            Arrows Capital, an international hedge fund based in Singapore. Joe serves as an advisor at Status, 
+            Keep, SpankChain, Bloom, Witnet, Abacus, Access Network, LiquidX, Fabric Ventures, Republic, and 
+            Common Interest."/>
+          <Speaker photo="Griff Green" name="Griff Green" linkTo="griff" position="Community manager" company="TheDAO"
+            bio="Community manager for TheDAO, led the cleanup effort for TheDAO Hack from every angle, co-founder of 
+            the White Hat Group and Giveth and leading the creation of the Aragon DAC, as well as advising DAppNode, 
+            0KIMS (iden3), ETHSignals, Open Source Blockchain Explorers NOW! and many other groups within the Ethereum 
+            Community."/>
+          <Speaker photo="Aron Fischer" name="Aron Fischer" position="Governance Researcher" company="Colony"
+            bio="Aron Fischer received his PhD in mathematics from the City University of New York in 2015. He is working 
+            in the research arm of Colony: a platform for open organisations which seeks to enable new forms of 
+            decentralised organisations. The work involves a careful balancing of what is desirable 
+            in terms of governance and what is possible given the technical limitations of the Ethereum blockchain."/>
         </Container>
       </SpeakersBox>
     </Section>
