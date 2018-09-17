@@ -15,6 +15,7 @@ const VenueBox = styled.div`
   }
   img {
     width: 100%;
+    margin-bottom: -1px;
   }
 `;
 
