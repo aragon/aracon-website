@@ -1,6 +1,5 @@
 import React from 'react'
 import Section from '../Section/Section'
-import Video from './Video'
 import { Text } from '@aragon/ui'
 import styled from 'styled-components'
 
@@ -16,6 +15,13 @@ const Container = styled.div`
   }
   .h1box {
     justify-content: center;
+  }
+  iframe {
+    max-width: 100%;
+    border: transparent;
+    height: auto;
+    width: 740px;
+    height: 269px;
   }
 `;
 
@@ -35,7 +41,7 @@ const About = () => (
         <p>We invite everyone to come be a part of this growing movement and learn more on how we can #buidl this future together!</p>
       </Text>
       <br/>
-      <Video/>
+      <iframe src="https://www.youtube.com/embed/AqjIWmiAidw"></iframe>
     </Container>
   </Section>
 );
