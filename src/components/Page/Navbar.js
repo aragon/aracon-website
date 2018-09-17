@@ -16,10 +16,10 @@ const AraconNav = styled.div`
   padding: 0 20px;
   position: fixed; 
   z-index: 5;
-  &.navbar-home {
-    background-color: transparent;
-  }
 
+  &.scrolled{
+    background:red;
+  }
   &.navbar-home.navbar-animation { 
     animation-name: navbar-animation;
     animation-duration: 1s;
@@ -34,13 +34,15 @@ const AraconNav = styled.div`
 
 
   @keyframes navbar-animation {
-    from {background-color: transparent;}
     to {background-color: #18181A;}
+    from {background-color: transparent;}
+    
   }
 
   @keyframes navbar-inverse-animation {
-    from {background-color: #18181A;}
     to {background-color: transparent;}
+    from {background-color: #18181A;}
+    
   }
 `;
 
@@ -68,16 +70,24 @@ const renderMenuItemLink = ({ url, children }) =>
 
 class Navbar extends React.Component {
 
-  componentDidMount() {
-    document.onscroll = () => {
-      if (document.documentElement.scrollTop > 150) {
-        document.getElementById('navbar').classList.remove('navbar-inverse-animation');
-        document.getElementById('navbar').classList.add('navbar-animation');
-      } else {
-        document.getElementById('navbar').classList.add('navbar-inverse-animation');
-        document.getElementById('navbar').classList.remove('navbar-animation');  
-      }
+  scrollingAnimation = () => {
+    let navbarElement = document.getElementById('navbar');
+    
+    if(document.documentElement.scrollTop > 150 || document.body.scrollTop > 150) {
+      navbarElement.classList.add('navbar-animation');
+      navbarElement.classList.remove('navbar-inverse-animation');
+    } else {
+      navbarElement.classList.remove('navbar-animation');
+      navbarElement.classList.add('navbar-inverse-animation');
     }
+  }
+
+  componentDidMount() {
+    this.scrollingAnimation();
+    let self = this;
+    window.addEventListener('scroll', function() {
+      self.scrollingAnimation();
+    });
   }
 
   render() {

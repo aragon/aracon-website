@@ -30,6 +30,7 @@ const Container = styled.div`
 const TextBox = styled.div`
   width: 100%;
   padding: 50px;
+  text-align: left;
   ${medium('width: 50%; padding: 50px 50px 50px 8.5%;')};
   ${large('width: 40%; padding: 50px 50px 50px 8.5%;')}; 
   p, h2 {
@@ -49,7 +50,7 @@ const MapBox = styled.div`
 `
 
 const Map = () => (
-  <Section>
+  <Section className="white">
     <Container>
       <TextBox>
         <SafeLink href="https://www.bolle-meierei.com/en/bollefestsaele/" target="_blank">

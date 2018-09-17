@@ -14,6 +14,9 @@ const Content = styled.div`
   .light {
     background: #fafdfd;
   }
+  .white {
+    background: white;
+  }
 `;
 
 const menuItems = [
