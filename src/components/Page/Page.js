@@ -6,8 +6,10 @@ import Navbar from './Navbar'
 import Footer from './Footer.js'
 
 const Content = styled.div`
-  padding-top: 64px
-  min-height: calc(100vh - 116px);
+  padding-top: 64px;
+  section {
+    min-height: calc(100vh - 116px)!important;
+  }
   .dark {
     background: #18181A;
   }

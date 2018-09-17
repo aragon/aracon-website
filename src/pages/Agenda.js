@@ -21,6 +21,7 @@ const Container = styled.div`
     font-size: 17px;
     font-weight: 700;
     color: #000000;
+    padding: 0;
   }
   .first-button {
     border-radius: 3px 0 0 0;
@@ -37,22 +38,27 @@ class Agenda extends React.Component {
     const { active } = this.state;
     return (
       <Page path="/agenda">
-        <Section>
+        <Section className="dark">
           <Container>
             <Text><div className="h1box"><h1>Agenda</h1></div></Text>
-            <Button className="first-button" 
-                    mode={ active === 'dayOne' ? 'normal' : 'secondary' }
-                    onClick={() => this.setState({ active: 'dayOne' })}
-            >
-              Tuesday Jan 29
-            </Button>
-            <Button className="second-button" 
-                    mode={ active !== 'dayOne' ? 'normal' : 'secondary' }
-                    onClick={() => this.setState({ active: 'dayTwo' })}
-            >
-              Wednesday Jan 30
-            </Button>
-            { active === 'dayOne' ? <DayOne/> : <DayTwo/> }
+            {/* 
+              Hiding agenda till we have the schedule
+              <Button className="first-button" 
+                      mode={ active === 'dayOne' ? 'normal' : 'secondary' }
+                      onClick={() => this.setState({ active: 'dayOne' })}
+              >
+                Tuesday Jan 29
+              </Button>
+              <Button className="second-button" 
+                      mode={ active !== 'dayOne' ? 'normal' : 'secondary' }
+                      onClick={() => this.setState({ active: 'dayTwo' })}
+              >
+                Wednesday Jan 30
+              </Button>
+              { active === 'dayOne' ? <DayOne/> : <DayTwo/> }
+              
+           */}
+            <p>The full agenda of AraCon is currently being finalised. Please check back for updates soon.</p>
           </Container>
         </Section>
       </Page>
