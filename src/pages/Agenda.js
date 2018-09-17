@@ -38,7 +38,7 @@ class Agenda extends React.Component {
     const { active } = this.state;
     return (
       <Page path="/agenda">
-        <Section className="dark">
+        <Section className="dark all-page">
           <Container>
             <Text><div className="h1box"><h1>Agenda</h1></div></Text>
             {/* 

@@ -7,7 +7,9 @@ import Footer from './Footer.js'
 
 const Content = styled.div`
   padding-top: 64px;
-  section {
+  min-height: calc(100vh - 116px)!important;
+  
+  section.all-page {
     min-height: calc(100vh - 116px)!important;
   }
   .dark {
