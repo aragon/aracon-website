@@ -43,15 +43,14 @@ const Speakers = () => (
     <SpeakersBox>
       <div className="h1box"><h1>Speakers</h1></div>
       <Container>
-        <Speaker photo="Mike Goldin" name="Name LastName" position="Founder" company="Company"/>
+        <Speaker photo="Luis Cuende" linkTo="luis" name="Luis Cuende" position="CEO" company="Aragon One"/>
         <Speaker photo="Primavera De Filippi" linkTo="primavera" name="Primavera De Filippi" position="Postdoctoral researcher" company="CNRS"/>
         <Speaker photo="Martin Koppelmann" linkTo="martin" name="Martin Köppelmann" position="Co-Founder" company="Gnosis"/>
         <Speaker photo="Jutta Steiner" linkTo="jutta" name="Jutta Steiner" position="Co-Founder" company="Parity Technologies"/>
+        <Speaker photo="Mike Goldin" name="Name LastName" position="Founder" company="Company"/>
         <Speaker photo="Joe Urgo" linkTo="joe" name="Joe Urgo" position="Co-Founder" company="District0x"/>
-        <Speaker photo="Luis Cuende" linkTo="luis" name="Luis Cuende" position="CEO" company="Aragon One"/>
         <Speaker photo="Raine Revere" linkTo="raine" name="Raine Revere" position="Co-founder" company="Maiden"/>
-        <Speaker photo="Mario Laul" linkTo="primavera" name="Name LastName" position="Founder" company="Company"/>
-      </Container>
+        <Speaker photo="Griff Green" linkTo="griff" name="Griff Green" position="Community manager" company="TheDAO"/>   </Container>
       <Container>
           <Button>More speakers coming soon</Button>
           {/* 
