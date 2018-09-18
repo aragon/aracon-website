@@ -50,7 +50,8 @@ const Speakers = () => (
         <Speaker photo="Mike Goldin" name="Name LastName" position="Founder" company="Company"/>
         <Speaker photo="Joe Urgo" linkTo="joe" name="Joe Urgo" position="Co-Founder" company="District0x"/>
         <Speaker photo="Raine Revere" linkTo="raine" name="Raine Revere" position="Co-founder" company="Maiden"/>
-        <Speaker photo="Griff Green" linkTo="griff" name="Griff Green" position="Community manager" company="TheDAO"/>   </Container>
+        <Speaker photo="Griff Green" linkTo="griff" name="Griff Green" position="Co-founder" company="Giveth & Aragon DAC"/>
+      </Container>
       <Container>
           <Button>More speakers coming soon</Button>
           {/* 

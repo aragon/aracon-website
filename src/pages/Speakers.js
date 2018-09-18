@@ -146,7 +146,7 @@ const Speakers = () => (
             Arrows Capital, an international hedge fund based in Singapore. Joe serves as an advisor at Status, 
             Keep, SpankChain, Bloom, Witnet, Abacus, Access Network, LiquidX, Fabric Ventures, Republic, and 
             Common Interest."/>
-          <Speaker photo="Griff Green" name="Griff Green" linkTo="griff" position="Community manager" company="TheDAO"
+          <Speaker photo="Griff Green" name="Griff Green" linkTo="griff" position="Co-founder" company="Giveth & Aragon DAC"
             bio="Community manager for TheDAO, led the cleanup effort for TheDAO Hack from every angle, co-founder of 
             the White Hat Group and Giveth and leading the creation of the Aragon DAC, as well as advising DAppNode, 
             0KIMS (iden3), ETHSignals, Open Source Blockchain Explorers NOW! and many other groups within the Ethereum 

@@ -1,5 +1,5 @@
 import React from 'react'
-import MapSection from '../Section/Section'
+import Section from '../Section/Section'
 import MapContainer from './MapContainer'
 import styled from 'styled-components'
 import { Text, breakpoint, SafeLink } from '@aragon/ui'
@@ -64,8 +64,7 @@ const Container = styled.div`
 `
 
 const Map = () => (
-  <MapSection>
-    
+  <Section className="white">  
     <MapBox>
       <Text>
         <div className="h1box">
@@ -104,7 +103,7 @@ const Map = () => (
         </div>
       </Container>
     </MapBox>
-  </MapSection>
+  </Section>
 );
 
 export default Map;
