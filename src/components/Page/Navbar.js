@@ -96,7 +96,7 @@ class Navbar extends React.Component {
       <AraconNav className={path === '/' ? 'navbar-home' : ''} id="navbar">
         <Link to="/"><img src={aragonLogo}/></Link>
         <End>
-          <BreakPoint from="medium">
+          <BreakPoint from="large">
             <ul>
               {menuItems.map((item, i) => (
                 <MenuItem
@@ -110,7 +110,7 @@ class Navbar extends React.Component {
             </ul>
           </BreakPoint>
           <Button mode="strong">LIVE</Button>
-          <BreakPoint to="medium">
+          <BreakPoint to="large">
             <MenuPanel items={menuItems} renderLink={renderMenuItemLink} />
           </BreakPoint>
         </End>

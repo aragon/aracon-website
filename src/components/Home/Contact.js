@@ -2,6 +2,7 @@ import React from 'react'
 import Section from '../Section/Section'
 import { Text, Button, SafeLink } from '@aragon/ui'
 import styled from 'styled-components'
+import { Link } from 'react-static'
 
 const Container = styled.div`
   width: 100%;
@@ -26,7 +27,7 @@ const Contact = () => (
       </Text>
       <br/>
       <Button mode="strong">
-        <SafeLink href="mailto:info@aracon.com" target="_blank">Contact us</SafeLink>
+        <Link to="/contact">Contact us</Link>
       </Button>
     </Container>
   </Section>

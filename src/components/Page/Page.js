@@ -28,6 +28,7 @@ const menuItems = [
   ['/agenda', 'Agenda'],
   ['/registration', 'Register'],
   ['/volunteer', 'Volunteer'],
+  ['/contact', 'Contact'],
   ['/travelinformation', 'Travel Information'],
   ['/faq', 'FAQ'],
 ];

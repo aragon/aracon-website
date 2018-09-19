@@ -9,6 +9,7 @@ const Content = styled.div`
   text-align: center;
   justify-content: center;
   ${large('justify-content: flex-end;')};
+  padding-top: 40px;
 `;
 
 export default class Forms extends React.Component {
