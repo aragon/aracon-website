@@ -16,7 +16,7 @@ const TextBox = styled.div`
   h6 {
     text-transform: uppercase;
     color: #45494D; 
-    font-size: 14px;  
+    font-size: 13px;  
     font-weight: 600; 
     line-height: 22px;
   }
