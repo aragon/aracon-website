@@ -25,6 +25,7 @@ const Volunteer = () => (
           <h3>Volunteering at AraCon is a surefire way of making new connections and learning new skills, as well as experiencing the magic of Aragon’s flagship conference from an insider’s perspective.</h3>
         </Text>
         <Text>
+          <p>AraCon is looking for volunteers who are interested in getting some behind the scenes experience putting on one of the most iconic crypto events of the year. You could be assigned to do a number of various tasks that will ensure our guests and presenters have an exceptional experience.</p><br />
           <p>In exchange for your help, we’ll provide you with a free ticket to attend the event.</p>
         </Text>
         <br/>
