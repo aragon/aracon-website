@@ -113,12 +113,6 @@ const Speakers = () => (
             the Estonian Academy of Arts in Tallinn, and is looking to combine the study of technology governance 
             with a sociologically informed perspective on emerging forms of decentralized economic 
             and social coordination."/>
-          <Speaker photo="Maria Paula Fernandez" name="María Paula Fernández" position="Communications Lead" company="Golem Project"
-            bio="Maria leads communications in Golem Projects, helping their devs bridge the gap between 
-            users and code. She also helps the Ethereum Community Fund in their communications strategy, 
-            and some developer reachout for the grants. This year, she organized ETHBerlin, a 900-people 
-            hackathon that delivered amazing projects, and was 80% run on dApps, including using the Aragon 
-            Survey for voting on one of their Bounties."/>
           <Speaker photo="Martin Koppelmann" name="Martin Köppelmann" position="CEO and Co-founder" company="Gnosis"
             bio="Martin Köppelmann has been an entrepreneur in the blockchain space for more than 5 years. 
             He is the CEO and co-founder of Gnosis, the decentralized Gnosis prediction market - one of the 
@@ -156,7 +150,7 @@ const Speakers = () => (
             in the research arm of Colony: a platform for open organisations which seeks to enable new forms of 
             decentralised organisations. The work involves a careful balancing of what is desirable 
             in terms of governance and what is possible given the technical limitations of the Ethereum blockchain."/>
-          <Speaker photo="Maria Gomez" name="María Gómez" linkTo="maria" position="Strategy & Operations" company="Aragon One"
+          <Speaker photo="Maria Gomez" name="María Gómez" linkTo="maria" position="Ecosystem Development" company="Aragon One"
             bio="María Gómez is a former corporate lawyer. She worked several years in the M&A and corporate finance 
             practice. Currently she works on ecosystem development for Aragon.one, one of the teams working for the 
             Aragon project. "/>
