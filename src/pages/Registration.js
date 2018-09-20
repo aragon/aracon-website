@@ -43,7 +43,7 @@ const Registration = () => (
           <p><span className="strong">If you are not a member of the Aragon community yet, we are excited to meet you soon. To get your ticket, please register below!</span></p><br />
         </Text>
         <br />
-        <Button mode="strong"><SafeLink href="https://ti.to/aragon/aracon-2019" target="_blank">Get my ticket</SafeLink></Button>
+        <Button mode="strong"><SafeLink href="https://ti.to/aragon/aracon-2019" target="_blank">Register here</SafeLink></Button>
         <Text>
         <p><br />Need financial help attending AraCon?<br />
         We will be announcing a scholarship program in October to provide financial assistance for those in need.<br />
