@@ -9,7 +9,7 @@ import styled from 'styled-components'
 const FaqBox = styled.div`
   width: 100%;
   margin: 0;
-  padding: 50px 8.5%;
+  padding: 80px 8.5%;
   background: white;
   text-align: left;
   h2 {
@@ -20,7 +20,7 @@ const FaqBox = styled.div`
     margin-bottom: 5px;
   }
   p {
-    margin-bottom: 27px;
+    margin-bottom: 30px;
   }
 `;
 const Container = styled.div`
