@@ -27,11 +27,28 @@ const Photo = styled.img`
   overflow: hidden;
 `;
 
+const AbsolutePhoto = styled.img`
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+
+  &:hover {
+    opacity:0;
+  }
+`;
+
 const SpeakerBox = styled.div`
   margin-bottom: 40px;
   border-radius: 6px; 
   background: linear-gradient(184.81deg, #F5F6FB 0%, #FFFFFF 100%); 
   box-shadow: 8px 16px 16px 0 rgba(0,0,0,0.13);
+  position: relative;
 `;
 
 class Speaker extends React.Component {
@@ -45,7 +62,10 @@ class Speaker extends React.Component {
       <SpeakerBox>
       <Card onMouseEnter={() => this.setState({ picture: photo + '.png' })}
           onMouseLeave={() => this.setState({ picture: photo + '_.png' })}>
-        <Link to={'/speakers#' + linkTo}><Photo src={require(`../Speakers/assets/${picture}`)}/></Link>
+        <Link to={'/speakers#' + linkTo}>
+          <Photo src={require(`../Speakers/assets/${this.props.photo + '.png'}`)}/>
+          <AbsolutePhoto src={require(`../Speakers/assets/${this.props.photo + '_.png'}`)}/>
+        </Link>
         <TextBox>
           <Text><p>{name}</p></Text>
           <Text><h6>{position}, {company}</h6></Text>
