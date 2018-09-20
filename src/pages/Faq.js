@@ -9,7 +9,7 @@ import styled from 'styled-components'
 const FaqBox = styled.div`
   width: 100%;
   margin: 0;
-  padding: 50px 8.5%;
+  padding: 80px 8.5%;
   background: white;
   text-align: left;
   h2 {
@@ -20,7 +20,7 @@ const FaqBox = styled.div`
     margin-bottom: 5px;
   }
   p {
-    margin-bottom: 27px;
+    margin-bottom: 30px;
   }
 `;
 const Container = styled.div`
@@ -58,7 +58,7 @@ const Faq = () => (
             is your ticket confirmation and lots of positive vibes</p>} />
           <Question question="Can my company exhibit or speak at AraCon?" answer={<p>There will be no exhibition 
             areas available, except for the projects from Aragon’s <a href="https://github.com/aragon/nest">Nest 
-            program</a>. If you’d like to speak at AraCon, please submit your application 
+            program</a>. If you’d like to speak at AraCon, please submit your application  
             <Link to="/speakers">here</Link></p>} />
           <Question question="How can my company become an official partner of AraCon?" answer={<p>If you wish 
             your company partner with the conference, contribute in any way, or organise a satellite event, 
