@@ -23,26 +23,34 @@ const Registration = () => (
       <Container>
         <Text><div className="h1box"><h1>Registration</h1></div></Text>
         <Text size="xlarge">
-          <h3>Registration for AraCon 2019 will be free of charge for Aragon community members.</h3>
+          <h3>AraCon welcomes people from all backgrounds to join us at the flagship event of the Aragon Project.</h3>
         </Text>
         <Text>
-          <p>All other members must pay the standard admission fee.</p>
-          <p><span className="strong">Not sure whether you’re qualified for a free ticket? These are the criteria:</span></p>
+          <p>We have a portion of tickets initially reserved for Aragon community members, those who have supported and helped us get to this point in time that we can make AraCon a reality.</p><br />
+          <p><span className="strong">Not sure whether you’re qualified for a Community ticket? These are the criteria:</span></p>
         </Text>
         <Criteria>
-          <li>You’re using Aragon to build your own DAO</li>
+          <li>You have contributed to the development of the Aragon Project</li>
           <li>You have contributed to the development of the Aragon project and the Aragon Network</li>
-          <li>You’re actively participating in discussions on our official community chat (aragon.chat)</li>
+          <li>You’re actively participating in discussions on our official community chats (<a href="https://aragon.chat" target="_blank" rel="noopener noreferrer">https://aragon.chat</a> & <a href="https://research.aragon.org" target="_blank" rel="noopener noreferrer">https://research.aragon.org)</a></li>
           <li>You have contributed in the creation of at least one Aragon Monthly issue</li>
-          <li>You attended some of our previous events (hosted or supported)</li>
+          <li>You  organized an Aragon meetup or a similar event for the Aragon community, or presented Aragon at an external event</li>
+          <li>You’re building an Aragon app</li>
+          <li>You’re using Aragon to build your own DAO</li>
         </Criteria>
         <Text>
-          <p>If you meet one of the criteria above, please email us with the proof at <SafeLink href="mailto:info@aracon.org"> info@aracon.org</SafeLink> and we will send you a registration link.<br/>If you are not a member of the Aragon community yet, we are excited to meet you soon. To get your ticket, please click below!</p>
+          <p>If you meet one of the criteria above, please email us with the proof at <SafeLink href="mailto:info@aracon.org">info@aracon.org</SafeLink> and we will send you a registration link for a Community ticket.</p><br />
+          <p><span className="strong">If you are not a member of the Aragon community yet, we are excited to meet you soon. To get your ticket, please register below!</span></p><br />
         </Text>
-        <br/>
-        <Button mode="strong"><SafeLink href="https://ti.to/aragon/aracon-2019" target="_blank">Get my ticket</SafeLink></Button>
-      </Container>
-    </Section> 
+        <br />
+        <Button mode="strong"><SafeLink href="https://ti.to/aragon/aracon-2019" target="_blank">Register here</SafeLink></Button>
+        <Text>
+        <p><br />Need financial help attending AraCon?<br />
+        We will be announcing a scholarship program in October to provide financial assistance for those in need.<br />
+        <a href="https://eepurl.com/dHogTD" target="_blank" rel="noopener noreferrer">Subscribe to the AraCon email newsletter</a> to stay tuned for details</p>
+        </Text>
+    </Container>
+    </Section>
   </Page>
 );
 

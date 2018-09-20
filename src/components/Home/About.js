@@ -12,9 +12,15 @@ const Container = styled.div`
   p {
     max-width: 750px;
     margin: auto;
+    text-align: justify;
   }
-  .h1box {
-    justify-content: center;
+  .about_italic {
+    text-align: center;
+    font-style: italic;
+  }
+  .about_bold {
+    color: #000;
+    font-weight: bold;
   }
   iframe {
     max-width: 100%;
@@ -32,13 +38,13 @@ const About = () => (
         <div className="h1box"><h1>About AraCon</h1></div>
       </Text>
       <Text>
-        <p>#AraConOne brings together people from the Ethereum and Aragon communities keen on the decentralized web. Decentralized governance and DAOs are at the heart of this new Web3.0.  They are key components in moving towards a more fair and open world for everyone. We want to offer a place for the great minds in this space to share their thoughts and visions for this paradigm shift.</p>
+        <p><a href="https://twitter.com/hashtag/AraConOne" target="_blank" rel="noopener noreferrer">#AraConOne</a> will bring together people who embody and wish to shape the Aragon community. Those who are building and supporting the pseudonymous, secure, trustless future — the decentralized web. Decentralized governance and DAOs are at the heart of the new Web 3.0.  They are key components in moving towards a more fair and open world for everyone. We want to offer a place for the great minds in this field to share their thoughts and understanding for this paradigm shift.</p><br />
         <p>By concentrating on a few themes, we can provide much deeper and thorough presentations on these topics.</p>
-​        <p>Discover the emergence of new types of organizations with DAOs. </p>
-        <p>Grasp what makes decentralized governance so relevant to the Web3.0.</p>
-        <p>Understand how Ethereum is making the decentralized web a reality. </p>
-        <p>See how Aragon is bringing about freedom for all with these revolutionary advancements.</p>
-        <p>We invite everyone to come be a part of this growing movement and learn more on how we can #buidl this future together!</p>
+​        <p class="about_italic">Discover the emergence of new types of organizations with DAOs.</p><br />
+        <p class="about_italic">Grasp what makes decentralized governance so relevant to the Web3.0.</p><br />
+        <p class="about_italic">Understand how Ethereum is making the decentralized web a reality.</p><br />
+        <p class="about_italic">See how Aragon is bringing about freedom for all with these revolutionary advancements.</p><br />
+        <p class="about_bold">We invite everyone to come be a part of this growing movement and learn more about how we can build this future together!</p>
       </Text>
       <br/>
       <iframe src="https://www.youtube.com/embed/AqjIWmiAidw"></iframe>
