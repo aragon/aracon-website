@@ -4,7 +4,7 @@ import { Link } from 'react-static'
 import { Button, Text, breakpoint, BreakPoint, } from '@aragon/ui'
 import MenuItem from './MenuItem'
 import MenuPanel from './MenuPanel'
-import aragonLogo from './assets/aragon-logo.svg'
+import logo from './assets/logo.svg'
 
 const AraconNav = styled.div`
   width: 100%;
@@ -32,17 +32,20 @@ const AraconNav = styled.div`
     background-color: transparent;
   }
 
-
   @keyframes navbar-animation {
     to {background-color: #18181A;}
-    from {background-color: transparent;}
-    
+    from {background-color: transparent;}  
   }
 
   @keyframes navbar-inverse-animation {
     to {background-color: transparent;}
     from {background-color: #18181A;}
-    
+  }
+  .brand {
+    display: flex;
+  }
+  .brand img {
+    height: 25px;
   }
 `;
 
@@ -94,7 +97,7 @@ class Navbar extends React.Component {
     const { menuItems, path } = this.props
     return (
       <AraconNav className={path === '/' ? 'navbar-home' : ''} id="navbar">
-        <Link to="/"><img src={aragonLogo}/></Link>
+        <Link to="/" className="brand"><img src={logo}/></Link>
         <End>
           <BreakPoint from="large">
             <ul>
