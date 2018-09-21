@@ -13,7 +13,7 @@
     "deploy": "NODE_ENV=production SITE_ROOT=https://aragon.github.io BASE_PATH=aracon-website npm run build && gh-pages -d dist"
   },
   "dependencies": {
-    "@aragon/ui": "^0.11.0",
+    "@aragon/ui": "^0.18.2",
     "react": "^16.1.1",
     "react-dom": "^16.0.0",
     "react-google-maps": "^9.4.5",
