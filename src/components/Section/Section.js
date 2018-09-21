@@ -13,6 +13,9 @@ const StyledContent = styled.div`
   .h1box {
     display: flex;
   }
+  .h1box.centered {
+    justify-content: center;
+  }
   h1 {
     margin-bottom: 25px;
     font-size: 48px;

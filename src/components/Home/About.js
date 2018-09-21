@@ -35,7 +35,7 @@ const About = () => (
   <Section>
     <Container>
       <Text>
-        <div className="h1box"><h1>About AraCon</h1></div>
+        <div className="h1box centered"><h1>About AraCon</h1></div>
       </Text>
       <Text>
         <p><a href="https://twitter.com/hashtag/AraConOne" target="_blank" rel="noopener noreferrer">#AraConOne</a> will bring together people who embody and wish to shape the Aragon community. Those who are building and supporting the pseudonymous, secure, trustless future — the decentralized web. Decentralized governance and DAOs are at the heart of the new Web 3.0.  They are key components in moving towards a more fair and open world for everyone. We want to offer a place for the great minds in this field to share their thoughts and understanding for this paradigm shift.</p><br />
