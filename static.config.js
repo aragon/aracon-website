@@ -61,9 +61,14 @@ export default {
       getData: () => ({ title: 'Aracon - Travel Information' }),
     },
     {
+      path: '/livestream',
+      component: 'src/pages/NotFound',
+      getData: () => ({ title: 'Aracon - Livestream' }),
+    },
+    {
       is404: true,
       component: 'src/pages/NotFound',
-      getData: () => ({ title: 'Page Not Found' }),
+      getData: () => ({ title: 'Aracon - Page Not Found' }),
     },
   ],
   paths: REACT_STATIC_PATHS,
@@ -141,6 +146,7 @@ export default {
         <Html>
           <Head>
             <meta charSet="UTF-8" />
+            <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
             <title>{title || siteTitle}</title>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/favicon-32.png" sizes="32x32" />
