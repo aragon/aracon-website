@@ -11,6 +11,9 @@ const Criteria = styled.ul`
   font-weight: 400;
   line-height: 1.5;
   color: #707070;
+  a {
+    color: #61B2F0;
+  }
 `;
 const Container = styled.div`
   width: 100%;
@@ -23,16 +26,15 @@ const Registration = () => (
       <Container>
         <Text><div className="h1box"><h1>Registration</h1></div></Text>
         <Text size="xlarge">
-          <h3>AraCon welcomes people from all backgrounds to join us at the flagship event of the Aragon Project.</h3>
+          <h3>AraCon welcomes people from all backgrounds to join us at the flagship event of the Aragon Project. We have a portion of tickets initially reserved for Aragon community members, those who have supported and helped us get to this point in time that we can make AraCon a reality.</h3>
         </Text>
         <Text>
-          <p>We have a portion of tickets initially reserved for Aragon community members, those who have supported and helped us get to this point in time that we can make AraCon a reality.</p><br />
-          <p><span className="strong">Not sure whether you’re qualified for a Community ticket? These are the criteria:</span></p>
+          <p>Not sure whether you’re qualified for a Community ticket? These are the criteria:</p><br />
         </Text>
         <Criteria>
+          <li>You are an Aragon Network Token holder</li>
           <li>You have contributed to the development of the Aragon Project</li>
-          <li>You have contributed to the development of the Aragon project and the Aragon Network</li>
-          <li>You’re actively participating in discussions on our official community chats (<a href="https://aragon.chat" target="_blank" rel="noopener noreferrer">https://aragon.chat</a> & <a href="https://research.aragon.org" target="_blank" rel="noopener noreferrer">https://research.aragon.org)</a></li>
+          <li>You’re actively participating in discussions on our official community chats (<a href="https://aragon.chat" target="_blank" rel="noopener noreferrer">https://aragon.chat</a> & <a href="https://research.aragon.org" target="_blank" rel="noopener noreferrer">https://research.aragon.org</a>)</li>
           <li>You have contributed in the creation of at least one Aragon Monthly issue</li>
           <li>You  organized an Aragon meetup or a similar event for the Aragon community, or presented Aragon at an external event</li>
           <li>You’re building an Aragon app</li>
