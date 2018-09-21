@@ -47,7 +47,7 @@ const About = () => (
         <p className="about_bold">We invite everyone to come be a part of this growing movement and learn more about how we can build this future together!</p>
       </Text>
       <br/>
-      <iframe src="https://www.youtube.com/embed/AqjIWmiAidw"></iframe>
+      <iframe src="https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0" allow="encrypted-media"  frameborder="0"></iframe>
     </Container>
   </Section>
 );
