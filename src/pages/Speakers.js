@@ -15,6 +15,10 @@ const SpeakersBox = styled.div`
   padding: 50px 8.5%;
   background: white;
   text-align: center;
+  .h1box {
+    max-width: 1200px;
+    margin: auto;
+  }
 `;
 
 const Container = styled.div`
@@ -50,6 +54,12 @@ const Triangle = styled.div`
   );
   height: 6vw;
   background: #18181A;
+`;
+const OuterContainer = styled.div`
+  width: 100%;
+  position: relative;
+  max-width: 1540px;
+  margin: auto;
 `;
 
 const Speakers = () => (
@@ -159,10 +169,12 @@ const Speakers = () => (
     </Section>
     <Triangle/>
     <Section className="dark">
-      <TextContainer>
-        <div className="h1box" id="speakers-form"><h1>Speakers application</h1></div>
-        <p>If you would like to do a workshop or a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - please register here</p>
-      </TextContainer>
+      <OuterContainer>
+        <TextContainer>
+          <div className="h1box" id="speakers-form"><h1>Speakers application</h1></div>
+          <p>If you would like to do a workshop or a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - please register here</p>
+        </TextContainer>
+      </OuterContainer>
       <Forms type="speakers" src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd_2Bnex51b1b2jCZWBQtfTcaOhfvbt_2Fq8nWc81qWg3efVA.js"/>
       <div id="speakers"/>
     </Section>

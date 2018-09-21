@@ -7,6 +7,13 @@ import Forms from '../components/Forms/Forms'
 
 const large = css => breakpoint('large', css);
 
+const OuterContainer = styled.div`
+  width: 100%;
+  position: relative;
+  max-width: 1540px;
+  margin: auto;
+`;
+
 const Container = styled.div`
   width: 100%;
   margin: auto;
@@ -18,14 +25,16 @@ const Container = styled.div`
 
 const Contact = () => (
   <Page path="/contact">
-    <Section className="dark">
-      <Container>
-        <Text><div className="h1box"><h1>Contact</h1></div></Text>
-        <Text>
-          <p>If you have any questions, ideas or suggestions, please contact us through the form. Someone from our team will be in touch with you shortly</p>
-        </Text>
-        <br/>
-      </Container>
+    <Section className="dark all-page">
+      <OuterContainer>
+        <Container>
+          <Text><div className="h1box"><h1>Contact</h1></div></Text>
+          <Text>
+            <p>If you have any questions, ideas or suggestions, please contact us through the form. Someone from our team will be in touch with you shortly</p>
+          </Text>
+          <br/>
+        </Container>
+      </OuterContainer>
       <Forms type="speakers" src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd_2BApu8f_2FfoD5Zo9JBww_2F0hZmrCyRG1IqSpVmZcBTG0GC.js"/>
     </Section>
   </Page>

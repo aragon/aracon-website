@@ -14,7 +14,7 @@ const Container = styled.div`
 
 const NotFound = () => (
   <Page>
-  	<Section>
+  	<Section className="all-page">
   		<Container>
 		    <Text>
 		    	<div className="h1box">

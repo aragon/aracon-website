@@ -11,6 +11,10 @@ const SpeakersBox = styled.div`
   padding: 50px 8.5%;
   background: white;
   text-align: center;
+  .h1box {
+    max-width: 1195px;
+    margin: auto;
+  }
 `;
 
 const Container = styled.div`
