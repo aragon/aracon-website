@@ -31,17 +31,6 @@ const Container = styled.div`
   }
 `;
 
-const TextContainer = styled.div`
-  width: 100%;
-  max-width: 695px;
-  margin: 70px auto 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-`;
-
 const Speakers = () => (
   <SpeakersSection>
     <SpeakersBox>
@@ -63,10 +52,6 @@ const Speakers = () => (
             <Button><Link to="/speakers">See more...</Link></Button>
            */}
       </Container>
-      <TextContainer>
-          <h2>Want to Speak at AraCon 2019?</h2>
-          <p>If you would like to do a workshop or a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - You can just <Link to="/speakers#speakers-form">apply here</Link></p>
-      </TextContainer>
     </SpeakersBox>
   </SpeakersSection>
 );

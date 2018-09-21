@@ -11,7 +11,7 @@ const Container = styled.div`
   background: white;
   text-align: center;
   p {
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
   }
 `;
@@ -23,7 +23,8 @@ const Contact = () => (
         <h2>Contact us</h2>
       </Text>
       <Text>
-        <p>If you have any questions, ideas or suggestions, please contact us through the button below. Someone from our team will be in touch with you shortly</p>
+        <p>If you have any questions, ideas or suggestions, please contact us.</p>
+        <p>Someone from our team will be in touch with you shortly.</p>
       </Text>
       <br/>
       <Button mode="strong">
