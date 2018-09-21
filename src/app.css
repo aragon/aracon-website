@@ -23,6 +23,8 @@ body {
   margin-bottom: 50px !important;
   border: 1px solid transparent !important;
   background-color: transparent !important;
+  margin-right: 8.5% !important;
+  max-width: 500px!important;
 }
 
 .smcx-embed>.smcx-iframe-container {

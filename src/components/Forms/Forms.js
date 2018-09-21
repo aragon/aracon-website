@@ -8,7 +8,7 @@ const Content = styled.div`
   display: flex!important;
   text-align: center;
   justify-content: center;
-  ${large('justify-content: flex-end;')};
+  ${large('justify-content: flex-end; max-width: 1440px !important; margin: auto;')};
   padding-top: 40px;
 `;
 
