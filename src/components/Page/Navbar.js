@@ -47,6 +47,9 @@ const AraconNav = styled.div`
   .brand img {
     height: 25px;
   }
+  button a {
+    text-decoration: none;
+  }
 `;
 
 const End = styled.div`
@@ -112,7 +115,7 @@ class Navbar extends React.Component {
               ))}
             </ul>
           </BreakPoint>
-          <Button mode="strong">LIVE</Button>
+          <Button mode="strong"><Link to="/livestream">LIVE</Link></Button>
           <BreakPoint to="large">
             <MenuPanel items={menuItems} renderLink={renderMenuItemLink} />
           </BreakPoint>
