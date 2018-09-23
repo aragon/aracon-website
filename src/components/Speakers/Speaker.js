@@ -65,7 +65,8 @@ const SpeakerBox = styled.div`
   width: 100%;
   min-height: 244px;
   max-width: 350px;
-  ${medium('max-width: 100%;')};
+  margin: auto;
+  ${medium('max-width: 100%; margin: inherit')};
   height: auto;
   .speaker-card {
     text-align: left;

@@ -5,6 +5,7 @@ import Forms from '../components/Forms/Forms'
 import Speaker from '../components/Speakers/Speaker'
 import { Text, breakpoint } from '@aragon/ui'
 import styled from 'styled-components'
+import { Link } from 'react-static'
 
 const medium = css => breakpoint('medium', css);
 const large = css => breakpoint('large', css);
@@ -38,28 +39,30 @@ const Container = styled.div`
 
 const TextContainer = styled.div`
   width: 100%;
-  margin: auto;
   max-width: 695px;
-  padding: 50px 0 50px 8.5%;
-  text-align: left;
-  ${large('position: absolute; width: 41%; margin: inherit')};
-`;
+  margin: 70px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    color: #18181a;
+  }
+  p {
+    font-size: 19px;
+    line-height: 1.42;
+    text-align: center;
+    color: #45494d;
+  }
 
-const Triangle = styled.div`
- clip-path: polygon(
-    0 6vw, /* left top */
-    100% 0, /* right top */ 
-    100% 100%, /* right bottom */
-    0 100% /* left bottom */
-  );
-  height: 6vw;
-  background: #18181A;
-`;
-const OuterContainer = styled.div`
-  width: 100%;
-  position: relative;
-  max-width: 1540px;
-  margin: auto;
+  p a {
+    color: #61b2f0;
+    text-decoration: none;
+  }
 `;
 
 const Speakers = () => (
@@ -167,17 +170,10 @@ const Speakers = () => (
         </Container>
       </SpeakersBox>
     </Section>
-    <Triangle/>
-    <Section className="dark">
-      <OuterContainer>
-        <TextContainer>
-          <div className="h1box" id="speakers-form"><h1>Speakers application</h1></div>
-          <p>If you would like to do a workshop or a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - please register here</p>
-        </TextContainer>
-      </OuterContainer>
-      <Forms type="speakers" src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd_2Bnex51b1b2jCZWBQtfTcaOhfvbt_2Fq8nWc81qWg3efVA.js"/>
-      <div id="speakers"/>
-    </Section>
+    <TextContainer>
+      <h2>Want to Speak at AraCon 2019?</h2>
+      <p>If you would like to join a panel or do a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - please <Link to="/speakersapplication">apply here</Link> before November 10th.</p>
+    </TextContainer>
   </Page>
 );
 

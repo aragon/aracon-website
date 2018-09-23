@@ -31,6 +31,11 @@ export default {
       getData: () => ({ title: 'Aracon - Speakers' }),
     },
     {
+      path: '/speakersapplication',
+      component: 'src/pages/SpeakersApplication',
+      getData: () => ({ title: 'Aracon - Speakers Application' }),
+    },
+    {
       path: '/agenda',
       component: 'src/pages/Agenda',
       getData: () => ({ title: 'Aracon - Agenda' }),
