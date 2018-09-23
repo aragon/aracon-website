@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { theme } from '@aragon/ui'
+import { theme, breakpoint } from '@aragon/ui'
+const medium = css => breakpoint('medium', css);
 
 const StyledContent = styled.div`
   width: 100vw;
@@ -15,6 +16,11 @@ const StyledContent = styled.div`
   }
   .h1box.centered {
     justify-content: center;
+  }
+  .h1box.xs-centered {
+    justify-content: center;
+    ${medium('justify-content: flex-start;')};
+
   }
   h1 {
     margin-bottom: 25px;

@@ -14,26 +14,15 @@ const MapBox = styled.div`
   width: 100%;
   margin: 0;
   padding: 50px 8.5%;
-  background: #1d1d2a;
   text-align: center;
-  background-image: url(${backgroundImage});
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-bottom: calc(50px + 6vw);
-  clip-path: polygon(
-    0 0, /* left top */
-    100% 0, /* right top */ 
-    100% calc(100% - 6vw), /* right bottom */
-    0 100% /* left bottom */
-  );
+  background: white;
+  padding-bottom: 0;
+
   .text {
     width: 100%;
-    padding-right: 0;
-    ${medium('width: 50%; padding-right: 40px;')};
-    ${large('width: 40%; padding-right: 40px;')};
+    padding-left: 0;
+    ${medium('width: 50%; padding-left: 40px;')};
+    ${large('width: 40%; padding-left: 40px;')};
   }
   .map {
     width: 100%;
@@ -41,14 +30,23 @@ const MapBox = styled.div`
     ${large('width: 60%;')};
   }
   p, h2 {
-    color: white;
-    text-align: left;
+    text-align: center;
+    ${medium('text-align: left;')};
     margin-bottom: 20px;
     &.strong {
       font-weight: 700;
     }
     img {
       padding-right: 15px;
+    }
+  }
+  p.strong {
+    display: flex;
+    flex-direction: column;
+    ${medium('display: inherit;')};
+    img {
+      padding-bottom: 6px;
+      ${medium('padding-bottom: 0;')};
     }
   }
 `
@@ -66,20 +64,22 @@ const Container = styled.div`
 const Map = () => (
   <Section className="white">  
     <MapBox>
-      <Text>
-        <div className="h1box">
-          <h1>Travel</h1>
-        </div>
-      </Text>
       <Container>
+        <div className="map">
+          <MapContainer
+            isMarkerShown
+            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_3Zo-VU8tXwUOgPJCQkGqgY7-eWQXzic&v=3.exp&libraries=geometry,drawing,places"
+            loadingElement={<div style={{ height: `100%` }} />}
+            containerElement={<div style={{ height: `581px`, width: `100%` }} />}
+            mapElement={<div style={{ height: `100%` }} />}
+          />
+        </div>
         <div className="text">
-          <SafeLink href="https://www.bolle-meierei.com/en/bollefestsaele/" target="_blank">
-            <h2>BOLLE Festsale</h2>
-          </SafeLink>
-          <SafeLink href="https://goo.gl/maps/m4ZDRLs9oDR2" target="_blank">
-            <p className="strong">Alt-Moabit 98, 10559 Berlin, Germany</p>
-          </SafeLink>
-          <p>The conference venue is located in the Spree-Bogen area in the heart of Berlin. It is easily accessible (by public transport or car) from central Berlin or Tegel airport.</p>
+          <Text>
+            <div className="h1box xs-centered">
+              <h1>Getting there</h1>
+            </div>
+          </Text>
           <p className="strong">
             <img src={Bus}/>
             Public transport
@@ -92,15 +92,7 @@ const Map = () => (
           </p>
           <p>Tegel Airport is 20min away by TXL direct bus.</p>
         </div>
-        <div className="map">
-          <MapContainer
-            isMarkerShown
-            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_3Zo-VU8tXwUOgPJCQkGqgY7-eWQXzic&v=3.exp&libraries=geometry,drawing,places"
-            loadingElement={<div style={{ height: `100%` }} />}
-            containerElement={<div style={{ height: `581px`, width: `100%` }} />}
-            mapElement={<div style={{ height: `100%` }} />}
-          />
-        </div>
+        
       </Container>
     </MapBox>
   </Section>
