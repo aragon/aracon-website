@@ -9,7 +9,7 @@
     "build": "NODE_PRESERVE_SYMLINKS=1 react-static build",
     "serve": "serve dist -p 3000",
     "optimize-svg": "find ./src -name '*.svg' -exec svgo --config '{ \"plugins\": [ { \"removeDesc\": {\"removeAny\": true}, \"removeTitle\": true } ] }' {} \\;",
-    "generate-favicon": "icon-gen -i favicon.svg -o public -r",
+    "generate-favicon": "icon-gen -i favicon.png -o public -r",
     "deploy": "NODE_ENV=production SITE_ROOT=https://aragon.github.io BASE_PATH=aracon-website npm run build && gh-pages -d dist"
   },
   "dependencies": {
