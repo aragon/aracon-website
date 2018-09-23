@@ -67,7 +67,7 @@ export default {
     },
     {
       path: '/livestream',
-      component: 'src/pages/NotFound',
+      component: 'src/pages/Livestream',
       getData: () => ({ title: 'Aracon - Livestream' }),
     },
     {
