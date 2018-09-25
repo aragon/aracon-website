@@ -160,8 +160,8 @@ const Speakers = () => (
             Community."/>
           <Speaker photo="Aron Fischer" name="Aron Fischer" position="Governance Researcher" company="Colony"
             bio="Aron Fischer received his PhD in mathematics from the City University of New York in 2015. He is working 
-            in the research arm of Colony: a platform for open organisations which seeks to enable new forms of 
-            decentralised organisations. The work involves a careful balancing of what is desirable 
+            in the research arm of Colony: a platform for open organizations which seeks to enable new forms of 
+            decentralised organizations. The work involves a careful balancing of what is desirable 
             in terms of governance and what is possible given the technical limitations of the Ethereum blockchain."/>
           <Speaker photo="Maria Gomez" name="María Gómez" linkTo="maria" position="Ecosystem Development" company="Aragon One"
             bio="María Gómez is a former corporate lawyer. She worked several years in the M&A and corporate finance 
