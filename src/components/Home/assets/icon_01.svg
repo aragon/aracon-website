@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 47</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#59EFF0" offset="0%"></stop>
+            <stop stop-color="#44C9E6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#44C9E6" offset="0%"></stop>
+            <stop stop-color="#44C9E6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ARACON-Copy-2" transform="translate(-108.000000, -1229.000000)">
+            <g id="Group-47" transform="translate(108.000000, 1229.000000)">
+                <g id="Group-46" transform="translate(0.000000, 6.000000)">
+                    <g id="cube">
+                        <polygon id="Path-5" fill="#44C9E6" points="0.0834960938 53.265625 0.0834960938 31.4970703 0.753417969 30.7236328 35.2924805 30.7236328 35.9858398 31.4970703 28.5678711 47.5761719 18.034668 61.7597656"></polygon>
+                        <polygon id="Path-5-Copy" fill="#44C9E6" points="41 42.8847891 41 27.1202912 41.4851485 26.5601781 66.4978784 26.5601781 67 27.1202912 61.6280057 38.7645628 54 49.0361328"></polygon>
+                        <polygon id="Path-5-Copy-2" fill="#44C9E6" points="22 16.8847891 22 1.12029123 22.4851485 0.560178074 47.4978784 0.560178074 48 1.12029123 42.6280057 12.7645628 35 23.0361328"></polygon>
+                        <polygon id="Shape" fill="#38C2E0" fill-rule="nonzero" points="18 62.0344828 0 53.0689655 0 31 18 39.9655172"></polygon>
+                        <polygon id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero" points="18 62.0344828 36 53.0689655 36 31 18 39.9655172"></polygon>
+                        <polygon id="Shape" fill="url(#linearGradient-2)" fill-rule="nonzero" points="0 30.9655172 17.3076923 22 36 30.9655172 18 39.9310345"></polygon>
+                    </g>
+                </g>
+                <g id="Group-46-Copy" transform="translate(22.000000, 0.000000)" fill-rule="nonzero">
+                    <g id="cube">
+                        <polygon id="Shape" fill="#38C2E0" points="13.5 30 0 23.2758621 0 6.72413793 13.5 13.4482759"></polygon>
+                        <polygon id="Shape" fill="url(#linearGradient-1)" points="13.5 30 27 23.2758621 27 6.72413793 13.5 13.4482759"></polygon>
+                        <polygon id="Shape" fill="url(#linearGradient-2)" points="0 6.72413793 12.9807692 0 27 6.72413793 13.5 13.4482759"></polygon>
+                    </g>
+                </g>
+                <g id="Group-46-Copy-2" transform="translate(41.000000, 26.000000)" fill-rule="nonzero">
+                    <g id="cube">
+                        <polygon id="Shape" fill="#38C2E0" points="13.5 30 0 23.2758621 0 6.72413793 13.5 13.4482759"></polygon>
+                        <polygon id="Shape" fill="url(#linearGradient-1)" points="13.5 30 27 23.2758621 27 6.72413793 13.5 13.4482759"></polygon>
+                        <polygon id="Shape" fill="url(#linearGradient-2)" points="0 6.72413793 12.9807692 0 27 6.72413793 13.5 13.4482759"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

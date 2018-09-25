@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="78px" viewBox="0 0 48 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 45</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="64.8383539%" y1="13.8241169%" x2="50.0653333%" y2="99.6205677%" id="linearGradient-1">
+            <stop stop-color="#98DEEE" offset="0%"></stop>
+            <stop stop-color="#44C9E6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="84.8490205%" x2="-30.6582913%" y2="-51.54578%" id="linearGradient-2">
+            <stop stop-color="#79E6F4" offset="0%"></stop>
+            <stop stop-color="#18EBD6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ARACON-Copy-2" transform="translate(-745.000000, -1224.000000)">
+            <g id="Group-45" transform="translate(745.000000, 1224.000000)">
+                <g id="Group-42">
+                    <g id="Group-43">
+                        <polygon id="Path-2" fill="#44C9E6" opacity="0.387220982" points="24.1023209 0 0.0738369556 39.6893054 24.1023209 28.6165707"></polygon>
+                        <polygon id="Path-4" fill="#44C9E6" points="24.1486453 58.2534437 24.1486453 77.4555214 0.0100772939 44.2458368"></polygon>
+                        <polygon id="Path-3" fill="url(#linearGradient-1)" fill-rule="nonzero" points="0.0592015043 39.6658775 24.0512877 53.5316644 24.0512877 28.592767"></polygon>
+                    </g>
+                    <g id="Group-43-Copy" transform="translate(35.500000, 39.000000) scale(-1, 1) translate(-35.500000, -39.000000) translate(23.000000, 0.000000)">
+                        <polygon id="Path-2" fill="url(#linearGradient-2)" points="24.1023209 0 0.0738369556 39.6893054 24.1023209 28.6165707"></polygon>
+                        <polygon id="Path-4" fill="#44C9E6" opacity="0.694252232" points="24.1486453 58.2534437 24.1486453 77.4555214 0.0100772939 44.2458368"></polygon>
+                        <polygon id="Path-3" fill="#44C9E6" opacity="0.481640625" points="0.0592015043 39.6658775 24.0512877 53.5316644 24.0512877 28.592767"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

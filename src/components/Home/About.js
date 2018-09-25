@@ -1,7 +1,14 @@
 import React from 'react'
 import Section from '../Section/Section'
-import { Text, SafeLink } from '@aragon/ui'
+import { Text, SafeLink, breakpoint } from '@aragon/ui'
 import styled from 'styled-components'
+import image1 from './assets/icon_01.svg'
+import image2 from './assets/icon_02.svg'
+import image3 from './assets/icon_03.svg'
+import image4 from './assets/icon_04.svg'
+
+const medium = css => breakpoint('medium', css);
+const large = css => breakpoint('large', css);
 
 const Container = styled.div`
   width: 100%;
@@ -9,18 +16,18 @@ const Container = styled.div`
   padding: 50px 8.5%;
   background: white;
   text-align: center;
-  p {
-    max-width: 750px;
+
+  .intro {
+    max-width: 600px;
     margin: auto;
-    text-align: justify;
-  }
-  .about_italic {
-    text-align: center;
-    font-style: italic;
-  }
-  .about_bold {
-    color: #000;
-    font-weight: bold;
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 1.42;
+    color: #45494d;
+    a {
+      font-weight: bold;
+      color: #44c9e6;
+    }
   }
   iframe {
     max-width: 100%;
@@ -31,23 +38,84 @@ const Container = styled.div`
   }
 `;
 
+const AboutBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  ${medium('flex-direction: row;')};
+  margin: 50px 0;
+  div.container {
+    padding: 30px;
+    width: 100%;
+    ${medium('width: 25%;')};
+    .image-box {
+      height: 92px;
+      text-align: center;
+      ${medium('text-align: left;')};
+    }
+    p {
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.63;
+      color: #000000;
+      text-align: center;
+      ${medium('text-align: left;')};
+    }
+  } 
+`;
+
+const VideoBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  ${medium('flex-direction: row;')};
+  align-items: center;
+
+  .text-container {
+    padding: 30px 0;
+    ${medium('padding: 0 30px')};
+    text-align: left;
+  }
+`;
+
 const About = () => (
   <Section>
     <Container>
       <Text>
-        <div className="h1box centered"><h1>About AraCon</h1></div>
-      </Text>
-      <Text>
-        <p><SafeLink href="https://twitter.com/hashtag/AraConOne" target="_blank">#AraConOne</SafeLink> will bring together people who embody and wish to shape the Aragon community. Those who are building and supporting the pseudonymous, secure, trustless future — the decentralized web. Decentralized governance and DAOs are at the heart of the new Web 3.0.  They are key components in moving towards a more fair and open world for everyone. We want to offer a place for the great minds in this field to share their thoughts and understanding for this paradigm shift.</p><br />
-        <p>By concentrating on a few themes, we can provide much deeper and thorough presentations on these topics.</p>
-​        <p className="about_italic">Discover the emergence of new types of organizations with DAOs.</p><br />
-        <p className="about_italic">Grasp what makes decentralized governance so relevant to the Web3.0.</p><br />
-        <p className="about_italic">Understand how Ethereum is making the decentralized web a reality.</p><br />
-        <p className="about_italic">See how Aragon is bringing about freedom for all with these revolutionary advancements.</p><br />
-        <p className="about_bold">We invite everyone to come be a part of this growing movement and learn more about how we can build this future together!</p>
+        <p className="intro"><SafeLink href="https://twitter.com/hashtag/AraConOne" target="_blank">#AraConOne</SafeLink> will bring together people who embody and wish to shape the Aragon community. Those who are building and supporting the pseudonymous, secure, trustless future — the decentralized web. Decentralized governance and DAOs are at the heart of the new Web 3.0.</p>
       </Text>
       <br/>
-      <iframe src="https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0" allow="encrypted-media"  frameBorder="0"></iframe>
+      <AboutBox>
+        <div className="container">
+          <div className="image-box"><img src={image1} /></div>
+          <p>Discover the emergence of new types of organizations with DAOs.</p>
+        </div>
+        <div className="container">
+          <div className="image-box"><img src={image2} /></div>
+          <p>Grasp what makes decentralized governance so relevant to the Web3.0.</p>
+        </div>
+        <div className="container">
+          <div className="image-box"><img src={image3} /></div>
+          <p>Understand how Ethereum is making the decentralized web a reality.</p>
+        </div>
+        <div className="container">
+          <div className="image-box"><img src={image4} /></div>
+          <p>See how Aragon is bringing about freedom for all with these revolutionary advancements.</p>
+        </div>
+      </AboutBox>
+      <VideoBox>
+        <div>
+          <iframe src="https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0" allow="encrypted-media"  frameBorder="0"></iframe>
+        </div>
+        <div className="text-container">
+          <Text>
+            <p className="intro">We are building Aragon because we believe decentralized organizations can solve the world’s worst problems.</p>
+            <br/>
+            <p className="intro">We invite everyone to come be a part of this growing movement and learn more about how we can build this future together!</p>
+            <br/>
+            <p className="intro"><SafeLink href="https://twitter.com/hashtag/AraConOne" target="_blank">#AraConOne</SafeLink></p>
+          </Text>
+        </div>
+      </VideoBox>
+      
     </Container>
   </Section>
 );
