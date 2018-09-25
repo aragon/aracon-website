@@ -9,15 +9,14 @@ import styled from 'styled-components'
 const FaqBox = styled.div`
   width: 100%;
   margin: 0;
-  padding: 80px 8.5%;
+  padding: 80px 0;
   background: white;
   text-align: left;
   h2 {
     text-transform: uppercase;
-    color: rgb(0, 203, 230);
-    font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 5px;
+    color: #000000;
   }
   p {
     margin-bottom: 30px;
@@ -28,7 +27,7 @@ const Container = styled.div`
   height: auto;
   margin: 0;
   padding: 50px 8.5%;
-  background: #18181A;
+  background: white;
 `;
 
 const Faq = () => (

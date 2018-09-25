@@ -1,24 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="148" height="149" viewBox="0 0 148 149">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="148px" height="149px" viewBox="0 0 148 149" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_agenda</title>
+    <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
-            <stop offset="0%" stop-color="#6AACF4"/>
-            <stop offset="100%" stop-color="#18EBD6"/>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#6AACF4" offset="0%"></stop>
+            <stop stop-color="#18EBD6" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g fill="none" fill-rule="evenodd">
-        <circle cx="114" cy="115" r="31" stroke="url(#a)" stroke-width="6"/>
-        <path stroke="url(#a)" stroke-linecap="round" stroke-width="6" d="M113.547 102.248v13.192h9.92"/>
-        <path stroke="#33414A" stroke-width="6" d="M80.526 145L143 76.324V32c0-8.837-7.163-16-16-16H19c-8.837 0-16 7.163-16 16v97c0 8.837 7.163 16 16 16h61.526z"/>
-        <rect width="7" height="30" x="30" fill="#33414A" rx="3.5"/>
-        <circle cx="35" cy="60" r="4" fill="#33414A"/>
-        <circle cx="35" cy="87" r="4" fill="#33414A"/>
-        <circle cx="35" cy="114" r="4" fill="#33414A"/>
-        <circle cx="60" cy="60" r="4" fill="#33414A"/>
-        <circle cx="60" cy="87" r="4" fill="#33414A"/>
-        <circle cx="60" cy="114" r="4" fill="#33414A"/>
-        <circle cx="85" cy="60" r="4" fill="#33414A"/>
-        <circle cx="110" cy="60" r="4" fill="#33414A"/>
-        <rect width="7" height="30" x="70" fill="#33414A" rx="3.5"/>
-        <rect width="7" height="30" x="110" fill="#33414A" rx="3.5"/>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_agenda" transform="translate(3.000000, 0.000000)">
+            <circle id="Oval-3" stroke="url(#linearGradient-1)" stroke-width="6" cx="111" cy="115" r="31"></circle>
+            <polyline id="Path-2" stroke="url(#linearGradient-1)" stroke-width="6" stroke-linecap="round" points="110.546875 102.248291 110.546875 115.440186 120.466797 115.440186"></polyline>
+            <path d="M140,76.3239876 L140,32 C140,23.163444 132.836556,16 124,16 L16,16 C7.163444,16 0,23.163444 0,32 L0,129 C0,137.836556 7.163444,145 16,145 L77.5260189,145" id="Rectangle-8" stroke="#33414A" stroke-width="6" stroke-linecap="round"></path>
+            <rect id="Rectangle" fill="#33414A" fill-rule="nonzero" x="27" y="0" width="7" height="30" rx="3.5"></rect>
+            <circle id="Oval-2" fill="#33414A" fill-rule="nonzero" cx="32" cy="60" r="4"></circle>
+            <circle id="Oval-2-Copy-4" fill="#33414A" fill-rule="nonzero" cx="32" cy="87" r="4"></circle>
+            <circle id="Oval-2-Copy-6" fill="#33414A" fill-rule="nonzero" cx="32" cy="114" r="4"></circle>
+            <circle id="Oval-2-Copy" fill="#33414A" fill-rule="nonzero" cx="57" cy="60" r="4"></circle>
+            <circle id="Oval-2-Copy-5" fill="#33414A" fill-rule="nonzero" cx="57" cy="87" r="4"></circle>
+            <circle id="Oval-2-Copy-7" fill="#33414A" fill-rule="nonzero" cx="57" cy="114" r="4"></circle>
+            <circle id="Oval-2-Copy-2" fill="#33414A" fill-rule="nonzero" cx="82" cy="60" r="4"></circle>
+            <circle id="Oval-2-Copy-3" fill="#33414A" fill-rule="nonzero" cx="107" cy="60" r="4"></circle>
+            <rect id="Rectangle-Copy" fill="#33414A" fill-rule="nonzero" x="67" y="0" width="7" height="30" rx="3.5"></rect>
+            <rect id="Rectangle-Copy-2" fill="#33414A" fill-rule="nonzero" x="107" y="0" width="7" height="30" rx="3.5"></rect>
+        </g>
     </g>
 </svg>
