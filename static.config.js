@@ -37,7 +37,7 @@ export default {
     },
     {
       path: '/agenda',
-      component: 'src/pages/Agenda',
+      component: 'src/pages/EmptyAgenda',
       getData: () => ({ title: 'Aracon - Agenda' }),
     },
     {
