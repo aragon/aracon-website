@@ -72,7 +72,7 @@ const Logo = styled.img`
 const Hero = () => (
   <HeroSection>
     <HeroBox>
-      <Logo src={araconLogo} alt="Aracon" />
+      <Logo src={araconLogo} alt="AraCon" />
       <h2>BUILDING ORGANIZATIONS & GOVERNANCE OF THE FUTURE</h2>
       <h2 className="sides right">Berlin, Germany</h2>
       <h2 className="sides left">Jan 29-30.2019</h2>
