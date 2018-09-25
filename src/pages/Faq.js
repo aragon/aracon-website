@@ -36,7 +36,7 @@ const Container = styled.div`
 const Faq = () => (
   <Page path="/faq">
     <Section>
-    <Container>
+      <Container>
         <Text><div className="h1box"><h1>FAQ</h1></div></Text>
         <FaqBox>
           <Question question="What is AraCon?" answer={<p>AraCon is the flagship event of the Aragon Project. It is organised by the Aragon Foundation for the Aragon community and anyone interested in the decentralized web, governance, DAOs, and digital jurisdictions.</p>} />
