@@ -25,21 +25,18 @@ const TextBox = styled.div`
 const Photo = styled.img`
   width: 100%;
   overflow: hidden;
-`;
-
-const AbsolutePhoto = styled.img`
-  width: 100%;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+  -webkit-transition: filter 1s ease-in-out;
+  -moz-transition: filter 1s ease-in-out;
+  -o-transition: filter 1s ease-in-out;
+  transition: filter 1s ease-in-out;
+  object-fit: cover;
+  height: 238px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
 
   &:hover {
-    opacity:0;
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
   }
 `;
 
@@ -64,7 +61,6 @@ class Speaker extends React.Component {
           onMouseLeave={() => this.setState({ picture: photo + '_.png' })}>
         <Link to={'/speakers#' + linkTo}>
           <Photo src={require(`../Speakers/assets/${this.props.photo + '.png'}`)}/>
-          <AbsolutePhoto src={require(`../Speakers/assets/${this.props.photo + '_.png'}`)}/>
         </Link>
         <TextBox>
           <Text><p>{name}</p></Text>
