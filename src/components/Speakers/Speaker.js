@@ -65,7 +65,7 @@ const SpeakerBox = styled.div`
   ${medium('max-width: 100%; margin: inherit')};
   text-align: left;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   ${medium('flex-direction: row;')};
   ${large('flex-direction: row;')};
   align-items: stretch;
