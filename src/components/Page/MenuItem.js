@@ -25,6 +25,7 @@ const StyledMenuItem = styled.li`
     padding: 0 10px;
     span {
       color: ${theme.textSecondary};
+      font-size: 17px;
     }
     span:hover {
       color: ${theme.positiveText};
