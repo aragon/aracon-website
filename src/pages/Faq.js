@@ -5,6 +5,7 @@ import Section from '../components/Section/Section'
 import Question from '../components/Faq/Question'
 import { Text, SafeLink } from '@aragon/ui'
 import styled from 'styled-components'
+import oval from '../components/Home/assets/oval.svg'
 
 const FaqBox = styled.div`
   width: 100%;
@@ -22,7 +23,8 @@ const FaqBox = styled.div`
     margin-bottom: 30px;
   }
   ul {
-    margin-left: 22px;
+    list-style-image: url(${oval});
+    list-style-position: inside;
   }
 `;
 const Container = styled.div`

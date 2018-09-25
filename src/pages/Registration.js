@@ -3,14 +3,16 @@ import { Page } from '../components'
 import Section from '../components/Section/Section'
 import { Text, SafeLink, theme, Button } from '@aragon/ui'
 import styled from 'styled-components'
+import oval from '../components/Home/assets/oval.svg'
 
 const Criteria = styled.ul`
   text-align: left;
-  margin: 22px;
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 400;
   line-height: 1.5;
-  color: #707070;
+  list-style-image: url(${oval});
+  list-style-position: inside;
+  color: #030303;
   a {
     color: #61B2F0;
   }
@@ -41,6 +43,7 @@ const Registration = () => (
           <li>You’re using Aragon to build your own DAO</li>
         </Criteria>
         <Text>
+          <br />
           <p>If you meet one of the criteria above, please email us with the proof at <SafeLink href="mailto:info@aracon.org">info@aracon.org</SafeLink> and we will send you a registration link for a Community ticket.</p><br />
           <p><span className="strong">If you are not a member of the Aragon community yet, we are excited to meet you soon. To get your ticket, please register below!</span></p><br />
         </Text>
