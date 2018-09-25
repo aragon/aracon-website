@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { theme } from '@aragon/ui'
+import { theme, SafeLink } from '@aragon/ui'
 
 const MenuItem = ({ url, label, active, renderLink }) => (
   <StyledMenuItem>
@@ -48,7 +48,7 @@ MenuItem.propTypes = {
 
 MenuItem.defaultProps = {
   active: false,
-  renderLink: ({ url, children }) => <a href={url}>{children}</a>,
+  renderLink: ({ url, children }) => <SafeLink href={url}>{children}</SafeLink>,
 };
 
 export default MenuItem

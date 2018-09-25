@@ -34,7 +34,7 @@ const Registration = () => (
         <Criteria>
           <li>You are an Aragon Network Token holder</li>
           <li>You have contributed to the development of the Aragon Project</li>
-          <li>You’re actively participating in discussions on our official community chats (<a href="https://aragon.chat" target="_blank" rel="noopener noreferrer">https://aragon.chat</a> & <a href="https://research.aragon.org" target="_blank" rel="noopener noreferrer">https://research.aragon.org</a>)</li>
+          <li>You’re actively participating in discussions on our official community chats (<SafeLink href="https://aragon.chat" target="_blank">https://aragon.chat</SafeLink> & <SafeLink href="https://research.aragon.org" target="_blank">https://research.aragon.org</SafeLink>)</li>
           <li>You have contributed in the creation of at least one Aragon Monthly issue</li>
           <li>You  organized an Aragon meetup or a similar event for the Aragon community, or presented Aragon at an external event</li>
           <li>You’re building an Aragon app</li>
@@ -49,7 +49,7 @@ const Registration = () => (
         <Text>
         <p><br />Need financial help attending AraCon?<br />
         We will be announcing a scholarship program in October to provide financial assistance for those in need.<br />
-        <a href="https://eepurl.com/dHogTD" target="_blank" rel="noopener noreferrer">Subscribe to the AraCon email newsletter</a> to stay tuned for details</p>
+        <SafeLink href="https://eepurl.com/dHogTD" target="_blank">Subscribe to the AraCon email newsletter</SafeLink> to stay tuned for details</p>
         </Text>
     </Container>
     </Section>

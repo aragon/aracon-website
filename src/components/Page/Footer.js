@@ -1,6 +1,6 @@
 import React from 'react'
 import FooterSection from '../Section/Section'
-import { Text, breakpoint } from '@aragon/ui'
+import { Text, breakpoint, SafeLink } from '@aragon/ui'
 import styled from 'styled-components'
 import footer from './assets/footer.png'
 
@@ -20,6 +20,7 @@ const Box = styled.div`
   flex-direction: column;
   ${large('flex-direction: row;')};
 `;
+
 const FooterLinks = styled.div`
   display: flex;
   flex-direction: column;
@@ -45,7 +46,6 @@ const FooterImg = styled.img`
   width: 360px;
   margin: auto;
   ${large('margin-left: 0;')};
-  
 `;
 
 const Footer = ({ ...props }) => (
@@ -53,9 +53,9 @@ const Footer = ({ ...props }) => (
     <Box>
       <FooterImg src={footer} alt="Powered by Aragon" />
       <FooterLinks>
-        <a href="https://wiki.aragon.org/documentation/legal/Privacy_policy/" target="_blank">Privacy policy</a>
-        <a href="https://wiki.aragon.org/documentation/legal/Terms_of_use_websites/" target="_blank">Terms of use</a>
-        <a href=" https://wiki.aragon.org/documentation/Code_of_Conduct/" target="_blank">Code of conduct</a>
+        <SafeLink href="https://wiki.aragon.org/documentation/legal/Privacy_policy/" target="_blank">Privacy policy</SafeLink>
+        <SafeLink href="https://wiki.aragon.org/documentation/legal/Terms_of_use_websites/" target="_blank">Terms of use</SafeLink>
+        <SafeLink href=" https://wiki.aragon.org/documentation/Code_of_Conduct/" target="_blank">Code of conduct</SafeLink>
       </FooterLinks>
     </Box>
   </FooterSection>

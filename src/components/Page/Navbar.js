@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-static'
-import { Button, Text, breakpoint, BreakPoint, } from '@aragon/ui'
+import { Button, Text, breakpoint, BreakPoint, SafeLink } from '@aragon/ui'
 import MenuItem from './MenuItem'
 import MenuPanel from './MenuPanel'
 import logo from './assets/logo.svg'
@@ -69,9 +69,9 @@ const renderMenuItemLink = ({ url, children }) =>
   url.startsWith('/') ? (
     <Link to={url}><Text size="xlarge">{children}</Text></Link>
   ) : (
-    <a href={url} target="_blank" rel="noopener noreferrer">
+    <SafeLink href={url} target="_blank">
       <Text size="xlarge">{children}</Text>
-    </a>
+    </SafeLink>
   );
 
 class Navbar extends React.Component {
