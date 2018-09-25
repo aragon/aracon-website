@@ -47,7 +47,6 @@ const StyledContent = styled.div`
     font-weight: bold;
   }
   p {
-    font-size: 17px;
     font-size: 19px;
     line-height: 27px;
     color: ${theme.textSecondary};
@@ -60,7 +59,7 @@ const StyledContent = styled.div`
     text-decoration: none;
   }
   .strong {
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 700;
   }
 `;

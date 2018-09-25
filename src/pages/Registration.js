@@ -7,7 +7,7 @@ import styled from 'styled-components'
 const Criteria = styled.ul`
   text-align: left;
   margin: 22px;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 1.5;
   color: #707070;
