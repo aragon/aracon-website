@@ -40,7 +40,7 @@ const Container = styled.div`
 const TextContainer = styled.div`
   width: 100%;
   max-width: 695px;
-  margin: 70px auto;
+  margin: 70px auto 160px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
