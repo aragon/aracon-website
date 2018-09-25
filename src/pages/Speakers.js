@@ -71,19 +71,28 @@ const Speakers = () => (
       <SpeakersBox>
         <div className="h1box"><h1>Speakers</h1></div>
         <Container>
+          <Speaker photo="Luis Cuende" name="Luis Cuende" linkTo="luis" position="CEO" company="Aragon One"
+            bio="Luis is the CEO of Aragon One, one of the teams working on the Aragon project. Luis has been 
+            into crypto since 2011, and loves how decentralized organizations can solve the world’s worst 
+            problems. Luis has been awarded as the best underage European programmer in 2011, is a Forbes 30 
+            Under 30, a MIT TR35 and was an Advisor to the VP of the European Commission. He cofounded the 
+            blockchain startup Stampery. Prior to founding startups, he created the world's first Linux 
+            distribution with facelogin."/>
+          <Speaker photo="Griff Green" name="Griff Green" linkTo="griff" position="Co-founder" company="Giveth & Aragon DAC"
+            bio="Community manager for TheDAO, led the cleanup effort for TheDAO Hack from every angle, co-founder of 
+            the White Hat Group and Giveth and leading the creation of the Aragon DAC, as well as advising DAppNode, 
+            0KIMS (iden3), ETHSignals, Open Source Blockchain Explorers NOW! and many other groups within the Ethereum 
+            Community."/>
+          <Speaker photo="Jutta Steiner" name="Jutta Steiner" linkTo="jutta" position="Co-Founder and CEO" company="Parity Technologies"
+            bio="Dr Jutta Steiner is the co-founder and CEO of Parity Technologies, a blockchain technology company best 
+            known for Parity Ethereum, the most advanced Ethereum client. Previously, Jutta served as Chief of Security 
+            for the Ethereum Foundation and pioneered blockchain use in supply chains as Project Provenance co-founder."/>
           <Speaker photo="Trent McConaghy" name="Trent-McConaghy" position="Co-founder" company="BigchainDB"
             bio="Trent McConaghy did AI research for two decades, including machine creativity and 
             AI to help drive Moore's Law, via two startups (both acquired) and a PhD. Now he 
             focuses on AI * blockchain, via Ocean to democratize AI data, and BigchainDB 
             decentralized database. His hobbies include Token Engineering and advising governments 
             on AI * blockchain"/>
-          <Speaker photo="Shira Frank" name="Shira-Frank" position="Co-founder" company="Maiden"
-            bio="Shira brings over 15 years of work in politics, social change, women’s philanthropy, 
-            and fundraising with her to the Blockchain and Fin-Tech industries. Shira spent seven years 
-            as a Deputy Director for J Street working to transform the way Congress and the Executive 
-            branch engage in the Middle East and to promote the creation of a two-state solution to the 
-            Israeli-Palestinian conflict. Shira holds a degree in Government and Political Theory from 
-            Smith College. "/>
           <Speaker photo="Santiago Siri" name="Santiago Siri" position="Founder" company="Democracy Earth Foundation" 
             bio="Founder of Democracy Earth Foundation, a Y Combinator backed non-profit building 
             incorruptible digital governance technology; and the Partido de la Red (Peers Party), 
@@ -92,13 +101,18 @@ const Speakers = () => (
             Published 'Hacktivismo' in 2015 with Random House. Member of the World Economic Forum 
             since 2012. Awarded by MIT Technology Review and Singularity University. Co-founded 
             Argentine Game Developers Association in 2002."/>
-          <Speaker photo="Raine Revere" linkTo="raine" name="Raine Revere" position="Co-foundeer" company="Maiden"
-            bio="Raine Revere is an engineer and educator in the Ethereum community who has spoken 
-            at blockchain events around the world. Raine is the Lead Architect of ShapeShift Prism 
-            and is the co-founder of Maiden, a company that delivers socially-aware blockchain 
-            education, cultural & leadership development, and diversity-powered blockchain 
-            consulting. As a therapist, teacher, and cryptocurrency engineer, Raine has the unique 
-            capacity to engage deeply with both the technical and social aspects of technology."/>
+          <Speaker photo="Joe Urgo" name="Joe Urgo" linkTo="joe" position="Co-Founder" company="District0x"
+            bio="Joe is a co-founder of district0x, a network of decentralized marketplaces and CEO at Sourcerers, 
+            a consultancy firm supporting leading Ethereum-based projects. Joe previously spent three years 
+            as an Operations Manager at Coinbase. Prior to Coinbase, he was a derivatives trader for Three 
+            Arrows Capital, an international hedge fund based in Singapore. Joe serves as an advisor at Status, 
+            Keep, SpankChain, Bloom, Witnet, Abacus, Access Network, LiquidX, Fabric Ventures, Republic, and 
+            Common Interest."/>
+          <Speaker photo="Lane Rettig" name="Lane Rettig" position="Independent Core Developer" company="Ewasm"
+            bio="Lane Rettig is an independent Ethereum core developer and a member of the Ewasm team, where he 
+            is helping build the execution engine for Ethereum 2.0 (the Shasper roadmap). He is also the founder 
+            of Crypto NYC, a Manhattan-based, blockchain-focused community and coworking space dedicated to making 
+            Web3 technology accessible to all humans."/>
           <Speaker photo="Primavera De Filippi" linkTo="primavera" name="Primavera De Filippi" position="Postdoctoral researcher" company="National Center of Scientific Research (CNRS)"
             bio="Primavera De Filippi is a permanent researcher at the National Center of Scientific 
             Research (CNRS) in Paris, a faculty associate at the Berkman-Klein Center for Internet & 
@@ -130,34 +144,13 @@ const Speakers = () => (
             bio="Martin Köppelmann has been an entrepreneur in the blockchain space for more than 5 years. 
             He is the CEO and co-founder of Gnosis, the decentralized Gnosis prediction market - one of the 
             first decentralized application that went live on Ethereum in 2015 in an early verison."/>
-          <Speaker photo="Luis Cuende" name="Luis Cuende" linkTo="luis" position="CEO" company="Aragon One"
-            bio="Luis is the CEO of Aragon One, one of the teams working on the Aragon project. Luis has been 
-            into crypto since 2011, and loves how decentralized organizations can solve the world’s worst 
-            problems. Luis has been awarded as the best underage European programmer in 2011, is a Forbes 30 
-            Under 30, a MIT TR35 and was an Advisor to the VP of the European Commission. He cofounded the 
-            blockchain startup Stampery. Prior to founding startups, he created the world's first Linux 
-            distribution with facelogin."/>
-          <Speaker photo="Lane Rettig" name="Lane Rettig" position="Independent Core Developer" company="Ewasm"
-            bio="Lane Rettig is an independent Ethereum core developer and a member of the Ewasm team, where he 
-            is helping build the execution engine for Ethereum 2.0 (the Shasper roadmap). He is also the founder 
-            of Crypto NYC, a Manhattan-based, blockchain-focused community and coworking space dedicated to making 
-            Web3 technology accessible to all humans."/>
-          <Speaker photo="Jutta Steiner" name="Jutta Steiner" linkTo="jutta" position="Co-Founder and CEO" company="Parity Technologies"
-            bio="Dr Jutta Steiner is the co-founder and CEO of Parity Technologies, a blockchain technology company best 
-            known for Parity Ethereum, the most advanced Ethereum client. Previously, Jutta served as Chief of Security 
-            for the Ethereum Foundation and pioneered blockchain use in supply chains as Project Provenance co-founder."/>
-          <Speaker photo="Joe Urgo" name="Joe Urgo" linkTo="joe" position="Co-Founder" company="District0x"
-            bio="Joe is a co-founder of district0x, a network of decentralized marketplaces and CEO at Sourcerers, 
-            a consultancy firm supporting leading Ethereum-based projects. Joe previously spent three years 
-            as an Operations Manager at Coinbase. Prior to Coinbase, he was a derivatives trader for Three 
-            Arrows Capital, an international hedge fund based in Singapore. Joe serves as an advisor at Status, 
-            Keep, SpankChain, Bloom, Witnet, Abacus, Access Network, LiquidX, Fabric Ventures, Republic, and 
-            Common Interest."/>
-          <Speaker photo="Griff Green" name="Griff Green" linkTo="griff" position="Co-founder" company="Giveth & Aragon DAC"
-            bio="Community manager for TheDAO, led the cleanup effort for TheDAO Hack from every angle, co-founder of 
-            the White Hat Group and Giveth and leading the creation of the Aragon DAC, as well as advising DAppNode, 
-            0KIMS (iden3), ETHSignals, Open Source Blockchain Explorers NOW! and many other groups within the Ethereum 
-            Community."/>
+          <Speaker photo="Raine Revere" linkTo="raine" name="Raine Revere" position="Co-foundeer" company="Maiden"
+            bio="Raine Revere is an engineer and educator in the Ethereum community who has spoken 
+            at blockchain events around the world. Raine is the Lead Architect of ShapeShift Prism 
+            and is the co-founder of Maiden, a company that delivers socially-aware blockchain 
+            education, cultural & leadership development, and diversity-powered blockchain 
+            consulting. As a therapist, teacher, and cryptocurrency engineer, Raine has the unique 
+            capacity to engage deeply with both the technical and social aspects of technology."/>
           <Speaker photo="Aron Fischer" name="Aron Fischer" position="Governance Researcher" company="Colony"
             bio="Aron Fischer received his PhD in mathematics from the City University of New York in 2015. He is working 
             in the research arm of Colony: a platform for open organizations which seeks to enable new forms of 

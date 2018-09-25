@@ -37,13 +37,13 @@ const Speakers = () => (
       <div className="h1box"><h1>Speakers</h1></div>
       <Container>
         <Speaker photo="Luis Cuende" linkTo="luis" name="Luis Cuende" position="CEO" company="Aragon One"/>
+        <Speaker photo="Griff Green" linkTo="griff" name="Griff Green" position="Co-founder" company="Giveth & Aragon DAC"/>
+        <Speaker photo="Jutta Steiner" linkTo="jutta" name="Jutta Steiner" position="Co-Founder" company="Parity Technologies"/>
+        <Speaker photo="Santiago Siri" linkTo="santiago" name="Santiago Siri" position="Founder" company="Democracy Earth"/>
+        <Speaker photo="Joe Urgo" linkTo="joe" name="Joe Urgo" position="Co-Founder" company="District0x"/>
         <Speaker photo="Primavera De Filippi" linkTo="primavera" name="Primavera De Filippi" position="Postdoctoral researcher" company="CNRS"/>
         <Speaker photo="Martin Koppelmann" linkTo="martin" name="Martin Köppelmann" position="Co-Founder" company="Gnosis"/>
-        <Speaker photo="Jutta Steiner" linkTo="jutta" name="Jutta Steiner" position="Co-Founder" company="Parity Technologies"/>
         <Speaker photo="Maria Gomez" linkTo="maria" name="María Gómez" position="Ecosystem Development" company="Aragon One"/>
-        <Speaker photo="Joe Urgo" linkTo="joe" name="Joe Urgo" position="Co-Founder" company="District0x"/>
-        <Speaker photo="Raine Revere" linkTo="raine" name="Raine Revere" position="Co-founder" company="Maiden"/>
-        <Speaker photo="Griff Green" linkTo="griff" name="Griff Green" position="Co-founder" company="Giveth & Aragon DAC"/>
       </Container>
       <Container>
           <Button>More speakers coming soon</Button>

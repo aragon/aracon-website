@@ -47,11 +47,11 @@ const Livestream = () => (
           </div>
         </Text>
         <Text>
-          <p>If you can not make it to Berlin this time, you can still participate in the event. The conference program will be fully livestreamed. To access the livestream video, see the livestream page.</p>
+          <p>If you can not make it to Berlin this time, you can still participate in the event. The conference program will be fully livestreamed.</p>
         </Text>
         <br/>
         <Button mode="strong">
-          <Link to="/livestream"> Go Livestream</Link>
+          <Link to="/livestream">Watch the livestream</Link>
         </Button>
       </div>
       <div className="image">
