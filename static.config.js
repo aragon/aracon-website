@@ -18,12 +18,14 @@ export default {
   basePath: process.env.BASE_PATH || '',
   getSiteData: () => ({
     title: 'AraCon website',
+    basePath: { process.env.BASE_PATH ? '/aracon-website' : '' },
   }),
   getRoutes: () => [
     {
       path: '/',
       component: 'src/pages/Home',
       getData: () => ({ title: 'AraCon' }),
+
     },
     {
       path: '/speakers',
@@ -33,7 +35,7 @@ export default {
     {
       path: '/speakerapplication',
       component: 'src/pages/SpeakerApplication',
-      getData: () => ({ title: 'AraCon - Speakers Application' }),
+      getData: () => ({ title: 'AraCon - Speaker Application' }),
     },
     {
       path: '/agenda',

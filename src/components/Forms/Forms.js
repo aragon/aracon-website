@@ -5,11 +5,12 @@ import { breakpoint } from '@aragon/ui'
 const large = css => breakpoint('large', css);
 
 const Content = styled.div`
-  display: flex!important;
   text-align: center;
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
   justify-content: center;
-  ${large('justify-content: flex-end; max-width: 1440px !important; margin: auto;')};
-  padding-top: 40px;
+  ${large('width: 50%; justify-content: flex-end;')};
 `;
 
 export default class Forms extends React.Component {

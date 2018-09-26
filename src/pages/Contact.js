@@ -8,19 +8,23 @@ import Forms from '../components/Forms/Forms'
 const large = css => breakpoint('large', css);
 
 const OuterContainer = styled.div`
-  width: 100%;
   position: relative;
   max-width: 1540px;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  ${large('justify-content: space-between; max-width: 1440px !important; margin: auto; flex-direction: row;')};
+  padding-top: 40px;
+  width: 83%;
 `;
 
 const Container = styled.div`
   width: 100%;
-  margin: auto;
   max-width: 695px;
-  padding: 50px 0 50px 8.5%;
+  padding: 50px 0 50px 0;
   text-align: left;
-  ${large('position: absolute; width: 41%; margin: inherit')};
+  ${large('width: 41%;')};
 `;
 
 const Contact = () => (
@@ -34,8 +38,8 @@ const Contact = () => (
           </Text>
           <br/>
         </Container>
+        <Forms type="speakers" src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd_2BApu8f_2FfoD5Zo9JBww_2F0hZmrCyRG1IqSpVmZcBTG0GC.js"/>
       </OuterContainer>
-      <Forms type="speakers" src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd_2BApu8f_2FfoD5Zo9JBww_2F0hZmrCyRG1IqSpVmZcBTG0GC.js"/>
     </Section>
   </Page>
 );

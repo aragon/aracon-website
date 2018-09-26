@@ -7,7 +7,7 @@ import { Link } from 'react-static'
 const Container = styled.div`
   width: 100%;
   margin: 0;
-  padding: 0 8.5% 50px 8.5%;
+  padding: 50px 8.5% 85px 8.5%;
   background: white;
   text-align: center;
   p {
