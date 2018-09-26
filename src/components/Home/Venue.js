@@ -22,7 +22,7 @@ const VenueBox = styled.div`
 const Venue = () => (
   <VenueSection>
     <VenueBox>
-      <div className="h1box"><h1>Venue</h1></div>
+      <div className="h1box xs-centered"><h1>Venue</h1></div>
       <SafeLink href="https://www.bolle-meierei.com/en/bollefestsaele/" target="_blank">
         <img src={VenueImg} alt="" />
       </SafeLink>

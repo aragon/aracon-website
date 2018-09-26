@@ -22,19 +22,21 @@ const Container = styled.div`
     ${medium('text-align: left;')};
   }
   .text {
-    ${medium('padding-right: 60px;')};
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    ${medium('padding-right: 60px; align-items: flex-start;')};
     p {
       color: white;
     }
   }
-  .image {
-    ${medium('padding-left: 60px;')};
+  img {
+    ${medium('padding-left: 60px; width: 50%')};
     margin-top: 60px;
     ${medium('margin-top: 0;')};
-    img {
-      width: 100%;
-    }
   }
+  
 `;
 
 const Livestream = () => (
@@ -54,9 +56,7 @@ const Livestream = () => (
           <Link to="/livestream">Watch the livestream</Link>
         </Button>
       </div>
-      <div className="image">
-        <img src={livestream} alt="livestream" />
-      </div>
+      <img src={livestream} alt="livestream" />
     </Container>
   </Section>
 );

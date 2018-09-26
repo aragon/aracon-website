@@ -34,7 +34,7 @@ const Container = styled.div`
 const Speakers = () => (
   <SpeakersSection>
     <SpeakersBox>
-      <div className="h1box"><h1>Speakers</h1></div>
+      <div className="h1box xs-centered"><h1>Speakers</h1></div>
       <Container>
         <Speaker photo="Luis Cuende" linkTo="luis" name="Luis Cuende" position="CEO" company="Aragon One"/>
         <Speaker photo="Griff Green" linkTo="griff" name="Griff Green" position="Co-founder" company="Giveth & Aragon DAC"/>
