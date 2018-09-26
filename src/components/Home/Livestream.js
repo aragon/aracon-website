@@ -31,6 +31,10 @@ const Container = styled.div`
       color: white;
     }
   }
+  .button-strong-div {
+    justify-content: center;
+    ${medium('justify-content: flex-start;')};
+  }
   img {
     ${medium('padding-left: 60px; width: 50%')};
     margin-top: 60px;
@@ -50,11 +54,9 @@ const Livestream = () => (
         </Text>
         <Text>
           <p>If you can not make it to Berlin this time, you can still participate in the event. The conference program will be fully livestreamed.</p>
+          <br/>
         </Text>
-        <br/>
-        <Button mode="strong">
-          <Link to="/livestream">Watch the livestream</Link>
-        </Button>
+        <div className="button-strong-div"><Link className="button-strong" to="/livestream"><span>Watch the livestream</span></Link></div>
       </div>
       <img src={livestream} alt="livestream" />
     </Container>

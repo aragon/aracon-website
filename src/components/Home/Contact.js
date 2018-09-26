@@ -27,9 +27,7 @@ const Contact = () => (
         <p>Someone from our team will be in touch with you shortly.</p>
       </Text>
       <br/>
-      <Button mode="strong">
-        <Link to="/contact">Contact us</Link>
-      </Button>
+      <div className="button-strong-div centered"><Link className="button-strong" to="/contact"><span>Contact us</span></Link></div>
     </Container>
   </Section>
 );

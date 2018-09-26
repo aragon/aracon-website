@@ -3,7 +3,7 @@ import Section from '../Section/Section'
 import MapContainer from './MapContainer'
 import styled from 'styled-components'
 import { Link } from 'react-static'
-import { Button, breakpoint, SafeLink } from '@aragon/ui'
+import { breakpoint, SafeLink } from '@aragon/ui'
 import Plane from './assets/plane.svg'
 import Bus from './assets/bus.svg'
 
@@ -64,9 +64,7 @@ const Map = () => (
         enjoys a central location in the heart of Berlin. The Hauptbahnhof railway station, the 
         Tiergarten park and other city landmarks are within walking distance.</p>
         <br/>
-        <Button mode="strong">
-          <Link to="/travelinformation">How to get there?</Link>
-        </Button>
+        <div className="button-strong-div"><Link className="button-strong" to="/travelinformation"><span>How to get there?</span></Link></div>
       </TextBox>
       <MapBox>
         <MapContainer

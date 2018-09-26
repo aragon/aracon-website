@@ -21,6 +21,39 @@ const Content = styled.div`
   .white {
     background: white;
   }
+  .button-strong-div {
+    display: flex;
+  }
+  .button-strong-div.centered {
+    justify-content: center;
+  }
+  a.button-strong {
+    text-decoration: none;
+    width: auto;
+    padding: 10px 15px;
+    white-space: nowrap;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 400;
+    color: #707070;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 1px 1px rgba(0,0,0,0);
+    color: #FFFFFF;
+    background-image: linear-gradient( 130deg,#00B4E6,#00F0E0 );
+    display: flex;
+    align-items: center;
+    .span {
+      height: 13px;
+    }
+  }
+  a.button-strong:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.39);
+  }
 `;
 
 const menuItems = [

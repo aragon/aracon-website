@@ -29,7 +29,6 @@ const AccomodationBox = styled.div`
     }
   }
   p, h2 {
-    color: #18181A;
     text-align: center;
     ${medium('text-align: left;')};
     margin-bottom: 30px;
@@ -70,7 +69,7 @@ const Travel = () => (
             <Text>
               <p>We have a special deal for AraCon guests with AMERON Berlin ABION Hotel, which is located just 100m away from the venue. ABION Hotel has a unique, direct view of the River Spree and a superb location at the heart of the capital city between the West Centre (Ku’damm) and the East Centre (Alexanderplatz). You can book your stay by clicking on the button below.</p>
             </Text>
-            <Button mode="strong"><SafeLink href="https://reservations.travelclick.com/12121?groupID=2378658" target="_blank">Book your stay</SafeLink></Button>
+            <div className="button-strong-div"><SafeLink className="button-strong" href="https://reservations.travelclick.com/12121?groupID=2378658" target="_blank">Book your stay</SafeLink></div>
             <Text>
               <p><br/>Prices are €109 for a single room and €119 for a double room per night, breakfast included. All rooms are subject to availability. Special price is valid for all bookings before January 13th 2019.</p>
             </Text>
