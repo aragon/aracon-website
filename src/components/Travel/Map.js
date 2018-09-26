@@ -59,6 +59,8 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   ${medium('flex-direction: row;')};
+  justify-content: center;
+  align-items: center;
 `
 
 const Map = () => (
@@ -70,7 +72,7 @@ const Map = () => (
             isMarkerShown
             googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_3Zo-VU8tXwUOgPJCQkGqgY7-eWQXzic&v=3.exp&libraries=geometry,drawing,places"
             loadingElement={<div style={{ height: `100%` }} />}
-            containerElement={<div style={{ height: `581px`, width: `100%` }} />}
+            containerElement={<div style={{ height: `400px`, width: `100%` }} />}
             mapElement={<div style={{ height: `100%` }} />}
           />
         </div>
@@ -92,7 +94,6 @@ const Map = () => (
           </p>
           <p>Tegel Airport is 20min away by TXL direct bus.</p>
         </div>
-        
       </Container>
     </MapBox>
   </Section>

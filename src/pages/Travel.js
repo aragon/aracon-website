@@ -18,8 +18,8 @@ const AccomodationBox = styled.div`
   text-align: center;
   .text {
     width: 100%;
-    padding-left: 0;
-    ${medium('width: 50%; padding-left: 40px;')};
+    padding-right: 0;
+    ${medium('width: 50%; padding-right: 40px;')};
   }
   .image {
     width: 100%;
@@ -60,9 +60,6 @@ const Travel = () => (
       <AccomodationBox>
         <div className="h1box xs-centered"><h1>Accomodation</h1></div>
         <Content>
-          <div className="image">
-            <img src={AccomodationImg} alt="" />
-          </div>
           <div className="text">
             <Text size="xlarge">
               <h2>AMERON Berlin ABION Hotel</h2>
@@ -77,6 +74,9 @@ const Travel = () => (
             <Text>
               <p><br/>Prices are €109 for a single room and €119 for a double room per night, breakfast included. All rooms are subject to availability. Special price is valid for all bookings before January 13th 2019.</p>
             </Text>
+          </div>
+          <div className="image">
+            <img src={AccomodationImg} alt="" />
           </div>
         </Content>
       </AccomodationBox>
