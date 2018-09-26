@@ -74,10 +74,10 @@ class Page extends React.Component {
 
     return (
       <SiteData
-        render={({ title: siteTitle }) => (
+        render={({ title: siteTitle, basePath: siteBasePath }) => (
           <RouteData
             render={({ title }) => (
-              <AragonApp publicUrl="/aragon-ui/" className="app">
+              <AragonApp publicUrl={siteBasePath + '/aragon-ui/'} className="app">
                 <Head>
                   <title>{title || siteTitle}</title>
                 </Head>
