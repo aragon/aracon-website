@@ -42,8 +42,8 @@ const Registration = () => (
           <li>You’re building an Aragon app</li>
           <li>You’re using Aragon to build your own DAO</li>
         </Criteria>
+        <br />
         <Text>
-          <br />
           <p>If you meet one of the criteria above, please email us with the proof at <SafeLink href="mailto:info@aracon.org">info@aracon.org</SafeLink> and we will send you a registration link for a Community ticket.</p><br />
           <p><span className="strong">If you are not a member of the Aragon community yet, we are excited to meet you soon. To get your ticket, please register below!</span></p><br />
         </Text>

@@ -40,6 +40,7 @@ const Container = styled.div`
 const TextContainer = styled.div`
   width: 100%;
   max-width: 695px;
+  background: white;
   margin: 70px auto 160px auto;
   display: flex;
   flex-wrap: wrap;
@@ -163,10 +164,12 @@ const Speakers = () => (
         </Container>
       </SpeakersBox>
     </Section>
-    <TextContainer>
-      <h2>Want to Speak at AraCon 2019?</h2>
-      <p>If you would like to join a panel or do a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - please <Link to="/speakersapplication">apply here</Link> before November 10th.</p>
-    </TextContainer>
+    <Section>
+      <TextContainer>
+        <h2>Want to Speak at AraCon 2019?</h2>
+        <p>If you would like to join a panel or do a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - please <Link to="/speakersapplication">apply here</Link> before November 10th.</p>
+      </TextContainer>
+    </Section>
   </Page>
 );
 

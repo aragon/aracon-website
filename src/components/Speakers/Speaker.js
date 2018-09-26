@@ -38,7 +38,7 @@ const TextBox = styled.div`
     font-weight: 300;
     color: #000000;
     max-height: auto; 
-    overflow-y: scroll;
+    height: auto;
     ${large('max-height: auto;')};
   }
 `;
