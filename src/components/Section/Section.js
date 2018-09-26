@@ -54,6 +54,9 @@ const StyledContent = styled.div`
       color: #61B2F0;
       text-decoration: none;
     }
+    a:hover {
+      color: #0088f3;
+    }
   }
   button a, a {
     text-decoration: none;

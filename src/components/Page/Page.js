@@ -51,6 +51,9 @@ const Content = styled.div`
       height: 13px;
     }
   }
+  a.button-strong:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.39);
+  }
 `;
 
 const menuItems = [

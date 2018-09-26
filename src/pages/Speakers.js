@@ -166,7 +166,6 @@ const Speakers = () => (
             bio="María Gómez is a former corporate lawyer. She worked several years in the M&A and corporate finance
             practice. Currently she works on ecosystem development for Aragon.one, one of the teams working for the
             Aragon project. "/>
-          <div className="h2box"><br /><h2>More speakers coming soon</h2></div>
         </Container>
         <p>More speakers coming soon</p>
       </SpeakersBox>
