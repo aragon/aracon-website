@@ -13,7 +13,7 @@ const large = css => breakpoint('large', css);
 const Container = styled.div`
   width: 100%;
   margin: 0;
-  padding: 50px 8.5%;
+  padding: 85px 8.5% 50px 8.5%;
   background: #1d1d2a;
   text-align: center;
   background-image: url(${backgroundImage});
