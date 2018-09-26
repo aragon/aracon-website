@@ -1,16 +1,18 @@
 import React from 'react'
 import { Link } from 'react-static'
-import { Card, Text, theme } from '@aragon/ui'
+import { Card, Text, theme, breakpoint } from '@aragon/ui'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
+const medium = css => breakpoint('medium', css);
 
 const TextBox = styled.div`
   margin-top: 12px;
   p {
     text-transform: uppercase;
     color: #4BC5E8;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 15px;
+    ${medium('font-size: 16px; font-weight: bold;')};
+    font-weight: 400;
     line-height: 25px;
   }
   h6 {
