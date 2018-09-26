@@ -18,7 +18,7 @@ export default {
   basePath: process.env.BASE_PATH || '',
   getSiteData: () => ({
     title: 'AraCon website',
-    basePath: process.env.BASE_PATH || '',
+    basePath: { process.env.BASE_PATH ? '/aracon-website' : '' },
   }),
   getRoutes: () => [
     {
