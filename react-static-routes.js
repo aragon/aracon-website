@@ -21,7 +21,7 @@ const universalOptions = {
 
   const t_0 = universal(import('../src/pages/Home'), universalOptions)
 const t_1 = universal(import('../src/pages/Speakers'), universalOptions)
-const t_2 = universal(import('../src/pages/SpeakersApplication'), universalOptions)
+const t_2 = universal(import('../src/pages/SpeakerApplication'), universalOptions)
 const t_3 = universal(import('../src/pages/EmptyAgenda'), universalOptions)
 const t_4 = universal(import('../src/pages/Registration'), universalOptions)
 const t_5 = universal(import('../src/pages/Volunteer'), universalOptions)
