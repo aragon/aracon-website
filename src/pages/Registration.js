@@ -1,7 +1,7 @@
 import React from 'react'
 import { Page } from '../components'
 import Section from '../components/Section/Section'
-import { Text, SafeLink, theme, Button } from '@aragon/ui'
+import { Text, SafeLink, theme } from '@aragon/ui'
 import styled from 'styled-components'
 import oval from '../components/Home/assets/oval.svg'
 
@@ -48,7 +48,7 @@ const Registration = () => (
           <p><span className="strong">If you are not a member of the Aragon community yet, we are excited to meet you soon. To get your ticket, please register below!</span></p><br />
         </Text>
         <br />
-        <Button mode="strong"><SafeLink href="https://ti.to/aragon/aracon-one/" target="_blank">Register here</SafeLink></Button>
+        <div className="button-strong-div"><SafeLink className="button-strong" href="https://ti.to/aragon/aracon-one/" target="_blank"><span>Register here</span></SafeLink></div>
         <Text>
         <p><br />Need financial help attending AraCon?<br />
         We will be announcing a scholarship program in October to provide financial assistance for those in need.<br />

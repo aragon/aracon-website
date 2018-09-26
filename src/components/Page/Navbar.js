@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-static'
-import { Button, Text, breakpoint, BreakPoint, SafeLink } from '@aragon/ui'
+import { Text, breakpoint, BreakPoint, SafeLink } from '@aragon/ui'
 import MenuItem from './MenuItem'
 import MenuPanel from './MenuPanel'
 import logo from './assets/logo.svg'
@@ -47,8 +47,29 @@ const AraconNav = styled.div`
   .brand img {
     height: 25px;
   }
-  button a {
+  a.button {
     text-decoration: none;
+    width: auto;
+    padding: 10px 15px;
+    white-space: nowrap;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 400;
+    color: #707070;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 1px 1px rgba(0,0,0,0);
+    color: #FFFFFF;
+    background-image: linear-gradient( 130deg,#00B4E6,#00F0E0 );
+    display: flex;
+    align-items: center;
+    .span {
+      height: 13px;
+    }
   }
 `;
 
@@ -116,7 +137,7 @@ class Navbar extends React.Component {
               ))}
             </ul>
           </BreakPoint>
-          <Button mode="strong"><Link to="/livestream">LIVE</Link></Button>
+          <Link className="button" to="/livestream"><span>LIVE</span></Link>
           <BreakPoint to="large">
             <MenuPanel items={menuItems} renderLink={renderMenuItemLink} />
           </BreakPoint>

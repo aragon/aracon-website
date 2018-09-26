@@ -20,6 +20,11 @@ const SpeakersBox = styled.div`
     max-width: 1200px;
     margin: auto;
   }
+  p {
+    color: #63B1F1;   
+    font-size: 19px;  
+    line-height: 27px;
+  }
 `;
 
 const Container = styled.div`
@@ -162,6 +167,7 @@ const Speakers = () => (
             practice. Currently she works on ecosystem development for Aragon.one, one of the teams working for the 
             Aragon project. "/>
         </Container>
+        <p>More speakers coming soon</p>
       </SpeakersBox>
     </Section>
     <Section className="white">
