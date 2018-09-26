@@ -164,7 +164,7 @@ const Speakers = () => (
         </Container>
       </SpeakersBox>
     </Section>
-    <Section>
+    <Section className="white">
       <TextContainer>
         <h2>Want to Speak at AraCon 2019?</h2>
         <p>If you would like to join a panel or do a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - please <Link to="/speakersapplication">apply here</Link> before November 10th.</p>

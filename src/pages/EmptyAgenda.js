@@ -24,6 +24,9 @@ const Container = styled.div`
     margin-top: 30px;
     font-size: 35px;
   }
+  img {
+    width: 118px;
+  }
 `;
 
 class Agenda extends React.Component {

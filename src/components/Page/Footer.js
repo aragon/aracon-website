@@ -11,7 +11,7 @@ const Box = styled.div`
   width: 100%;
   height: auto;
   padding: 50px 8.5%;
-  background-image: radial-gradient(circle at 51% 42%, #201f2f, #100e18);
+  background: #1D1D2A;
   text-align: center;
   z-index: 1;
   display: flex;

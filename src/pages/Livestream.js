@@ -23,6 +23,9 @@ const Container = styled.div`
     text-align: center;
     margin-top: 30px;
   }
+  img {
+    width: 95px;
+  }
 `;
 
 class Livestream extends React.Component {
