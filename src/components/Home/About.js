@@ -73,6 +73,9 @@ const VideoBox = styled.div`
     padding: 30px 0;
     ${medium('padding: 0 30px')};
     text-align: left;
+    p {
+      max-width: inherit;
+    }
   }
 `;
 

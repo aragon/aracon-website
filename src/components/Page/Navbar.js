@@ -56,12 +56,13 @@ const End = styled.div`
   width: auto;
   height: auto;
   display: flex;
+  align-items: center;
   justify-content: flex-end;
   ul {
     display: flex;
   }
   button {
-    margin-left: 10px;
+    margin: 0 0 0 10px;
   }
 `;
 
