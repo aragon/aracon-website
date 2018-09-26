@@ -12,7 +12,7 @@ const Criteria = styled.ul`
   line-height: 1.5;
   list-style-image: url(${oval});
   list-style-position: inside;
-  color: #030303;
+  color: #707070
   a {
     color: #61B2F0;
   }

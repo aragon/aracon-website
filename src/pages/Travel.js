@@ -29,7 +29,6 @@ const AccomodationBox = styled.div`
     }
   }
   p, h2 {
-    color: #18181A;
     text-align: center;
     ${medium('text-align: left;')};
     margin-bottom: 30px;
