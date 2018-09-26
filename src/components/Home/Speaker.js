@@ -27,10 +27,10 @@ const TextBox = styled.div`
 const Photo = styled.img`
   width: 100%;
   overflow: hidden;
-  -webkit-transition: filter 1s ease-in-out;
-  -moz-transition: filter 1s ease-in-out;
-  -o-transition: filter 1s ease-in-out;
-  transition: filter 1s ease-in-out;
+  -webkit-transition: filter 0.8s ease-in-out;
+  -moz-transition: filter 0.8s ease-in-out;
+  -o-transition: filter 0.8s ease-in-out;
+  transition: filter 0.8s ease-in-out;
   object-fit: cover;
   height: 238px;
   filter: grayscale(100%);
