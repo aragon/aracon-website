@@ -28,7 +28,7 @@ const SpeakersApplication = () => (
     <Section className="dark all-page">
       <OuterContainer>
         <TextContainer>
-          <div className="h1box" id="speakers-form"><h1>Speakers application</h1></div>
+          <div className="h1box" id="speakers-form"><h1>Speaker application</h1></div>
           <p>If you would like to join a panel or do a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - please apply here before November 10th.</p>
         </TextContainer>
       </OuterContainer>

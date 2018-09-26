@@ -21,8 +21,8 @@ const SpeakersBox = styled.div`
     margin: auto;
   }
   p {
-    color: #63B1F1;   
-    font-size: 19px;  
+    color: #63B1F1;
+    font-size: 19px;
     line-height: 27px;
   }
 `;
@@ -173,7 +173,7 @@ const Speakers = () => (
     <Section className="white">
       <TextContainer>
         <h2>Want to Speak at AraCon 2019?</h2>
-        <p>If you would like to join a panel or do a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - please <Link to="/speakersapplication">apply here</Link> before November 10th.</p>
+        <p>If you would like to join a panel or do a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - please <Link to="/speakerapplication">apply here</Link> before November 10th.</p>
       </TextContainer>
     </Section>
   </Page>

@@ -8,7 +8,7 @@ import Footer from './Footer.js'
 const Content = styled.div`
   padding-top: 64px;
   min-height: calc(100vh - 116px)!important;
-  
+
   section.all-page {
     min-height: calc(100vh - 116px)!important;
   }
@@ -63,6 +63,7 @@ const menuItems = [
   ['/volunteer', 'Volunteer'],
   ['/contact', 'Contact'],
   ['/travelinformation', 'Travel Information'],
+  ['/speakerapplication', 'Speaker Application'],
   ['/faq', 'FAQ'],
 ];
 
