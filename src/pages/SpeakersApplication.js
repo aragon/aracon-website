@@ -29,7 +29,7 @@ const SpeakersApplication = () => (
       <OuterContainer>
         <TextContainer>
           <div className="h1box" id="speakers-form"><h1>Speakers application</h1></div>
-          <p>If you would like to do a workshop or a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - please register here</p>
+          <p>If you would like to join a panel or do a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - please apply here before November 10th.</p>
         </TextContainer>
       </OuterContainer>
       <Forms type="speakers" src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd_2Bnex51b1b2jCZWBQtfTcaOhfvbt_2Fq8nWc81qWg3efVA.js"/>

@@ -15,9 +15,9 @@ const TextBox = styled.div`
   }
   h6 {
     text-transform: uppercase;
-    color: #45494D; 
-    font-size: 13px;  
-    font-weight: 600; 
+    color: #45494D;
+    font-size: 13px;
+    font-weight: 600;
     line-height: 22px;
   }
 `;
@@ -42,8 +42,8 @@ const Photo = styled.img`
 
 const SpeakerBox = styled.div`
   margin-bottom: 40px;
-  border-radius: 6px; 
-  background: linear-gradient(184.81deg, #F5F6FB 0%, #FFFFFF 100%); 
+  border-radius: 6px;
+  background: linear-gradient(184.81deg, #F5F6FB 0%, #FFFFFF 100%);
   box-shadow: 8px 16px 16px 0 rgba(0,0,0,0.13);
   position: relative;
 `;

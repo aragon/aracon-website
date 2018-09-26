@@ -41,7 +41,7 @@ class Agenda extends React.Component {
             <img src={agenda} alt="live"/>
             <Text>
               <div className="h1box">
-                <h1>The full agenda is currently beign finalised.<br/>Please check back for updates soon.</h1>
+                <h1>The full agenda is currently beign finalized.<br/>Please check back later for updates.</h1>
               </div>
             </Text>
           </Container>
