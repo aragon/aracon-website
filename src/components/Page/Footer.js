@@ -53,9 +53,9 @@ const Footer = ({ ...props }) => (
     <Box>
       <FooterImg src={footer} alt="Powered by Aragon" />
       <FooterLinks>
-        <SafeLink href="https://wiki.aragon.org/documentation/legal/Privacy_policy/" target="_blank">Privacy policy</SafeLink>
-        <SafeLink href="https://wiki.aragon.org/documentation/legal/Terms_of_use_websites/" target="_blank">Terms of use</SafeLink>
-        <SafeLink href=" https://wiki.aragon.org/documentation/Code_of_Conduct/" target="_blank">Code of conduct</SafeLink>
+        <SafeLink href="https://wiki.aragon.org/documentation/legal/Privacy_policy/" target="_blank">Privacy Policy</SafeLink>
+        <SafeLink href="https://wiki.aragon.org/documentation/legal/Terms_of_use_websites/" target="_blank">Terms of Use</SafeLink>
+        <SafeLink href=" https://wiki.aragon.org/documentation/Code_of_Conduct/" target="_blank">Code of Conduct</SafeLink>
       </FooterLinks>
     </Box>
   </FooterSection>

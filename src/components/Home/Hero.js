@@ -74,7 +74,7 @@ const Hero = () => (
     <HeroBox>
       <Logo src={araconLogo} alt="AraCon" />
       <h2>BUILDING ORGANIZATIONS & GOVERNANCE OF THE FUTURE</h2>
-      <p>January 29th-30th 2019, Berlin</p>
+      <p>29th-30th of January 2019 in Berlin</p>
       <h2 className="sides right">Berlin, Germany</h2>
       <h2 className="sides left">Jan 29-30.2019</h2>
       <HeroTriangle/>
