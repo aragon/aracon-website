@@ -16,6 +16,9 @@ const Criteria = styled.ul`
   a {
     color: #61B2F0;
   }
+  a:hover {
+    color: #0088f3;
+  }
 `;
 const Container = styled.div`
   width: 100%;
@@ -28,7 +31,8 @@ const Registration = () => (
       <Container>
         <Text><div className="h1box"><h1>Registration</h1></div></Text>
         <Text size="xlarge">
-          <h3>AraCon welcomes people from all backgrounds to join us at the flagship event of the Aragon Project. We have a portion of tickets initially reserved for Aragon community members, those who have supported and helped us get to this point in time that we can make AraCon a reality.</h3>
+          <h3>AraCon welcomes people from all backgrounds to join us at the flagship event of the Aragon Project.<br /><br />
+          We have a portion of tickets initially reserved for Aragon community members, those who have supported and helped us get to this point in time that we can make AraCon a reality.</h3>
         </Text>
         <Text>
           <p>Not sure whether you’re qualified for a Community ticket? These are the criteria:</p><br />
