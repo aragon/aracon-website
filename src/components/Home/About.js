@@ -13,7 +13,7 @@ const large = css => breakpoint('large', css);
 const Container = styled.div`
   width: 100%;
   margin: 0;
-  padding: 50px 8.5%;
+  padding: 50px 8.5% 92px 8.5%;
   background: white;
   text-align: center;
 
@@ -35,6 +35,12 @@ const Container = styled.div`
     height: auto;
     width: 740px;
     height: 269px;
+  }
+  .hr {
+    width:100%;
+    height: 2px;
+    margin-bottom: 92px;
+    background-color: #eef3f7;
   }
 `;
 
@@ -104,6 +110,7 @@ const About = () => (
           <p>See how Aragon is bringing freedom for all with these revolutionary advancements.</p>
         </div>
       </AboutBox>
+      <div className="hr"/>
       <VideoBox>
         <div>
           <iframe src="https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0" allow="encrypted-media"  frameBorder="0"></iframe>

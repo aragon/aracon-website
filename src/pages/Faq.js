@@ -10,7 +10,7 @@ import oval from '../components/Home/assets/oval.svg'
 const FaqBox = styled.div`
   width: 100%;
   margin: 0;
-  padding: 80px 0;
+  padding: 0;
   background: white;
   text-align: left;
   h2 {

@@ -67,6 +67,7 @@ const AraconNav = styled.div`
     background-image: linear-gradient( 130deg,#00B4E6,#00F0E0 );
     display: flex;
     align-items: center;
+    margin: 0 0 0 25px;
     .span {
       height: 13px;
     }
