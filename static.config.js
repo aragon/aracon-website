@@ -33,8 +33,8 @@ export default {
       getData: () => ({ title: 'AraCon - Speakers' }),
     },
     {
-      path: '/speakersapplication',
-      component: 'src/pages/SpeakersApplication',
+      path: '/speakerapplication',
+      component: 'src/pages/SpeakerApplication',
       getData: () => ({ title: 'AraCon - Speakers Application' }),
     },
     {
