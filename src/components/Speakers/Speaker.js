@@ -37,7 +37,7 @@ const TextBox = styled.div`
     font-size: 17px;
     font-weight: 300;
     color: #000000;
-    max-height: auto; 
+    max-height: auto;
     height: auto;
     ${large('max-height: auto;')};
   }

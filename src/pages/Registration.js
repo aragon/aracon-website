@@ -34,7 +34,6 @@ const Registration = () => (
           <p>Not sure whether you’re qualified for a Community ticket? These are the criteria:</p><br />
         </Text>
         <Criteria>
-          <li>You are an Aragon Network Token holder</li>
           <li>You have contributed to the development of the Aragon Project</li>
           <li>You’re actively participating in discussions on our official community chats (<SafeLink href="https://aragon.chat" target="_blank">https://aragon.chat</SafeLink> & <SafeLink href="https://research.aragon.org" target="_blank">https://research.aragon.org</SafeLink>)</li>
           <li>You have contributed in the creation of at least one Aragon Monthly issue</li>

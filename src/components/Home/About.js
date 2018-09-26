@@ -50,17 +50,17 @@ const AboutBox = styled.div`
     .image-box {
       height: 92px;
       text-align: center;
-      ${medium('text-align: left;')};
+      ${medium('text-align: center;')};
     }
     p {
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 300;
       line-height: 1.63;
       color: #000000;
       text-align: center;
-      ${medium('text-align: left;')};
+      ${medium('text-align: center;')};
     }
-  } 
+  }
 `;
 
 const VideoBox = styled.div`
@@ -83,7 +83,7 @@ const About = () => (
   <Section>
     <Container>
       <Text>
-        <p className="intro"><SafeLink href="https://twitter.com/hashtag/AraConOne" target="_blank">#AraConOne</SafeLink> will bring together people who embody and wish to shape the Aragon community. Those who are building and supporting the pseudonymous, secure, trustless future — the decentralized web. Decentralized governance and DAOs are at the heart of the new Web 3.0.</p>
+        <p className="intro">The Aragon Conference will bring together people who embody and wish to shape the Aragon community. Those who are building and supporting the pseudonymous, secure, trustless future — the decentralized web. Decentralized governance and DAOs are at the heart of the new Web 3.0.</p>
       </Text>
       <br/>
       <AboutBox>
@@ -93,7 +93,7 @@ const About = () => (
         </div>
         <div className="container">
           <div className="image-box"><img src={image2} /></div>
-          <p>Grasp what makes decentralized governance so relevant to the Web3.0.</p>
+          <p>Grasp what makes decentralized governance so relevant to Web3.0.</p>
         </div>
         <div className="container">
           <div className="image-box"><img src={image3} /></div>
@@ -101,7 +101,7 @@ const About = () => (
         </div>
         <div className="container">
           <div className="image-box"><img src={image4} /></div>
-          <p>See how Aragon is bringing about freedom for all with these revolutionary advancements.</p>
+          <p>See how Aragon is bringing freedom for all with these revolutionary advancements.</p>
         </div>
       </AboutBox>
       <VideoBox>
@@ -110,15 +110,13 @@ const About = () => (
         </div>
         <div className="text-container">
           <Text>
-            <p className="intro">We are building Aragon because we believe decentralized organizations can solve the world’s worst problems.</p>
+            <p className="intro"><b>We invite everyone to come be a part of this growing movement and learn more about how we can build this future together!</b></p>
             <br/>
-            <p className="intro">We invite everyone to come be a part of this growing movement and learn more about how we can build this future together!</p>
-            <br/>
-            <p className="intro"><SafeLink href="https://twitter.com/hashtag/AraConOne" target="_blank">#AraConOne</SafeLink></p>
+            <p className="intro"><SafeLink href="https://twitter.com/hashtag/AraCon2019" target="_blank">#AraCon2019</SafeLink></p>
           </Text>
         </div>
       </VideoBox>
-      
+
     </Container>
   </Section>
 );
