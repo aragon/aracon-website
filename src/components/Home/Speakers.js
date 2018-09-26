@@ -36,14 +36,14 @@ const Speakers = () => (
     <SpeakersBox>
       <div className="h1box xs-centered"><h1>Speakers</h1></div>
       <Container>
-        <Speaker photo="Luis Cuende" linkTo="luis" name="Luis Cuende" position="CEO" company="Aragon One"/>
-        <Speaker photo="Griff Green" linkTo="griff" name="Griff Green" position="Co-founder" company="Giveth & Aragon DAC"/>
-        <Speaker photo="Jutta Steiner" linkTo="jutta" name="Jutta Steiner" position="Co-Founder" company="Parity Technologies"/>
-        <Speaker photo="Santiago Siri" linkTo="santiago" name="Santiago Siri" position="Founder" company="Democracy Earth"/>
-        <Speaker photo="Joe Urgo" linkTo="joe" name="Joe Urgo" position="Co-Founder" company="District0x"/>
-        <Speaker photo="Primavera De Filippi" linkTo="primavera" name="Primavera De Filippi" position="Postdoctoral researcher" company="CNRS"/>
-        <Speaker photo="Martin Koppelmann" linkTo="martin" name="Martin Köppelmann" position="Co-Founder" company="Gnosis"/>
-        <Speaker photo="Maria Gomez" linkTo="maria" name="María Gómez" position="Ecosystem Development" company="Aragon One"/>
+        <Speaker photo="LuisCuende" linkTo="luis" name="Luis Cuende" position="CEO" company="Aragon One"/>
+        <Speaker photo="GriffGreen" linkTo="griff" name="Griff Green" position="Co-founder" company="Giveth & Aragon DAC"/>
+        <Speaker photo="JuttaSteiner" linkTo="jutta" name="Jutta Steiner" position="Co-Founder" company="Parity Technologies"/>
+        <Speaker photo="SantiagoSiri" linkTo="santiago" name="Santiago Siri" position="Founder" company="Democracy Earth"/>
+        <Speaker photo="JoeUrgo" linkTo="joe" name="Joe Urgo" position="Co-Founder" company="District0x"/>
+        <Speaker photo="PrimaveraDeFilippi" linkTo="primavera" name="Primavera De Filippi" position="Postdoctoral researcher" company="CNRS"/>
+        <Speaker photo="MartinKoppelmann" linkTo="martin" name="Martin Köppelmann" position="Co-Founder" company="Gnosis"/>
+        <Speaker photo="MariaGomez" linkTo="maria" name="María Gómez" position="Ecosystem Development" company="Aragon One"/>
       </Container>
       <Container>
         <p className="all_speakers"><Button><Link to="/speakers">See all...</Link></Button></p>
