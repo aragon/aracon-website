@@ -29,7 +29,7 @@ const OuterContainer = styled.div`
 
 
 const SpeakersApplication = () => (
-  <Page path="/speakersapplication">
+  <Page path="/speakerapplication">
     <Section className="dark all-page">
       <OuterContainer>
         <TextContainer>

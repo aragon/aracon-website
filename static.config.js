@@ -35,7 +35,7 @@ export default {
     {
       path: '/speakerapplication',
       component: 'src/pages/SpeakerApplication',
-      getData: () => ({ title: 'AraCon - Speakers Application' }),
+      getData: () => ({ title: 'AraCon - Speaker Application' }),
     },
     {
       path: '/agenda',
