@@ -40,7 +40,7 @@ class Livestream extends React.Component {
             <img src={live} alt="live"/>
             <Text>
               <div className="h1box">
-                <h1>Ops! we are not in live yet!</h1>
+                <h1>Oops! We are not live yet!</h1>
               </div>
             </Text>
           </Container>

@@ -41,7 +41,7 @@ class Agenda extends React.Component {
             <img src={agenda} alt="live"/>
             <Text>
               <div className="h1box">
-                <h1>The full agenda is currently being finalized.<br /><a href="http://eepurl.com/dHogTD" target="_blank" rel="noopener noreferrer">Sign up <u>here</u> for our newsletter to get the latest updates</a>.</h1>
+                <h1>The agenda is currently being worked on.<br /><a href="https://eepurl.com/dHogTD" target="_blank" rel="noopener noreferrer">Sign up <u>here</u> for our newsletter to get the latest updates</a>.</h1>
               </div>
             </Text>
           </Container>
