@@ -24,7 +24,7 @@ const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  a, button {
+  a, button, p {
     color: #63B1F1;   
     font-size: 19px;  
     line-height: 27px;
@@ -46,7 +46,7 @@ const Speakers = () => (
         <Speaker photo="Maria Gomez" linkTo="maria" name="María Gómez" position="Ecosystem Development" company="Aragon One"/>
       </Container>
       <Container>
-          <Button>More speakers coming soon</Button>
+          <p>More speakers coming soon</p>
           {/* 
             Removing link till we have more speakers to show
             <Button><Link to="/speakers">See more...</Link></Button>
