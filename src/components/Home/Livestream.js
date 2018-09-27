@@ -35,10 +35,11 @@ const Container = styled.div`
     justify-content: center;
     ${medium('justify-content: flex-start;')};
   }
-  img {
-    ${medium('padding-left: 60px; width: 50%')};
+  iframe {
+    ${medium('padding-left: 60px; width: 100%')};
     margin-top: 60px;
     ${medium('margin-top: 0;')};
+    min-height: 300px;
   }
   
 `;
@@ -58,7 +59,7 @@ const Livestream = () => (
         </Text>
         <div className="button-strong-div"><Link className="button-strong" to="/livestream"><span>Watch the livestream</span></Link></div>
       </div>
-      <img src={livestream} alt="livestream" />
+      <iframe className="livestream-video" src="https://www.youtube-nocookie.com/embed/49hXxj31e7c?rel=0&amp;ecver=2" frameBorder="0" allow="autoplay; encrypted-media"  allowFullScreen></iframe>
     </Container>
   </Section>
 );

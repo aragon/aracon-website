@@ -23,9 +23,13 @@ const Container = styled.div`
     text-align: center;
     margin-top: 30px;
   }
-  img {
-    width: 95px;
+  iframe {
+    width: 642px;
+    height: 320px;
+    max-width: 100%;
+    max-height: 70vh;
   }
+
 `;
 
 class Livestream extends React.Component {
@@ -37,7 +41,7 @@ class Livestream extends React.Component {
       <Page path="/livestream">
         <Section className="dark all-page">
           <Container>
-            <img src={live} alt="live"/>
+            <iframe className="livestream-video" src="https://www.youtube-nocookie.com/embed/49hXxj31e7c?rel=0&amp;ecver=2" frameBorder="0" allow="autoplay; encrypted-media"  allowFullScreen></iframe>
             <Text>
               <div className="h1box">
                 <h1>Oops! We are not live yet!</h1>
