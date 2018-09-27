@@ -33,7 +33,7 @@ const Content = styled.div`
     padding: 10px 15px;
     white-space: nowrap;
     line-height: 1;
-    font-size: 14px;
+    font-size: 15px;
     border: 0;
     border-radius: 3px;
     outline: 0;

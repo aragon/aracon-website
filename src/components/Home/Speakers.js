@@ -40,10 +40,10 @@ const Speakers = () => (
         <Speaker photo="GriffGreen" linkTo="griff" name="Griff Green" position="Co-founder" company="Giveth & Aragon DAC"/>
         <Speaker photo="JuttaSteiner" linkTo="jutta" name="Jutta Steiner" position="Co-Founder" company="Parity Technologies"/>
         <Speaker photo="SantiagoSiri" linkTo="santiago" name="Santiago Siri" position="Founder" company="Democracy Earth"/>
-        <Speaker photo="JoeUrgo" linkTo="joe" name="Joe Urgo" position="Co-Founder" company="District0x"/>
         <Speaker photo="PrimaveraDeFilippi" linkTo="primavera" name="Primavera De Filippi" position="Postdoctoral researcher" company="CNRS"/>
-        <Speaker photo="JordiBaylina" linkTo="jordi" name="Jordi Baylina" position="Tech Lead" company="Iden3"/>
+        <Speaker photo="JoeUrgo" linkTo="joe" name="Joe Urgo" position="Co-Founder" company="District0x"/>
         <Speaker photo="MariaGomez" linkTo="maria" name="María Gómez" position="Ecosystem Development" company="Aragon One"/>
+        <Speaker photo="JordiBaylina" linkTo="jordi" name="Jordi Baylina" position="Tech Lead" company="Iden3"/>
       </Container>
       <Container>
         <p><Link to="/speakers">See all...</Link></p>
