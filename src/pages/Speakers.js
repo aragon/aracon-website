@@ -168,20 +168,20 @@ const Speakers = () => (
             practice. Currently she works on ecosystem development for Aragon.one, one of the teams working for the
             Aragon project. "/>
           <Speaker photo="EvanVanNess" linkTo="evan" name="Evan Van Ness" position="Founder & Editor" company="Week in Ethereum News"
-            bio="Evan Van Ness is the founder and editor of WeekInEthereum.com and a member of ConsenSys. 
+            bio="Evan Van Ness is the founder and editor of WeekInEthereum.com and a member of ConsenSys.
             As a Texan, decentralization is in his blood."/>
           <Speaker photo="JordiBaylina" linkTo="jordi" name="Jordi Baylina" position="Tech Lead" company="Iden3"
-            bio="Jordi is one of the strongest Solidity developers in the world and a high impact contributor in the 
-            Ethereum community. He is a co-founder of the White Hat Group, which played a major role in rescuing funds 
-            from TheDAO and Parity Multisig Hacks, author of the MiniMe token contract, the elliptic curves Solidity 
-            library as well as numerous other established contracts in the Ethereum space. Well respected auditor, 
-            most notably leading teams to audit the MakerDAO Stable Coin system and Aragon project. Founder of the 
+            bio="Jordi is one of the strongest Solidity developers in the world and a high impact contributor in the
+            Ethereum community. He is a co-founder of the White Hat Group, which played a major role in rescuing funds
+            from TheDAO and Parity Multisig Hacks, author of the MiniMe token contract, the elliptic curves Solidity
+            library as well as numerous other established contracts in the Ethereum space. Well respected auditor,
+            most notably leading teams to audit the MakerDAO Stable Coin system and Aragon project. Founder of the
             donation platform Giveth, DAppNode and Iden3."/>
           <Speaker photo="WillWarren" linkTo="will" name="Will Warren" position="Co-founder and CEO" company="0x"
-            bio="Will Warren is Co-founder and CEO at 0x which is developing public infrastructure for peer-to-peer 
-            exchange on the Ethereum blockchain. After receiving a B.S. in Mechanical Engineering from UC San Diego, 
-            Will worked as a graduate research assistant at Los Alamos National Laboratory conducting applied physics 
-            research. Will spent two years in UC San Diego's Structural Engineering doctoral program before dropping 
+            bio="Will Warren is Co-founder and CEO at 0x which is developing public infrastructure for peer-to-peer
+            exchange on the Ethereum blockchain. After receiving a B.S. in Mechanical Engineering from UC San Diego,
+            Will worked as a graduate research assistant at Los Alamos National Laboratory conducting applied physics
+            research. Will spent two years in UC San Diego's Structural Engineering doctoral program before dropping
             out to pursue an interest in Ethereum full time."/>
         </Container>
         <p>More speakers coming soon</p>
