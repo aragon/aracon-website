@@ -34,8 +34,6 @@ const Content = styled.div`
     white-space: nowrap;
     line-height: 1;
     font-size: 14px;
-    font-weight: 400;
-    color: #707070;
     border: 0;
     border-radius: 3px;
     outline: 0;
@@ -47,8 +45,8 @@ const Content = styled.div`
     background-image: linear-gradient( 130deg,#00B4E6,#00F0E0 );
     display: flex;
     align-items: center;
-    .span {
-      height: 13px;
+    span {
+      font-weight: 800;
     }
   }
   a.button-strong:hover {

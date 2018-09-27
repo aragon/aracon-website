@@ -54,8 +54,6 @@ const AraconNav = styled.div`
     white-space: nowrap;
     line-height: 1;
     font-size: 14px;
-    font-weight: 400;
-    color: #707070;
     border: 0;
     border-radius: 3px;
     outline: 0;
@@ -68,8 +66,9 @@ const AraconNav = styled.div`
     display: flex;
     align-items: center;
     margin: 0 0 0 25px;
-    .span {
+    span {
       height: 13px;
+      font-weight: 800;
     }
   }
 `;
