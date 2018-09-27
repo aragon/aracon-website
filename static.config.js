@@ -15,10 +15,8 @@ const ARAGON_UI_ASSETS = path.dirname(require.resolve('@aragon/ui'))
 
 export default {
   siteRoot: process.env.SITE_ROOT || '',
-  basePath: process.env.BASE_PATH || '',
   getSiteData: () => ({
     title: 'AraCon website',
-    basePath: '/' + process.env.BASE_PATH || '',
   }),
   getRoutes: () => [
     {
