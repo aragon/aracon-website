@@ -13,6 +13,9 @@ const TextContainer = styled.div`
   padding: 50px 0 50px 0;
   text-align: left;
   ${large('width: 41%;')};
+  p {
+    color: #dad7d7;
+  }
 `;
 
 const OuterContainer = styled.div`

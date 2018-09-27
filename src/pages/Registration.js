@@ -27,7 +27,7 @@ const Container = styled.div`
 
 const Registration = () => (
   <Page path="/registration">
-    <Section className="all-page">
+    <Section className="white all-page">
       <Container>
         <Text><div className="h1box"><h1>Registration</h1></div></Text>
         <Text size="xlarge">

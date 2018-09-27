@@ -29,6 +29,7 @@ class Panel extends React.Component {
         </Button>
         <SidePanel title="" opened={opened} onClose={() => this.setState({ opened: false })}>
           <Container>
+          <Link to="/">Home</Link>
           {items.map((item, i) => (
             item[0].startsWith('/') ? (
               <Link to={item[0]} key={i}>{item[1]}</Link>

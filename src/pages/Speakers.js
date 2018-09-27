@@ -46,7 +46,8 @@ const TextContainer = styled.div`
   width: 100%;
   max-width: 695px;
   background: white;
-  margin: 70px auto 160px auto;
+  margin: auto;
+  padding: 70px 10px 160px 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

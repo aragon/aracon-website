@@ -49,6 +49,10 @@ const HeroBox = styled.div`
     ${medium('transform: rotate(-90deg);')};
     transform: rotate(0deg);
   }
+  p {
+    display: none;
+    ${medium('display: block;')};
+  }
 `;
 
 const HeroTriangle = styled.div`
