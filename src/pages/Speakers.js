@@ -163,10 +163,10 @@ const Speakers = () => (
             in the research arm of Colony: a platform for open organizations which seeks to enable new forms of
             decentralised organizations. The work involves a careful balancing of what is desirable
             in terms of governance and what is possible given the technical limitations of the Ethereum blockchain."/>
-          <Speaker photo="Maria Gomez" linkTo="maria" name="María Gómez" position="Ecosystem Development" company="Aragon One"
+          <Speaker photo="MariaGomez" linkTo="maria" name="María Gómez" position="Ecosystem Development" company="Aragon One"
             bio="María Gómez is a former corporate lawyer. She worked several years in the M&A and corporate finance
             practice. Currently she works on ecosystem development for Aragon.one, one of the teams working for the
-            Aragon project. "/>
+            Aragon project. "/>g
           <Speaker photo="EvanVanNess" linkTo="evan" name="Evan Van Ness" position="Founder & Editor" company="Week in Ethereum News"
             bio="Evan Van Ness is the founder and editor of WeekInEthereum.com and a member of ConsenSys. 
             As a Texan, decentralization is in his blood."/>
