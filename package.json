@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "",
-  "homepage": "https://aragon.github.io/aracon-website",
+  "homepage": "https://aracon.one",
   "scripts": {
     "start": "NODE_PRESERVE_SYMLINKS=1 react-static start",
     "build": "NODE_PRESERVE_SYMLINKS=1 react-static build",
     "serve": "serve dist -p 3000",
     "optimize-svg": "find ./src -name '*.svg' -exec svgo --config '{ \"plugins\": [ { \"removeDesc\": {\"removeAny\": true}, \"removeTitle\": true } ] }' {} \\;",
     "generate-favicon": "icon-gen -i favicon.png -o public -r",
-    "deploy": "NODE_ENV=production SITE_ROOT=https://aragon.github.io BASE_PATH=aracon-website npm run build && gh-pages -d dist"
+    "deploy": "NODE_ENV=production SITE_ROOT=https://aracon.one BASE_PATH=aracon-website npm run build && echo 'aracon.one' > dist/CNAME && gh-pages -d dist"
   },
   "dependencies": {
     "@aragon/ui": "^0.18.2",
