@@ -28,9 +28,11 @@ const Container = styled.div`
     height: 320px;
     max-width: 100%;
     max-height: 70vh;
+    margin-bottom: 70px;
   }
   p {
     text-align: center;
+    color: #dad7d7;
   }
 
 `;
