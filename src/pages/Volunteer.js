@@ -30,7 +30,7 @@ const Container = styled.div`
 
 const Volunteer = () => (
   <Page path="/volunteer">
-    <Section className="light all-page">
+    <Section className="light light-form all-page">
       <OuterContainer>
         <Container>
           <Text><div className="h1box"><h1>Volunteer</h1></div></Text>

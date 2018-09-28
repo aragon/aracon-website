@@ -60,8 +60,7 @@ const Faq = () => (
           can view the conference agenda <Link to="/agenda">here</Link> soon. Final agenda will be published some weeks before the event.</p>} />
           <Question question="How do I get to AraCon?" answer={<p>You can plan your route to
           AraCon by visiting the <Link to="/travelinformation">Travel Information page</Link>.</p>} />
-          <Question question="Where can I stay during my visit to AraCon?" answer={<p>Our official
-          hotel partner is Hotel Abion. If the official hotel gets booked out or you prefer to stay somewhere else, <SafeLink href="https://docs.google.com/document/d/1jDL6gBgGCi0g_i4y9Fb91EBV3dbsCB0FMWlFrXcsBsc/edit?usp=sharing" target="_blank">here’s the list of hotels in the area</SafeLink>.</p>} />
+          <Question question="Where can I stay during my visit to AraCon?" answer={<p>We have negotiated a special deal for AraCon guests with AMERON Berlin ABION Hotel. You can find more info about it <SafeLink href="https://reservations.travelclick.com/12121?groupID=2378658" target="_blank">here</SafeLink>. If this hotel get booked out or you prefer to stay somewhere else, here’s the <SafeLink href="https://docs.google.com/document/d/1jDL6gBgGCi0g_i4y9Fb91EBV3dbsCB0FMWlFrXcsBsc/edit?usp=sharing" target="_blank">list of hotels in the area</SafeLink>.</p>} />
           <Question question="How do I register for AraCon?" answer={<p>To learn more about registration process and fees, check out the <Link to="/registration">Registration page</Link>.</p>} />
           <Question question="What do I need to bring with me to AraCon?" answer={<p>All you need to bring is your ticket confirmation and lots of positive vibes.</p>} />
           <Question question="Can my company exhibit or speak at AraCon?" answer={<p>There will be no exhibition areas available. If you’d like to speak at AraCon, please submit your application <Link to="/speakerapplication">here</Link>.</p>} />

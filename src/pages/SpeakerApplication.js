@@ -33,7 +33,7 @@ const OuterContainer = styled.div`
 
 const SpeakersApplication = () => (
   <Page path="/speakerapplication">
-    <Section className="dark all-page">
+    <Section className="dark dark-form all-page">
       <OuterContainer>
         <TextContainer>
           <div className="h1box" id="speakers-form"><h1>Speaker application</h1></div>

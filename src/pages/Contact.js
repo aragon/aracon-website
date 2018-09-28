@@ -32,7 +32,7 @@ const Container = styled.div`
 
 const Contact = () => (
   <Page path="/contact">
-    <Section className="dark all-page">
+    <Section className="dark dark-form all-page">
       <OuterContainer>
         <Container>
           <Text><div className="h1box"><h1>Contact</h1></div></Text>

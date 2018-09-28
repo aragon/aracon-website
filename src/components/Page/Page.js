@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link, SiteData, RouteData, Head } from 'react-static'
 import styled from 'styled-components'
-import { AragonApp, AppBar } from '@aragon/ui'
+import { AragonApp, AppBar, breakpoint } from '@aragon/ui'
 import Navbar from './Navbar'
 import Footer from './Footer.js'
+const medium = css => breakpoint('medium', css);
 
 const Content = styled.div`
   padding-top: 64px;
@@ -12,11 +13,19 @@ const Content = styled.div`
   section.all-page {
     min-height: calc(100vh - 116px)!important;
   }
-  .dark {
+  .dark.dark-form {
     background: #18181A;
+  }
+  .dark.dark-form {
+    background: #1f1f21;
+    ${medium('background: #18181A;')};
   }
   .light {
     background: #fafdfd;
+  }
+  .light.light-form {
+    background: #eff5f8;
+    ${medium('background: #fafdfd;')};
   }
   .white {
     background: white;
