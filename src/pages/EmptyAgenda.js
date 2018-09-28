@@ -27,6 +27,9 @@ const Container = styled.div`
   img {
     width: 118px;
   }
+  u {
+    -webkit-text-fill-color: white;
+  }
 `;
 
 class Agenda extends React.Component {
