@@ -89,9 +89,11 @@ const About = () => (
   <Section>
     <Container>
       <Text>
-        <p className="intro">The Aragon Conference will bring together people who embody and wish to shape the Aragon community. Those who are building and supporting the pseudonymous, secure, trustless future — the decentralized web. Decentralized governance and DAOs are at the heart of the new Web 3.0.</p>
+        <p className="intro">The Aragon Conference will bring together people who embody and wish to shape the Aragon community. Those who are building and supporting the pseudonymous, secure, trustless future — the decentralized web.</p><br />
+        <p className="intro">Decentralized governance and DAOs are at the heart of the new Web 3.0. They are key components in moving towards a more fair and open world for everyone.</p>
+        <br />
+        <p className="intro">By concentrating on a few themes, we can provide much deeper and thorough presentations on these topics.</p>
       </Text>
-      <br/>
       <AboutBox>
         <div className="container">
           <div className="image-box"><img src={image1} /></div>
@@ -113,10 +115,11 @@ const About = () => (
       <div className="hr"/>
       <VideoBox>
         <div>
-          <iframe src="https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0" allow="encrypted-media"  frameBorder="0"></iframe>
+          <iframe title="Fight for freedom" src="https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0" allow="encrypted-media" frameBorder="0" />
         </div>
         <div className="text-container">
           <Text>
+            <p className="intro">AraCon will be hosting 500 attendees that wish to join us for insights into this paradigm shift.</p><br />
             <p className="intro"><b>We invite everyone to come be a part of this growing movement and learn more about how we can build this future together!</b></p>
             <br/>
             <p className="intro"><SafeLink href="https://twitter.com/hashtag/AraCon2019" target="_blank">#AraCon2019</SafeLink></p>

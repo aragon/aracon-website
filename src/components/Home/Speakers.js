@@ -46,7 +46,7 @@ const Speakers = () => (
         <Speaker photo="JordiBaylina" linkTo="jordi" name="Jordi Baylina" position="Tech Lead" company="Iden3"/>
       </Container>
       <Container>
-        <p><Link to="/speakers">See all...</Link></p>
+        <p><Link to="/speakers">See all already confirmed speakers...</Link></p>
       </Container>
     </SpeakersBox>
   </SpeakersSection>

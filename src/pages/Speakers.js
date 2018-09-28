@@ -151,7 +151,7 @@ const Speakers = () => (
             bio="Martin Köppelmann has been an entrepreneur in the blockchain space for more than 5 years.
             He is the CEO and co-founder of Gnosis, the decentralized Gnosis prediction market - one of the
             first decentralized application that went live on Ethereum in 2015 in an early verison."/>
-          <Speaker photo="RaineRevere" linkTo="raine" name="Raine Revere" position="Co-foundeer" company="Maiden"
+          <Speaker photo="RaineRevere" linkTo="raine" name="Raine Revere" position="Co-founder" company="Maiden"
             bio="Raine Revere is an engineer and educator in the Ethereum community who has spoken
             at blockchain events around the world. Raine is the Lead Architect of ShapeShift Prism
             and is the co-founder of Maiden, a company that delivers socially-aware blockchain
