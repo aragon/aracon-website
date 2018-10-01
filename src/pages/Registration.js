@@ -77,7 +77,7 @@ const Registration = () => (
         <div className="button-strong-div"><SafeLink className="button-strong" href="https://ti.to/aragon/aracon-one/" target="_blank"><span>Register here</span></SafeLink>
           <SafeLink className="button-strong2"
             href="https://commerce.coinbase.com/checkout/56fa004e-1d89-4b22-9a14-0bc1296c2656" target="_blank">
-            <span>Pay with Crypto</span>
+            <span>Pay with crypto</span>
           </SafeLink>
           <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807" />
         </div>
