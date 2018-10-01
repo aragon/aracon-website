@@ -23,6 +23,29 @@ const Criteria = styled.ul`
 const Container = styled.div`
   width: 100%;
   padding: 50px 8.5%;
+
+  a.button-strong2 {
+    text-decoration: none;
+    width: auto;
+    padding: 10px 15px;
+    margin-left: 15px;
+    white-space: nowrap;
+    line-height: 1;
+    font-size: 15px;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 1px 1px rgba(0,0,0,0);
+    color: #FFFFFF;
+    background-image: linear-gradient( 130deg,#562fbb,#be64d6 );
+    display: flex;
+    align-items: center;
+    span {
+      font-weight: 800;
+    }
 `;
 
 const Registration = () => (
@@ -51,11 +74,17 @@ const Registration = () => (
           <p><span className="strong">If you are not a member of the Aragon community yet, we are excited to meet you soon. To get your ticket, please register below!</span></p><br />
         </Text>
         <br />
-        <div className="button-strong-div"><SafeLink className="button-strong" href="https://ti.to/aragon/aracon-one/" target="_blank"><span>Register here</span></SafeLink></div>
+        <div className="button-strong-div"><SafeLink className="button-strong" href="https://ti.to/aragon/aracon-one/" target="_blank"><span>Register here</span></SafeLink>
+          <SafeLink className="button-strong2"
+            href="https://commerce.coinbase.com/checkout/56fa004e-1d89-4b22-9a14-0bc1296c2656" target="_blank">
+            <span>Pay with Crypto</span>
+          </SafeLink>
+          <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807" />
+        </div>
         <Text>
-        <p><br />Need financial help attending AraCon?<br />
+          <p><br />Need financial help attending AraCon?<br />
         We will be announcing a scholarship program in October to provide financial assistance for those in need.<br />
-        <SafeLink href="https://eepurl.com/dHogTD" target="_blank">Subscribe to the AraCon email newsletter</SafeLink> to stay tuned for details</p>
+            <SafeLink href="https://eepurl.com/dHogTD" target="_blank">Subscribe to the AraCon email newsletter</SafeLink> to stay tuned for details</p>
         </Text>
     </Container>
     </Section>
