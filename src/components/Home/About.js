@@ -1,6 +1,6 @@
 import React from 'react'
 import Section from '../Section/Section'
-import { Text, SafeLink, breakpoint } from '@aragon/ui'
+import {Text, SafeLink, breakpoint} from '@aragon/ui'
 import styled from 'styled-components'
 import image1 from './assets/icon_01.svg'
 import image2 from './assets/icon_02.svg'
@@ -10,7 +10,7 @@ import image4 from './assets/icon_04.svg'
 const medium = css => breakpoint('medium', css);
 const large = css => breakpoint('large', css);
 
-const Container = styled.div`
+const Container = styled.div `
   width: 100%;
   margin: 0;
   padding: 50px 8.5% 92px 8.5%;
@@ -42,9 +42,17 @@ const Container = styled.div`
     margin-bottom: 92px;
     background-color: #eef3f7;
   }
+  }
+  .intro2 {
+    max-width: 100%;
+    margin: auto;
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 1.42;
+    color: #45494d;
 `;
 
-const AboutBox = styled.div`
+const AboutBox = styled.div `
   display: flex;
   flex-direction: column;
   ${medium('flex-direction: row;')};
@@ -69,7 +77,7 @@ const AboutBox = styled.div`
   }
 `;
 
-const VideoBox = styled.div`
+const VideoBox = styled.div `
   display: flex;
   flex-direction: column;
   ${medium('flex-direction: row;')};
@@ -85,50 +93,52 @@ const VideoBox = styled.div`
   }
 `;
 
-const About = () => (
-  <Section>
-    <Container>
-      <Text>
-        <p className="intro">The Aragon Conference will bring together people who embody and wish to shape the Aragon community. Those who are building and supporting the pseudonymous, secure, trustless future — the decentralized web.</p><br />
-        <p className="intro">Decentralized governance and DAOs are at the heart of the new Web 3.0. They are key components in moving towards a more fair and open world for everyone.</p>
-        <br />
-        <p className="intro">By concentrating on a few themes, we can provide much deeper and thorough presentations on these topics.</p>
-      </Text>
-      <AboutBox>
-        <div className="container">
-          <div className="image-box"><img src={image1} /></div>
-          <p>Discover the emergence of new types of organizations with DAOs.</p>
-        </div>
-        <div className="container">
-          <div className="image-box"><img src={image2} /></div>
-          <p>Grasp what makes decentralized governance so relevant to Web3.0.</p>
-        </div>
-        <div className="container">
-          <div className="image-box"><img src={image3} /></div>
-          <p>Understand how Ethereum is making the decentralized web a reality.</p>
-        </div>
-        <div className="container">
-          <div className="image-box"><img src={image4} /></div>
-          <p>See how Aragon is bringing freedom for all with these revolutionary advancements.</p>
-        </div>
-      </AboutBox>
-      <div className="hr"/>
-      <VideoBox>
-        <div>
-          <iframe title="Fight for freedom" src="https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0" allow="encrypted-media" frameBorder="0" />
-        </div>
-        <div className="text-container">
-          <Text>
-            <p className="intro">AraCon will be hosting 500 attendees that wish to join us for insights into this paradigm shift.</p><br />
-            <p className="intro"><b>We invite everyone to come be a part of this growing movement and learn more about how we can build this future together!</b></p>
-            <br/>
-            <p className="intro"><SafeLink href="https://twitter.com/hashtag/AraCon2019" target="_blank">#AraCon2019</SafeLink></p>
-          </Text>
-        </div>
-      </VideoBox>
+const About = () => (<Section>
+  <Container>
+    <Text>
+      <p className="intro">The Aragon Conference will bring together people who embody and wish to shape the Aragon community. Those who are building and supporting the pseudonymous, secure, trustless future — the decentralized web.</p><br/>
+      <p className="intro">Decentralized governance and DAOs are at the heart of the new Web 3.0. They are key components in moving towards a more fair and open world for everyone.</p>
+      <br/>
+      <p className="intro2">By concentrating on a few themes, we can provide much deeper and thorough presentations on these topics.</p>
+    </Text>
+    <AboutBox>
+      <div className="container">
+        <div className="image-box"><img src={image1}/></div>
+        <p>Discover the emergence of new types of organizations with DAOs.</p>
+      </div>
+      <div className="container">
+        <div className="image-box"><img src={image2}/></div>
+        <p>Grasp what makes decentralized governance so relevant to Web3.0.</p>
+      </div>
+      <div className="container">
+        <div className="image-box"><img src={image3}/></div>
+        <p>Understand how Ethereum is making the decentralized web a reality.</p>
+      </div>
+      <div className="container">
+        <div className="image-box"><img src={image4}/></div>
+        <p>See how Aragon is bringing freedom for all with these revolutionary advancements.</p>
+      </div>
+    </AboutBox>
+    <div className="hr"/>
+    <VideoBox>
+      <div>
+        <iframe title="Fight for freedom" src="https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0" allow="encrypted-media" frameBorder="0"/>
+      </div>
+      <div className="text-container">
+        <Text>
+          <p className="intro">AraCon will be hosting 500 attendees that wish to join us for insights into this paradigm shift.</p><br/>
+          <p className="intro">
+            <b>We invite everyone to come be a part of this growing movement and learn more about how we can build this future together!</b>
+          </p>
+          <br/>
+          <p className="intro">
+            <SafeLink href="https://twitter.com/hashtag/AraCon2019" target="_blank">#AraCon2019</SafeLink>
+          </p>
+        </Text>
+      </div>
+    </VideoBox>
 
-    </Container>
-  </Section>
-);
+  </Container>
+</Section>);
 
 export default About
