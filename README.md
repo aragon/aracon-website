@@ -5,11 +5,9 @@
 
 AraCon will be hosting 500 attendees that wish to join us for insights into this paradigm shift.
 
-<center>
-
 By concentrating on a few themes, we can provide much deeper and thorough presentations on these topics.
 
-<img src="(src/components/Home/assets/icon_01.svg">
+<img src="src/components/Home/assets/icon_01.svg">
 
 Discover the emergence of new types of organizations with DAOs.
 
@@ -25,15 +23,9 @@ Understand how Ethereum is making the decentralized web a reality.
 
 See how Aragon is bringing freedom for all with these revolutionary advancements.
 
-</center>
-
 **We invite everyone to come be a part of this growing movement and learn more about how we can build this future together!**
 
-<center>
-
 ## **[https://AraCon.one/](https://AraCon.one/)**
-
-</center>
 
 ### [FAQ](https://aracon.one/faq)
 
