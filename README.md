@@ -9,16 +9,20 @@ AraCon will be hosting 500 attendees that wish to join us for insights into this
 
 By concentrating on a few themes, we can provide much deeper and thorough presentations on these topics.
 
-![](src/components/Home/assets/icon_01.svg)
+<img src="(src/components/Home/assets/icon_01.svg">
+
 Discover the emergence of new types of organizations with DAOs.
 
-![](src/components/Home/assets/icon_02.svg)
+<img src="src/components/Home/assets/icon_02.svg">
+
 Grasp what makes decentralized governance so relevant to Web3.0.
 
-![](src/components/Home/assets/icon_03.svg)
+<img src="src/components/Home/assets/icon_03.svg">
+
 Understand how Ethereum is making the decentralized web a reality.
 
-![](src/components/Home/assets/icon_04.svg)
+<img src="src/components/Home/assets/icon_04.svg">
+
 See how Aragon is bringing freedom for all with these revolutionary advancements.
 
 </center>
