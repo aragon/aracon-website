@@ -28,7 +28,6 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "gh-pages": "^1.1.0",
     "icon-gen": "^1.2.0",
-    "serve": "^6.1.0",
     "svgo": "^1.0.3"
   }
 }
