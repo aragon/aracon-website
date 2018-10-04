@@ -137,7 +137,7 @@ class Navbar extends React.Component {
               ))}
             </ul>
           </BreakPoint>
-          <SafeLink className="button" href="https://ti.to/aragon/aracon-one/"><span>BUY TICKETS</span></SafeLink>
+          <SafeLink className="button" href="https://ti.to/aragon/aracon-one/" target="_blank"><span>BUY TICKETS</span></SafeLink>
           <BreakPoint to="large">
             <MenuPanel items={menuItems} renderLink={renderMenuItemLink} />
           </BreakPoint>
