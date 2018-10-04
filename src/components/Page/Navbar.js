@@ -14,19 +14,19 @@ const AraconNav = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  position: fixed; 
+  position: fixed;
   z-index: 5;
 
   &.scrolled{
     background:red;
   }
-  &.navbar-home.navbar-animation { 
+  &.navbar-home.navbar-animation {
     animation-name: navbar-animation;
     animation-duration: 1s;
     background-color: #18181A;
   }
 
-  &.navbar-home.navbar-inverse-animation { 
+  &.navbar-home.navbar-inverse-animation {
     animation-name: navbar-inverse-animation;
     animation-duration: 1s;
     background-color: transparent;
@@ -34,7 +34,7 @@ const AraconNav = styled.div`
 
   @keyframes navbar-animation {
     to {background-color: #18181A;}
-    from {background-color: transparent;}  
+    from {background-color: transparent;}
   }
 
   @keyframes navbar-inverse-animation {
@@ -100,7 +100,7 @@ class Navbar extends React.Component {
 
   scrollingAnimation = () => {
     let navbarElement = document.getElementById('navbar');
-    
+
     if(document.documentElement.scrollTop > 150 || document.body.scrollTop > 150) {
       navbarElement.classList.add('navbar-animation');
       navbarElement.classList.remove('navbar-inverse-animation');
@@ -137,7 +137,7 @@ class Navbar extends React.Component {
               ))}
             </ul>
           </BreakPoint>
-          <Link className="button" to="/livestream"><span>LIVE</span></Link>
+          <SafeLink className="button" href="https://ti.to/aragon/aracon-one/"><span>BUY TICKETS</span></SafeLink>
           <BreakPoint to="large">
             <MenuPanel items={menuItems} renderLink={renderMenuItemLink} />
           </BreakPoint>
@@ -148,7 +148,3 @@ class Navbar extends React.Component {
 }
 
 export default Navbar
-
-
-
-
