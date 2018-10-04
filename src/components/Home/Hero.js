@@ -84,6 +84,11 @@ const HeroBox = styled.div`
       font-weight: 800;
     }
   }
+  a {
+    ${medium('margin-top: 25px; margin-bottom: 0;')};
+    margin-bottom: 25px;
+    margin-top: 0;
+  }
 `;
 
 const HeroTriangle = styled.div`
@@ -99,7 +104,7 @@ const HeroTriangle = styled.div`
 `;
 
 const Logo = styled.img`
-  margin-top: 175px;
+  margin-top: 128px;
   ${medium('margin-top: 34vh;')};
   max-width: 100%;
 `;
@@ -110,9 +115,11 @@ const Hero = () => (
       <Logo src={araconLogo} alt="AraCon" />
       <h2>BUILDING ORGANIZATIONS & GOVERNANCE OF THE FUTURE</h2>
       <p>29th-30th of January 2019 in Berlin</p>
+      <Button.Anchor mode="strong" href="https://ti.to/aragon/aracon-one/" target="_blank">
+        Purchase your ticket
+      </Button.Anchor>
       <h2 className="sides right">Berlin, Germany</h2>
       <h2 className="sides left">Jan 29-30.2019</h2><br />
-      <div className="button-strong-div centered"><SafeLink className="button-strong" href="https://ti.to/aragon/aracon-one/" target="_blank"><span>Purchase your ticket</span></SafeLink></div>
       <HeroTriangle/>
     </HeroBox>
   </HeroSection>
