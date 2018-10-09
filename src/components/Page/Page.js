@@ -70,6 +70,7 @@ const menuItems = [
   ['/volunteer', 'Volunteer'],
   ['/contact', 'Contact'],
   ['/travelinformation', 'Travel Information'],
+  ['/scholarships', 'Scholarships'],
   ['/faq', 'FAQ'],
 ];
 
