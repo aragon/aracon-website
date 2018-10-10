@@ -74,7 +74,10 @@ const Registration = () => (
           <p><span className="strong">If you are not a member of the Aragon community yet, we are excited to meet you soon. To get your ticket, please register below!</span></p><br />
         </Text>
         <br />
-        <div className="button-strong-div"><SafeLink className="button-strong" href="https://ti.to/aragon/aracon-one/" target="_blank"><span>Register here</span></SafeLink>
+        <div className="button-strong-div">
+          <SafeLink className="button-strong" href="https://ti.to/aragon/aracon-one/" target="_blank">
+            <span>Pay with card</span>
+          </SafeLink>
           <SafeLink className="button-strong2"
             href="https://commerce.coinbase.com/checkout/56fa004e-1d89-4b22-9a14-0bc1296c2656" target="_blank">
             <span>Pay with crypto</span>
