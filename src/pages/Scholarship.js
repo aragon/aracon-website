@@ -54,6 +54,7 @@ const Scholarship = () => (<Page path="/scholarships">
         <b>1.</b> Applicants who have contributed the most to the Aragon community and are in financial hardship<br />
         <b>2.</b> Applicants from emerging countries/regions where the average wage is lower<br />
         <b>3.</b> Applicants who'll be using Aragon's platform in the future.</p><br />
+        <p><b>Deadline to apply:</b> November 23rd 2018. We will be reviewing the applications right after and will contact you accordingly.</p>
           <p><h1>Scholarship Partners</h1></p>
           <p><img src="https://district0x.io/images/logo@2x.png" alt="district0x" /></p>
           </Text>
