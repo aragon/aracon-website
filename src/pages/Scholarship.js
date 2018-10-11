@@ -19,6 +19,10 @@ const TextContainer = styled.div`
   h3 {
     color: #dad7d7;
   }
+  p b {
+    font-size: 21px;
+    font-weight: 700;
+  }
 `;
 
 const OuterContainer = styled.div`
@@ -40,17 +44,22 @@ const Scholarship = () => (<Page path="/scholarships">
     <TextContainer>
       <div className="h1box" id="speakers-form"><h1>Scholarships</h1></div>
         <Text size="xlarge">
-          <h3>Need financial help attending AraCon?</h3>
+          <h3>Excited to come to AraCon, but don't have the financial resources?</h3>
+          <p><b>Fill out this form and let us help.</b></p><br />
         </Text>
         <Text>
-          <p>We will be announcing a scholarship program in October to provide financial assistance for those in need.<br/>
-          <SafeLink href="https://eepurl.com/dHogTD" target="_blank">Subscribe to the AraCon email newsletter</SafeLink> to stay tuned for details</p><br />
+          <p>Our vision for this conference is to gather Aragon’s global community together. Therefore we want everyone who's super interested in joining the event to be able to attend. The scholarship recipients will get a conference ticket, round trip flights and accommodation for the duration of the conference.</p><br />
+          <p>
+          Everyone is welcome to apply. We will prioritize scholarships to:<br />
+        <b>1.</b> Applicants who have contributed the most to the Aragon community and are in financial hardship<br />
+        <b>2.</b> Applicants from emerging countries/regions where the average wage is lower<br />
+        <b>3.</b> Applicants who'll be using Aragon's platform in the future.</p><br />
           <p><h1>Scholarship Partners</h1></p>
           <p><img src="https://district0x.io/images/logo@2x.png" alt="district0x" /></p>
           </Text>
           <br/>
           </TextContainer>
-        <Forms type="speakers" src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd_2Bnex51b1b2jCZWBQtfTcaOhfvbt_2Fq8nWc81qWg3efVA.js"/>
+        <Forms type="speakers" src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd30OdvFNIdQfI6k_2FSnIMsLHwkqqfzqgEK49Yj3zmHyG4.js"/>
       </OuterContainer>
     </Section>
   </Page>);
