@@ -10,6 +10,7 @@ import scholarship3 from './assets/scholarship3.svg'
 import agenda from './assets/agenda.svg'
 
 const large = css => breakpoint('large', css);
+const medium = css => breakpoint('medium', css);
 
 const TextContainer = styled.div`
   width: 100%;
@@ -55,6 +56,8 @@ const FlexContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: space-between;
+  flex-direction: column;
+  ${medium('flex-direction: row;')};
   margin: 30px -15px;
   p {
     padding-top: 10px;
