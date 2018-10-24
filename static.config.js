@@ -66,6 +66,11 @@ export default {
       getData: () => ({ title: 'AraCon - Travel Information' }),
     },
     {
+      path: '/scholarships',
+      component: 'src/pages/Scholarship',
+      getData: () => ({ title: 'AraCon - Scholarships' }),
+    },
+    {
       path: '/livestream',
       component: 'src/pages/Livestream',
       getData: () => ({ title: 'AraCon - Livestream' }),
