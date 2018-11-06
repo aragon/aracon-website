@@ -4,6 +4,7 @@ import Section from '../components/Section/Section'
 import { Text, SafeLink, theme } from '@aragon/ui'
 import styled from 'styled-components'
 import oval from '../components/Home/assets/oval.svg'
+import { Link } from 'react-static'
 
 const Criteria = styled.ul`
   text-align: left;
@@ -85,9 +86,7 @@ const Registration = () => (
           <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807" />
         </div>
         <Text>
-          <p><br />Need financial help attending AraCon?<br />
-        We will be announcing a scholarship program in October to provide financial assistance for those in need.<br />
-            <SafeLink href="https://eepurl.com/dHogTD" target="_blank">Subscribe to the AraCon email newsletter</SafeLink> to stay tuned for details</p>
+          <p><br />Need financial help attending AraCon?<br />Apply for a scholarship <Link to="/scholarships" >here</Link>.</p>
         </Text>
     </Container>
     </Section>
