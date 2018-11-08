@@ -183,6 +183,39 @@ const Speakers = () => (
             Will worked as a graduate research assistant at Los Alamos National Laboratory conducting applied physics
             research. Will spent two years in UC San Diego's Structural Engineering doctoral program before dropping
             out to pursue an interest in Ethereum full time."/>
+          <Speaker photo="JouniHelminen" linkTo="jouni" name="Jouni Helminen" position="Head of Design" company="Aragon One"
+            bio="Jouni has been designing interfaces and apps for web and mobile for over 16 years in Finland, London and Asia
+            - in creative agencies, tech and finance. He has lately been focusing on open source projects aimed at large
+            scale impact - Ubuntu Phone and Desktop, recent redesign of Riot.im and of course Aragon. He has been into Ethereum
+            from the start, and with Aragon he is working on enabling new types of organisations and governance models to
+            flourish."/>
+          <Speaker photo="KennyRowe" linkTo="kenny" name="Kenny Rowe" position="Vice President" company="RChain Cooperative"
+            bio="Kenny is an entrepreneur who brings a focus on governance, community building and collaboration to projects
+            across the blockchain industry. Currently, he serves as Vice President of RChain Cooperative. Formerly he worked
+            as head of operations at MakerDAO as well as a senior consultant at CoinFund. Kenny founded the Seattle Ethereum
+            Meetup group and previously spent eight years working in e-commerce for Newell Brands in various management roles."/>
+          <Speaker photo="LauraKalbag" linkTo="laura" name="Laura Kalbag" position="Author" company=" Accessibility for Everyone"
+            bio="Laura Kalbag is a designer from the UK, and author of Accessibility For Everyone from A Book Apart. She’s co-founder
+            of Ind.ie, a tiny two-person not-for-profit working for social justice in the digital networked age. At Ind.ie, Laura
+            works on Better Blocker, a privacy tool that protects you from being tracked on the Web, and on initiatives to create
+            a federated personal web where everyone owns and controls their own piece of the internet."/>
+          <Speaker photo="MeltemDemirors" linkTo="maltem" name="Meltem Demirors" position="Chief Strategy Officer" company="CoinShares"
+            bio="Meltem Demirors is Chief Strategy Officer of CoinShares, the leading digital asset manager, and a cryptocurrency
+            investor, advisor, and advocate, with a unique blend of experience in both legacy & blockchain-based finance and
+            cryptocurrencies. On the legacy finance front, Ms. Demirors worked with some of the largest companies in the world, mainly
+            on financial risk management and capital efficiency. On the blockchain-based finance side, she has had an intense focus on
+            portfolio management and network development, beginning in the early days of cryptocurrency ecosystem development."/>
+          <Speaker photo="YaldaMousavinia" linkTo="yalda" name="Yalda Mousavinia" position="Co-founder" company="Space Cooperative"
+            bio="Yalda Mousavinia is a co-founder Space Cooperative, a worker-owned aerospace cooperative, which is the original
+            organization spearheading the establishment of Space Decentral, a DAO for creating a global space agency. Her and other
+            members of the Space Decentral community were awarded an Aragon Nest grant to develop a Planning Suite for DAOs and she
+            is the lead product manager and UX designer. Prior to Space Cooperative, Yalda designed solutions for Oracle's Enterprise
+            Resource Planning cloud software suite. Her career as a product manager and designer for software companies spans over 10
+            years."/>
+          <Speaker photo="YondonFu" linkTo="yondon" name="Yondon Fu" position="Software Engineer & Researcher" company="Livepeer"
+            bio="Yondon Fu is a software engineer and researcher at Livepeer which is developing public decentralized video streaming
+            infrastructure that helps developers scale video enabled applications. Previously, he worked on decentralized funding
+            mechanisms for sustainable open source software as a part of his senior undergraduate thesis."/>
         </Container>
         <p>More speakers coming soon</p>
       </SpeakersBox>
