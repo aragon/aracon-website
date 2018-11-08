@@ -184,11 +184,11 @@ const Speakers = () => (
             research. Will spent two years in UC San Diego's Structural Engineering doctoral program before dropping
             out to pursue an interest in Ethereum full time."/>
           <Speaker photo="JouniHelminen" linkTo="jouni" name="Jouni Helminen" position="Head of Design" company="Aragon One"
-            bio="Jouni has been designing interfaces and apps for web and mobile for over 16 years in Finland, London and Asia
-            - in creative agencies, tech and finance. He has lately been focusing on open source projects aimed at large
-            scale impact - Ubuntu Phone and Desktop, recent redesign of Riot.im and of course Aragon. He has been into Ethereum
-            from the start, and with Aragon he is working on enabling new types of organisations and governance models to
-            flourish."/>
+            bio="Jouni has been designing for web and mobile for over 16 years in Finland, London and Asia.  In addition to
+            consulting in tech and finance, he has lately focused on open source - Ubuntu, redesign of Riot.im and of course
+            Aragon. With Aragon his focus is designing the platform from human centred point of view - easy to use and accessible
+            for anyone. Jouni is also working on Lorikeet - a design system for the decentralised web, used by Aragon and other
+            leading Dapp projects. "/>
           <Speaker photo="KennyRowe" linkTo="kenny" name="Kenny Rowe" position="Vice President" company="RChain Cooperative"
             bio="Kenny is an entrepreneur who brings a focus on governance, community building and collaboration to projects
             across the blockchain industry. Currently, he serves as Vice President of RChain Cooperative. Formerly he worked
