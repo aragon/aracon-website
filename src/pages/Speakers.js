@@ -200,11 +200,12 @@ const Speakers = () => (
             works on Better Blocker, a privacy tool that protects you from being tracked on the Web, and on initiatives to create
             a federated personal web where everyone owns and controls their own piece of the internet."/>
           <Speaker photo="MeltemDemirors" linkTo="maltem" name="Meltem Demirors" position="Chief Strategy Officer" company="CoinShares"
-            bio="Meltem Demirors is Chief Strategy Officer of CoinShares, the leading digital asset manager, and a cryptocurrency
-            investor, advisor, and advocate, with a unique blend of experience in both legacy & blockchain-based finance and
-            cryptocurrencies. On the legacy finance front, Ms. Demirors worked with some of the largest companies in the world, mainly
-            on financial risk management and capital efficiency. On the blockchain-based finance side, she has had an intense focus on
-            portfolio management and network development, beginning in the early days of cryptocurrency ecosystem development."/>
+            bio="Meltem Demirors is Chief Strategy Officer of CoinShares, the leading digital asset manager, and a cryptocurrency investor,
+            advisor, and advocate, with a unique blend of experience in both legacy & blockchain-based finance and cryptocurrencies.
+            On the legacy finance front, Ms. Demirors worked with some of the largest companies in the world, mainly on financial
+            risk management and capital efficiency. On the blockchain-based finance side, she has had an intense focus on portfolio
+            management and network development. She invests in cryptocurrency and blockchain focused companies and projects via her
+            invest firm, Shiny Pony Ventures and lectures at the MIT Media Lab and Oxford."/>
           <Speaker photo="YaldaMousavinia" linkTo="yalda" name="Yalda Mousavinia" position="Co-founder" company="Space Cooperative"
             bio="Yalda Mousavinia is a co-founder Space Cooperative, a worker-owned aerospace cooperative, which is the original
             organization spearheading the establishment of Space Decentral, a DAO for creating a global space agency. Her and other
