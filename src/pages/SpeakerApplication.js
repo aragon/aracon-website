@@ -1,49 +1,55 @@
 import React from 'react'
 import { Page } from '../components'
 import Section from '../components/Section/Section'
-import { Text, SafeLink, theme, breakpoint } from '@aragon/ui'
+import { Text, Button, theme, breakpoint } from '@aragon/ui'
 import styled from 'styled-components'
-import Forms from '../components/Forms/Forms'
 
+const medium = css => breakpoint('medium', css);
 const large = css => breakpoint('large', css);
 
-const TextContainer = styled.div`
+const Container = styled.div`
   width: 100%;
-  max-width: 695px;
-  padding: 50px 0 50px 0;
-  text-align: left;
-  ${large('width: 41%;')};
-  p {
-    color: #dad7d7;
+  height: 100%;
+  margin: 0;
+  padding: 50px 8.5%;
+  background: #18181A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: calc(100vh - 116px)!important;
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+  }
+  img {
+    width: 118px;
+  }
+  u {
+    -webkit-text-fill-color: white;
   }
 `;
 
-const OuterContainer = styled.div`
-  position: relative;
-  max-width: 1540px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  ${large('justify-content: space-between; max-width: 1440px !important; margin: auto; flex-direction: row;')};
-  padding-top: 40px;
-  width: 83%;
-`;
+class SpeakerApplication extends React.Component {
+  state = { active: 'dayOne' };
 
+  render() {
+    const { active } = this.state;
+    return (
+      <Page path="/agenda">
+        <Section className="dark all-page">
+          <Container>
+            <Text>
+              <div className="h1box">
+                <h1>Speaker applications are now closed.</h1>
+              </div>
+            </Text>
+          </Container>
+        </Section>
+      </Page>
+    )
+  }
+}
 
-const SpeakersApplication = () => (
-  <Page path="/speakerapplication">
-    <Section className="dark dark-form all-page">
-      <OuterContainer>
-        <TextContainer>
-          <div className="h1box" id="speakers-form"><h1>Speaker application</h1></div>
-          <p>If you would like to join a panel or do a talk at AraCon on anything related to governance, blockchain, future of work or borderless collaboration - please apply here before November 10th.</p>
-        </TextContainer>
-        <Forms type="speakers" src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd_2Bnex51b1b2jCZWBQtfTcaOhfvbt_2Fq8nWc81qWg3efVA.js"/>
-        <div id="speakers"/>
-      </OuterContainer>
-    </Section>
-  </Page>
-);
-
-export default SpeakersApplication
+export default SpeakerApplication
