@@ -7,11 +7,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.app {
-  min-height: auto !important;
-  background: transparent;
-}
-
 #root {
   min-width: 100%;
   max-width: 100%;
