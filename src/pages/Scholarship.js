@@ -14,10 +14,9 @@ const medium = css => breakpoint('medium', css);
 
 const TextContainer = styled.div`
   width: 100%;
-  max-width: 695px;
   padding: 50px 0 50px 0;
   text-align: left;
-  ${large('width: 41%;')};
+  ${large('width: 100%;')};
   p {
     color: #dad7d7;
   }
@@ -111,11 +110,10 @@ const Scholarship = () => (<Page path="/scholarships">
         <FlexContainer className="agenda-container">
           <div className="agenda-box">
             <img src={agenda} />
-            <p>November 23rd 2018. We will be reviewing the applications right after and will contact you accordingly.</p>
+            <p>Deadline for scholarships was November 23rd 2018. We are now reviewing submitted applications and will notify selected applicants by mid-December.</p>
           </div>
         </FlexContainer>
       </TextContainer>
-      <Forms type="speakers" src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd30OdvFNIdQfI6k_2FSnIMsLHwkqqfzqgEK49Yj3zmHyG4.js"/>
     </OuterContainer>
   </Section>
 </Page>);
