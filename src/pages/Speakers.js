@@ -207,8 +207,8 @@ const Speakers = () => (
             management and network development. She invests in cryptocurrency and blockchain focused companies and projects via her
             invest firm, Shiny Pony Ventures and lectures at the MIT Media Lab and Oxford."/>
           <Speaker photo="YaldaMousavinia" linkTo="yalda" name="Yalda Mousavinia" position="Co-founder" company="Space Cooperative"
-            bio="Yalda Mousavinia is a co-founder Space Cooperative, a worker-owned aerospace cooperative, which is the original
-            organization spearheading the establishment of Space Decentral, a DAO for creating a global space agency. Her and other
+            bio="Yalda Mousavinia is a co-founder of Space Cooperative, a worker-owned aerospace cooperative, which is the original
+            organization spearheading the establishment of Space Decentral, a DAO for creating a global space agency. She and other
             members of the Space Decentral community were awarded an Aragon Nest grant to develop a Planning Suite for DAOs and she
             is the lead product manager and UX designer. Prior to Space Cooperative, Yalda designed solutions for Oracle's Enterprise
             Resource Planning cloud software suite. Her career as a product manager and designer for software companies spans over 10
