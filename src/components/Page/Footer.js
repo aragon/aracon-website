@@ -3,7 +3,7 @@ import FooterSection from '../Section/Section'
 import { Text, breakpoint, SafeLink } from '@aragon/ui'
 import styled from 'styled-components'
 import footer from './assets/footer.png'
-
+import { Link } from 'react-static'
 const medium = css => breakpoint('medium', css);
 const large = css => breakpoint('large', css);
 
@@ -56,6 +56,7 @@ const Footer = ({ ...props }) => (
         <SafeLink href="https://wiki.aragon.org/documentation/legal/Privacy_policy/" target="_blank">Privacy Policy</SafeLink>
         <SafeLink href="https://wiki.aragon.org/documentation/legal/Terms_of_use_websites/" target="_blank">Terms of Use</SafeLink>
         <SafeLink href=" https://wiki.aragon.org/documentation/Code_of_Conduct/" target="_blank">Code of Conduct</SafeLink>
+        <Link to={'/faq'}>FAQ</Link>
       </FooterLinks>
     </Box>
   </FooterSection>
