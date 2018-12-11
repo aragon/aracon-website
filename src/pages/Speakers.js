@@ -125,13 +125,6 @@ const Speakers = () => (
             Research (CNRS) in Paris, a faculty associate at the Berkman-Klein Center for Internet &
             Society at Harvard University, and a Visiting Fellow at the Robert Schuman Centre for
             Advanced Studies at the European University Institute."/>
-          <Speaker photo="MikeGoldin" linkTo="mike" name="Mike Goldin" position="Lead Engineer" company="Cryptosystems Productization Lab, ConsenSys"
-            bio="Mike is the author of “token-curated registries 1.0”, a widely-cited paper which
-            originally formalized the basic design and properties of such cryptosystems. He launched
-            adChain and implemented its token sale, which sold out in one block. He has overseen and
-            facilitated the development of a widely-used TCR implementation, as well as multiple
-            graphical user interfaces for TCRs. He graduated from Columbia University with a degree
-            in computer science."/>
           <Speaker photo="MattLockyer" linkTo="matt" name="Matt Lockyer" position="Founder" company="Soloblock Solutions"
             bio="Matt Lockyer wrote the Ethereum ERC-998 standard for Composable Tokens and his work
             on Token Curated Registries (TCRs) has been published on a16z's crypto reading list. Matt
