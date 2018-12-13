@@ -210,6 +210,30 @@ const Speakers = () => (
             bio="Yondon Fu is a software engineer and researcher at Livepeer which is developing public decentralized video streaming
             infrastructure that helps developers scale video enabled applications. Previously, he worked on decentralized funding
             mechanisms for sustainable open source software as a part of his senior undergraduate thesis."/>
+          <Speaker photo="AlisonBerreman" linkTo="Alison" name="Alison Berreman" position="Assistant Editor" company="ETHNews"
+              bio="Alison Berreman is the assistant editor at ETHNews. She has a background in social work, and a master’s in
+              rhetoric and composition studies from the University of Wyoming. "/>
+          <Speaker photo="ChristophJentzsch" linkTo="Christoph" name="Christoph Jentzsch" position="Co-founder & CEO" company="Slock.it"
+            bio="Christoph’s background is in theoretical physics, where he developed optimized software solutions for high performance
+            computing on specialized hardware. Christoph has been part of the Ethereum project since 2014 as Lead Tester, securing and
+            shaping the core protocol while working on the backend of the C++ client. End of 2015 he co-founded Slock.it, working on the
+            decentralized sharing economy through the connection of Blockchain and IoT as well as TheDAO."/>
+          <Speaker photo="JacobArluck" linkTo="Jacob" name="Jacob Arluck" position="Researcher" company="Tezos"
+              bio="Jacob works on governance research for Tezos. He is most interested in improving blockchain governance to
+              facilitate coordination and acquire the scalability necessary for widespread adoption."/>
+          <Speaker photo="SamerHassan" linkTo="Samer" name="Samer Hassan" position="Researcher and Faculty Associate" company="Berkman Klein Center for Internet & Society"
+              bio="Samer Hassan is an activist and researcher, Faculty Associate at the Berkman Klein Center for Internet & Society
+              (Harvard University) and Associate Professor at the Universidad Complutense de Madrid (Spain). Focused on decentralized
+              collaboration, he was awarded with a 1.5M€ ERC grant, the largest individual research grant in the EU, to build blockchain-based,
+              democratic and economically sustainable organizations for the collaborative economy (the 'P2P Models' project)"/>
+          <Speaker photo="StefanoBernardi" linkTo="Stefano" name="Stefano Bernardi" position="Director" company="Aragon Association"
+              bio="Stefano has been interested in the crypto and decentralized organizations space since 2011. He is also a co-founder
+              and advisor for Semantic Ventures, an early stage European venture fund focusing on decentralized computing.In his spare
+              time, he writes Token Economy, a leading crypto newsletter and organizes Unplug.vc retreats, bringing people to the
+              mountains where he lives with his wife and two children."/>
+          <Speaker photo="TaylorMonahan" linkTo="Monahan" name="Taylor Monahan" position="Founder & CEO" company="MyCrypto"
+              bio="Taylor Monahan is the founder & CEO of MyCrypto, an open-source, non-custodial wallet solution. Previously
+              she founded MyEtherWallet. She is dedicated to making the blockchain safer and easier to access for everyone."/>
         </Container>
         <p>More speakers coming soon</p>
       </SpeakersBox>
