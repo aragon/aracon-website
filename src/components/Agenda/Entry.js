@@ -48,7 +48,7 @@ const EntryBox = styled.div`
   .description p {
     line-height: 1;
     font-size: 18px;
-    ${medium('line-height: 1; font-size: 24px;')};
+    ${medium('line-height: 1; font-size: 22px;')};
     margin-bottom: 5px;
     font-weight: 700;
     color: #000000;
@@ -69,7 +69,7 @@ const EntryBox = styled.div`
 const Entry = ({ ...props }) => (
   <EntryBox>
     <div className="time">
-      <h3>{props.time} HS</h3>
+      <h3>{props.time}</h3>
     </div>
     <div className="description">
       <p>{props.title}</p>
