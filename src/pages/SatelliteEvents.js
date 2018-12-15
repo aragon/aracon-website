@@ -10,7 +10,7 @@ import Witnet from './assets/Witnet.png'
 const medium = css => breakpoint('medium', css);
 const large = css => breakpoint('large', css);
 
-const SateliteBox = styled.div`
+const SatelliteBox = styled.div`
   width: 100%;
   margin: 0;
   padding: 50px 8.5%;
@@ -91,11 +91,11 @@ const WitnetImg = styled.img`
 
 
 
-const Satelite = () => (
+const Satellite = () => (
   <Page path="/satelite-events">
     <Section>
-      <SateliteBox>
-        <div className="h1box"><h1>Satelite Events</h1></div>
+      <SatelliteBox>
+        <div className="h1box"><h1>Satellite Events</h1></div>
         <SubtitleBox><p>Satellite events are full-/half-day workshops or symposia that are not part of the four-day programme but will
         be of interest to participants at the Global Evidence Summit. The satellites further the event goals, and foster interaction,
         and the development of partnerships, and have broad appeal across sectors.</p></SubtitleBox>
@@ -138,10 +138,10 @@ const Satelite = () => (
             <p><a href="https://witnet.io/#/" target="_blank">Witnet</a> is a decentralized oracle network that connects smart contracts to the outer world. Join Witnet team for drinks, snacks and music to celebrate the anticipated launch of their Decentralized Oracle Network.</p>
           </EventBody>
         </Event>
-      </SateliteBox>
+      </SatelliteBox>
     </Section>
   </Page>
 );
 
 
-export default Satelite
+export default Satellite

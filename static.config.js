@@ -76,9 +76,9 @@ export default {
       getData: () => ({ title: 'AraCon - Travel Information' }),
     },
     {
-      path: '/satelite-events',
-      component: 'src/pages/SateliteEvents',
-      getData: () => ({ title: 'AraCon - Satelite Events' }),
+      path: '/satellite-events',
+      component: 'src/pages/SatelliteEvents',
+      getData: () => ({ title: 'AraCon - Satellite Events' }),
     },
     {
       path: '/scholarships',
