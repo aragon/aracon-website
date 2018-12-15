@@ -234,6 +234,10 @@ const Speakers = () => (
           <Speaker photo="TaylorMonahan" linkTo="Monahan" name="Taylor Monahan" position="Founder & CEO" company="MyCrypto"
               bio="Taylor Monahan is the founder & CEO of MyCrypto, an open-source, non-custodial wallet solution. Previously
               she founded MyEtherWallet. She is dedicated to making the blockchain safer and easier to access for everyone."/>
+          <Speaker photo="JorgeIzquierdo" linkTo="Jorge" name="Jorge Izquierdo" position="CTO" company="Aragon One"
+              bio="Jorge is a co-founder of the Aragon Project and currently is the CTO of Aragon One, mostly focused on
+              technology research. Before Aragon, Jorge was a mobile app developer and a tinkerer with any interesting
+              tech he would learn of."/>
         </Container>
         <p>More speakers coming soon</p>
       </SpeakersBox>
