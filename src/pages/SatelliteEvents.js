@@ -96,9 +96,6 @@ const Satellite = () => (
     <Section>
       <SatelliteBox>
         <div className="h1box"><h1>Satellite Events</h1></div>
-        <SubtitleBox><p>Satellite events are full-/half-day workshops or symposia that are not part of the four-day programme but will
-        be of interest to participants at the Global Evidence Summit. The satellites further the event goals, and foster interaction,
-        and the development of partnerships, and have broad appeal across sectors.</p></SubtitleBox>
         <Event>
           <EventHeader>
             <h2>Cambrial: Investing in Governance</h2>
