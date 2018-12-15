@@ -41,6 +41,11 @@ export default {
       getData: () => ({ title: 'AraCon - Agenda' }),
     },
     {
+      path: '/agenda1',
+      component: 'src/pages/Agenda',
+      getData: () => ({ title: 'AraCon - Agenda' }),
+    },
+    {
       path: '/registration',
       component: 'src/pages/Registration',
       getData: () => ({ title: 'AraCon - Registration' }),
@@ -66,9 +71,14 @@ export default {
       getData: () => ({ title: 'AraCon - FAQ' }),
     },
     {
-      path: '/travelinformation',
+      path: '/travel-information',
       component: 'src/pages/Travel',
       getData: () => ({ title: 'AraCon - Travel Information' }),
+    },
+    {
+      path: '/satelite-events',
+      component: 'src/pages/SateliteEvents',
+      getData: () => ({ title: 'AraCon - Satelite Events' }),
     },
     {
       path: '/scholarships',

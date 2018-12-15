@@ -52,7 +52,7 @@ const AccomodationTriangle = styled.div`
 `;
 
 const Travel = () => (
-  <Page path="/travelinformation">
+  <Page path="/travel-information">
     <Venue/>
     <Map/>
     <Section>

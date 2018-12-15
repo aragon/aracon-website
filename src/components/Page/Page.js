@@ -66,9 +66,10 @@ const Content = styled.div`
 const menuItems = [
   ['/speakers', 'Speakers'],
   ['/agenda', 'Agenda'],
+  ['/satelite-events', 'Satelite Events'],
   ['/volunteer', 'Volunteer'],
   ['/contact', 'Contact'],
-  ['/travelinformation', 'Travel Information'],
+  ['/travel-information', 'Travel Information'],
   ['/scholarships', 'Scholarships'],
 ];
 
