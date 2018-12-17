@@ -104,6 +104,23 @@ const Satellite = () => (
         <div className="h1box"><h1>Satellite Events</h1></div>
         <Event>
           <EventHeader>
+            <h2>DGOV Community Council</h2>
+          </EventHeader>
+          <EventBody>
+            <h2>Organizer:</h2>
+            <a href="https://dgov.foundation/" target="_blank"><DgovImg src={Dgov}/></a>
+            <h2>When:</h2>
+            <p>Jan 27-28, 2019</p>
+
+            <h2>Where:</h2>
+            <p>FULL NODE: Skalitzer Strasse 85-86, 10997 Berlin, Germany</p>
+
+            <h2>Event Description:</h2>
+            <p>Join DGOV Foundation in a 2 day community meetup to sync, coordinate and start solving mutual challenges. More information and registration details <a href="https://wiki.dgov.foundation/dgov-community-council" target="_blank">here</a></p>
+          </EventBody>
+        </Event>
+        <Event>
+          <EventHeader>
             <h2>Cambrial: Investing in Governance</h2>
           </EventHeader>
           <EventBody>
@@ -137,23 +154,6 @@ const Satellite = () => (
 
             <h2>Event Description:</h2>
             <p><a href="https://witnet.io/#/" target="_blank">Witnet</a> is a decentralized oracle network that connects smart contracts to the outer world. Join Witnet team for drinks, snacks and music to celebrate the anticipated launch of their Decentralized Oracle Network.</p>
-          </EventBody>
-        </Event>
-        <Event>
-          <EventHeader>
-            <h2>DGOV Community Council</h2>
-          </EventHeader>
-          <EventBody>
-            <h2>Organizer:</h2>
-            <a href="https://dgov.foundation/" target="_blank"><DgovImg src={Dgov}/></a>
-            <h2>When:</h2>
-            <p>Jan 27-28, 2019</p>
-
-            <h2>Where:</h2>
-            <p>FULL NODE: Skalitzer Strasse 85-86, 10997 Berlin, Germany</p>
-
-            <h2>Event Description:</h2>
-            <p>Join DGOV Foundation in a 2 day community meetup to sync, coordinate and start solving mutual challenges. More information and registration details <a href="https://wiki.dgov.foundation/dgov-community-council" target="_blank">here</a></p>
           </EventBody>
         </Event>
       </SatelliteBox>
