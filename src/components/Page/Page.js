@@ -70,7 +70,7 @@ const menuItems = [
   ['/volunteer', 'Volunteer'],
   ['/contact', 'Contact'],
   ['/travel-information', 'Travel Information'],
-  ['/scholarships', 'Scholarships'],
+  ['/partners', 'Partners'],
 ];
 
 class Page extends React.Component {

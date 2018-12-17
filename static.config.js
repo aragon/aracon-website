@@ -81,9 +81,9 @@ export default {
       getData: () => ({ title: 'AraCon - Satellite Events' }),
     },
     {
-      path: '/scholarships',
-      component: 'src/pages/Scholarship',
-      getData: () => ({ title: 'AraCon - Scholarships' }),
+      path: '/partners',
+      component: 'src/pages/Partners',
+      getData: () => ({ title: 'AraCon - Partners' }),
     },
     {
       path: '/livestream',
