@@ -31,7 +31,7 @@ const t_8 = universal(import('../src/pages/ContactThanks'), universalOptions)
 const t_9 = universal(import('../src/pages/Faq'), universalOptions)
 const t_10 = universal(import('../src/pages/Travel'), universalOptions)
 const t_11 = universal(import('../src/pages/SatelliteEvents'), universalOptions)
-const t_12 = universal(import('../src/pages/Scholarship'), universalOptions)
+const t_12 = universal(import('../src/pages/Partners'), universalOptions)
 const t_13 = universal(import('../src/pages/Livestream'), universalOptions)
 const t_14 = universal(import('../src/pages/NotFound'), universalOptions)
 
