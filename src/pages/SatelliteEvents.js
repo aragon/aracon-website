@@ -110,9 +110,7 @@ const Satellite = () => (
             <p>Secret location - the address will be revealed to selected applicants</p>
 
             <h2>Event Description:</h2>
-            <p><a href="https://cambrial.com/" target="_blank">Cambrial Capital</a>, a fund of crypto funds is running a satellite event on participating in and valuing governance of crypto networks
-            as an investor. They will be hosting several speakers actively investing in this space, who’ll be discussing governance
-            in an investment decision making in a decentralized network and investor’s role in it. Find more info about the event <a href="https://www.eventbrite.com/e/cambrial-investing-in-governance-tickets-53733665841" target="_blank">here</a></p>
+            <p><a href="https://cambrial.com/" target="_blank">Cambrial Capital</a> is running an event on participating in and valuing governance of crypto networks as an investor. They will be hosting several speakers actively investing in this space who will share their thoughts and own practices on the topic above. Find more info about the event  <a href="https://www.eventbrite.com/e/cambrial-investing-in-governance-tickets-53733665841" target="_blank">here</a></p>
             <br/>
             <p><i>The event has a limited capacity. Please request your invitation using <a href="https://airtable.com/shrhkXHZE2eVjoWwN" target="_blank">this form</a>. The address of the venue will be sent to you if your request is successful. The event will be live-streamed and recorded.</i></p>
 

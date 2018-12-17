@@ -228,7 +228,7 @@ const Speakers = () => (
               democratic and economically sustainable organizations for the collaborative economy (the 'P2P Models' project)"/>
           <Speaker photo="StefanoBernardi" linkTo="Stefano" name="Stefano Bernardi" position="Director" company="Aragon Association"
               bio="Stefano has been interested in the crypto and decentralized organizations space since 2011. He is also a co-founder
-              and advisor for Semantic Ventures, an early stage European venture fund focusing on decentralized computing.In his spare
+              and venture partner at Semantic Ventures, an early stage European venture fund focusing on decentralized computing.In his spare
               time, he writes Token Economy, a leading crypto newsletter and organizes Unplug.vc retreats, bringing people to the
               mountains where he lives with his wife and two children."/>
           <Speaker photo="TaylorMonahan" linkTo="Monahan" name="Taylor Monahan" position="Founder & CEO" company="MyCrypto"
