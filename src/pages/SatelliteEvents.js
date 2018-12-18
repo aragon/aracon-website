@@ -116,7 +116,9 @@ const Satellite = () => (
             <p>FULL NODE: Skalitzer Strasse 85-86, 10997 Berlin, Germany</p>
 
             <h2>Event Description:</h2>
-            <p>Join DGOV Foundation in a 2 day community meetup to sync, coordinate and start solving mutual challenges. More information and registration details <a href="https://wiki.dgov.foundation/dgov-community-council" target="_blank">here</a></p>
+            <p>The event will stretch over two full days in a co-creative, open space environment concluding with a dinner gathering for the participants on the first evening. After the opening sessions we will have an open space and facilitators helping us design the working circles. We will continue with the working circles in the morning of the second day. In the afternoon, we will openly share our learnings and insights in a public meetup format with fishbowl-debates.</p>
+            <br/><p>You will be among a maximum of forty participants to gather with the intention to create governance models which take a human centric, horizontal approach to the management of shared-resources. We foster a community of participants which have an inherent interest in collaboration to exchange research and learnings to support their own projects while accelerating the innovation on distributed governance models.</p>
+            <br/><p>More information and registration details <a href="https://wiki.dgov.foundation/dgov-community-council" target="_blank">here</a>.</p>
           </EventBody>
         </Event>
         <Event>
@@ -133,7 +135,7 @@ const Satellite = () => (
             <p>Secret location - the address will be revealed to selected applicants</p>
 
             <h2>Event Description:</h2>
-            <p><a href="https://cambrial.com/" target="_blank">Cambrial Capital</a> is running an event on participating in and valuing governance of crypto networks as an investor. They will be hosting several speakers actively investing in this space who will share their thoughts and own practices on the topic above. Find more info about the event  <a href="https://www.eventbrite.com/e/cambrial-investing-in-governance-tickets-53733665841" target="_blank">here</a></p>
+            <p><a href="https://cambrial.com/" target="_blank">Cambrial Capital</a> is running an event on participating in and valuing governance of crypto networks as an investor. They will be hosting several speakers actively investing in this space who will share their thoughts and own practices on the topic above. Find more info about the event  <a href="https://www.eventbrite.com/e/cambrial-investing-in-governance-tickets-53733665841" target="_blank">here</a>.</p>
             <br/>
             <p><i>The event has a limited capacity. Please request your invitation using <a href="https://airtable.com/shrhkXHZE2eVjoWwN" target="_blank">this form</a>. The address of the venue will be sent to you if your request is successful. The event will be live-streamed and recorded.</i></p>
 
