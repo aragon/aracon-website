@@ -192,7 +192,7 @@ const Speakers = () => (
             of Ind.ie, a tiny two-person not-for-profit working for social justice in the digital networked age. At Ind.ie, Laura
             works on Better Blocker, a privacy tool that protects you from being tracked on the Web, and on initiatives to create
             a federated personal web where everyone owns and controls their own piece of the internet."/>
-          <Speaker photo="MeltemDemirors" linkTo="maltem" name="Meltem Demirors" position="Chief Strategy Officer" company="CoinShares"
+          <Speaker photo="MeltemDemirors" linkTo="meltem" name="Meltem Demirors" position="Chief Strategy Officer" company="CoinShares"
             bio="Meltem Demirors is Chief Strategy Officer of CoinShares, the leading digital asset manager, and a cryptocurrency investor,
             advisor, and advocate, with a unique blend of experience in both legacy & blockchain-based finance and cryptocurrencies.
             On the legacy finance front, Ms. Demirors worked with some of the largest companies in the world, mainly on financial
