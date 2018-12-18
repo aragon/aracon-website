@@ -12,6 +12,11 @@ body {
   background: transparent;
 }
 
+a, a span, button {
+  outline: none;
+  transition: all 0.25s ease-in-out;
+}
+
 #root {
   min-width: 100%;
   max-width: 100%;

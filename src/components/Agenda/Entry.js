@@ -71,6 +71,9 @@ const EntryBox = styled.div`
   .badge-panel {
     color: #ba7b06;
   }
+  .emoji {
+    margin-right: 3px;
+  }
 `;
 
 const Entry = ({ ...props }) => (
