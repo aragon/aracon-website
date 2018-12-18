@@ -64,6 +64,12 @@ const EntryBox = styled.div`
     ${medium('font-size: 17px; font-weight: 700;')};
     color: #000000;
   }
+  .badge-time {
+    color: #5a5f68;
+  }
+  .badge-panel {
+    color: #ba7b06;
+  }
 `;
 
 const Entry = ({ ...props }) => (
@@ -73,6 +79,7 @@ const Entry = ({ ...props }) => (
     </div>
     <div className="description">
       <p>{props.title}</p>
+      {props.badge && <p>{props.badge}</p>}
       <h6>{props.subtitle}</h6>
     </div>
   </EntryBox>

@@ -40,14 +40,14 @@ class Agenda extends React.Component {
       <Page path="/agenda">
         <Section className="dark all-page">
           <Container>
-            <Text><div className="h1box"><h1>Agenda</h1></div></Text> 
-              <Button className="first-button" 
+            <Text><div className="h1box"><h1>Agenda</h1></div></Text>
+              <Button className="first-button"
                       mode={ active === 'dayOne' ? 'normal' : 'secondary' }
                       onClick={() => this.setState({ active: 'dayOne' })}
               >
                 Tuesday Jan 29
               </Button>
-              <Button className="second-button" 
+              <Button className="second-button"
                       mode={ active !== 'dayOne' ? 'normal' : 'secondary' }
                       onClick={() => this.setState({ active: 'dayTwo' })}
               >
