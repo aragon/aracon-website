@@ -54,9 +54,10 @@ const EntryBox = styled.div`
     color: #000000;
   }
   .description h6 {
-    color: ${theme.textTertiary};
     line-height: 1;
     margin-top: 8px;
+    color: #808080;
+    font-weight: 600;
     ${medium('line-height: 1.5; margin-top: 10px;')};
   }
   .time h3 {
