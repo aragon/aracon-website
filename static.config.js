@@ -36,12 +36,12 @@ export default {
       getData: () => ({ title: 'AraCon - Speaker Application' }),
     },
     {
-      path: '/agenda',
+      path: '/empty-agenda',
       component: 'src/pages/EmptyAgenda',
       getData: () => ({ title: 'AraCon - Agenda' }),
     },
     {
-      path: '/agenda1',
+      path: '/agenda',
       component: 'src/pages/Agenda',
       getData: () => ({ title: 'AraCon - Agenda' }),
     },
