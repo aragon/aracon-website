@@ -98,7 +98,7 @@ const DgovImg = styled.img`
 
 
 const Satellite = () => (
-  <Page path="/satelite-events">
+  <Page path="/satellite-events">
     <Section>
       <SatelliteBox>
         <div className="h1box"><h1>Satellite Events</h1></div>
