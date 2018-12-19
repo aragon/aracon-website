@@ -238,6 +238,77 @@ const Speakers = () => (
               bio="Jorge is a co-founder of the Aragon Project and currently is the CTO of Aragon One, mostly focused on
               technology research. Before Aragon, Jorge was a mobile app developer and a tinkerer with any interesting
               tech he would learn of."/>
+          <Speaker photo="AdamStallard" linkTo="adamSt" name="Adam Stallard" position="Co-founder" company="BrightID"
+              bio="Adam Stallard created BrightID to bring the benefits of being verified as a unique person
+              to everyone. Thanks to support from Giveth and Aragon, he was able to leave his job of eight years
+              as a distributed systems programmer working on the largest land real-estate marketplace to focus on
+              BrightID full-time. Adam is at home on Seattle's east side and easily found in the BrightID telegram
+              group."/>
+          <Speaker photo="AdanSanchezDePedroCrespo" linkTo="adan" name="Adán Sánchez de Pedro Crespo" position="Tech Lead" company="Witnet"
+              bio="Tech Lead at @Witnet_io, CTO at @StamperyCo, founder of @LoquiIM, lecturer, cypherpunk, skeptic and pragmatist."/>
+          <Speaker photo="Bingen" linkTo="bingen" name="Bingen Eguzkitza" position="Solidity developer" company="Aragon One"
+              bio="Open source software and hardware lover, long time Linux user, with a background in Mathematics
+              and Philosophy, abducted now by blockchain trying to find certainty and the opportunity we missed for
+              decentralization with the old internet of open protocols."/>
+          <Speaker photo="EduardoAntunaDiez" linkTo="eduardo" name="Eduardo Antuña Diez" position="Co-founder & Project Lead" company="DAppNode"
+              bio="Eduardo is an Ethereum DevOps and Solidity developer with an established history in software
+              engineering during the last ten years. He has been involved with various projects including Swarm City,
+              Giveth and audits for MakerDAO Stable Coin system. Currently his focus on the development of DAppNode:
+              The goal of which is to achieve “real decentralization” by creating a layer of personally owned hardware
+              infrastructure that’s easy to set up and maintain, as well as providing secure access to the decentralized web."/>
+          <Speaker photo="JeffEmmett" linkTo="jeffe" name="Jeff Emmett" position="Researcher" company="Giveth & Aragon DAC"
+              bio="Jeff is a researcher of cryptoeconomic primitives, such as Token Curated Registries and
+              Bonding Curves.  Working with Giveth and the Aragon DAC teams, he is helping to rethink the structure of charity
+              in a decentralized world, and to forward the practice of Token Engineering for robust blockchain ecosystems.
+              Jeff graduated from the University of Waterloo in Electrical Engineering, and is the author of the post 'Rewriting
+              the Story of Human Collaboration'."/>
+          <Speaker photo="JennaZenk" linkTo="jennaz" name="Jenna Zenk" position="CTO" company="Melonport"
+              bio="Jenna is a software engineer with a background in financial markets and experience in asset management.
+              She graduated from ESCP Europe in Paris, with a Master in Management and Financial Engineering. Prior to joining
+              Melonport, she worked in the hedge fund industry, both in Paris and New York. Her early involvement in the Ethereum
+              ecosystem and passion for decentralization and crypto-economics got her into programming. With both financial and
+              technical knowledge, Jenna is devoted to build Melon as the new standard in asset management."/>
+          <Speaker photo="JeremyMacaluso" linkTo="jeremym" name="Jeremy Macaluso" position="Software Engineer" company="Aragon DAC"
+              bio="Jeremy is a software engineer who has been working for the Aragon DAC. He has focused on using Smart Organizations
+              as personal accounts, and interacting with outside applications using Smart Organizations."/>
+          <Speaker photo="JohnLight" linkTo="johnl" name="John Light" position="Community" company="Aragon One"
+              bio="John Light works on the Community team at Aragon One, a company that is building tools for the
+              governance of organizations and open source projects. He is also a co-founder of Bitseed, author of Bitcoin:
+              Be Your Own Bank, free software advocate and contributor, and advisor to cryptocurrency startups and investors.
+              John has helped organize many crypto-community events including EIP0 Summit in 2018, the Decentralized Web Summit
+              in 2018 and 2016, and Blockstack Summit NYC in 2015. He also hosted the P2P Connects Us podcast, founded the Buttonwood
+              SF cryptocurrency trading meetup in San Francisco, and is an avid reader and writer on the topics of peer-to-peer technology,
+              philosophy, and culture."/>
+          <Speaker photo="MoisesRendon" linkTo="moises" name="Moises Rendon" position="Associate Director & Associate Fellow" company="Center for Strategic and International Studies (CSIS)"
+              bio="Moises is an associate director and associate fellow at the Center for Strategic & International Studies (CSIS),
+              a think tank based in Washington D.C. Moises provides analysis and research on a range of public policy issues in Latin
+              America, including on humanitarian aid response, governance and transparency, blockchain technology and innovation for
+              social impact, and U.S. foreign policy toward Latin America, with particular emphasis on Venezuela, his native country."/>
+          <Speaker photo="OlivierSarrouy" linkTo="olivers" name="Olivier Sarrouy" position="Co-founder & Dev lead" company="PandoNetwork"
+              bio="Olivier has a Master degree in Computer Sciences from Centrale/Supélec. After graduatıng he worked on various
+              open source projects before begınnıng a Ph.D ın philosophy. In 2015, he defended hıs Ph.D thesis in Communication
+              Sciences on web-based decentralized organizations. He then worked as a Professor at University of Rennes 2 for
+              three years discussing the economical, sociological and philosophical implications of distributed organizations
+              and blockchain technologies. He has now resigned from academıa to work full time on the blockchain projects he leads."/>
+          <Speaker photo="SebastianBolanos" linkTo="sebastianb" name="Sebastian Bolaños" position="Web3 developer" company="Althea"
+              bio="Sebastian Bolaños is a web3 developer,  organizer of Ethereum meetups,
+              deployer of Aragon DAOs, and builder of Aragon dapps at Althea.org."/>
+          <Speaker photo="ThibauldFavre" linkTo="thibauld" name="Thibauld Favre" position="CEO & co-founder" company="Fairmint"
+              bio="Thibauld is the CEO of Fairmint and author of the Continuous Organization whitepaper, an idea he started exploring
+              after deep diving into TCRs, bonding curves and combining it through his entrepreneurial experience. Prior to Fairmint,
+              Thibauld co-initiated LaPrimaire.org, a non-profit initiative aimed at transparently & democratically crowdsourcing
+              the best candidates for the past french 2017 presidential election which gathered 150.000 citizens. Previously, Thibauld
+              co-founded and led Allmyapps, the 1st App Store for PC, which he sold in 2014. Thibauld holds a masters degree in
+              Computer Science and and a masters degree in Corporate Finance."/>
+          <Speaker photo="BrettSun" linkTo="brett" name="Brett Sun" position="Lead developer" company="Aragon One"
+              bio="A full-stack developer who loves to get his hands dirty, Brett spends his time and energy ensuring Aragon
+              becomes not just a dream in our minds, but an impactful reality we can all play a part in."/>
+          <Speaker photo="MonicaZeng" linkTo="monica" name="Monica Zeng" position="HR" company="Aragon One"
+              bio="Monica is the founder of human.sh, a people management and coaching agency focused on crypto that works
+              with top projects like Aragon, and Zeppelin. She’s a dropout and she has worked and lived in Barcelona and
+              Silicon Valley prior to moving to the Crypto Valley in Zug, Switzerland. Her background is a mix of
+              international expansion marketing, startup management, and strategy, and when not working she enjoys painting,
+              techno and reading about human psychology."/>
         </Container>
         <p>More speakers coming soon</p>
       </SpeakersBox>
