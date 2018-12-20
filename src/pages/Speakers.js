@@ -125,13 +125,6 @@ const Speakers = () => (
             Research (CNRS) in Paris, a faculty associate at the Berkman-Klein Center for Internet &
             Society at Harvard University, and a Visiting Fellow at the Robert Schuman Centre for
             Advanced Studies at the European University Institute."/>
-          <Speaker photo="MattLockyer" linkTo="matt" name="Matt Lockyer" position="Founder" company="Soloblock Solutions"
-            bio="Matt Lockyer wrote the Ethereum ERC-998 standard for Composable Tokens and his work
-            on Token Curated Registries (TCRs) has been published on a16z's crypto reading list. Matt
-            founded and operates the NFTy Magicians - a group of over 300 blockchain developers - as a
-            pendant to the Ethereum Foundation. He currently advises projects on their smart contract
-            architecture and token engineering processes with a background in full stack development,
-            computer science, UX research, public speaking and university lecturing."/>
           <Speaker photo="MarioLaul" linkTo="mario" name="Mario Laul" position="Researcher" company="Placeholder Ventures"
             bio="Mario Laul works as a researcher for Placeholder, a New York venture capital firm investing
             in decentralized information networks, and for Beyond the Technological Revolution, a four-year
@@ -309,6 +302,14 @@ const Speakers = () => (
               Silicon Valley prior to moving to the Crypto Valley in Zug, Switzerland. Her background is a mix of
               international expansion marketing, startup management, and strategy, and when not working she enjoys painting,
               techno and reading about human psychology."/>
+          <Speaker photo="PrestonVanLoon" linkTo="preston" name="Preston Van Loon" position="Co-founder" company="Prysmatic Labs"
+              bio="Preston is a co-founder at Prysmatic Labs, an independent team of blockchain engineers building the next
+              iteration of Ethereum. He works with Ethereum researchers and open source developers to build a bleeding edge
+              Ethereum 2.0 client supporting Sharding and Proof-of-Stake protocols."/>
+          <Speaker photo="MathewCormier" linkTo="mathewc" name="Mathew Cormier" position="Project Lead" company="Espresso"
+              bio="Mathew is a software engineer from Quebec City, Canada. He is currently project lead at Espresso and a regular
+              contributor on many open source projects. Before joining the Aragon Nest umbrella in August 2018, Mathew has worked
+              for almost a decade on the development of workflow management systems."/>
         </Container>
         <p>More speakers coming soon</p>
       </SpeakersBox>
