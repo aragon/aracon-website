@@ -64,13 +64,13 @@ const Content = styled.div`
 `;
 
 const menuItems = [
-  ['/speakers', 'Speakers'],
   ['/agenda', 'Agenda'],
+  ['/speakers', 'Speakers'],
   ['/satellite-events', 'Satellite Events'],
+  ['/partners', 'Partners'],
   ['/volunteer', 'Volunteer'],
   ['/contact', 'Contact'],
   ['/travel-information', 'Travel Information'],
-  ['/partners', 'Partners'],
 ];
 
 class Page extends React.Component {
