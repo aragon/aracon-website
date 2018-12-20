@@ -6,6 +6,7 @@ import styled from 'styled-components'
 import partners from './assets/partners.png'
 import district from './assets/district.png'
 import ethnews from './assets/eth-news.png'
+import streampark from './assets/streampark.png'
 import bnc from './assets/bnc.png'
 
 const large = css => breakpoint('large', css);
@@ -21,6 +22,9 @@ const TextContainer = styled.div`
   }
   h3 {
     color: #dad7d7;
+  }
+  .partners-short {
+    max-width: 570px;
   }
 `;
 
@@ -56,7 +60,8 @@ const PartnersContainer = styled.div`
   align-items: space-between;
   flex-direction: column;
   ${medium('flex-direction: row;')};
-  margin: 0 auto 90px auto;
+  margin: 0 auto 0 auto;
+  padding-bottom: 90px;
   padding-top: 40px;
   width: 83%;
   a {
@@ -65,6 +70,15 @@ const PartnersContainer = styled.div`
     display: flex;
     align-items: center;
     cursor: pointer;
+  }
+  &.it {
+    justify-content: flex-start;
+    a {
+      padding: 0px;
+      img {
+        width: 318px;
+      }
+    }
   }
 `;
 
@@ -114,7 +128,8 @@ const Partners = () => (<Page path="/partners">
           <a href="https://district0x.io/" target="_blank">
             <DistrictBox>
               <img src={district}/>
-              <p>The district0x network is a collective of decentralized marketplaces and communities known as ‘Districts’. Powered by Ethereum, Aragon, and IPFS.</p>
+              <p>The district0x network is a collective of decentralized marketplaces and communities known as
+              ‘Districts’. Powered by Ethereum, Aragon, and IPFS.</p>
             </DistrictBox>
           </a>
         </TextContainer>
@@ -134,6 +149,21 @@ const Partners = () => (<Page path="/partners">
       <a href="https://www.ethnews.com/" target="_blank"><img src={ethnews} /></a>
       <a href="https://bravenewcoin.com/" target="_blank"><img src={bnc} /></a>
     </PartnersContainer>
+  </Section>
+  <Section className="dark dark-form ">
+  <OuterContainer>
+    <TextContainer>
+      <div className="h1box" id="speakers-form"><h1>IT partner</h1></div>
+      <Text>
+        <p class="partners-short">Streampark TV provides industry-leading solutions for live streaming
+        technologies and IT services. They collaborate with major brands all over Europe and help to bring
+        live experiences of conferences and large-scale events into people’s homes.</p>
+      </Text>
+    </TextContainer>
+  </OuterContainer>
+  <PartnersContainer className="it">
+    <a href="https://streampark.tv/" target="_blank"><img src={streampark} /></a>
+  </PartnersContainer>
   </Section>
 </Page>);
 
