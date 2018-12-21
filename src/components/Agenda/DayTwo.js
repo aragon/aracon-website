@@ -30,7 +30,7 @@ const DayTwo = () => (
       <Entry time="" title="Identity in DAOs" badge={(<Badge className="badge badge-panel" color="#ba7b06" background="#ffe0a7">Panel</Badge>)} subtitle={(<span>Moderator: John Light <br/>Panelists: Jordi Baylina, Adam Stallard, Oliver Terbu</span>)}/>
       <Entry time="13:00 HS" title={(<span><span role="img" className="emoji" aria-label="coffee">🍽</span>Lunch</span>)} badge={(<Badge className="badge badge-time" color="#5a5f68" background="#c8d6ef">1 hour</Badge>)} subtitle=""/>
       <Entry time="14:00 HS" title="Nest Program Demos" subtitle="BrightID, First State Fintech Lab, TennaGraph, Decentralized Design Lab"/>
-      <Entry time="" title="Recruiting For A Diverse Web3" badge={(<Badge className="badge badge-panel" color="#ba7b06" background="#ffe0a7">Panel</Badge>)} subtitle={(<span>Moderator: Monica Zeng <br/>Panelists: Raine Revere, Sara Reynolds, Samer Hassan, Taylor Monahan</span>)}/>
+      <Entry time="" title="Recruiting For A Diverse Web3" badge={(<Badge className="badge badge-panel" color="#ba7b06" background="#ffe0a7">Panel</Badge>)} subtitle={(<span>Moderator: Monica Zeng <br/>Panelists: Raine Revere, Medha Kothari, Samer Hassan, Taylor Monahan</span>)}/>
       <Entry time="" title="Humanist Technology in Oppressed Societies" subtitle="Moises Rendon"/>
       <Entry time="" title="Power by Proxy: The Case for Crypto Cartels" subtitle="Meltem Demirors"/>
       <Entry time="16:00 HS" title={(<span><span role="img" className="emoji" aria-label="coffee">☕</span>Coffee Break</span>)} badge={(<Badge className="badge badge-time" color="#5a5f68" background="#c8d6ef">30 min</Badge>)} subtitle=""/>
