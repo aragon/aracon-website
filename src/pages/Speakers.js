@@ -310,6 +310,20 @@ const Speakers = () => (
               bio="Mathew is a software engineer from Quebec City, Canada. He is currently project lead at Espresso and a regular
               contributor on many open source projects. Before joining the Aragon Nest umbrella in August 2018, Mathew has worked
               for almost a decade on the development of workflow management systems."/>
+          <Speaker photo="BeltranBerrocal" linkTo="beltran" name="Beltran Berrocal" position="Co-founder" company="Decentralized Design Lab + UX @ ENS"
+              bio="Beltran is a 360º designer, developer, educator, entrepreneur. He's the author of the Web3 Design Principles
+              and proponent of the Web3 Design System, a series of guidelines and a library of components that implement the best
+              UX practices for the space. He's also the UX designer at the Ethereum Name Service (ENS) and collaborated to solve
+              part of the downfall of the DAO writing a deterministic parser for the Ethereum Blockchain. In previous lives Beltran
+              co-founded and produced interactive products and an Art Foundation that exhibits 'Art for Hackers'"/>
+          <Speaker photo="OliverTerbu" linkTo="olivert" name="Oliver Terbu" position="Identity and Solutions Architect" company="ConsenSys"
+              bio="Oliver Terbu studied Computer Science at the Technical University of Graz. Since 2018 he’s working as an Identity
+              Architect with ConsenSys / uPort. He is also an active member of standardization bodies like W3C Credentials Community
+              Group, W3C Verifiable Credentials Working Group, and Decentralized Identity Foundation (DIF) working groups. He worked
+              before as a Solutions Architect with OeSD on their digital identity wallet app - my identity app (MIA) in highly
+              regulated areas, and mobile identity-related research projects. Until 2018 member of ISO/IEC JTC1/SC17 WG10 and in charge
+              of coordinating the activities of the online mobile Driver License (mDL) profiles. Before that, he was a Senior Software
+              Engineer with VASCO Data Security with a focus on VASCO's hardware token-based online authentication solution (IDENTIKEY)."/>
         </Container>
         <p>More speakers coming soon</p>
       </SpeakersBox>
