@@ -118,7 +118,7 @@ const Satellite = () => (
             <h2>Event Description:</h2>
             <p>The event will stretch over two full days in a co-creative, open space environment concluding with a dinner gathering for the participants on the first evening. After the opening sessions we will have an open space and facilitators helping us design the working circles. We will continue with the working circles in the morning of the second day. In the afternoon, we will openly share our learnings and insights in a public meetup format with fishbowl-debates.</p>
             <br/><p>You will be among a maximum of forty participants to gather with the intention to create governance models which take a human centric, horizontal approach to the management of shared-resources. We foster a community of participants which have an inherent interest in collaboration to exchange research and learnings to support their own projects while accelerating the innovation on distributed governance models.</p>
-            <br/><p>More information and registration details <a href="https://wiki.dgov.foundation/dgov-community-council" target="_blank">here</a>.</p>
+            <br/><p>More information and registration details <a href="https://wiki.dgov.foundation/events/dgov-community-council" target="_blank">here</a>.</p>
           </EventBody>
         </Event>
         <Event>
