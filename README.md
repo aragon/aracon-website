@@ -30,7 +30,7 @@ See how Aragon is bringing freedom for all with these revolutionary advancements
 ### [FAQ](https://aracon.one/faq)
 
 #### WHAT IS ARACON?
-AraCon is the flagship event of the Aragon Project. It is organised by the Aragon Foundation for the Aragon community and anyone interested in the decentralized web, governance, DAOs, and digital jurisdictions.
+AraCon is the flagship event of the Aragon Project. It is organised by the Aragon Association for the Aragon community and anyone interested in the decentralized web, governance, DAOs, and digital jurisdictions.
 
 #### WHEN AND WHERE IS ARACON HAPPENING?
 AraCon is taking place on 29th-30th of January 2019, at Bolle Festsäle in Berlin, Germany.

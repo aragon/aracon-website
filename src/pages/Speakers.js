@@ -125,20 +125,6 @@ const Speakers = () => (
             Research (CNRS) in Paris, a faculty associate at the Berkman-Klein Center for Internet &
             Society at Harvard University, and a Visiting Fellow at the Robert Schuman Centre for
             Advanced Studies at the European University Institute."/>
-          <Speaker photo="MikeGoldin" linkTo="mike" name="Mike Goldin" position="Lead Engineer" company="Cryptosystems Productization Lab, ConsenSys"
-            bio="Mike is the author of “token-curated registries 1.0”, a widely-cited paper which
-            originally formalized the basic design and properties of such cryptosystems. He launched
-            adChain and implemented its token sale, which sold out in one block. He has overseen and
-            facilitated the development of a widely-used TCR implementation, as well as multiple
-            graphical user interfaces for TCRs. He graduated from Columbia University with a degree
-            in computer science."/>
-          <Speaker photo="MattLockyer" linkTo="matt" name="Matt Lockyer" position="Founder" company="Soloblock Solutions"
-            bio="Matt Lockyer wrote the Ethereum ERC-998 standard for Composable Tokens and his work
-            on Token Curated Registries (TCRs) has been published on a16z's crypto reading list. Matt
-            founded and operates the NFTy Magicians - a group of over 300 blockchain developers - as a
-            pendant to the Ethereum Foundation. He currently advises projects on their smart contract
-            architecture and token engineering processes with a background in full stack development,
-            computer science, UX research, public speaking and university lecturing."/>
           <Speaker photo="MarioLaul" linkTo="mario" name="Mario Laul" position="Researcher" company="Placeholder Ventures"
             bio="Mario Laul works as a researcher for Placeholder, a New York venture capital firm investing
             in decentralized information networks, and for Beyond the Technological Revolution, a four-year
@@ -199,7 +185,7 @@ const Speakers = () => (
             of Ind.ie, a tiny two-person not-for-profit working for social justice in the digital networked age. At Ind.ie, Laura
             works on Better Blocker, a privacy tool that protects you from being tracked on the Web, and on initiatives to create
             a federated personal web where everyone owns and controls their own piece of the internet."/>
-          <Speaker photo="MeltemDemirors" linkTo="maltem" name="Meltem Demirors" position="Chief Strategy Officer" company="CoinShares"
+          <Speaker photo="MeltemDemirors" linkTo="meltem" name="Meltem Demirors" position="Chief Strategy Officer" company="CoinShares"
             bio="Meltem Demirors is Chief Strategy Officer of CoinShares, the leading digital asset manager, and a cryptocurrency investor,
             advisor, and advocate, with a unique blend of experience in both legacy & blockchain-based finance and cryptocurrencies.
             On the legacy finance front, Ms. Demirors worked with some of the largest companies in the world, mainly on financial
@@ -207,8 +193,8 @@ const Speakers = () => (
             management and network development. She invests in cryptocurrency and blockchain focused companies and projects via her
             invest firm, Shiny Pony Ventures and lectures at the MIT Media Lab and Oxford."/>
           <Speaker photo="YaldaMousavinia" linkTo="yalda" name="Yalda Mousavinia" position="Co-founder" company="Space Cooperative"
-            bio="Yalda Mousavinia is a co-founder Space Cooperative, a worker-owned aerospace cooperative, which is the original
-            organization spearheading the establishment of Space Decentral, a DAO for creating a global space agency. Her and other
+            bio="Yalda Mousavinia is a co-founder of Space Cooperative, a worker-owned aerospace cooperative, which is the original
+            organization spearheading the establishment of Space Decentral, a DAO for creating a global space agency. She and other
             members of the Space Decentral community were awarded an Aragon Nest grant to develop a Planning Suite for DAOs and she
             is the lead product manager and UX designer. Prior to Space Cooperative, Yalda designed solutions for Oracle's Enterprise
             Resource Planning cloud software suite. Her career as a product manager and designer for software companies spans over 10
@@ -217,6 +203,127 @@ const Speakers = () => (
             bio="Yondon Fu is a software engineer and researcher at Livepeer which is developing public decentralized video streaming
             infrastructure that helps developers scale video enabled applications. Previously, he worked on decentralized funding
             mechanisms for sustainable open source software as a part of his senior undergraduate thesis."/>
+          <Speaker photo="AlisonBerreman" linkTo="Alison" name="Alison Berreman" position="Assistant Editor" company="ETHNews"
+              bio="Alison Berreman is the assistant editor at ETHNews. She has a background in social work, and a master’s in
+              rhetoric and composition studies from the University of Wyoming. "/>
+          <Speaker photo="ChristophJentzsch" linkTo="Christoph" name="Christoph Jentzsch" position="Co-founder & CEO" company="Slock.it"
+            bio="Christoph’s background is in theoretical physics, where he developed optimized software solutions for high performance
+            computing on specialized hardware. Christoph has been part of the Ethereum project since 2014 as Lead Tester, securing and
+            shaping the core protocol while working on the backend of the C++ client. End of 2015 he co-founded Slock.it, working on the
+            decentralized sharing economy through the connection of Blockchain and IoT as well as TheDAO."/>
+          <Speaker photo="JacobArluck" linkTo="Jacob" name="Jacob Arluck" position="Researcher" company="Tezos"
+              bio="Jacob works on governance research for Tezos. He is most interested in improving blockchain governance to
+              facilitate coordination and acquire the scalability necessary for widespread adoption."/>
+          <Speaker photo="SamerHassan" linkTo="Samer" name="Samer Hassan" position="Researcher and Faculty Associate" company="Berkman Klein Center for Internet & Society"
+              bio="Samer Hassan is an activist and researcher, Faculty Associate at the Berkman Klein Center for Internet & Society
+              (Harvard University) and Associate Professor at the Universidad Complutense de Madrid (Spain). Focused on decentralized
+              collaboration, he was awarded with a 1.5M€ ERC grant, the largest individual research grant in the EU, to build blockchain-based,
+              democratic and economically sustainable organizations for the collaborative economy (the 'P2P Models' project)"/>
+          <Speaker photo="StefanoBernardi" linkTo="Stefano" name="Stefano Bernardi" position="Director" company="Aragon Association"
+              bio="Stefano has been interested in the crypto and decentralized organizations space since 2011. He is also a co-founder
+              and venture partner at Semantic Ventures, an early stage European venture fund focusing on decentralized computing.In his spare
+              time, he writes Token Economy, a leading crypto newsletter and organizes Unplug.vc retreats, bringing people to the
+              mountains where he lives with his wife and two children."/>
+          <Speaker photo="TaylorMonahan" linkTo="Monahan" name="Taylor Monahan" position="Founder & CEO" company="MyCrypto"
+              bio="Taylor Monahan is the founder & CEO of MyCrypto, an open-source, non-custodial wallet solution. Previously
+              she founded MyEtherWallet. She is dedicated to making the blockchain safer and easier to access for everyone."/>
+          <Speaker photo="JorgeIzquierdo" linkTo="Jorge" name="Jorge Izquierdo" position="CTO" company="Aragon One"
+              bio="Jorge is a co-founder of the Aragon Project and currently is the CTO of Aragon One, mostly focused on
+              technology research. Before Aragon, Jorge was a mobile app developer and a tinkerer with any interesting
+              tech he would learn of."/>
+          <Speaker photo="AdamStallard" linkTo="adamSt" name="Adam Stallard" position="Co-founder" company="BrightID"
+              bio="Adam Stallard created BrightID to bring the benefits of being verified as a unique person
+              to everyone. Thanks to support from Giveth and Aragon, he was able to leave his job of eight years
+              as a distributed systems programmer working on the largest land real-estate marketplace to focus on
+              BrightID full-time. Adam is at home on Seattle's east side and easily found in the BrightID telegram
+              group."/>
+          <Speaker photo="AdanSanchezDePedroCrespo" linkTo="adan" name="Adán Sánchez de Pedro Crespo" position="Tech Lead" company="Witnet"
+              bio="Tech Lead at @Witnet_io, CTO at @StamperyCo, founder of @LoquiIM, lecturer, cypherpunk, skeptic and pragmatist."/>
+          <Speaker photo="Bingen" linkTo="bingen" name="Bingen Eguzkitza" position="Solidity developer" company="Aragon One"
+              bio="Open source software and hardware lover, long time Linux user, with a background in Mathematics
+              and Philosophy, abducted now by blockchain trying to find certainty and the opportunity we missed for
+              decentralization with the old internet of open protocols."/>
+          <Speaker photo="EduardoAntunaDiez" linkTo="eduardo" name="Eduardo Antuña Diez" position="Co-founder & Project Lead" company="DAppNode"
+              bio="Eduardo is an Ethereum DevOps and Solidity developer with an established history in software
+              engineering during the last ten years. He has been involved with various projects including Swarm City,
+              Giveth and audits for MakerDAO Stable Coin system. Currently his focus on the development of DAppNode:
+              The goal of which is to achieve “real decentralization” by creating a layer of personally owned hardware
+              infrastructure that’s easy to set up and maintain, as well as providing secure access to the decentralized web."/>
+          <Speaker photo="JeffEmmett" linkTo="jeffe" name="Jeff Emmett" position="Researcher" company="Giveth & Aragon DAC"
+              bio="Jeff is a researcher of cryptoeconomic primitives, such as Token Curated Registries and
+              Bonding Curves.  Working with Giveth and the Aragon DAC teams, he is helping to rethink the structure of charity
+              in a decentralized world, and to forward the practice of Token Engineering for robust blockchain ecosystems.
+              Jeff graduated from the University of Waterloo in Electrical Engineering, and is the author of the post 'Rewriting
+              the Story of Human Collaboration'."/>
+          <Speaker photo="JennaZenk" linkTo="jennaz" name="Jenna Zenk" position="CTO" company="Melonport"
+              bio="Jenna is a software engineer with a background in financial markets and experience in asset management.
+              She graduated from ESCP Europe in Paris, with a Master in Management and Financial Engineering. Prior to joining
+              Melonport, she worked in the hedge fund industry, both in Paris and New York. Her early involvement in the Ethereum
+              ecosystem and passion for decentralization and crypto-economics got her into programming. With both financial and
+              technical knowledge, Jenna is devoted to build Melon as the new standard in asset management."/>
+          <Speaker photo="JeremyMacaluso" linkTo="jeremym" name="Jeremy Macaluso" position="Software Engineer" company="Aragon DAC"
+              bio="Jeremy is a software engineer who has been working for the Aragon DAC. He has focused on using Smart Organizations
+              as personal accounts, and interacting with outside applications using Smart Organizations."/>
+          <Speaker photo="JohnLight" linkTo="johnl" name="John Light" position="Community" company="Aragon One"
+              bio="John Light works on the Community team at Aragon One, a company that is building tools for the
+              governance of organizations and open source projects. He is also a co-founder of Bitseed, author of Bitcoin:
+              Be Your Own Bank, free software advocate and contributor, and advisor to cryptocurrency startups and investors.
+              John has helped organize many crypto-community events including EIP0 Summit in 2018, the Decentralized Web Summit
+              in 2018 and 2016, and Blockstack Summit NYC in 2015. He also hosted the P2P Connects Us podcast, founded the Buttonwood
+              SF cryptocurrency trading meetup in San Francisco, and is an avid reader and writer on the topics of peer-to-peer technology,
+              philosophy, and culture."/>
+          <Speaker photo="MoisesRendon" linkTo="moises" name="Moises Rendon" position="Associate Director & Associate Fellow" company="Center for Strategic and International Studies (CSIS)"
+              bio="Moises is an associate director and associate fellow at the Center for Strategic & International Studies (CSIS),
+              a think tank based in Washington D.C. Moises provides analysis and research on a range of public policy issues in Latin
+              America, including on humanitarian aid response, governance and transparency, blockchain technology and innovation for
+              social impact, and U.S. foreign policy toward Latin America, with particular emphasis on Venezuela, his native country."/>
+          <Speaker photo="OlivierSarrouy" linkTo="olivers" name="Olivier Sarrouy" position="Co-founder & Dev lead" company="PandoNetwork"
+              bio="Olivier has a Master degree in Computer Sciences from Centrale/Supélec. After graduatıng he worked on various
+              open source projects before begınnıng a Ph.D ın philosophy. In 2015, he defended hıs Ph.D thesis in Communication
+              Sciences on web-based decentralized organizations. He then worked as a Professor at University of Rennes 2 for
+              three years discussing the economical, sociological and philosophical implications of distributed organizations
+              and blockchain technologies. He has now resigned from academıa to work full time on the blockchain projects he leads."/>
+          <Speaker photo="SebastianBolanos" linkTo="sebastianb" name="Sebastian Bolaños" position="Web3 developer" company="Althea"
+              bio="Sebastian Bolaños is a web3 developer,  organizer of Ethereum meetups,
+              deployer of Aragon DAOs, and builder of Aragon dapps at Althea.org."/>
+          <Speaker photo="ThibauldFavre" linkTo="thibauld" name="Thibauld Favre" position="CEO & co-founder" company="Fairmint"
+              bio="Thibauld is the CEO of Fairmint and author of the Continuous Organization whitepaper, an idea he started exploring
+              after deep diving into TCRs, bonding curves and combining it through his entrepreneurial experience. Prior to Fairmint,
+              Thibauld co-initiated LaPrimaire.org, a non-profit initiative aimed at transparently & democratically crowdsourcing
+              the best candidates for the past french 2017 presidential election which gathered 150.000 citizens. Previously, Thibauld
+              co-founded and led Allmyapps, the 1st App Store for PC, which he sold in 2014. Thibauld holds a masters degree in
+              Computer Science and and a masters degree in Corporate Finance."/>
+          <Speaker photo="BrettSun" linkTo="brett" name="Brett Sun" position="Lead developer" company="Aragon One"
+              bio="A full-stack developer who loves to get his hands dirty, Brett spends his time and energy ensuring Aragon
+              becomes not just a dream in our minds, but an impactful reality we can all play a part in."/>
+          <Speaker photo="MonicaZeng" linkTo="monica" name="Monica Zeng" position="HR" company="Aragon One"
+              bio="Monica is the founder of human.sh, a people management and coaching agency focused on crypto that works
+              with top projects like Aragon, and Zeppelin. She’s a dropout and she has worked and lived in Barcelona and
+              Silicon Valley prior to moving to the Crypto Valley in Zug, Switzerland. Her background is a mix of
+              international expansion marketing, startup management, and strategy, and when not working she enjoys painting,
+              techno and reading about human psychology."/>
+          <Speaker photo="PrestonVanLoon" linkTo="preston" name="Preston Van Loon" position="Co-founder" company="Prysmatic Labs"
+              bio="Preston is a co-founder at Prysmatic Labs, an independent team of blockchain engineers building the next
+              iteration of Ethereum. He works with Ethereum researchers and open source developers to build a bleeding edge
+              Ethereum 2.0 client supporting Sharding and Proof-of-Stake protocols."/>
+          <Speaker photo="MathewCormier" linkTo="mathewc" name="Mathew Cormier" position="Project Lead" company="Espresso"
+              bio="Mathew is a software engineer from Quebec City, Canada. He is currently project lead at Espresso and a regular
+              contributor on many open source projects. Before joining the Aragon Nest umbrella in August 2018, Mathew has worked
+              for almost a decade on the development of workflow management systems."/>
+          <Speaker photo="BeltranBerrocal" linkTo="beltran" name="Beltran Berrocal" position="Co-founder" company="Decentralized Design Lab + UX @ ENS"
+              bio="Beltran is a 360º designer, developer, educator, entrepreneur. He's the author of the Web3 Design Principles
+              and proponent of the Web3 Design System, a series of guidelines and a library of components that implement the best
+              UX practices for the space. He's also the UX designer at the Ethereum Name Service (ENS) and collaborated to solve
+              part of the downfall of the DAO writing a deterministic parser for the Ethereum Blockchain. In previous lives Beltran
+              co-founded and produced interactive products and an Art Foundation that exhibits 'Art for Hackers'"/>
+          <Speaker photo="OliverTerbu" linkTo="olivert" name="Oliver Terbu" position="Identity and Solutions Architect" company="ConsenSys"
+              bio="Oliver Terbu studied Computer Science at the Technical University of Graz. Since 2018 he’s working as an Identity
+              Architect with ConsenSys / uPort. He is also an active member of standardization bodies like W3C Credentials Community
+              Group, W3C Verifiable Credentials Working Group, and Decentralized Identity Foundation (DIF) working groups. He worked
+              before as a Solutions Architect with OeSD on their digital identity wallet app - my identity app (MIA) in highly
+              regulated areas, and mobile identity-related research projects. Until 2018 member of ISO/IEC JTC1/SC17 WG10 and in charge
+              of coordinating the activities of the online mobile Driver License (mDL) profiles. Before that, he was a Senior Software
+              Engineer with VASCO Data Security with a focus on VASCO's hardware token-based online authentication solution (IDENTIKEY)."/>
         </Container>
         <p>More speakers coming soon</p>
       </SpeakersBox>

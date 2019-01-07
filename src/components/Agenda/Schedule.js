@@ -10,7 +10,7 @@ const ScheduleContainer = styled.div`
   margin-top: 50px;
   .schedule {
     width: 100%;
-    max-width: 800px;
+    max-width: 870px;
     background: #fff;
     padding: 0;
     ${medium('padding: 5px 50px;')};

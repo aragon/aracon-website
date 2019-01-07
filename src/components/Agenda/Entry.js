@@ -48,15 +48,16 @@ const EntryBox = styled.div`
   .description p {
     line-height: 1;
     font-size: 18px;
-    ${medium('line-height: 1; font-size: 24px;')};
+    ${medium('line-height: 1; font-size: 22px;')};
     margin-bottom: 5px;
     font-weight: 700;
     color: #000000;
   }
   .description h6 {
-    color: ${theme.textTertiary};
     line-height: 1;
     margin-top: 8px;
+    color: #808080;
+    font-weight: 600;
     ${medium('line-height: 1.5; margin-top: 10px;')};
   }
   .time h3 {
@@ -64,15 +65,25 @@ const EntryBox = styled.div`
     ${medium('font-size: 17px; font-weight: 700;')};
     color: #000000;
   }
+  .badge-time {
+    color: #5a5f68;
+  }
+  .badge-panel {
+    color: #ba7b06;
+  }
+  .emoji {
+    margin-right: 3px;
+  }
 `;
 
 const Entry = ({ ...props }) => (
   <EntryBox>
     <div className="time">
-      <h3>{props.time} HS</h3>
+      <h3>{props.time}</h3>
     </div>
     <div className="description">
       <p>{props.title}</p>
+      {props.badge && <p>{props.badge}</p>}
       <h6>{props.subtitle}</h6>
     </div>
   </EntryBox>

@@ -36,8 +36,13 @@ export default {
       getData: () => ({ title: 'AraCon - Speaker Application' }),
     },
     {
-      path: '/agenda',
+      path: '/empty-agenda',
       component: 'src/pages/EmptyAgenda',
+      getData: () => ({ title: 'AraCon - Agenda' }),
+    },
+    {
+      path: '/agenda',
+      component: 'src/pages/Agenda',
       getData: () => ({ title: 'AraCon - Agenda' }),
     },
     {
@@ -56,19 +61,29 @@ export default {
       getData: () => ({ title: 'AraCon - Contact' }),
     },
     {
+      path: '/contact-thanks',
+      component: 'src/pages/ContactThanks',
+      getData: () => ({ title: 'AraCon - Contact' }),
+    },
+    {
       path: '/faq',
       component: 'src/pages/Faq',
       getData: () => ({ title: 'AraCon - FAQ' }),
     },
     {
-      path: '/travelinformation',
+      path: '/travel-information',
       component: 'src/pages/Travel',
       getData: () => ({ title: 'AraCon - Travel Information' }),
     },
     {
-      path: '/scholarships',
-      component: 'src/pages/Scholarship',
-      getData: () => ({ title: 'AraCon - Scholarships' }),
+      path: '/satellite-events',
+      component: 'src/pages/SatelliteEvents',
+      getData: () => ({ title: 'AraCon - Satellite Events' }),
+    },
+    {
+      path: '/partners',
+      component: 'src/pages/Partners',
+      getData: () => ({ title: 'AraCon - Partners' }),
     },
     {
       path: '/livestream',

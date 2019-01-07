@@ -24,6 +24,10 @@ const Criteria = styled.ul`
 const Container = styled.div`
   width: 100%;
   padding: 50px 8.5%;
+  h3 {
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
 
   a.button-strong2 {
     text-decoration: none;
@@ -55,8 +59,8 @@ const Registration = () => (
       <Container>
         <Text><div className="h1box"><h1>Registration</h1></div></Text>
         <Text size="xlarge">
-          <h3>AraCon welcomes people from all backgrounds to join us at the flagship event of the Aragon Project.<br /><br />
-          We have a portion of tickets initially reserved for Aragon community members, those who have supported and helped us get to this point in time that we can make AraCon a reality.</h3>
+          <h3>Community ticket</h3>
+          <p>We have a portion of tickets initially reserved for Aragon community members, those who have supported and helped us get to this point in time that we can make AraCon a reality.<br/> <br/></p>
         </Text>
         <Text>
           <p>Not sure whether you’re qualified for a Community ticket? These are the criteria:</p><br />
@@ -72,6 +76,7 @@ const Registration = () => (
         <br />
         <Text>
           <p>If you meet one of the criteria above, please email us with the proof at <SafeLink href="mailto:info@aracon.one">info@aracon.one</SafeLink> and we will send you a registration link for a Community ticket.</p><br />
+          <h3>General Admission - €150</h3>
           <p><span className="strong">If you are not a member of the Aragon community yet, we are excited to meet you soon. To get your ticket, please register below!</span></p><br />
         </Text>
         <br />
@@ -85,9 +90,6 @@ const Registration = () => (
           </SafeLink>
           <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807" />
         </div>
-        <Text>
-          <p><br />Need financial help attending AraCon?<br />Apply for a scholarship <Link to="/scholarships" >here</Link>.</p>
-        </Text>
     </Container>
     </Section>
   </Page>
