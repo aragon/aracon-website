@@ -37,7 +37,8 @@ const DayOne = () => (
       <Entry time="16:00" title="Evolving Web3 Infrastructure " badge={(<Badge className="badge badge-panel" color="#ba7b06" background="#ffe0a7">Panel</Badge>)} subtitle={(<span>Moderator: Evan van Ness <br/>Panelists: Jutta Steiner, Lane Rettig, Martin Köppelmann, Adan Sanchez de Pedro</span>)}/>
       <Entry time="" title="People Might Actually Use This" subtitle="Laura Kalbag"/>
       <Entry time="" title="Aragon Community Governance" subtitle="John Light"/>
-      <Entry time="17:30" title="AraCon Afterhours" subtitle=""/>
+      <Entry time="17:30" title="AraCon Afterhours" subtitle="We're closing the first day of AraCon with some socializing over dinner, drinks, and music at the AraCon venue."/>
+      <Entry time="20:00" title="Closing" subtitle=""/>
     </Schedule>
     <p><br/><i>*All panels and talks will be happening on the main stage (“Kapelle” hall)</i></p>
   </ScheduleBox>
