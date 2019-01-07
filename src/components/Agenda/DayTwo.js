@@ -27,7 +27,7 @@ const DayTwo = () => (
       <Entry time="11:15 HS" title="Aragon One in 2019" subtitle="Brett Sun"/>
       <Entry time="" title="DAOs And Their Interaction With The Physical World" subtitle="Primavera De Filippi & Maria Gomez"/>
       <Entry time="" title="Pando" badge={(<Badge className="badge">Nest team</Badge>)} subtitle="Olivier Sarrouy"/>
-      <Entry time="" title="Identity in DAOs" badge={(<Badge className="badge badge-panel" color="#ba7b06" background="#ffe0a7">Panel</Badge>)} subtitle={(<span>Moderator: John Light <br/>Panelists: Jordi Baylina, Adam Stallard, Oliver Terbu</span>)}/>
+      <Entry time="" title="Identity in DAOs" badge={(<Badge className="badge badge-panel" color="#ba7b06" background="#ffe0a7">Panel</Badge>)} subtitle={(<span>Moderator: John Light <br/>Panelists: Jordi Baylina, Adam Stallard, Rouven Heck</span>)}/>
       <Entry time="13:00 HS" title={(<span><span role="img" className="emoji" aria-label="coffee">🍽</span>Lunch</span>)} badge={(<Badge className="badge badge-time" color="#5a5f68" background="#c8d6ef">1 hour</Badge>)} subtitle=""/>
       <Entry time="14:00 HS" title="Nest Program Demos" subtitle="BrightID, First State Fintech Lab, TennaGraph, Decentralized Design Lab"/>
       <Entry time="" title="Recruiting For A Diverse Web3" badge={(<Badge className="badge badge-panel" color="#ba7b06" background="#ffe0a7">Panel</Badge>)} subtitle={(<span>Moderator: Monica Zeng <br/>Panelists: Raine Revere, Medha Kothari, Samer Hassan, Taylor Monahan</span>)}/>
