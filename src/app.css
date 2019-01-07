@@ -7,11 +7,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.app {
-  min-height: auto !important;
-  background: transparent;
-}
-
 a, a span, button {
   outline: none;
   transition: all 0.25s ease-in-out;
