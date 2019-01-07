@@ -316,14 +316,28 @@ const Speakers = () => (
               UX practices for the space. He's also the UX designer at the Ethereum Name Service (ENS) and collaborated to solve
               part of the downfall of the DAO writing a deterministic parser for the Ethereum Blockchain. In previous lives Beltran
               co-founded and produced interactive products and an Art Foundation that exhibits 'Art for Hackers'"/>
-          <Speaker photo="OliverTerbu" linkTo="olivert" name="Oliver Terbu" position="Identity and Solutions Architect" company="ConsenSys"
-              bio="Oliver Terbu studied Computer Science at the Technical University of Graz. Since 2018 he’s working as an Identity
-              Architect with ConsenSys / uPort. He is also an active member of standardization bodies like W3C Credentials Community
-              Group, W3C Verifiable Credentials Working Group, and Decentralized Identity Foundation (DIF) working groups. He worked
-              before as a Solutions Architect with OeSD on their digital identity wallet app - my identity app (MIA) in highly
-              regulated areas, and mobile identity-related research projects. Until 2018 member of ISO/IEC JTC1/SC17 WG10 and in charge
-              of coordinating the activities of the online mobile Driver License (mDL) profiles. Before that, he was a Senior Software
-              Engineer with VASCO Data Security with a focus on VASCO's hardware token-based online authentication solution (IDENTIKEY)."/>
+          <Speaker photo="RouvenHeck" linkTo="rouven" name="Rouven Heck" position="Co-Founder" company="uPort at ConsenSys"
+              bio="Rouven Heck is Co-Founder for the Digital Identity Platform (uPort) at ConsenSys and founding member of
+              the Decentralized Identity Foundation. Rouven has a computer science background and over 15 years experience in
+              banking IT, having worked for Deutsche Bank in various IT project, architecture and strategy roles in Germany,
+              Hong Kong and New York before joining ConsenSys early 2016."/>
+          <Speaker photo="MedhaKothari" linkTo="medha" name="Medha Kothari" position="Co-Founder and Executive Director" company="she256"
+              bio="Medha Kothari is a Co-Founder and Executive Director of she256, a non profit which aims to increase diversity and break
+              down barriers of entry in the blockchain space. She believes in exposure, education, and equitable opportunities. Medha is a
+              developer by trade, and uses those skills to lead the consulting arm of Blockchain @ Berkeley, where she manages a team of
+              developers and business consultants to build out full-stack blockchain solutions for large enterprise clients."/>
+          <Speaker photo="LukeDuncan" linkTo="luked" name="Luke Duncan" position="Researcher" company="Aragon One"
+              bio="Luke Duncan is a researcher working on the Aragon Project at A1. His primary focus is on governance processes and mechanisms
+              which serve to align the interests of participants in blockchain-native organizations. He is also a passionate advocate for open
+              source software sustainability and has recently proposed an alternative to traditional copyleft and permissive style licenses. "/>
+          <Speaker photo="JordanMuir" linkTo="jordanm" name="Jordan Muir" position="Co-founder" company="Frame"
+              bio="Jordan is the creator of Frame, an OS-level Ethereum interface working to make Ethereum approachable and accessible.
+              As an NYC-based engineer and designer, he’s driven by projects that contribute to the acceleration of human innovation and
+              believes open decentralized networks are an important step. He’s excited to be working on Frame alongside Aragon as part of
+              the Nest program."/>
+          <Speaker photo="DanielShavit" linkTo="daniels" name="Daniel Shavit" position="Research lead" company="Pando"
+              bio="Daniel is the research lead at Pando and DAOIncubator with a focus on decentralized governance and crypto-economics.
+              Political Tech after payments and digital advisory for Paypal, Mastercard, Unicredit, Banca D’Italia."/>
         </Container>
         <p>More speakers coming soon</p>
       </SpeakersBox>
