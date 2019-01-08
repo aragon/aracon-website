@@ -59,6 +59,7 @@ const PartnersContainer = styled.div`
   justify-content: center;
   align-items: space-between;
   flex-direction: column;
+  max-width: 1440px !important;
   ${medium('flex-direction: row;')};
   margin: 0 auto 0 auto;
   padding-bottom: 90px;
