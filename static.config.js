@@ -174,6 +174,21 @@ export default {
             <title>{title || siteTitle}</title>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/favicon.ico" />
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:site" content="@AragonProject" />
+            <meta name="twitter:creator" content="@AragonProject" />
+            <meta name="twitter:description" content="AraCon: Building organizations & governance of the future. 29th-30th of January 2019 in Berlin" />
+            <meta name="twitter:title" content="Aracon – May 25-28, 2018" />
+            <meta name="twitter:image" content="https://raw.githubusercontent.com/aragon/aracon-website/master/public/twitter-card.png" />
+
+            <meta property="og:title" content="AraCon – 29th-30th of January 2019 in Berlin" />
+            <meta property="og:description" content="AraCon: Building organizations & governance of the future." />
+            <meta property="og:url" content="https://aracon.one/" />
+            <meta property="og:site_name" content="AraCon" />
+            <meta property="og:image" content="https://raw.githubusercontent.com/aragon/aracon-website/master/public/twitter-card.png" />
+            <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/aragon/aracon-website/master/public/twitter-card.png" />
+            <meta property="og:image:width" content="300" />
+            <meta property="og:image:height" content="300" />
             {renderMeta.styleTags}
           </Head>
           <Body>
