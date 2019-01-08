@@ -178,7 +178,7 @@ export default {
             <meta name="twitter:site" content="@AragonProject" />
             <meta name="twitter:creator" content="@AragonProject" />
             <meta name="twitter:description" content="AraCon: Building organizations & governance of the future. 29th-30th of January 2019 in Berlin" />
-            <meta name="twitter:title" content="Aracon – 29th-30th of January 2019 in Berlin" />
+            <meta name="twitter:title" content="AraCon" />
             <meta name="twitter:image" content="https://raw.githubusercontent.com/aragon/aracon-website/master/public/twitter-card.png" />
             <meta property="og:title" content="AraCon – 29th-30th of January 2019 in Berlin" />
             <meta property="og:description" content="AraCon: Building organizations & governance of the future." />
