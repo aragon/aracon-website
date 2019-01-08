@@ -149,10 +149,10 @@ const Satellite = () => (
             <h2>Organizer:</h2>
             <a href="https://witnet.io/#/" target="_blank"><WitnetImg src={Witnet}/></a>
             <h2>When:</h2>
-            <p>January 30th 2019 - 20:00</p>
+            <p>January 30th 2019 - 19:00 to 22:00</p>
 
             <h2>Where:</h2>
-            <p>Location TBC</p>
+            <p><a target="_blank" href="http://www.seminarschiff.com">Seminarschiff</a>. Markgrafendamm 24, Haus 18, Berlin, Germany 10245.</p>
 
             <h2>Event Description:</h2>
             <p><a href="https://witnet.io/#/" target="_blank">Witnet</a> is a decentralized oracle network that connects smart contracts to the outer world. Join Witnet team for drinks, snacks and music to celebrate the anticipated launch of their Decentralized Oracle Network.</p>
