@@ -184,8 +184,8 @@ export default {
             <meta property="og:description" content="AraCon: Building organizations & governance of the future." />
             <meta property="og:url" content="https://aracon.one/" />
             <meta property="og:site_name" content="AraCon" />
-            <meta property="og:image" content="https://raw.githubusercontent.com/aragon/aracon-website/master/public/twitter-card.png" />
-            <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/aragon/aracon-website/master/public/twitter-card.png" />
+            <meta property="og:image" content="https://raw.githubusercontent.com/aragon/aracon-website/master/public/card.png" />
+            <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/aragon/aracon-website/master/public/card.png" />
             <meta property="og:image:width" content="300" />
             <meta property="og:image:height" content="300" />
             {renderMeta.styleTags}
