@@ -160,7 +160,7 @@ const Satellite = () => (
 
             <h2>Event Description:</h2>
             <p><a href="https://www.parity.io/" target="_blank">Parity Technologies</a>  is running a meetup on building a smart contract with Parity Substrate through Web Assembly. There will also be presentations from our invited guest speakers from Polkasource and Chainsafe. We will also host an open mic for anyone who wants to present any projects they have been working on with Parity Substrate. We look forward to hearing what you have been up to.</p>
-            <p>Doors open at 18:30 and presentations begin at 19:00. We’ll have pizza and drinks, time for questions, discussion, and networking. For more information and RSVP go <a href="https://www.meetup.com/parity/events/257404166/" target="_blank">here</a>.</p>
+            <p>Doors open at 19:00 and presentations begin at 19:30. We’ll have pizza and drinks, time for questions, discussion, and networking. For more information and RSVP go <a href="https://www.meetup.com/parity/events/257404166/" target="_blank">here</a>.</p>
             <p>Parity will also host a 5-hour workshop on Monday, January 28th from 1 pm to 6 pm, showing how to build your own blockchains with Substrate. This is a developer-only workshop, so programming knowledge is a must! For more information go <a href="https://www.meetup.com/parity/events/257859143/" target="_blank">here</a>.</p>
           </EventBody>
         </Event>
