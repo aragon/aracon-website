@@ -23,6 +23,16 @@ const HeroBox = styled.div`
   -o-background-size: cover;
   background-size: cover;
   margin-top: -64px;
+  position:relative;
+  z-index: 3;
+  padding-bottom: calc(50px + 6vw);
+  clip-path: polygon(
+    0 calc(100% - 6vw),
+    100% 100%,
+    100% 0,
+    0 0
+  );
+
   h2 {
     font-size: 18px;
     ${medium('font-size: 24px;')};
@@ -55,18 +65,6 @@ const HeroBox = styled.div`
   }
 `;
 
-const HeroTriangle = styled.div`
-  border-right: solid 100vw transparent;
-  border-bottom: 15vh solid white;
-  margin-bottom: -1px;
-  background-color: transparent;
-  z-index: 1;
-  position: absolute;
-  width: 100vw;
-  left: 0;
-  bottom: 0;
-`;
-
 const Logo = styled.img`
   margin-top: 175px;
   ${medium('margin-top: 34vh;')};
@@ -81,7 +79,6 @@ const Hero = () => (
       <p>29th-30th of January 2019 in Berlin</p>
       <h2 className="sides right">Berlin, Germany</h2>
       <h2 className="sides left">Jan 29-30.2019</h2><br />
-      <HeroTriangle/>
     </HeroBox>
   </HeroSection>
 );

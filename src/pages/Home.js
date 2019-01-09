@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Page } from '../components'
 import Hero from '../components/Home/Hero.js'
+import Countdown from '../components/Home/CountdownSection.js'
 import About from '../components/Home/About.js'
 import Speakers from '../components/Home/Speakers.js'
 import Venue from '../components/Home/Venue.js'
@@ -12,6 +13,7 @@ import Livestream from '../components/Home/Livestream.js'
 const Home = () => (
   <Page path="/">
     <Hero/>
+    <Countdown/>
     <About/>
     <Livestream/>
     <Speakers />
@@ -22,5 +24,3 @@ const Home = () => (
 );
 
 export default Home
-
-
