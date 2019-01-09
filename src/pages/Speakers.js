@@ -330,7 +330,7 @@ const Speakers = () => (
               bio="Luke Duncan is a researcher working on the Aragon Project at A1. His primary focus is on governance processes and mechanisms
               which serve to align the interests of participants in blockchain-native organizations. He is also a passionate advocate for open
               source software sustainability and has recently proposed an alternative to traditional copyleft and permissive style licenses. "/>
-          <Speaker photo="JordanMuir" linkTo="jordanm" name="Jordan Muir" position="Co-founder" company="Frame"
+          <Speaker photo="JordanMuir" linkTo="jordanm" name="Jordan Muir" position="Founder" company="Frame"
               bio="Jordan is the creator of Frame, an OS-level Ethereum interface working to make Ethereum approachable and accessible.
               As an NYC-based engineer and designer, he’s driven by projects that contribute to the acceleration of human innovation and
               believes open decentralized networks are an important step. He’s excited to be working on Frame alongside Aragon as part of

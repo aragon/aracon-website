@@ -152,7 +152,7 @@ const Satellite = () => (
             <p>January 30th 2019 - 19:00 to 22:00</p>
 
             <h2>Where:</h2>
-            <p><a target="_blank" href="http://www.seminarschiff.com">Seminarschiff</a>. Markgrafendamm 24, Haus 18, Berlin, Germany 10245.</p>
+            <p><a target="_blank" href="https://www.google.de/maps/place/Seminarschiff/@52.5231341,13.3414545,17z/data=!3m1!4b1!4m5!3m4!1s0x47a85123db4ccc73:0xeedf2ad7d04f10c6!8m2!3d52.5231341!4d13.3436432?hl=de&authuser=0">Seminarschiff</a>. Markgrafendamm 24, Haus 18, Berlin, Germany 10245.</p>
 
             <h2>Event Description:</h2>
             <p><a href="https://witnet.io/#/" target="_blank">Witnet</a> is a decentralized oracle network that connects smart contracts to the outer world. Join Witnet team for drinks, snacks and music to celebrate the anticipated launch of their Decentralized Oracle Network.</p>
