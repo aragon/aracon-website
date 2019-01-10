@@ -117,7 +117,6 @@ const Container = styled.div `
     font-size: 35px;
     ${medium('font-size: 50px;')}
     font-weight: 800;
-    line-height: 0.6;
     text-align: center;
     color: #ffffff;
   }
