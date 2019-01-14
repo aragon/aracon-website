@@ -147,6 +147,27 @@ const Satellite = () => (
         </Event>
         <Event>
           <EventHeader>
+            <h2>Token Engineering Meetup</h2>
+          </EventHeader>
+          <EventBody>
+            <h2>Organizer:</h2>
+            <p>Token Engineering Berlin</p>
+            <h2>When:</h2>
+            <p>January 28th, 19:00 to 21:00</p>
+
+            <h2>Where:</h2>
+            <p>Silicon Allee, Chausseestraße 19, 10115 · Berlin</p>
+
+            <h2>Event Description:</h2>
+            <p>Creating tokenized ecosystems for blockchain is one of the most interesting challenges of our time.</p>
+            <p>How do we figure out what we want? How do we manifest that intent with block rewards and other crypto building blocks? How do we update the protocols? Given that these systems are wildly powerful, how can we better take responsibility for their design and deployment?</p>
+            <p>We'd love to see token ecosystem design become an engineering discipline: Token Engineering (TE). This implies a body of theory and practice and expertise from many different fields. Token Engineering Meetup Berlin aims to drive exchange between these domains.</p>
+            <p>Since starting in May 2018 more than 700 members registered to our meetup group from all around the globe. We are offering monthly workshops and lectures and collaborate with e.g. <a href="https://oceanprotocol.com/" target="_blank">Ocean Protocol</a>, <a href="https://www.fullnode.berlin/" target="_blank">Full Node</a>, and AraCon!</p>
+            <p>More info about the event and registration <a href="https://www.meetup.com/Token-Engineering/events/mbqqspyzcblc/" target="_blank">here</a>.</p>
+          </EventBody>
+        </Event>
+        <Event>
+          <EventHeader>
             <h2>Parity & Friends January Meetup</h2>
           </EventHeader>
           <EventBody>
@@ -179,6 +200,22 @@ const Satellite = () => (
 
             <h2>Event Description:</h2>
             <p><a href="https://witnet.io/#/" target="_blank">Witnet</a> is a decentralized oracle network that connects smart contracts to the outer world. Join Witnet team for drinks, snacks and music to celebrate the anticipated launch of their Decentralized Oracle Network.</p>
+          </EventBody>
+        </Event>
+        <Event>
+          <EventHeader>
+            <h2>GörliCon</h2>
+          </EventHeader>
+          <EventBody>
+            <h2>When:</h2>
+            <p>Jan 31st, 10am - 8pm</p>
+
+            <h2>Where:</h2>
+            <p>Factory Berlin Görlitzer Park.</p>
+
+            <h2>Event Description:</h2>
+            <p>GörliCon is the ETHBerlin Alumni Conference. The one-day event will have a tech-track and a non-tech-track, workshops and some surprises, covering mainly Ethereum projects and the proposed Görli testnet.</p>
+            <p>RSVP on <a href="https://kickback.events/event/0xe2d2c31c68626b6c1301a49ed50854e1cae0c8fa" target="_blank">Kickback</a>.</p>
           </EventBody>
         </Event>
       </SatelliteBox>
