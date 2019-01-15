@@ -8,6 +8,7 @@ import district from './assets/district.png'
 import ethnews from './assets/eth-news.png'
 import streampark from './assets/streampark.png'
 import bnc from './assets/bnc.png'
+import cradio from './assets/CryptoRadio.png'
 
 const large = css => breakpoint('large', css);
 const medium = css => breakpoint('medium', css);
@@ -65,6 +66,9 @@ const PartnersContainer = styled.div`
   padding-bottom: 90px;
   padding-top: 40px;
   width: 83%;
+  .cradio {
+    height: 158px;
+  }
   a {
     padding: 20px 0px;
     ${medium('padding: 0px 52px;')};
@@ -149,6 +153,7 @@ const Partners = () => (<Page path="/partners">
     <PartnersContainer>
       <a href="https://www.ethnews.com/" target="_blank"><img src={ethnews} /></a>
       <a href="https://bravenewcoin.com/" target="_blank"><img src={bnc} /></a>
+      <a href="http://cryptoradio.io/" target="_blank"><img className="cradio" src={cradio} /></a>
     </PartnersContainer>
   </Section>
   <Section className="dark dark-form ">
