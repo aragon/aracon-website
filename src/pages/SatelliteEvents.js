@@ -199,7 +199,7 @@ const Satellite = () => (
             <p><a target="_blank" href="https://www.google.de/maps/place/Seminarschiff/@52.5231341,13.3414545,17z/data=!3m1!4b1!4m5!3m4!1s0x47a85123db4ccc73:0xeedf2ad7d04f10c6!8m2!3d52.5231341!4d13.3436432?hl=de&authuser=0">Seminarschiff</a>. Alt-Moabit 91, 10559 Berlin, Germany 10245.</p>
 
             <h2>Event Description:</h2>
-            <p><a href="https://witnet.io/#/" target="_blank">Witnet</a> is a decentralized oracle network that connects smart contracts to the outer world. Join Witnet team for drinks, snacks and music to celebrate the anticipated launch of their Decentralized Oracle Network.</p>
+            <p><a href="https://witnet.io/#/" target="_blank">Witnet</a> is a decentralized oracle network that connects smart contracts to the outer world. Join Witnet team on a CO2 neutral "solar ship" for drinks and music to celebrate the anticipated launch of their Decentralized Oracle Network testnet. We have limited space, so be sure to <a href="https://www.eventbrite.com/e/witnet-hosts-aracon-afterparty-and-celebrates-testnet-launch-tickets-54934280913" target="_blank">RSVP here</a>.</p>
           </EventBody>
         </Event>
         <Event>
