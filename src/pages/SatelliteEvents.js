@@ -207,6 +207,8 @@ const Satellite = () => (
             <h2>GörliCon</h2>
           </EventHeader>
           <EventBody>
+            <h2>Organizer:</h2>
+            <a href="https://goerli.net/" target="_blank"><Görli></a>
             <h2>When:</h2>
             <p>Jan 31st, 10am - 8pm</p>
 
@@ -214,7 +216,7 @@ const Satellite = () => (
             <p>Factory Berlin Görlitzer Park.</p>
 
             <h2>Event Description:</h2>
-            <p>GörliCon is the ETHBerlin Alumni Conference. The one-day event will have a tech-track and a non-tech-track, workshops and some surprises, covering mainly Ethereum projects and the proposed Görli testnet.</p>
+            <p>GörliCon is the ETHBerlin Alumni Conference. The one-day event will have a tech-track and a non-tech-track, workshops and some surprises, covering mainly Ethereum projects and the proposed <a href="https://goerli.net/" target="_blank">Görli testnet</a>.</p>
             <p>RSVP on <a href="https://kickback.events/event/0xe2d2c31c68626b6c1301a49ed50854e1cae0c8fa" target="_blank">Kickback</a>.</p>
           </EventBody>
         </Event>
