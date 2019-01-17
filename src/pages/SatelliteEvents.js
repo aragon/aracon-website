@@ -127,6 +127,25 @@ const Satellite = () => (
         </Event>
         <Event>
           <EventHeader>
+            <h2>Crypto-UBI Roundtable: Synergies, Differences and Philosophies of Money</h2>
+          </EventHeader>
+          <EventBody>
+            <h2>Organizer:</h2>
+            <p>Berlin Basic Income</p>
+            <h2>When:</h2>
+            <p>January 28th 2019, 17:45 - 21:00</p>
+
+            <h2>Where:</h2>
+            <p>ThoughtWorks Berlin, Zimmerstraße 23</p>
+
+            <h2>Event Description:</h2>
+            <p>Together, we will address some difficult questions: What is the advantage or disadvantage of establishing these projects independent of existing nation-states? What is the relevance of distributed ledger technologies? How do the different projects overlap, and how do they differ? Are there any hidden conditionalities within these UBI projects? Is this REALLY a basic income, or is it something else? What IS money, anyway?</p>
+            <p>Join us on Monday January 28th, on 17:00PM at ThoughtWorks, where we will explore these questions together with friends from the OpenUBI community and beyond.</p>
+            <p><a href="https://www.meetup.com/Berlin-Basic-Income-Bedingungsloses-Grundeinkommen/events/257970545/" target="_blank">RSVP and find more details here</a>.</p>
+          </EventBody>
+        </Event>
+        <Event>
+          <EventHeader>
             <h2>Cambrial: Investing in Governance</h2>
           </EventHeader>
           <EventBody>
@@ -142,7 +161,6 @@ const Satellite = () => (
             <p><a href="https://cambrial.com/" target="_blank">Cambrial Capital</a> is running an event on participating in and valuing governance of crypto networks as an investor. They will be hosting several speakers actively investing in this space who will share their thoughts and own practices on the topic above. Find more info about the event  <a href="https://www.eventbrite.com/e/cambrial-investing-in-governance-tickets-53733665841" target="_blank">here</a>.</p>
             <br/>
             <p><i>The event has a limited capacity. Please request your invitation using <a href="https://airtable.com/shrhkXHZE2eVjoWwN" target="_blank">this form</a>. The address of the venue will be sent to you if your request is successful. The event will be live-streamed and recorded.</i></p>
-
           </EventBody>
         </Event>
         <Event>
