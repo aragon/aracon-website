@@ -345,13 +345,12 @@ const Speakers = () => (
               bio="Daniel is the research lead at Pando and DAOIncubator with a focus on decentralized governance and crypto-economics.
               Political Tech after payments and digital advisory for Paypal, Mastercard, Unicredit, Banca D’Italia."/>
         </Container>
-        <p>More speakers coming soon</p>
       </SpeakersBox>
     </Section>
     <Section className="white">
       <TextContainer>
         <h2>Speaker applications are now closed</h2>
-        <p>Thanks to everyone who applied to speak at AraCon 2019. We are now reviewing all submissions. If you are selected to speak you will be notified by November 19th 2018.</p>
+        <p>Thanks to everyone who applied to speak at AraCon 2019. The agenda has been finalised and we won't be adding any more speakers. If you're interested in speaking at future Aragon events, please keep an eye on the post-conference announcements.</p>
       </TextContainer>
     </Section>
   </Page>
