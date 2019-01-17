@@ -226,7 +226,7 @@ const Satellite = () => (
           </EventHeader>
           <EventBody>
             <h2>Organizer:</h2>
-            <a href="https://goerli.net/" target="_blank"><Görli></a>
+            <p><a href="https://goerli.net/" target="_blank">Görli</a></p>
             <h2>When:</h2>
             <p>Jan 31st, 10am - 8pm</p>
 
