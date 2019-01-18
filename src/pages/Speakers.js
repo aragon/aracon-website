@@ -339,6 +339,17 @@ const Speakers = () => (
           <Speaker photo="DanielShavit" linkTo="daniels" name="Daniel Shavit" position="Research lead" company="Pando"
               bio="Daniel is the research lead at Pando and DAOIncubator with a focus on decentralized governance and crypto-economics.
               Political Tech after payments and digital advisory for Paypal, Mastercard, Unicredit, Banca D’Italia."/>
+          <Speaker photo="MikeCalvanese" linkTo="mikec" name="Mike Calvanese" position="Co-founder" company="Level K"
+              bio="Mike Calvanese is co-founder of Level K, a dapp development and smart contract security company.
+              Mike works on decentralized governance projects involving futarchy, prediction markets, and token curated
+              registries. Before Level K, Mike focused on web development and user experience design."/>
+          <Speaker photo="AyaMiyaguchi" linkTo="ayam" name="Aya Miyaguchi" position="Executive Director" company="Ethereum Foundation"
+              bio="Aya originally became fascinated in the blockchain space for its potential to impact financial inclusion in
+              emerging markets. In early 2013, she joined Kraken as Managing Director and has since been educating the public,
+              VCs, and regulators on cryptocurrencies and blockchain innovation globally. Her passion for blockchain and creating
+              lasting sustainable social impact in developing countries led her to join the Ethereum Foundation as Executive Director.
+              There she supports the core development and research efforts of the Ethereum protocol, and helps to bolster the
+              decentralized community engagement through grants, education, and events to expand the Ethereum ecosystem."/>
         </Container>
       </SpeakersBox>
     </Section>

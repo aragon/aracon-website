@@ -91,7 +91,7 @@ class Speaker extends React.Component {
           </PhotoBox>
           <TextBox>
             <Text><p>{name}</p></Text>
-            <Text><h6>{position}, {company}</h6></Text>
+            <Text><h6>{position}{company && <span>, {company}</span>}</h6></Text>
             <Text><h5>{bio}</h5></Text>
           </TextBox>
       </SpeakerBox>
