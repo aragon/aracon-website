@@ -25,7 +25,7 @@ const DayTwo = () => (
       <Entry time="" title="Open source sustainability" badge={(<Badge className="badge badge-panel" color="#ba7b06" background="#ffe0a7">Panel</Badge>)} subtitle={(<span>Moderator: Luis Cuende <br/>Panelists: Taylor Monahan, Yondon Fu, Olivier Sarrouy</span>)}/>
       <Entry time="11:00 HS" title={(<span><span role="img" className="emoji" aria-label="coffee">☕</span>Coffee Break</span>)} badge={(<Badge className="badge badge-time" color="#5a5f68" background="#c8d6ef">15 min</Badge>)} subtitle=""/>
       <Entry time="11:15 HS" title="Aragon One in 2019" subtitle="Brett Sun"/>
-      <Entry time="" title="DAOs And Their Interaction With The Physical World" subtitle="Primavera De Filippi & Maria Gomez"/>
+      <Entry time="" title="DAOs And Their Interaction With The Physical World" subtitle="Maria Gomez"/>
       <Entry time="" title="Pando" badge={(<Badge className="badge">Nest team</Badge>)} subtitle="Olivier Sarrouy"/>
       <Entry time="" title="Current State of Token Curated Registries" badge={(<Badge className="badge badge-panel" color="#ba7b06" background="#ffe0a7">Panel</Badge>)} subtitle={(<span>Moderator: Luke Duncan <br/>Panelists: Matt Lockyer, Trent McConaughy, Joe Urgo, Jeff Emmett</span>)}/>
       <Entry time="13:00 HS" title={(<span><span role="img" className="emoji" aria-label="coffee">🍽</span>Lunch</span>)} badge={(<Badge className="badge badge-time" color="#5a5f68" background="#c8d6ef">1 hour</Badge>)} subtitle=""/>

@@ -120,11 +120,6 @@ const Speakers = () => (
             is helping build the execution engine for Ethereum 2.0 (the Shasper roadmap). He is also the founder
             of Crypto NYC, a Manhattan-based, blockchain-focused community and coworking space dedicated to making
             Web3 technology accessible to all humans."/>
-          <Speaker photo="PrimaveraDeFilippi" linkTo="primavera" name="Primavera De Filippi" position="Postdoctoral researcher" company="National Center of Scientific Research (CNRS)"
-            bio="Primavera De Filippi is a permanent researcher at the National Center of Scientific
-            Research (CNRS) in Paris, a faculty associate at the Berkman-Klein Center for Internet &
-            Society at Harvard University, and a Visiting Fellow at the Robert Schuman Centre for
-            Advanced Studies at the European University Institute."/>
           <Speaker photo="MarioLaul" linkTo="mario" name="Mario Laul" position="Researcher" company="Placeholder Ventures"
             bio="Mario Laul works as a researcher for Placeholder, a New York venture capital firm investing
             in decentralized information networks, and for Beyond the Technological Revolution, a four-year
