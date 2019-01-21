@@ -22,7 +22,7 @@ const DayTwo = () => (
       <Entry time="09:00 HS" title="Using Metamodels for Cross-blockchain Governance" subtitle="Will Warren"/>
       <Entry time="" title="Governing Decentralized Organizations" badge={(<Badge className="badge badge-panel" color="#ba7b06" background="#ffe0a7">Panel</Badge>)} subtitle={(<span>Moderator: Alison Berreman <br/>Panelists: Constance Choi, Kenny Rowe, Mario Laul</span>)}/>
       <Entry time="" title="A history of decentralized thought" subtitle="Daniel Shavit"/>
-      <Entry time="" title="Open source sustainability" badge={(<Badge className="badge badge-panel" color="#ba7b06" background="#ffe0a7">Panel</Badge>)} subtitle={(<span>Moderator: Luis Cuende <br/>Panelists: Taylor Monahan, Yondon Fu, Olivier Sarrouy</span>)}/>
+      <Entry time="" title="Open source sustainability" badge={(<Badge className="badge badge-panel" color="#ba7b06" background="#ffe0a7">Panel</Badge>)} subtitle={(<span>Moderator: Luis Cuende <br/>Panelists: Aya Miyaguchi, Olivier Sarrouy, Taylor Monahan, Yondon Fu</span>)}/>
       <Entry time="11:00 HS" title={(<span><span role="img" className="emoji" aria-label="coffee">☕</span>Coffee Break</span>)} badge={(<Badge className="badge badge-time" color="#5a5f68" background="#c8d6ef">15 min</Badge>)} subtitle=""/>
       <Entry time="11:15 HS" title="Aragon One in 2019" subtitle="Brett Sun"/>
       <Entry time="" title="DAOs And Their Interaction With The Physical World" subtitle="Maria Gomez"/>
