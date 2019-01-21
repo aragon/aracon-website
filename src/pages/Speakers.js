@@ -354,7 +354,7 @@ const Speakers = () => (
               bio="John is a founding Partner at FS Vector, a Washington DC-based advisory firm which provides a broad range of
               solutions for financial services, fintech and cyrptocurrency firms. FS Vector assists clients with
               government/regulatory strategy and with the implementation of compliance programs and regtech tools."/>
-          <Speaker photo="RyanZurrer" linkTo="ryanz" name="Ryan Zurrer" position="Board Member" company="Web3 Foundation"
+          <Speaker photo="RyanZurrer" linkTo="ryanz" name="Ryan Zurrer" position="Council" company="Web3 Foundation"
               bio="Ryan has been an active investor and entrepreneur in crypto since 2012, backing both start-ups and token-enabled
               networks. Prior to building out Polychain’s investment portfolio, he was an early investor in a number of projects
               in the Ethereum ecosystem, ran a bitcoin mining operation throughout 2013, and built a bitcoin-remittance firm in
