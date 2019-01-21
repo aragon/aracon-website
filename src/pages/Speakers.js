@@ -350,6 +350,24 @@ const Speakers = () => (
               lasting sustainable social impact in developing countries led her to join the Ethereum Foundation as Executive Director.
               There she supports the core development and research efforts of the Ethereum protocol, and helps to bolster the
               decentralized community engagement through grants, education, and events to expand the Ethereum ecosystem."/>
+          <Speaker photo="JohnCollins" linkTo="johnc" name="John Collins" position="Founder" company="First State Fintech Lab"
+              bio="John is a founding Partner at FS Vector, a Washington DC-based advisory firm which provides a broad range of
+              solutions for financial services, fintech and cyrptocurrency firms. FS Vector assists clients with
+              government/regulatory strategy and with the implementation of compliance programs and regtech tools."/>
+          <Speaker photo="RyanZurrer" linkTo="ryanz" name="Ryan Zurrer" position="Board Member" company="Web3 Foundation"
+              bio="Ryan has been an active investor and entrepreneur in crypto since 2012, backing both start-ups and token-enabled
+              networks. Prior to building out Polychain’s investment portfolio, he was an early investor in a number of projects
+              in the Ethereum ecosystem, ran a bitcoin mining operation throughout 2013, and built a bitcoin-remittance firm in
+              South America. Ryan’s contributions to Cryptoeconomics include the concept of Keepers, a new cryptoeconomic model
+              for carbon credits, the SportsDAO and he launched a Cryptoeconomics lab at his alma mater the Richard Ivey School
+              of Business in Canada."/>
+          <Speaker photo="ConstanceChoi" linkTo="constancec" name="Constance Choi" position="Co-Founder & Director" company="COALA Foundation"
+              bio="Constance is a Co-Founder and Director of COALA Foundation, a global multi-disciplinary and collaborative
+              research and development initiative for blockchain technologies. Constance is also an Associate Researcher at the
+              CERSA/CNRS/Université Paris II and advises startups and institutions at the critical intersection of governance and
+              techno-legal frameworks for blockchain technologies. Constance also co-founded the Kraken Exchange, where she served as
+              General Counsel and Chief Compliance Officer until 2014. Constance is a member of the California State Bar, holds a J.D.
+              from UC Berkeley School of Law, and undergraduate degrees from Brown University and University of Cambridge."/>
         </Container>
       </SpeakersBox>
     </Section>
