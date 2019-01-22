@@ -52,9 +52,9 @@ const Container = styled.div `
 const CountdownComponent = () => (
   <Section>
     <Container>
-      <h2>Registration closes in</h2>
+      <h2>Registration is now closed</h2>
       <Countdown date={new Date("January 21, 2019 23:59:59 GMT+0200")} />
-      <p className="subtitle">Register your tickets by <b>Monday, January 21st</b></p>
+      <p className="subtitle">If you have any questions, you can contact us at info@aracon.one.</p>
     </Container>
   </Section>
 );
