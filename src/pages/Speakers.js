@@ -354,13 +354,8 @@ const Speakers = () => (
               bio="John is a founding Partner at FS Vector, a Washington DC-based advisory firm which provides a broad range of
               solutions for financial services, fintech and cyrptocurrency firms. FS Vector assists clients with
               government/regulatory strategy and with the implementation of compliance programs and regtech tools."/>
-          <Speaker photo="RyanZurrer" linkTo="ryanz" name="Ryan Zurrer" position="Board Member" company="Web3 Foundation"
-              bio="Ryan has been an active investor and entrepreneur in crypto since 2012, backing both start-ups and token-enabled
-              networks. Prior to building out Polychain’s investment portfolio, he was an early investor in a number of projects
-              in the Ethereum ecosystem, ran a bitcoin mining operation throughout 2013, and built a bitcoin-remittance firm in
-              South America. Ryan’s contributions to Cryptoeconomics include the concept of Keepers, a new cryptoeconomic model
-              for carbon credits, the SportsDAO and he launched a Cryptoeconomics lab at his alma mater the Richard Ivey School
-              of Business in Canada."/>
+          <Speaker photo="RyanZurrer" linkTo="ryanz" name="Ryan Zurrer" position="Council" company="Web3 Foundation"
+              bio="Ryan has been an active investor and entrepreneur in crypto since 2012, backing both start-ups and token-enabled networks. Prior to leading the build out Polychain’s private investment portfolio, he was an early investor in a number of projects in the Ethereum ecosystem, ran a bitcoin mining operation, and built a bitcoin-remittance firm in South America. Ryan has led the transition to SAFTs as a legitimate investment instrument and has certainly closed the most SAFTs of anyone globally. He is known in the space for his commitment to being a value-add investor and directly supporting his projects leveraging his prior experience as CEO of a large Brazilian renewables firm where he built and operated renewable-energy infrastructure projects and evaluated an array of emerging technologies. Prior to his time in renewables, Ryan worked in investment banking focused on financial technology. Ryan’s contributions to Cryptoeconomics include the concept of Keepers, a new cryptoeconomic model for carbon credits, the SportsDAO and he launched a Cryptoeconomics Lab at his alma mater the Richard Ivey School of Business in Canada."/>
           <Speaker photo="ConstanceChoi" linkTo="constancec" name="Constance Choi" position="Co-Founder & Director" company="COALA Foundation"
               bio="Constance is a Co-Founder and Director of COALA Foundation, a global multi-disciplinary and collaborative
               research and development initiative for blockchain technologies. Constance is also an Associate Researcher at the
