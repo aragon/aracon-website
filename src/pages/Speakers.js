@@ -108,13 +108,6 @@ const Speakers = () => (
             Published 'Hacktivismo' in 2015 with Random House. Member of the World Economic Forum
             since 2012. Awarded by MIT Technology Review and Singularity University. Co-founded
             Argentine Game Developers Association in 2002."/>
-          <Speaker photo="JoeUrgo" linkTo="joe" name="Joe Urgo" position="Co-Founder" company="District0x"
-            bio="Joe is a co-founder of district0x, a network of decentralized marketplaces and CEO at Sourcerers,
-            a consultancy firm supporting leading Ethereum-based projects. Joe previously spent three years
-            as an Operations Manager at Coinbase. Prior to Coinbase, he was a derivatives trader for Three
-            Arrows Capital, an international hedge fund based in Singapore. Joe serves as an advisor at Status,
-            Keep, SpankChain, Bloom, Witnet, Abacus, Access Network, LiquidX, Fabric Ventures, Republic, and
-            Common Interest."/>
           <Speaker photo="LaneRettig" linkTo="lane" name="Lane Rettig" position="Independent Core Developer" company="Ewasm"
             bio="Lane Rettig is an independent Ethereum core developer and a member of the Ewasm team, where he
             is helping build the execution engine for Ethereum 2.0 (the Shasper roadmap). He is also the founder
@@ -209,11 +202,6 @@ const Speakers = () => (
           <Speaker photo="JacobArluck" linkTo="Jacob" name="Jacob Arluck" position="Researcher" company="Tezos"
               bio="Jacob works on governance research for Tezos. He is most interested in improving blockchain governance to
               facilitate coordination and acquire the scalability necessary for widespread adoption."/>
-          <Speaker photo="SamerHassan" linkTo="Samer" name="Samer Hassan" position="Researcher and Faculty Associate" company="Berkman Klein Center for Internet & Society"
-              bio="Samer Hassan is an activist and researcher, Faculty Associate at the Berkman Klein Center for Internet & Society
-              (Harvard University) and Associate Professor at the Universidad Complutense de Madrid (Spain). Focused on decentralized
-              collaboration, he was awarded with a 1.5M€ ERC grant, the largest individual research grant in the EU, to build blockchain-based,
-              democratic and economically sustainable organizations for the collaborative economy (the 'P2P Models' project)"/>
           <Speaker photo="StefanoBernardi" linkTo="Stefano" name="Stefano Bernardi" position="Director" company="Aragon Association"
               bio="Stefano has been interested in the crypto and decentralized organizations space since 2011. He is also a co-founder
               and venture partner at Semantic Ventures, an early stage European venture fund focusing on decentralized computing.In his spare
