@@ -18,25 +18,25 @@ const ScheduleBox = styled.div`
 const DayTwo = () => (
   <ScheduleBox>
     <Schedule>
-      <Entry time="08:00 HS" title="Registration" subtitle=""/>
-      <Entry time="09:00 HS" title="Using Metamodels for Cross-blockchain Governance" subtitle="Will Warren"/>
+      <Entry time="08:00" title="Registration" subtitle=""/>
+      <Entry time="09:00" title="Using Metamodels for Cross-blockchain Governance" subtitle="Will Warren"/>
       <Entry time="" title="Governing Decentralized Organizations" badge={(<Badge className="badge badge-panel" color="#ba7b06" background="#ffe0a7">Panel</Badge>)} subtitle={(<span>Moderator: Alison Berreman <br/>Panelists: Constance Choi, Kenny Rowe, Mario Laul</span>)}/>
       <Entry time="" title="A history of decentralized thought" subtitle="Daniel Shavit"/>
       <Entry time="" title="Open source sustainability" badge={(<Badge className="badge badge-panel" color="#ba7b06" background="#ffe0a7">Panel</Badge>)} subtitle={(<span>Moderator: Luis Cuende <br/>Panelists: Aya Miyaguchi, Olivier Sarrouy, Taylor Monahan, Yondon Fu</span>)}/>
-      <Entry time="11:00 HS" title={(<span><span role="img" className="emoji" aria-label="coffee">☕</span>Coffee Break</span>)} badge={(<Badge className="badge badge-time" color="#5a5f68" background="#c8d6ef">15 min</Badge>)} subtitle=""/>
-      <Entry time="11:15 HS" title="Aragon One in 2019" subtitle="Brett Sun"/>
+      <Entry time="11:00" title={(<span><span role="img" className="emoji" aria-label="coffee">☕</span>Coffee Break</span>)} badge={(<Badge className="badge badge-time" color="#5a5f68" background="#c8d6ef">15 min</Badge>)} subtitle=""/>
+      <Entry time="11:15" title="Aragon One in 2019" subtitle="Brett Sun"/>
       <Entry time="" title="The State of Web3 and Polkadot’s Cryptogovernance Model" subtitle="Ryan Zurrer"/>
       <Entry time="" title="Pando" badge={(<Badge className="badge">Nest team</Badge>)} subtitle="Olivier Sarrouy"/>
       <Entry time="" title="Current State of Token Curated Registries" badge={(<Badge className="badge badge-panel" color="#ba7b06" background="#ffe0a7">Panel</Badge>)} subtitle={(<span>Moderator: Luke Duncan <br/>Panelists: Matt Lockyer, Trent McConaughy, Jeff Emmett</span>)}/>
-      <Entry time="13:00 HS" title={(<span><span role="img" className="emoji" aria-label="coffee">🍽</span>Lunch</span>)} badge={(<Badge className="badge badge-time" color="#5a5f68" background="#c8d6ef">1 hour</Badge>)} subtitle=""/>
-      <Entry time="14:00 HS" title="Nest Program Demos" subtitle="BrightID, First State Fintech Lab, TennaGraph, Decentralized Design Lab"/>
+      <Entry time="13:00" title={(<span><span role="img" className="emoji" aria-label="coffee">🍽</span>Lunch</span>)} badge={(<Badge className="badge badge-time" color="#5a5f68" background="#c8d6ef">1 hour</Badge>)} subtitle=""/>
+      <Entry time="14:00" title="Nest Program Demos" subtitle="BrightID, First State Fintech Lab, TennaGraph, Decentralized Design Lab"/>
       <Entry time="" title="Recruiting For A Diverse Web3" badge={(<Badge className="badge badge-panel" color="#ba7b06" background="#ffe0a7">Panel</Badge>)} subtitle={(<span>Moderator: Monica Zeng <br/>Panelists: Raine Revere, Medha Kothari, Taylor Monahan</span>)}/>
       <Entry time="" title="Humanist Technology in Oppressed Societies" subtitle="Moises Rendon"/>
       <Entry time="" title="Power by Proxy: The Case for Crypto Cartels" subtitle="Meltem Demirors"/>
-      <Entry time="16:00 HS" title={(<span><span role="img" className="emoji" aria-label="coffee">☕</span>Coffee Break</span>)} badge={(<Badge className="badge badge-time" color="#5a5f68" background="#c8d6ef">30 min</Badge>)} subtitle=""/>
-      <Entry time="16:30 HS" title="TheDAO - From the Author's Perspective" subtitle="Christoph Jentzsch"/>
+      <Entry time="16:00" title={(<span><span role="img" className="emoji" aria-label="coffee">☕</span>Coffee Break</span>)} badge={(<Badge className="badge badge-time" color="#5a5f68" background="#c8d6ef">30 min</Badge>)} subtitle=""/>
+      <Entry time="16:30" title="TheDAO - From the Author's Perspective" subtitle="Christoph Jentzsch"/>
       <Entry time="" title="Identity in DAOs" badge={(<Badge className="badge badge-panel" color="#ba7b06" background="#ffe0a7">Panel</Badge>)} subtitle={(<span>Moderator: John Light <br/>Panelists: Jordi Baylina, Adam Stallard, Rouven Heck</span>)}/>
-      <Entry time="17:30 HS" title="Closing Keynote" subtitle="Luis Cuende"/>
+      <Entry time="17:30" title="Closing Keynote" subtitle="Luis Cuende"/>
     </Schedule>
     <p><br/><i>*All panels and talks will be happening on the main stage (“Kapelle” hall)</i></p>
   </ScheduleBox>

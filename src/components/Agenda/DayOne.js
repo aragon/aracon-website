@@ -17,8 +17,8 @@ const ScheduleBox = styled.div`
 const DayOne = () => (
   <ScheduleBox>
     <Schedule>
-      <Entry time="08:00 HS" title="Registration" subtitle=""/>
-      <Entry time="09:00 HS" title="Opening Keynote" subtitle="Luis Cuende & Stefano Bernardi"/>
+      <Entry time="08:00" title="Registration" subtitle=""/>
+      <Entry time="09:00" title="Opening Keynote" subtitle="Luis Cuende & Stefano Bernardi"/>
       <Entry time="" title="Aragon Network" subtitle="Luke Duncan & Bingen Eguzkitza"/>
       <Entry time="" title="Lorikeet" subtitle="Jouni Helminen"/>
       <Entry time="" title="Using aragonPM to build DAppNode" badge={(<Badge className="badge">Nest team</Badge>)} subtitle="Eduardo Antuña Díez"/>
