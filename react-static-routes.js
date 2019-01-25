@@ -24,16 +24,15 @@ const t_1 = universal(import('../src/pages/Speakers'), universalOptions)
 const t_2 = universal(import('../src/pages/SpeakerApplication'), universalOptions)
 const t_3 = universal(import('../src/pages/EmptyAgenda'), universalOptions)
 const t_4 = universal(import('../src/pages/Agenda'), universalOptions)
-const t_5 = universal(import('../src/pages/Registration'), universalOptions)
-const t_6 = universal(import('../src/pages/Volunteer'), universalOptions)
-const t_7 = universal(import('../src/pages/Contact'), universalOptions)
-const t_8 = universal(import('../src/pages/ContactThanks'), universalOptions)
-const t_9 = universal(import('../src/pages/Faq'), universalOptions)
-const t_10 = universal(import('../src/pages/Travel'), universalOptions)
-const t_11 = universal(import('../src/pages/SatelliteEvents'), universalOptions)
-const t_12 = universal(import('../src/pages/Partners'), universalOptions)
-const t_13 = universal(import('../src/pages/Livestream'), universalOptions)
-const t_14 = universal(import('../src/pages/NotFound'), universalOptions)
+const t_5 = universal(import('../src/pages/Volunteer'), universalOptions)
+const t_6 = universal(import('../src/pages/Contact'), universalOptions)
+const t_7 = universal(import('../src/pages/ContactThanks'), universalOptions)
+const t_8 = universal(import('../src/pages/Faq'), universalOptions)
+const t_9 = universal(import('../src/pages/Travel'), universalOptions)
+const t_10 = universal(import('../src/pages/SatelliteEvents'), universalOptions)
+const t_11 = universal(import('../src/pages/Partners'), universalOptions)
+const t_12 = universal(import('../src/pages/Livestream'), universalOptions)
+const t_13 = universal(import('../src/pages/NotFound'), universalOptions)
 
 
 // Template Map
@@ -51,13 +50,12 @@ t_9,
 t_10,
 t_11,
 t_12,
-t_13,
-t_14
+t_13
 ]
 
 // Template Tree
 global.templateIDsByPath = global.templateIDsByPath || {
-  '404': 14
+  '404': 13
 }
 
 // Get template for given path
