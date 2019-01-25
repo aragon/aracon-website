@@ -238,12 +238,12 @@ const Speakers = () => (
               in a decentralized world, and to forward the practice of Token Engineering for robust blockchain ecosystems.
               Jeff graduated from the University of Waterloo in Electrical Engineering, and is the author of the post 'Rewriting
               the Story of Human Collaboration'."/>
-          <Speaker photo="JennaZenk" linkTo="jennaz" name="Jenna Zenk" position="CTO" company="Melonport"
-              bio="Jenna is a software engineer with a background in financial markets and experience in asset management.
-              She graduated from ESCP Europe in Paris, with a Master in Management and Financial Engineering. Prior to joining
-              Melonport, she worked in the hedge fund industry, both in Paris and New York. Her early involvement in the Ethereum
-              ecosystem and passion for decentralization and crypto-economics got her into programming. With both financial and
-              technical knowledge, Jenna is devoted to build Melon as the new standard in asset management."/>
+          <Speaker photo="MonaElIsa" linkTo="mona" name="Mona El Isa" position="CEO & Co-Founder" company="Melonport"
+              bio="Former star-trader at Goldman Sachs, promoted to Vice President by the age of 26 and made the “top 30 under 30”
+              list in Trader Magazine in 2008 and Forbes Magazine in 2011 after profitably trading the 2008 and 2011 crashes. Moved
+              to Geneva-based macro fund Jabre Capital in 2011, before deciding in 2014 that the future of finance lay in blockchain
+              technology. She studied Economics & Statistics at the University College London. Mona is also the president of the
+              Multichain Asset Managers Association board of directors."/>
           <Speaker photo="JeremyMacaluso" linkTo="jeremym" name="Jeremy Macaluso" position="Software Engineer" company="Aragon DAC"
               bio="Jeremy is a software engineer who has been working for the Aragon DAC. He has focused on using Smart Organizations
               as personal accounts, and interacting with outside applications using Smart Organizations."/>

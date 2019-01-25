@@ -32,7 +32,7 @@ const DayOne = () => (
       <Entry time="14:00" title="Nest Program Demos" subtitle="Prysmatic Labs, Espresso, Wetonomy, Level K"/>
       <Entry time="" title="Althea and the use of Subnet DAOs" subtitle="Sebastian Bolanos"/>
       <Entry time="" title="Continuous DAOs" subtitle="Thibauld Favre"/>
-      <Entry time="" title="Melon Governance Model And Its Tools" subtitle="Jenna Zenk"/>
+      <Entry time="" title="Melon Governance Model And Its Tools" subtitle="Mona El Isa"/>
       <Entry time="15:45" title={(<span><span role="img" className="emoji" aria-label="coffee">☕</span>Coffee Break</span>)} badge={(<Badge className="badge badge-time" color="#5a5f68" background="#c8d6ef">15 min</Badge>)} subtitle=""/>
       <Entry time="16:00" title="Evolving Web3 Infrastructure " badge={(<Badge className="badge badge-panel" color="#ba7b06" background="#ffe0a7">Panel</Badge>)} subtitle={(<span>Moderator: Evan van Ness <br/>Panelists: Jutta Steiner, Lane Rettig, Martin Köppelmann, Adan Sanchez de Pedro</span>)}/>
       <Entry time="" title="People Might Actually Use This" subtitle="Laura Kalbag"/>
