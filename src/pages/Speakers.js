@@ -348,6 +348,13 @@ const Speakers = () => (
               techno-legal frameworks for blockchain technologies. Constance also co-founded the Kraken Exchange, where she served as
               General Counsel and Chief Compliance Officer until 2014. Constance is a member of the California State Bar, holds a J.D.
               from UC Berkeley School of Law, and undergraduate degrees from Brown University and University of Cambridge."/>
+          <Speaker photo="PJLeimgruber" linkTo="pjl" name="PJ Leimgruber" position="Marketing Lead" company="district0x"
+              bio="P.J. is the marketing lead at district0x, helping build a network of decentralized marketplaces as well as
+              Sourcerers, a consultancy firm supporting leading Ethereum-based projects. P.J. directed the creation of the district0x
+              Education Portal, an interactive guide with articles and videos explaining various concepts in the blockchain space.
+              Outside of blockchain, P.J. is currently a Professor at The University of Southern California, teaching ITP 476 –
+              Technologies for Interactive Marketing, a hands-on digital marketing consulting course. Previously co-founded NeoReach,
+              an enterprise cloud platform for influencer marketing management and intelligence."/>
         </Container>
       </SpeakersBox>
     </Section>
