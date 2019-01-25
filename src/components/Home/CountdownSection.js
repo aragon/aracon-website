@@ -46,15 +46,19 @@ const Container = styled.div `
   b {
     font-weight: 900;
   }
+  a {
+    font-weight: bold;
+    color: white!important;
+    text-decoration: underline!important;
+  }
 `;
 
 
 const CountdownComponent = () => (
   <Section>
     <Container>
-      <h2>Registration is now closed</h2>
-      <Countdown date={new Date("January 21, 2019 23:59:59 GMT+0200")} />
-      <p className="subtitle">If you have any questions, you can contact us at info@aracon.one.</p>
+      <h2>AraCon is now sold out</h2>
+      <p className="subtitle">If you have any questions about your registration please contact us <a href="mailto:info@aracon.one">here</a>.</p>
     </Container>
   </Section>
 );

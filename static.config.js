@@ -46,11 +46,6 @@ export default {
       getData: () => ({ title: 'AraCon - Agenda' }),
     },
     {
-      path: '/registration',
-      component: 'src/pages/Registration',
-      getData: () => ({ title: 'AraCon - Registration' }),
-    },
-    {
       path: '/volunteer',
       component: 'src/pages/Volunteer',
       getData: () => ({ title: 'AraCon - Volunteer' }),

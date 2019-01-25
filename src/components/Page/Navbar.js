@@ -137,9 +137,6 @@ class Navbar extends React.Component {
               ))}
             </ul>
           </BreakPoint>
-          <Link className="button" to="/registration">
-            <span>REGISTER</span>
-          </Link>
           <BreakPoint to="large">
             <MenuPanel items={menuItems} renderLink={renderMenuItemLink} />
           </BreakPoint>
