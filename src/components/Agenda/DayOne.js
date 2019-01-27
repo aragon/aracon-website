@@ -29,14 +29,14 @@ const DayOne = () => (
       <Entry time="" title="That Planning Suite: Aragon apps that will power a decentralized space agency" badge={(<Badge className="badge">Nest team</Badge>)} subtitle="Arthur Lunn & Yalda Mousavinia"/>
       <Entry time="" title="aragonSDK" subtitle="Arthur Lunn"/>
       <Entry time="13:00" title={(<span><span role="img" className="emoji" aria-label="coffee">🍽</span>Lunch</span>)} badge={(<Badge className="badge badge-time" color="#5a5f68" background="#c8d6ef">1 hour</Badge>)} subtitle=""/>
-      <Entry time="14:00" title="Nest Program Demos" subtitle="Prysmatic Labs, Espresso, Wetonomy, Level K"/>
+      <Entry time="14:00" title="Nest Program Demos" subtitle="Prysmatic Labs, Espresso, Level K"/>
       <Entry time="" title="Althea and the use of Subnet DAOs" subtitle="Sebastian Bolanos"/>
       <Entry time="" title="Continuous DAOs" subtitle="Thibauld Favre"/>
-      <Entry time="" title="Melon Governance Model And Its Tools" subtitle="Mona El Isa"/>
+      <Entry time="" title="Aragon Community Governance" subtitle="John Light"/>
       <Entry time="15:45" title={(<span><span role="img" className="emoji" aria-label="coffee">☕</span>Coffee Break</span>)} badge={(<Badge className="badge badge-time" color="#5a5f68" background="#c8d6ef">15 min</Badge>)} subtitle=""/>
       <Entry time="16:00" title="Evolving Web3 Infrastructure " badge={(<Badge className="badge badge-panel" color="#ba7b06" background="#ffe0a7">Panel</Badge>)} subtitle={(<span>Moderator: Evan van Ness <br/>Panelists: Jutta Steiner, Lane Rettig, Martin Köppelmann, Adan Sanchez de Pedro</span>)}/>
       <Entry time="" title="People Might Actually Use This" subtitle="Laura Kalbag"/>
-      <Entry time="" title="Aragon Community Governance" subtitle="John Light"/>
+      <Entry time="" title="Melon Governance Model And Its Tools" subtitle="Mona El Isa"/>
       <Entry time="17:30" title="AraCon Afterhours" subtitle="We're closing the first day of AraCon with some socializing over dinner, drinks, and music at the AraCon venue."/>
       <Entry time="20:00" title="Closing" subtitle=""/>
     </Schedule>

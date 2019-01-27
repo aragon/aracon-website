@@ -310,12 +310,6 @@ const Speakers = () => (
               As an NYC-based engineer and designer, he’s driven by projects that contribute to the acceleration of human innovation and
               believes open decentralized networks are an important step. He’s excited to be working on Frame alongside Aragon as part of
               the Nest program."/>
-          <Speaker photo="TodorKolev" linkTo="todork" name="Todor Kolev" position="Founder" company="Comrade Cooperative"
-              bio="Technologist and entrepreneur with over two decades of experience as software engineer and architect, currently
-              applying AI and blockchain technologies in disruptive business models. Besides technology, in the last 10 years,
-              Todor is dedicated to building human-centric companies around democratic values. He is the founder and Chairman of
-              the Comrade Cooperative, a member-owned organization of software developers and innovation builders, that is based
-              on transparency, technocracy, and self-governance."/>
           <Speaker photo="DanielShavit" linkTo="daniels" name="Daniel Shavit" position="Research lead" company="Pando"
               bio="Daniel is the research lead at Pando and DAOIncubator with a focus on decentralized governance and crypto-economics.
               Political Tech after payments and digital advisory for Paypal, Mastercard, Unicredit, Banca D’Italia."/>
