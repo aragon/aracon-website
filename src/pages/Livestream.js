@@ -12,7 +12,6 @@ const Container = styled.div`
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 50px 8.5%;
   background: #18181A;
   display: flex;
   align-items: center;
@@ -24,11 +23,10 @@ const Container = styled.div`
     margin-top: 30px;
   }
   iframe {
-    width: 642px;
-    height: 320px;
+    width: 100vw;
+    height: calc(100vh - 64px);
     max-width: 100%;
     max-height: 70vh;
-    margin-bottom: 70px;
   }
   p {
     text-align: center;
@@ -46,13 +44,7 @@ class Livestream extends React.Component {
       <Page path="/livestream">
         <Section className="dark all-page">
           <Container>
-            <Text>
-              <div className="h1box">
-                <h1>Oops! We are not live yet!</h1><br />
-              </div>
-              <p>In the mean while, check out our announcement trailer!</p><br />
-            </Text>
-            <iframe className="livestream-video" src="https://www.youtube-nocookie.com/embed/49hXxj31e7c?rel=0&amp;ecver=2" frameBorder="0" allow="autoplay; encrypted-media"  allowFullScreen></iframe>
+            <iframe src="https://d1sehmygbqvrdw.cloudfront.net/embed/0x92A4Fa40edd4931DB19Fbb48751B270b1dE55997" frameBorder="0" allow="autoplay; encrypted-media"  allowFullScreen></iframe>
           </Container>
         </Section>
       </Page>
