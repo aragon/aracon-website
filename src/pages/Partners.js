@@ -161,7 +161,7 @@ const Partners = () => (<Page path="/partners">
     <TextContainer>
       <div className="h1box" id="speakers-form"><h1>IT partner</h1></div>
       <Text>
-        <p class="partners-short">Streampark TV provides industry-leading solutions for live streaming
+        <p className="partners-short">Streampark TV provides industry-leading solutions for live streaming
         technologies and IT services. They collaborate with major brands all over Europe and help to bring
         live experiences of conferences and large-scale events into people’s homes.</p>
       </Text>

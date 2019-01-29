@@ -47,9 +47,9 @@ class Livestream extends React.Component {
               width="560"
               height="315"
               src="https://www.youtube-nocookie.com/embed/k-ZoXV6D4H4"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             />
           </Container>
         </Section>
