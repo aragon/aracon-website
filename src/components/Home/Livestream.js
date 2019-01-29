@@ -36,10 +36,10 @@ const Container = styled.div`
     ${medium('justify-content: flex-start;')};
   }
   iframe {
-    width: 80vw;
-    height: 45vw;
-    max-width: 100%;
-    max-height: 70vh;
+    ${medium('padding-left: 60px; width: 100%')};
+    margin-top: 60px;
+    ${medium('margin-top: 0;')};
+    min-height: 300px;
   }
 
 `;

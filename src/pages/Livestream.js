@@ -23,8 +23,8 @@ const Container = styled.div`
     margin-top: 30px;
   }
   iframe {
-    width: 100vw;
-    height: calc(100vh - 64px);
+    width: 80vw;
+    height: 45vw;
     max-width: 100%;
     max-height: 70vh;
   }
