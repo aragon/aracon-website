@@ -32,7 +32,7 @@ const Container = styled.div`
 `;
 
 class Agenda extends React.Component {
-  state = { active: 'dayOne' };
+  state = { active: 'dayTwo' };
 
   render() {
     const { active } = this.state;
