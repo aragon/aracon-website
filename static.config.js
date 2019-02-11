@@ -81,11 +81,6 @@ export default {
       getData: () => ({ title: 'AraCon - Partners' }),
     },
     {
-      path: '/livestream',
-      component: 'src/pages/Livestream',
-      getData: () => ({ title: 'AraCon - Livestream' }),
-    },
-    {
       is404: true,
       component: 'src/pages/NotFound',
       getData: () => ({ title: 'AraCon - Page Not Found' }),

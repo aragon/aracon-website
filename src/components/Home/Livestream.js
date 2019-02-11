@@ -57,7 +57,11 @@ const Livestream = () => (
           <p>If you can not make it to Berlin this time, you can still participate in the event. The conference program will be fully livestreamed.</p>
           <br/>
         </Text>
-        <div className="button-strong-div"><Link className="button-strong" to="/livestream"><span>Watch the livestream</span></Link></div>
+        <div className="button-strong-div">
+          <a className="button-strong" target="_blank" href="https://www.youtube.com/playlist?list=PLdbM67oXoBoaAhNLWHj_lJNkoXH_Jqkk2">
+            <span>Watch the videos</span>
+          </a>
+        </div>
       </div>
       <iframe className="livestream-video" src="https://www.youtube-nocookie.com/embed/49hXxj31e7c?rel=0&amp;ecver=2" frameBorder="0" allow="autoplay; encrypted-media"  allowFullScreen></iframe>
     </Container>

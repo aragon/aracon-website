@@ -137,9 +137,9 @@ class Navbar extends React.Component {
               ))}
             </ul>
           </BreakPoint>
-          <Link className="button" to="/livestream">
-            <span>LIVE</span>
-          </Link>
+          <a className="button" target="_blank" href="https://www.youtube.com/playlist?list=PLdbM67oXoBoaAhNLWHj_lJNkoXH_Jqkk2">
+            <span>WATCH VIDEOS</span>
+          </a>
           <BreakPoint to="large">
             <MenuPanel items={menuItems} renderLink={renderMenuItemLink} />
           </BreakPoint>
