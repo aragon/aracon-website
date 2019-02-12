@@ -57,8 +57,8 @@ const Container = styled.div `
 const CountdownComponent = () => (
   <Section>
     <Container>
-      <h2>AraCon is now sold out</h2>
-      <p className="subtitle">If you have any questions about your registration please contact us <a href="mailto:info@aracon.one">here</a>.</p>
+      <h2>THIS EVENT HAS ENDED</h2>
+      <p className="subtitle">For information about future events, sign up to our <a href="https://one.us15.list-manage.com/subscribe?u=a590aa3843a54b079d48e6e18&id=ae18ac56fa" target="_blank" rel="noopener noreferrer">newsletter</a>.</p>
     </Container>
   </Section>
 );

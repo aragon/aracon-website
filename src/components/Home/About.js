@@ -80,11 +80,12 @@ const AboutBox = styled.div `
 const VideoBox = styled.div `
   display: flex;
   flex-direction: column;
-  ${medium('flex-direction: row;')};
+  ${medium('flex-direction: row;justify-content: center;')};
   align-items: center;
 
   .text-container {
     padding: 30px 0;
+    max-width: 1100px;
     ${medium('padding: 0 30px')};
     text-align: left;
     p {
@@ -122,13 +123,13 @@ const About = () => (<Section>
     <div className="hr"/>
     <VideoBox>
       <div>
-        <iframe title="Fight for freedom" src="https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0" allow="encrypted-media" frameBorder="0"/>
+        <iframe title="AraCon" src="https://www.youtube-nocookie.com/embed/yeK2H4jT5Jk?rel=0" allow="encrypted-media" frameBorder="0"/>
       </div>
       <div className="text-container">
         <Text>
-          <p className="intro">AraCon will be hosting 500 attendees that wish to join us for insights into this paradigm shift.</p><br/>
+          <p className="intro">Over 500 community members and DAO enthusiasts gathered in Berlin for AraCon. They got an overview of the state of decentralized governance and how Aragon empowers global organizations. The many speakers all presented fresh and exciting aspects of these critical issues.</p><br/>
           <p className="intro">
-            <b>We invite everyone to come be a part of this growing movement and learn more about how we can build this future together!</b>
+            <b><a href="https://mainnet.aragon.org/#/" target="_blank">Try out Aragon for yourself</a> to see a glimpse of the future of governance.</b>
           </p>
           <br/>
           <p className="intro">
